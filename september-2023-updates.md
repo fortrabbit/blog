@@ -1,7 +1,7 @@
 ---
 
 author:       fl
-created:      2023-09-06 13:11:46
+created:      2023-09-06
 publish:      published
 title:        "September 2023 updates"
 excerpt:      "Changelog on new versions."
