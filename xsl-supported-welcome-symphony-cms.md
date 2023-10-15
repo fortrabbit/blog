@@ -4,7 +4,7 @@ template: post.hbt
 title:    "New XSL support"
 author: uk
 excerpt: "Welcome Symphony CMS, we now support XSL."
-created: 2013/03/10 16:25:59
+created: 2013-03-10
 
 ---
 

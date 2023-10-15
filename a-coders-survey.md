@@ -3,7 +3,7 @@
 title:     A Coders Survey
 author:    fl
 excerpt:   "Asking developers about their preferences."
-created:   2012/08/21
+created:   2012-08-21
 
 ---
 

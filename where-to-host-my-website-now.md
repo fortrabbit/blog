@@ -3,7 +3,7 @@
 title: Where to host my website now?
 author: fl
 excerpt: "IaaS, PaaS, bare metal, shared hosting, managed hosting — Quo vadis?"
-created: 2012/12/04 17:12:50
+created: 2012-12-04
 
 ---
 

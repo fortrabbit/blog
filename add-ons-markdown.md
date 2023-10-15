@@ -4,7 +4,7 @@ title:      Add-Ons markdown
 author:     fl
 excerpt:    "Price reductions for: Memcache, MySQL and Workers."
 image:      pricedrop.jpg
-created:    2014/07/07
+created:    2014-07-07
 
 ---
 

@@ -3,11 +3,11 @@
 title: Free web hosting
 author: fl
 excerpt: "Flat, unlimited and forever it shall be."
-created: 2013/04/09 18:35:23
+created: 2013-04-09
 
 ---
 
-# FREE webhosting as long as supplies lasts
+## FREE webhosting as long as supplies lasts
 
 There is no such thing as free web hosting. That is just a bold headline to catch your attention.
 

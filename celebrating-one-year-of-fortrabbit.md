@@ -3,7 +3,7 @@
 title: Celebrating one year of fortrabbit
 author: fl
 excerpt: "Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah!"
-created: 2013/10/04 11:38:29
+created: 2013-10-04
 
 ---
 

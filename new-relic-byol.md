@@ -3,7 +3,7 @@
 title: New Relic BYOL 
 author: os
 excerpt: "We now have the New Relic demon running."
-created: 2014/05/20 12:10:20
+created: 2014-05-20
 
 ---
 

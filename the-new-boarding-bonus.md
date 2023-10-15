@@ -3,7 +3,7 @@
 title: New boarding bonus
 author: fl
 excerpt: "Claim an extra credit for an even better test drive of our platform."
-created: 2013/10/31 19:02:42
+created: 2013-10-31
 
 ---
 

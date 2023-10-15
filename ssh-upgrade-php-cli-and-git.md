@@ -3,7 +3,7 @@
 title: "SSH Upgrade: PHP CLI and Git"
 author: uk
 excerpt: "As many of you requested: PHP and Git on the shell are here!"
-created: 2013/02/18 13:27:33
+created: 2013-02-18
 
 ---
 

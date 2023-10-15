@@ -3,7 +3,7 @@
 title: New tasklist
 author: fl
 excerpt: "Introducing a more fair and more fun freemium model."
-created: 2013/10/07 19:45:09
+created: 2013-10-07
 
 ---
 

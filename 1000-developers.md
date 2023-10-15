@@ -3,7 +3,7 @@
 title:    1,000 developers 
 author:   os
 excerpt:  "Our first 4 digits number! Thank you for your interest in our service!"
-created:  2013/02/19
+created:  2013-02-19
 
 ---
 

@@ -3,7 +3,7 @@
 title:    Multi stage deployment
 author:   uk
 excerpt: "How to setup a production/development work-flow for website development."
-created:  2012/10/01 10:18:25
+created:  2012-10-01
 
 ---
 

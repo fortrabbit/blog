@@ -3,7 +3,7 @@
 title: Bephpug
 author: fl
 excerpt: "We had the honor to present fortrabbit at the Berlin PHP usergroup."
-created: 2012/11/12 17:03:13
+created: 2012-11-12
 
 ---
 

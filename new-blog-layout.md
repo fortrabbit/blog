@@ -3,7 +3,7 @@
 title:      A new blog layout, a new engine
 author:     fl
 excerpt:    "Tinkering with static site generation."
-created:    2015/01/23
+created:    2015-01-23
 
 ---
 

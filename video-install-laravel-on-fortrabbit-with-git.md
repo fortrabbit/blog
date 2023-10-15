@@ -3,10 +3,9 @@
 title: "Install Laravel on fortrabbit with Git"
 author: fl
 excerpt: "This video shows you how to run Laravel on fortrabbit"
-created: 2012/10/13 13:29:34
+created: 2012-10-13
 
 ---
-
 
 # Video: Install Laravel on fortrabbit with Git
 

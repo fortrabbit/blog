@@ -3,7 +3,7 @@
 title: BETA survey results
 author: fl
 excerpt: "Analysing the answers of our questionnaire."
-created: 2012/08/23 21:00:32
+created: 2012-08-23
 
 ---
 

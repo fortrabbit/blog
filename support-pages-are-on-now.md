@@ -3,7 +3,7 @@
 title: Support pages are on now
 author: fl
 excerpt: "About the the new fortrabbit knowledge base."
-created: 2012/08/15 17:29:01
+created: 2012-08-15
 
 ---
 

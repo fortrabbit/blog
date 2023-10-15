@@ -3,7 +3,7 @@
 title: Release early, release often
 author: os
 excerpt: "Our iterative approach."
-created: 2012/10/05 12:39:28
+created: 2012-10-05
 
 ---
 

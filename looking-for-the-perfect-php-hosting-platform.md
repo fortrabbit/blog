@@ -3,7 +3,7 @@
 title: "The perfect PHP platform manifest"
 author: os
 excerpt: "Looking for the perfect PHP hosting platform."
-created: 2012/09/06 10:40:28
+created: 2012-09-06
 
 ---
 

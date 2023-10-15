@@ -3,7 +3,7 @@
 title: Decoupled hosting
 author: fl
 excerpt: "Modularize everything!"
-created: 2012/12/31 16:09:18
+created: 2012-12-31
 
 ---
 

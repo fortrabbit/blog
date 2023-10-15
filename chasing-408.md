@@ -3,7 +3,7 @@
 title:    Chasing 408
 author:   eh
 excerpt:  "Those random 408 errors should finally be resolved!"
-created:  2014/05/26 17:20:26
+created:  2014-05-26
 
 ---
 

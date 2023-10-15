@@ -3,7 +3,7 @@
 title: "Slim PHP on fortrabbit"
 author: fl
 excerpt: "This videos shows you how to set up SlimPHP on fortrabbit with Git and Composer"
-created: 2012/10/14 15:10:34
+created: 2012-10-14
 
 ---
 

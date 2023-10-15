@@ -2,9 +2,9 @@
 
 author:  os
 image:   blackfire-fortrabbit.gif
-created: 2015-01-21 21:07
 title:   "Blackfire profiler on fortrabbit"
 excerpt: "Blackfire profiler BETA is now available at fortrabbit."
+created: 2015-01-21
 
 ---
 

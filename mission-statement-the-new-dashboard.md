@@ -4,7 +4,7 @@ title: "New dashboard mission statement"
 author: fl
 excerpt: "What to expect from our new dashboard."
 image: dashboard-mission-statement.jpg
-created: 2014/09/08 16:12:01
+created: 2014-09-08
 
 ---
 

@@ -3,7 +3,7 @@
 title: Fortrabbit PHPipeline 2013   
 author: os
 excerpt: "Our plans for the year."
-created: 2013/01/08 09:00:01
+created: 2013-01-08
 
 ---
 

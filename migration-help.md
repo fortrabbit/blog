@@ -1,9 +1,9 @@
 ---
 
 author:    fl
-created:   2015-02-26 10:00
 title:     "Migration help"
 excerpt:   "Helping existing users boarding the new dashboard."
+created:   2015-02-26
 
 ---
 

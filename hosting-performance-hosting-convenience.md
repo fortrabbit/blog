@@ -3,7 +3,7 @@
 title: "Performance / convenience"
 author: fl
 excerpt: "What's more important in hosting nowadays? Performance or convenience?"
-created: 2013/07/10 12:26:50
+created: 2013-07-10
 
 ---
 

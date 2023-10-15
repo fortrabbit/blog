@@ -3,7 +3,7 @@
 title: Freemium VS Bootstrapped
 author: fl
 excerpt: "Bootstrapping in Berlin."
-created: 2012/09/25 11:51:21
+created: 2012-09-25
 
 ---
 

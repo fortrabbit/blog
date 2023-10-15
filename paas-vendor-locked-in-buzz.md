@@ -3,7 +3,7 @@
 title: Vendor locked-in buzz
 author: fl
 excerpt: "How bound are you to your hosting provider? Does this really matter?"
-created: 2012/07/30 10:56:19
+created: 2012-07-30
 
 ---
 

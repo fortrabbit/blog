@@ -3,7 +3,7 @@
 title: "Sudden traffic peak"
 author: os
 excerpt: "A case study."
-created: 2013/06/30 20:07:19
+created: 2013-06-30 20:07:19
 
 ---
 

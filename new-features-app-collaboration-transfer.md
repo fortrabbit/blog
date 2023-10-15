@@ -3,7 +3,7 @@
 title: "App collaboration & owner transfer"
 author: fl
 excerpt: "New features in the dashboard."
-created:  2012/12/18 12:54:53
+created:  2012-12-18
 
 ---
 

@@ -3,7 +3,7 @@
 title: PHP renaissance collection
 author: fl
 excerpt: "Some links on newish PHP."
-created: 2012/10/02 18:35:12
+created: 2012-10-02
 
 ---
 

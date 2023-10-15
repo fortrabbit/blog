@@ -3,7 +3,7 @@
 title:   Cloudscapes – Comparing PHP Cloud Hosting Platforms
 author:  fl
 excerpt: "What PHP cloud platforms are currently actually out there?"
-created: 2012/07/09 11:54:46
+created: 2012-07-09
 
 ---
 

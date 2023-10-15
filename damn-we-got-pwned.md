@@ -3,7 +3,7 @@
 title:    Damn, we got pwned
 author:   fl
 excerpt:  "fortrabbit under attack."
-created:  2013/05/30 11:58:13
+created:  2013-05-30
 
 ---
 

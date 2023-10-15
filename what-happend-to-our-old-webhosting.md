@@ -2,8 +2,8 @@
 
 title:    What happened to our old WebHosting?
 author:   fl
-excerpt: "You might know that we are already running a WebHosting platform on our own servers in a data center in Berlin. What is the connection to our new upcoming PHP cloud platform?"
-created: 2012/07/02 16:45:18
+lead: "You might know that we are already running a WebHosting platform on our own servers in a data center in Berlin. What is the connection to our new upcoming PHP cloud platform?"
+created: 2012-07-02
 
 ---
 

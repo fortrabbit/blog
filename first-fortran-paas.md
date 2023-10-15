@@ -4,7 +4,7 @@ title:    First fortran PaaS
 author:   fl
 excerpt: "Breaking news, fortrabbit releases a brand new stack."
 image:    fortran.gif
-created:  2014/04/01 11:18:15
+created:  2014-04-01
 
 ---
 

@@ -3,7 +3,7 @@
 title:      About writable storage in modern hosting
 author:     uk
 excerpt:    "New-school cloud or legacy LAMP style — what's state of the art in PHP hosting?"
-created:    2012/07/23
+created:    2012-07-23
 
 ---
 

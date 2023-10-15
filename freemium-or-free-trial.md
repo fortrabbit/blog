@@ -3,7 +3,7 @@
 title: Freemium or free trial?
 author: fl
 excerpt: "Is freemium the right business model for our service or shall we switch to a free trial model?"
-created: 2013/09/04 17:04:43
+created: 2013-09-04
 
 ---
 

@@ -3,7 +3,7 @@
 title: "Take off"
 author: fl
 excerpt: "Fortrabbit PHP platform launched"
-created: 2012/10/04 12:43:12
+created: 2012-10-04
 
 ---
 
