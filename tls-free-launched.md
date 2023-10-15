@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-06-15
-publish:    listed
+published:  true
 title:      "TLS free launched"
 longtitle:  "TLS free launched"
 excerpt:    "Free SSL certificates for custom domains via Let's Encrypt are here now."

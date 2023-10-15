@@ -2,7 +2,7 @@
 
 title:      PHP 7.2 upgrade path
 created:    2018-09-19
-publish:    published
+published: true
 author:     es
 excerpt:    "Migrating your Apps to PHP 7.2 here on fortrabbit."
 keywords:   "deprecation, migration, EOL, php5.6, php7.0, php7.2, mcrypt"

@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2022-10-14
-publish:    published
+published: true
 title:      "PHP 7.4 support to end some day"
 longtitle:  "PHP 7.4 support to end some day"
 excerpt:    "Client information for the end of life of PHP 7.4."

@@ -1,6 +1,6 @@
 ---
 author:         fl
-publish:        published
+published: true
 created:        2017-08-03
 title:          "Market overview: CDN services"
 excerpt:        "An opinionated field guide on developer-friendly CDN services."

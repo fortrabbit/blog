@@ -1,7 +1,7 @@
 ---
 
 author:     fl
-publish:    unlisted
+published: true
 created:    2018-01-08
 title:      My favorite Facebook bot designs
 excerpt:    "The bizarre beauty of brutalist Facebook reaction bots."

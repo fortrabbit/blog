@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-07-21
-publish:    listed
+published: true
 title:      "Introducing password authentication + dynamic help"
 longtitle:  "Introducing password authentication + dynamic help"
 excerpt:    "Better Windows support and smoother boarding."

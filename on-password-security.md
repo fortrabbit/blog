@@ -1,7 +1,7 @@
 ---
 
 author:     fl
-publish:    listed
+published: true
 image:      password-input.jpg
 created:    2015-03-10
 title:      "On password security"

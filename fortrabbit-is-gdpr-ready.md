@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2018-04-16
-publish:    published
+published: true
 title:      "fortrabbit is GDPR ready"
 longtitle:  "fortrabbit is GDPR ready"
 excerpt:    "GDPR is here. Wat is changing for our clients, what not, why and when."

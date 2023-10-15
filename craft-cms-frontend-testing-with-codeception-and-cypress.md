@@ -3,7 +3,7 @@
 author:     pp
 created:    2022-09-21
 title:      "Frontend testing for Craft CMS"
-longtitle:  "Frontend testing for Craft CMS websites with Codeception and Cypress"
+published: true
 excerpt:    "Using Codeception and Cypress to test Craft CMS websites."
 lead:       "Testing a Craft CMS website might be less difficult than you think. Level up and follow us along as we learn about frontend testing Craft CMS websites."
 image:      "craft-codeception-cypress-poster.png"

@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-08-25
-publish:    listed
+published: true
 title:      "Our Drupal 8 install guide took 540 days"
 longtitle:  "Our Drupal 8 install guide took 540 days"
 excerpt:    "What took us so long to come up with a Drupal 8 install guide."

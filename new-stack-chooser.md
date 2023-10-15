@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-08-04
-publish:    listed
+published: true
 title:      "The new stack chooser"
 longtitle:  "The new stack chooser"
 excerpt:    "Choose a framework or CMS to get started more quickly."

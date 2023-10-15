@@ -2,6 +2,7 @@
 
 author:       fl
 created:      2015-05-18
+published: true
 title:       "I love assets"
 excerpt:     "CSS, JS and Images, how to generate and to deploy."
 image:       i-love-assets.png

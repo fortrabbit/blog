@@ -2,7 +2,7 @@
 
 author:       fl
 created:      2023-10-04 10:14:11
-publish:      published
+published: true
 title:        "Post mortem September maintenance"
 excerpt:      "Details on recent rocky updates"
 lead:         "We recently rolled out a BIG internal update. It was kinda rocky and we still have to deal with aftermath. Here are some technical details, as well as some personal reflections."

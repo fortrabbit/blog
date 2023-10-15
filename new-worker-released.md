@@ -2,7 +2,7 @@
 
 title:      "New Worker Component released"
 longtitle:  "New Worker Component for New Apps released"
-publish:    listed
+published: true
 author:     os
 created:    2016-01-20
 excerpt:    "Outsource that heavy lifting in the background — now you can."

@@ -2,7 +2,7 @@
 
 author:       js
 created:      2021-03-01
-publish:      published
+published: true
 title:        "Working with geographic features and spatial data in MySQL 8"
 excerpt:      "How to implement geo features in MySQL 8"
 lead:         ""

@@ -2,7 +2,7 @@
 
 author:       js
 created:      2021-05-27
-publish:      published
+published: true
 title:        "Craft Nitro 2 first look: How to quickly set up a local Craft CMS dev site"
 excerpt:      ""
 image:        'craft-nitro-poster.png'

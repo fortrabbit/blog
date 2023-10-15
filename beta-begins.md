@@ -1,7 +1,8 @@
 ---
 
-title:      BETA begins
 author:     fl
+title:      BETA begins
+published: true
 excerpt:    "The private BETA for for our upcoming platform."
 created:    2012-08-30
 

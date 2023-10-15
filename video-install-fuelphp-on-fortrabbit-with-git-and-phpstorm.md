@@ -2,6 +2,7 @@
 
 title: "FuelPHP on fortrabbit"
 author: uk
+published:  true
 excerpt: "This video show you how to install FuelPHP on fortrabbit with Git and PhpStorm."
 created: 2012-10-25
 

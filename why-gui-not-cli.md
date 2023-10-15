@@ -3,7 +3,7 @@
 author:     fl
 title:      "Why a GUI and not a CLI"
 longtitle:  "Why we are building a GUI and not a CLI for a developer facing service"
-publish:    "published"
+published:  true
 created:    2023-08-28 09:36:38
 excerpt:    "An insight into product development at fortrabbit"
 lead:       ""

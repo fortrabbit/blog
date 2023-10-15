@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-06-07
-publish:    listed
+published: true
 title:      "File-based CMS overview"
 longtitle:  "Flirting with file-based CMS"
 excerpt:    "Thoughts on flat file CMS and static site generators, mostly PHP-related."

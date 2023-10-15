@@ -2,7 +2,7 @@
 
 author:       js
 created:      2020-10-14
-publish:      published
+published: true
 title:        "A first look at the new Craft Nitro development tool"
 excerpt:      "The new tool by Pixel & Tonic, can we recommend it yet?"
 lead:         "Previously, we explored a variety of dev tools in our <a href='https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup'>article on local PHP development</a>.

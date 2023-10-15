@@ -2,6 +2,7 @@
 
 title:    Worker Add-On released
 author:   uk
+published: true
 excerpt:  "We have a new Add-On: Workers! Learn about it and what you can do with it."
 created:  2013-08-07
 

@@ -1,7 +1,7 @@
 ---
 
 author:     uk
-publish:    xxx
+published: true
 created:    2015-09-08
 title:      "How to keep a secret"
 image:      "passwords-eye.gif"

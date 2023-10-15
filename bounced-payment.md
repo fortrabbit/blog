@@ -2,11 +2,11 @@
 
 author:     fl
 created:    2016-01-28
+published: true
 title:      "That bounced payment"
-longtitle:  "That bounced payment"
-image:      payment-poster.jpg
 excerpt:    "Insights on how we deal with bounced payments"
 lead:       "Things will go wrong — they say. That other day I had to deal with this complicated support ticket. I'd like to share the conversation and some thoughts on billing & accounting for startups here with you."
+image:      payment-poster.jpg
 
 ---
 

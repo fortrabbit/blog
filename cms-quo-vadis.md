@@ -1,10 +1,11 @@
 ---
 
-author:     os
-created:    2015-10-09
 title:      "CMS, quo vadis?"
+author:     os
+published: true
 excerpt:    "Are content management systems ready for the cloud?"
 image:      cms-frameworks-drawing.jpg
+created:    2015-10-09
 
 ---
 

@@ -2,6 +2,7 @@
 
 title: The Roadmap
 author: fl
+published:  true
 excerpt: "By 2009, computers will disappear."
 created: 2012-11-19
 

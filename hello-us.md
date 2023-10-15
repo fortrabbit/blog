@@ -3,7 +3,7 @@
 author:     fl
 created:    2016-02-24
 title:      "fortrabbit just launched in the US"
-publish:    listed
+published: true
 longtitle:  "fortrabbit just launched in the US"
 image:      fortrabbit-us-blog-banner.png
 excerpt:    "New data center location, new currency"

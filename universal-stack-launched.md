@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-12-20
-publish:    listed
+published:  true
 title:      "Universal Stack launched"
 longtitle:  "The Universal Stack is here"
 excerpt:    "Optimized for CMS driven websites - made for your needs: Backups, Git, SFTP, HTTPS & team collaboration."

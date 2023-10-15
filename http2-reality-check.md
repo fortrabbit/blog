@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-05-09
-publish:    listed
+published: true
 title:      "HTTP/2 reality check"
 longtitle:  "HTTP/2 — is it really faster?"
 excerpt:    "How we tried to test the speed benefits of the new internet protocol."

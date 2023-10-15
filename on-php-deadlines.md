@@ -2,7 +2,7 @@
 
 title:      On upcoming PHP deadlines
 created:    2018-09-06
-publish:    published
+published: true
 author:     fl
 excerpt:    "PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!"
 keywords:   "deprecation, EOL, php5.6, php7.0, php7.2"

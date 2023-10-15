@@ -1,6 +1,6 @@
 ---
 author:         fl
-publish:        published
+published: true
 created:        2017-08-14
 title:          "Market overview: video hosting for business"
 excerpt:        "An opinionated field guide on developer-friendly video services."

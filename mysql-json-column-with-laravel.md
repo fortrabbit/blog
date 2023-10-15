@@ -2,7 +2,7 @@
 
 author:       os
 created:      2020-12-08
-publish:      published
+published: true
 title:        "MySQL with JSON in Laravel"
 excerpt:      "Learn about JSON columns in MySQL and how to use them in Laravel."
 lead:         "Learn about JSON columns in MySQL and how to use them in Laravel."

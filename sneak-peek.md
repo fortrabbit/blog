@@ -1,7 +1,7 @@
 ---
 author:     fl
 created:    2016-08-22
-publish:    listed
+published: true
 title:      "Sneak peek"
 longtitle:  "A little sneak peek"
 excerpt:    "A new Hobby line, migration info for Old App owners."

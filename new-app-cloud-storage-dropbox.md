@@ -2,6 +2,7 @@
 
 author:     uk
 created:    2015-09-04
+published: true
 title:      "Dropbox as a cloud storage"
 excerpt:    "How to enable Dropbox as your App's persistent cloud storage."
 

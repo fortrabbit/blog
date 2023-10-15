@@ -3,7 +3,7 @@
 title:      "PHP 7.4 and other updates"
 excerpt:    "Changelog on new versions."
 created:     2020-03-27
-publish:     published
+published: true
 author:      fl
 lead:        "We are currently preparing a small update. PHP 7.4 and some extensions. Here is a list with lots of numbers and dots."
 image:       php-74-poster.gif

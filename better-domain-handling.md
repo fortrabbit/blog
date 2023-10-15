@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-07-12
-publish:    listed
+published: true
 title:      "A better domain handling"
 longtitle:  "Introducing a better domain handling"
 excerpt:    "A more helpful UI + forwarding naked domains."

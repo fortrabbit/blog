@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-09-02
-publish:    listed
+published: true
 title:      "Dashboard improvements"
 longtitle:  "Dashboard improvements"
 excerpt:    "Quicker boarding, App access links and more."

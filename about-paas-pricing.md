@@ -1,11 +1,10 @@
 ---
-
-author:         fl
-created:        2015-05-08
 title:          "About PaaS pricing"
+author:         fl
+published: true
 excerpt:        "Value-based VS cost-based pricing for a hosting service."
 image:          paas-pricing-clouds.jpg
-
+created:        2015-05-08
 ---
 
 # The Heroku hook

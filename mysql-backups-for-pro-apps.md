@@ -2,6 +2,7 @@
 
 author:     uk
 created:    2017-02-14
+published: true
 title:      "MySQL Backups for Pro Apps"
 longtitle:  "MySQL Backups for Pro Apps"
 excerpt:    "Now available: Automated backups for Professional Apps."

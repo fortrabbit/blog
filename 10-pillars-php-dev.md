@@ -1,7 +1,7 @@
 ---
 
 author:     uk
-publish:    listed
+published: true
 image:      10-php-pillars.png
 created:    2015-06-04
 title:      "10 pillars of modern PHP development"

@@ -2,7 +2,7 @@
 
 author:       os
 created:      2020-12-16
-publish:      published
+published: true
 title:        "Composer 2 is about to land on fortrabbit"
 excerpt:      "Composer 2 will soon be available here. What you need to know."
 lead:         "What you need to know and how to troubleshoot issues."

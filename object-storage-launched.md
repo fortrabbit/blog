@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-04-21
-publish:    listed
+published: true
 title:      "Object Storage launched"
 longtitle:  "Object Storage launched"
 excerpt:    "A new integrated S3 compatible cloud storage is here."

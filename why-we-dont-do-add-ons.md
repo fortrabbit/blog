@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-02-29
-publish:    listed
+published:   true
 title:      "Why we don't do Add-Ons"
 longtitle:  "Why we don't do Add-Ons"
 excerpt:    "Insights why we will not offer an Add-On program soon and what we have instead"

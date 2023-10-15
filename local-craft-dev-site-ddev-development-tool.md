@@ -2,7 +2,7 @@
 
 author:       js
 created:      2020-09-10
-publish:      published
+published: true
 title:        "Quickly set up a local Craft CMS dev site with the DDEV development tool"
 excerpt:      "Install the DDEV and power existing Craft CMS development sites."
 lead:         "Having looked at various dev tools for local PHP development in our previous <a href='https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup'>article on local PHP development</a>, we now focus on Craft CMS development in particular. We'll show you how to use the DDEV development tool to quickly set up a Craft CMS dev site for local development."

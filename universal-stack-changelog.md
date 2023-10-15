@@ -2,7 +2,7 @@
 
 author:     fl
 created:    2016-12-20
-publish:    listed
+published:  true
 title:      "Universal Stack changelog"
 longtitle:  "Universal Stack platform changelog"
 excerpt:    "See all platform changes with new Universal Stack."

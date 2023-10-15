@@ -3,7 +3,7 @@
 title:      "Covid-19 info for clients"
 excerpt:    "How we prepared for the virus and what you can do."
 created:     2020-03-27
-publish:     published
+published: true
 author:      fl
 lead:        "What we are doing to keep your business online and how you can help."
 image:       covid-19-poster.gif
@@ -63,9 +63,7 @@ We have also made our [bounce delete rules](https://help.fortrabbit.com/billing/
 
 #### How to contact us to apply for a Covid-19 discount
 
-Please contact us upfront, if the crisis will affect your business and you might will have trouble paying our invoices. We will try to arrange something for you. We will look at this on a per case basis to find individual solutions. Please give us all the details we need to understand your situation. Tell us about your business, the current situation and the outlook. Make sure you have taken all steps covered above to reduce your hosting costs already. Please write at least 600 chars outlining your case, so that we can make fact based decsicions. 
-
-* <a href="#" onclick="Intercom('showNewMessage', 'I would like to apply for a Covid-19 discount. Here is my situation: …').preventDefault()">Contact support</a>
+Please contact us upfront, if the crisis will affect your business and you might will have trouble paying our invoices. We will try to arrange something for you. We will look at this on a per case basis to find individual solutions. Please give us all the details we need to understand your situation. Tell us about your business, the current situation and the outlook. Make sure you have taken all steps covered above to reduce your hosting costs already. Please write at least 600 chars outlining your case, so that we can make fact based decisions.
 
 
 #### What to expect

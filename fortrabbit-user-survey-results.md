@@ -1,10 +1,9 @@
 ---
-
 title: User survey results
 author: fl
+published: true
 excerpt: "Results and learnings from our latest questionnaire among our users with 327 answers."
 created: 2013-08-26
-
 ---
 
 We recently did a poll amongst users of our PHP cloud hosting platform. Here are the results and our learnings.

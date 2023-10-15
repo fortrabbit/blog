@@ -3,7 +3,7 @@
 template:    post.hbt
 title:       Updates
 author:      uk
-publish:     unlisted
+published: true
 created:     2014-03-30
 
 ---

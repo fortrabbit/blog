@@ -2,6 +2,7 @@
 
 author:     uk
 created:    2017-02-15
+published: true
 title:      "PHP 7.1 is here"
 longtitle:  "PHP 7.1 is here"
 excerpt:    "We have released PHP 7.1 for all Universal and Professional Apps."

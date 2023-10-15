@@ -2,7 +2,7 @@
 
 title:      "Is PaaS dead?"
 longtitle:  "Is Platform as a Service dead?"
-publish:    listed
+published: true
 author:     fl
 created:    2016-01-13
 excerpt:    "Trends, pivots & troubles in PaaS hosting 2015"
