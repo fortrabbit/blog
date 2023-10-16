@@ -1,12 +1,14 @@
 ---
-author:         fl
+author: fl
 published: true
-created:        2017-07-18
-title:          "Market overview: Domain services for developers"
-excerpt:        "An opinionated field guide on developer-friendly domain hosting services."
-lead:           "Your application is running on a cloud service (like this one here). You now ask where the developer-friendly domain registration service is?"
-keywords:       "CDN, TLD, NS, TTL, DNS, domain hoster, domain registrar, domain provider, domain hosting, TLD pricing, webhosting, web-hosting"
-image:          domain-hosting-poster.jpg
+created: 2017-07-18
+title: "Market overview: Domain services for developers"
+excerpt: An opinionated field guide on developer-friendly domain hosting services.
+lead: Your application is running on a cloud service (like this one here). You now ask where the developer-friendly domain registration service is?
+keywords: CDN, TLD, NS, TTL, DNS, domain hoster, domain registrar, domain provider, domain hosting, TLD pricing, webhosting, web-hosting
+image: domain-hosting-poster.jpg
+tags:
+  - webdev
 ---
 
 

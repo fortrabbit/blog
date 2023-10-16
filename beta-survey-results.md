@@ -1,12 +1,11 @@
 ---
-
 title: BETA survey results
 author: fl
-excerpt: "Analysing the answers of our questionnaire."
+excerpt: Analysing the answers of our questionnaire.
 created: 2012-08-23
 tags:
- - opinion
- - webdev
+  - opinion
+published: true
 ---
 
 We have asked our readers a few questions on their PHP workflows, hosting and tools. We are very curious about this, because we want to build the best PHP PaaS for dev guys. Here are some of our learnings:

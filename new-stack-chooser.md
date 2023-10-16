@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-08-04
+author: fl
+created: 2016-08-04
 published: true
-title:      "The new stack chooser"
-excerpt:    "Choose a framework or CMS to get started more quickly."
-lead:       "Simply select your stack when creating a new App — get started more quickly. We now help out by setting basic configs like root path, environment variables and App secrets for you."
-
-keywords:   "beginner, boarding, laravel, wordpress, drupal, symfony"
-image:      "stack-chooser-poster.gif"
-
+title: The new stack chooser
+excerpt: Choose a framework or CMS to get started more quickly.
+lead: Simply select your stack when creating a new App — get started more quickly. We now help out by setting basic configs like root path, environment variables and App secrets for you.
+keywords: beginner, boarding, laravel, wordpress, drupal, symfony
+image: stack-chooser-poster.gif
+tags:
+  - changelog
 ---
 
 Sorry, no one-click hosting here — Framework/CMS will not be installed automagically. It's rather a cool helper tool and it is available for every New App you create. Besides the easier setup, new deep-links from your App in the Dashboard directly to the new [dynamic help](https://help.fortrabbit.com/access-methods#toc-the-code-example-helper) are provided. This gives you copy&pastable code examples matching your needs right away. In short: Everything is easier. You are welcome.

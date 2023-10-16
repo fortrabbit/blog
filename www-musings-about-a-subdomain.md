@@ -6,7 +6,6 @@ excerpt: Musings about the comon www. subdomain.
 created: 2012-08-17
 tags:
   - opinion
-  - webdev
 ---
 
 * www stands for World Wide Web and is a relict from the early internet days

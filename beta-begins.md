@@ -1,12 +1,11 @@
 ---
-author:     fl
-title:      BETA begins
+author: fl
+title: BETA begins
 published: true
-excerpt:    "The private BETA for for our upcoming platform."
-created:    2012-08-30
+excerpt: The private BETA for for our upcoming platform.
+created: 2012-08-30
 tags:
- - chronicles
- - opinion
+  - chronicles
 ---
 
 We are happy to announce that we have finally started the private BETA of our upcoming PHP Platform. The first invitations are sent out. Thank you for your interest and for waiting so long.**

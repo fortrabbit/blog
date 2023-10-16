@@ -1,19 +1,16 @@
 ---
-
-author:     fl
-created:    2016-12-20
-published:  true
-title:      "Universal Stack changelog"
-excerpt:    "See all platform changes with new Universal Stack."
-lead:       "This is nuts and bolts for our existing clients on changes with the latest platform update. TL;DR: No action required from your side. All platform updates are opt-in. Your Apps, plans, settings and pricing will stay exactly the same."
-
+author: fl
+created: 2016-12-20
+published: true
+title: Universal Stack changelog
+excerpt: See all platform changes with new Universal Stack.
+lead: "This is nuts and bolts for our existing clients on changes with the latest platform update. TL;DR: No action required from your side. All platform updates are opt-in. Your Apps, plans, settings and pricing will stay exactly the same."
+tags:
+  - changelog
 ---
-
-
 ## New Apps > Professional Stack — WORDING
 
 Your "**New Apps**" are now called "**Professional Apps**". That's it. Everything else stays the same. We are fully committed to further support and develop the Professional Stack. 
-
 
 ## Universal Stack — NEW
 

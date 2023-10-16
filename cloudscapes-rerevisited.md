@@ -1,14 +1,14 @@
 ---
-
-title:      "Is PaaS dead?"
+title: Is PaaS dead?
 published: true
-author:     fl
-created:    2016-01-13
-excerpt:    "Trends, pivots & troubles in PaaS hosting 2015"
-lead:       "A few years ago tech press and analysts praised the public PaaS model. What's going on now?"
-image:      cloudy.png
-keywords:   software economics, aPaaS, containerization, micro-services, serverless hosting, DevOp, SysOp, vaporware
-
+author: fl
+created: 2016-01-13
+excerpt: Trends, pivots & troubles in PaaS hosting 2015
+lead: A few years ago tech press and analysts praised the public PaaS model. What's going on now?
+image: cloudy.png
+keywords: software economics, aPaaS, containerization, micro-services, serverless hosting, DevOp, SysOp, vaporware
+tags:
+  - opinion
 ---
 
 In my [first article](/comparing-cloud-hosting-platforms) about [PaaS hosting](https://en.wikipedia.org/wiki/Platform_as_a_service) — or aPaaS as Gartner likes to calls it — from July 2012 I explained the superior PaaS model and highlighted vendors from the US and Europe. With the [second article](/cloudscapes-revisited-php-cloud-overview) from May 2014 I revisited the scene — showcasing new participants and describing some struggle.

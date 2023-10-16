@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-06-27
+author: fl
+created: 2016-06-27
 published: true
-title:      "Mission statement 2016"
-excerpt:    "Where we are, what we are up to."
-lead:       "4 years of fortrabbit cloud hosting already. What's going on?"
-
-keywords:   "vision, roadmap, pipeline, startup lessons, company history, status quo, insider, inertia"
-image:      "mission-statement-poster.gif"
-
+title: Mission statement 2016
+excerpt: Where we are, what we are up to.
+lead: 4 years of fortrabbit cloud hosting already. What's going on?
+keywords: vision, roadmap, pipeline, startup lessons, company history, status quo, insider, inertia
+image: mission-statement-poster.gif
+tags:
+  - chronicles
 ---
 
 ## Analysis

@@ -1,10 +1,11 @@
 ---
-
 title: Vendor locked-in buzz
 author: fl
-excerpt: "How bound are you to your hosting provider? Does this really matter?"
+excerpt: How bound are you to your hosting provider? Does this really matter?
 created: 2012-07-30
-
+published: true
+tags:
+  - opinion
 ---
 
 Apple, Microsoft, the wireless carrier and your razor blade supplier: They all lock you in – in a walled garden. Now, how dependent are you from your web-host? Lucas Carlson, founder of AppFog claimed that he has escaped vendor prison. His new platform runs on multiple cloud infrastructures. So the customer can choose on which infrastructure his project should be hosted on. Other PaaS providers also have a "No locked-in" icon and copy-text on their homepage. But what does that mean?  You are unsatisfied with your web-hosting provider. So you want to leave. What are the real obstacles to overcome? 

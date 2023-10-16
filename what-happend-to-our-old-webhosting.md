@@ -1,13 +1,12 @@
 ---
-
-title:    What happened to our old WebHosting?
-author:   fl
-published:  true
-lead: "You might know that we are already running a WebHosting platform on our own servers in a data center in Berlin. What is the connection to our new upcoming PHP cloud platform?"
+title: What happened to our old WebHosting?
+author: fl
+published: true
+lead: You might know that we are already running a WebHosting platform on our own servers in a data center in Berlin. What is the connection to our new upcoming PHP cloud platform?
 created: 2012-07-02
-
+tags:
+  - chronicles
 ---
-
 
 **tl;dr** We used to bring modern cloud technologies such as Git code management and consumption based billing to a standardized Hosting environment. Now we go the other way around and bring some essential standards to the cloud._
 

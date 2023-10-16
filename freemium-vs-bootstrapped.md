@@ -1,10 +1,11 @@
 ---
-
 title: Freemium VS Bootstrapped
 author: fl
-excerpt: "Bootstrapping in Berlin."
+excerpt: Bootstrapping in Berlin.
 created: 2012-09-25
-
+published: true
+tags:
+  - opinion
 ---
 
 Bootstrapped in Berlin – Our startup business model as a PaaS without VC (and the hype). Just like Baron Münchhausen we have to pull ourselves up by our bootstraps. In other words: we have no funding and no big money in the background – and that's alright.

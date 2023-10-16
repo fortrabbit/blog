@@ -1,11 +1,11 @@
 ---
-
 title: New tasklist
 author: fl
-published:  true
-excerpt: "Introducing a more fair and more fun freemium model."
+published: true
+excerpt: Introducing a more fair and more fun freemium model.
 created: 2013-10-07
-
+tags:
+  - changelog
 ---
 
 We have been watching you. Not you personally, of course. Besides qualified and [quantified feedback](/fortrabbit-user-survey-results/) rounds we have been measuring your (our users) behavior on our platform. These learnings resulted in a new experiment: The tasklist.

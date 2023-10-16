@@ -1,20 +1,20 @@
 ---
-author:       fl
-created:      2017-05-11
-published:  true
-title:        "Universal App pricing V2 is here"
-excerpt:      "More powerful plans, same price level."
-lead:         "The Universal Stack was launched 5 months ago. We are now implementing a frequent feedback: Meet our new more powerful Universal Stack plans:"
-image:        old-new-pricing-poster.gif
-imagecredit:  'After/Before slider shamelessly stolen from: https://codepen.io/bamf/pen/jEpxOX'
+author: fl
+created: 2017-05-11
+published: true
+title: Universal App pricing V2 is here
+excerpt: More powerful plans, same price level.
+lead: "The Universal Stack was launched 5 months ago. We are now implementing a frequent feedback: Meet our new more powerful Universal Stack plans:"
+image: old-new-pricing-poster.gif
+imagecredit: "After/Before slider shamelessly stolen from: https://codepen.io/bamf/pen/jEpxOX"
+tags:
+  - chronicles
+  - changelog
 ---
 
 1. The old entry level plan is going away.
 2. The old middle plan is becoming the new entry plan — same specs, lower price.
 3. A new powerful top plan is introduced.
-
-
-
 
 <!--  After/Before slider shamelessly stolen from: https://codepen.io/bamf/pen/jEpxOX -->
 
@@ -165,8 +165,6 @@ function drags(dragElement, resizeElement, container) {
 
 </script>
 
-
-
 ### Compare yourself
 
 <div class="ba-slider m-top-s">
@@ -179,8 +177,6 @@ function drags(dragElement, resizeElement, container) {
 <p class="type-xs">
     Left: new V2 plans — Right: old V1 plans
 </p>
-
-
 
 ### Specs & prices comparison table
 
@@ -198,9 +194,6 @@ function drags(dragElement, resizeElement, container) {
 | Custom HTTPS        | no       | yes      | no       | yes      | yes     | yes     |
 | Monthly price ($/€) | 3        | 5        | 6        | 15       | 12      | 30      |
 
-
-
-
 ### Why we are doing this
 
 The Professional Stack is designed for modern web applications, this mostly means Laravel apps or modern high traffic websites. The Universal Stack with more backwards compatibility has a wider range of applications. So we are seeing more classical legacy content driven websites, mostly CMS-based. Especially Craft-CMS is raising. And those software-systems sometimes need a little more horse-power to behave well.
@@ -212,7 +205,6 @@ If you have existing Apps: Don't worry! **Your current plans will not change.** 
 ### The middle plan is now called Standard
 
 We are also changing a wording: We think that "Standard" is a better than "Basic" when is comes to the name for the plan in the middle, the plan we do recommend for most common use cases.
-
 
 ### More details
 

@@ -1,10 +1,11 @@
 ---
-
-title: "Performance / convenience"
+title: Performance / convenience
 author: fl
-excerpt: "What's more important in hosting? Performance or convenience?"
+excerpt: What's more important in hosting? Performance or convenience?
 created: 2013-07-10
-
+published: true
+tags:
+  - opinion
 ---
 
 One of the greatest challenges our PHP PaaS startup is facing is not a technical one: We need to change the way people think about hosting. Today there is still too much attention on the performance / price ratio. Think different.

@@ -1,11 +1,12 @@
 ---
-
-title:      Laracon observations
-excerpt:    "What we have learned on the Laracon conference 2013 in Amsterdam."
-author:     fl
-image:      laracon.jpg
-created:    2013-09-02
-
+title: Laracon observations
+excerpt: What we have learned on the Laracon conference 2013 in Amsterdam.
+author: fl
+image: laracon.jpg
+created: 2013-09-02
+published: true
+tags:
+  - opinion
 ---
 
 # We've been to Laracon

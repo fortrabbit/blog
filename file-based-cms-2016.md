@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-06-07
+author: fl
+created: 2016-06-07
 published: true
-title:      "File-based CMS overview"
-excerpt:    "Thoughts on flat file CMS and static site generators, mostly PHP-related."
-lead:       "Let's have a look at different types of database-less CMS — the candidates, the pros, the cons and what you need to consider when it comes to deployment & hosting."
-
-keywords:   "headless, lambda, flat-file, database-less, file-based, blog aware, weblog, textile, non-DB, no-db, twig, prototyping, service manuals, decoupled CMS"
-image:      "flat-file-cms-poster.gif"
-
+title: File-based CMS overview
+excerpt: Thoughts on flat file CMS and static site generators, mostly PHP-related.
+lead: Let's have a look at different types of database-less CMS — the candidates, the pros, the cons and what you need to consider when it comes to deployment & hosting.
+keywords: headless, lambda, flat-file, database-less, file-based, blog aware, weblog, textile, non-DB, no-db, twig, prototyping, service manuals, decoupled CMS
+image: flat-file-cms-poster.gif
+tags:
+  - opinion
 ---
 
 ### Manifesto
@@ -25,8 +24,6 @@ image:      "flat-file-cms-poster.gif"
 
 A **developer-friendly** Content Management Systems for: blogs, simple websites, themes, components, docs, gh-pages, prototypes, click-throughs … you name it. I'd like to split those systems in two different flavors:
 
-
-
 ## Static site generators
 
 A static site generator will parse all your contents to build plain HTML pages out of it. For a blog it will turn the Markdown source files to HTML using templates and also generate archive lists. 
@@ -35,20 +32,12 @@ A static site generator will parse all your contents to build plain HTML pages o
 
 As a static site generator is actually a task runner, it can be build with anything — Gulp for example. And it can also compile to anything — the output format can also be an e-book.
 
-
-
 ### Example candidates
 
 [Jekyll](https://jekyllrb.com/) is the most known candidate - it's integrated in GitHub (GitHub pages). But there are many more: [StaticGen.com](https://www.staticgen.com/) lists 143 different systems. [Sculpin](https://sculpin.io/), [Couscous](http://couscous.io/), [Spress](http://spress.yosymfony.com/) are in PHP.
-
-
-
 ### My experience
 
 We have used [Metalsmith here for a while](https://blog.fortrabbit.com/new-blog-layout) but eventually ditched it. Each build process generated 100 of HTML pages. It was fast, but still an extra step.
-
-
-
 ### Deployment & hosting
 
 At minimum you want the exported folder uploaded and served somewhere. 
@@ -99,7 +88,6 @@ So: still the same look and feel, but without that tedious built process.
 
 There are many more, but these well known (in PHP) and actively maintained. 
 
-
 ### My experience
 
 I did a small project in Grav and liked it. Grav is still a bit rough around the edges and feels like an Open Source project here an there — but that's exactly what it is. The good documentation, the demo templates, plugins and the community helped me getting up fast.
@@ -107,14 +95,9 @@ I did a small project in Grav and liked it. Grav is still a bit rough around the
 We also use custom flat file generation for this blog and our [help pages](https://help.fortrabbit.com) using some custom micro scripts based on [Slim](http://www.slimframework.com/). So I probably would prefer a flat file CMS over a static site generator for these kind of tasks and when being with other developers.
 
 We work with Git subtrees to separate code from content. The content of our documentation is a [public repo hosted on GitHub](https://github.com/fortrabbit/help). We pull this into an App to generate the layouts. But that doesn't help with the admin-dashboard case.
-
-
-
 ### Deployment & hosting
 
 Some **flat file CMS** are providing browser-based wordpress-like admin panels. And I totally get why: The "client" should be able to use it as well. That changes deployment & hosting a lot:
-
-
 #### With fortrabbit
 
 Files created on the server are breaking compatibility with our hosting service and most other PaaS. Our New Apps have [ephemeral storage](https://help.fortrabbit.com/quirks#toc-ephemeral-storage). Any file manipulation on a remote server will be lost on each new deploy or change of settings and is only done on one Node, where the App can run on multiple Nodes (horizontally scaled).

@@ -1,11 +1,11 @@
 ---
-
-title:       Use Codio with fortrabbit
-author:      uk
-published:  true
-excerpt:     "How to integrate the web IDE codio here on fortrabbit."
-created:     2013-11-14
-
+title: Use Codio with fortrabbit
+author: uk
+published: true
+excerpt: How to integrate the web IDE codio here on fortrabbit.
+created: 2013-11-14
+tags:
+  - webdev
 ---
 
 Just a quicky: How to use [Codio](https://codio.com/) and fortrabbit.

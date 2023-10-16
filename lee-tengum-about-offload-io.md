@@ -1,11 +1,12 @@
 ---
-
 title: Lee Tengum about offload.io
 author: os
-excerpt: "A client interview from the real world client."
+excerpt: A client interview from the real world client.
 image: leetengum.jpg
 created: 2014-08-28
-
+published: true
+tags:
+  - chronicles
 ---
 
 

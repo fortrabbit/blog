@@ -1,11 +1,11 @@
 ---
-
 title: Release early, release often
 author: os
 published: true
-excerpt: "Our iterative approach."
+excerpt: Our iterative approach.
 created: 2012-10-05
-
+tags:
+  - opinion
 ---
 
 **Ready or Not – here i come?** Can we really go live that early? Shouldn't we do a public BETA period to gain more feedback first? __ _We think: YES we can!_ You can read it in any startup advice book: Launch early. Our new cloud hosting service is general available since yesterday. We build it within a fairly short time (~12 months) and had only a short closed BETA period (~1 month). We do managed hosting for over 5 years – a business where reliability is one of the core values. And Platform as a Service is just a label for a modern approach of scalable hassle-free hosting solutions. This PaaS market is very young and still a changing category in the wide field of cloud hosting. [Listening](http://philsturgeon.co.uk/blog/2012/10/cloud-hosting-php-pipe-dream) to customers and their needs will influence the way current services work. 

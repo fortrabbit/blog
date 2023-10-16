@@ -1,16 +1,14 @@
 ---
-
-title:      "Patch updates ahead"
-excerpt:    "Patches for all PHP versions planned."
-created:     2019-10-16
-published:  true
-author:      fl
-lead:        "We are currently preparing a patch version update. Here is what you need to know."
-image:       minor-and-patch-updates-poster.gif
-
+title: Patch updates ahead
+excerpt: Patches for all PHP versions planned.
+created: 2019-10-16
+published: true
+author: fl
+lead: We are currently preparing a patch version update. Here is what you need to know.
+image: minor-and-patch-updates-poster.gif
+tags:
+  - changelog
 ---
-
-
 ## Run down
 
 The updates will affect all Apps (Uni and Pro). The expected downtime for App web delivery is up to 10 minutes, we aim for less. We will run the updates sequentially, App after App. Pro Apps on production plans are planned to have near-to-zero downtime. For the deployment services (Git, SSH and SFTP) we expect only a short downtime of a few minutes. Please keep an eye on our [status page](https://status.fortrabbit.com) where we are going to post intermediate updates.

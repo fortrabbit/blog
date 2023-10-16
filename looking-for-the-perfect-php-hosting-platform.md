@@ -1,10 +1,11 @@
 ---
-
-title: "The perfect PHP platform manifest"
+title: The perfect PHP platform manifest
 author: os
-excerpt: "Looking for the perfect PHP hosting platform."
+excerpt: Looking for the perfect PHP hosting platform.
 created: 2012-09-06
-
+published: true
+tags:
+  - opinion
 ---
 
 

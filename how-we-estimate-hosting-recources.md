@@ -1,16 +1,17 @@
 ---
-
 title: How we estimate hosting resources
 author: uk
 published: true
-lead: "One of the major problems all hosting providers have to solve is to make it transparent to the customer what kind of resources she needs. Our Map your App helps."
+lead: One of the major problems all hosting providers have to solve is to make it transparent to the customer what kind of resources she needs. Our Map your App helps.
 created: 2013-08-23
-
+tags:
+  - webdev
+  - opinion
 ---
 
 We've recently upgraded our fortrabbit.com website, including a complete overhaul of our [pricing visualization](http://fortrabbit.com/pricing). The visualization is one thing, the other is our [Map your App](http://fortrabbit.com/pricing/wizard) decision-helper: One of the major problems all hosting providers have to solve (or should at least try) is to make it transparent to the customer what kind of resources she needs. 
 
-## Tell us your life story, please
+## Tell us your story, please
 
 Well, the major problem is that no two web applications are the same. Even if they are based on the same technology stack, say framework XYZ, their actual resource requirements can differ widely. So, to tell you what resources you need, from a hosting provider perspective, requires a deep understanding of the inner workings of your App. Just to name a few: 
 

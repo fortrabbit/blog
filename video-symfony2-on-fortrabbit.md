@@ -1,11 +1,11 @@
 ---
-
-title: "Symfony2 on fortrabbit"
+title: Symfony2 on fortrabbit
 author: fl
-published:  true
-excerpt: "This video shows you how easy it is to set up Symfony on fortrabbit."
+published: true
+excerpt: This video shows you how easy it is to set up Symfony on fortrabbit.
 created: 2012-11-01
-
+tags:
+  - webdev
 ---
 
 This is the fifth video of our screen-cast series where we are showing off our worst practices of PHP development & deployment on our sophisticated hosting platform. This is our in-official contribution to the [Symfony Live Event 2012](http://berlin2012.live.symfony.com/) here in Berlin.

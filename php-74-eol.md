@@ -1,14 +1,14 @@
 ---
-
-author:     fl
-created:    2022-10-14
+author: fl
+created: 2022-10-14
 published: true
-title:      "PHP 7.4 support to end some day"
-excerpt:    "Client information for the end of life of PHP 7.4."
-lead:       "Same procedure as every year. PHP 7.4 will reach its end of life soon. This means that no security patches will be applied any more. This is information for PHP developers and fortrabbit clients."
-image:      "php-eol-poster.jpg"
-keywords:   "PHP 7, PHP 5, PHP end of life"
-
+title: PHP 7.4 support to end some day
+excerpt: Client information for the end of life of PHP 7.4.
+lead: Same procedure as every year. PHP 7.4 will reach its end of life soon. This means that no security patches will be applied any more. This is information for PHP developers and fortrabbit clients.
+image: php-eol-poster.jpg
+keywords: PHP 7, PHP 5, PHP end of life
+tags:
+  - psa
 ---
 
 ## Why upgrade to PHP 8?

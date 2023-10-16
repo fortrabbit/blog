@@ -1,10 +1,11 @@
 ---
-
-title:    Damn, we got pwned
-author:   fl
-excerpt:  "fortrabbit under attack."
-created:  2013-05-30
-
+title: Damn, we got pwned
+author: fl
+excerpt: fortrabbit under attack.
+created: 2013-05-30
+published: true
+tags:
+  - chronicles
 ---
 
 **Yet another post i hate to write**: Our PHP hosting platform has been successfully attacked last Saturday, the 25th of May 2013. This is our story.

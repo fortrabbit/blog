@@ -1,10 +1,11 @@
 ---
-
 title: New status page
 author: fl
-excerpt: "Finally we have a dedicated downtime communication channel."
+excerpt: Finally we have a dedicated downtime communication channel.
 created: 2014-09-02
-
+published: true
+tags:
+  - chronicles
 ---
 
 # status.fortrabbit.com

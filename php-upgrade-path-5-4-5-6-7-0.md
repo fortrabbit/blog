@@ -1,10 +1,12 @@
 ---
-author:     os
-created:    2015-06-23
+author: os
+created: 2015-06-23
 published: true
-title:      "PHP upgrade path (5.4), 5.6, 7.0"
-excerpt:    "Which PHP versions we'll support when."
-image:      sandbox-elephant.jpg
+title: PHP upgrade path (5.4), 5.6, 7.0
+excerpt: Which PHP versions we'll support when.
+image: sandbox-elephant.jpg
+tags:
+  - changelog
 ---
 
 # PHPast & PHPuture 

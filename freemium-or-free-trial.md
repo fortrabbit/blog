@@ -1,10 +1,11 @@
 ---
-
 title: Freemium or free trial?
 author: fl
-excerpt: "Is freemium the right business model for our service or shall we switch to a free trial model?"
+excerpt: Is freemium the right business model for our service or shall we switch to a free trial model?
 created: 2013-09-04
-
+published: true
+tags:
+  - chronicles
 ---
 
 My big vision for our service is that your PHP cloud development environment here should be just free of charge. Fall in love with the easy deployment and all the nice features. Then, when comfortable, stay with your project for the hosting when it goes live. Does it work out like this?

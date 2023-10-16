@@ -1,10 +1,11 @@
 ---
-
-title:    New dashboard migration guide
-author:   fl
-excerpt: "Learn what is going to change with the new dashboard."
-created:  2014-10-15
-
+title: New dashboard migration guide
+author: fl
+excerpt: Learn what is going to change with the new dashboard.
+created: 2014-10-15
+published: true
+tags:
+  - chronicles
 ---
 
 # Boarding the new dashboard

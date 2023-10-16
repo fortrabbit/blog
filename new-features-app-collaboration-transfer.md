@@ -1,10 +1,12 @@
 ---
-
-title: "App collaboration & owner transfer"
+title: App collaboration & owner transfer
 author: fl
-excerpt: "New features in the dashboard."
-created:  2012-12-18
-
+excerpt: New features in the dashboard.
+created: 2012-12-18
+published: true
+tags:
+  - chronicles
+  - changelog
 ---
 
 We are thrilled to announce the availability of a new feature from our roadmap: [Permission Management](http://fortrabbit.com/feature/permission-management). Actually these are <del>two</del> three (maybe even four) new features for the web control panel:

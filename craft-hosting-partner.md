@@ -1,14 +1,14 @@
 ---
-
-author:     os
-created:    2017-07-25
-title:      "We are a Craft Hosting Partner"
-excerpt:    "fortrabbit is now an official Hosting Partner for Craft CMS."
-lead:       "Last week Pixel & Tonic — the company behind Craft CMS — announced their official hosting partners. We are one of only two and that thrills us!"
+author: os
+created: 2017-07-25
+title: We are a Craft Hosting Partner
+excerpt: fortrabbit is now an official Hosting Partner for Craft CMS.
+lead: Last week Pixel & Tonic — the company behind Craft CMS — announced their official hosting partners. We are one of only two and that thrills us!
 published: true
-image:      "craft-cms-poster.png"
-keywords:   "craft, craftcms, craft-cms, hosting, partner"
-
+image: craft-cms-poster.png
+keywords: craft, craftcms, craft-cms, hosting, partner
+tags:
+  - chronicles
 ---
 
 ## Hosting Craft since 2014

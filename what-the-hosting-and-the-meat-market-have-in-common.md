@@ -1,11 +1,11 @@
 ---
-
 title: The meat market
 author: fl
-published:  true
-excerpt: "What the hosting- and the meat-market have in common."
+published: true
+excerpt: What the hosting- and the meat-market have in common.
 created: 2012-10-19
-
+tags:
+  - opinion
 ---
 
 ![MeatHosting Illustration by Frank Lämmer](/dist/img/meat-hosting.png)

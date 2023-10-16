@@ -1,14 +1,14 @@
 ---
-
-author:     fl
-created:    2022-01-16
-title:      "Things to know about fast Craft CMS websites"
-excerpt:    "What we learned helping clients improving Craft CMS performance"
-lead:       "Here's what we've learned helping clients to increase performance of their Craft CMS websites."
+author: fl
+created: 2022-01-16
+title: Things to know about fast Craft CMS websites
+excerpt: What we learned helping clients improving Craft CMS performance
+lead: Here's what we've learned helping clients to increase performance of their Craft CMS websites.
 published: true
-image:      "craft-cms-tuning-2021.png"
-keywords:   "craft, craftcms, craft-cms, performance"
-
+image: craft-cms-tuning-2021.png
+keywords: craft, craftcms, craft-cms, performance
+tags:
+  - webdev
 ---
 
 Update 2022-10-28: We have most of the content of this post to our help page [Craft CMS performance tips](https://help.fortrabbit.com/craft-performance).

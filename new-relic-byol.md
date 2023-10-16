@@ -1,10 +1,12 @@
 ---
-
-title: New Relic BYOL 
+title: New Relic BYOL
 author: os
-excerpt: "We now have the New Relic demon running."
+excerpt: We now have the New Relic demon running.
 created: 2014-05-20
-
+published: true
+tags:
+  - chronicles
+  - changelog
 ---
 
 

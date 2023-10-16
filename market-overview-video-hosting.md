@@ -1,12 +1,14 @@
 ---
-author:         fl
+author: fl
 published: true
-created:        2017-08-14
-title:          "Market overview: video hosting for business"
-excerpt:        "An opinionated field guide on developer-friendly video services."
-lead:           "We evangelize the idea of decoupled hosting. This post gives you an overview about cool video encoding and hosting services you can usefor your business."
-keywords:       "HEVC, H.265, H.264, vp8, vp9, mp4, media processing"
-image:          video-overview-poster.gif
+created: 2017-08-14
+title: "Market overview: video hosting for business"
+excerpt: An opinionated field guide on developer-friendly video services.
+lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool video encoding and hosting services you can usefor your business.
+keywords: HEVC, H.265, H.264, vp8, vp9, mp4, media processing
+image: video-overview-poster.gif
+tags:
+  - webdev
 ---
 
 

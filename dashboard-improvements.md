@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-09-02
+author: fl
+created: 2016-09-02
 published: true
-title:      "Dashboard improvements"
-excerpt:    "Quicker boarding, App access links and more."
-lead:       "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
-
-keywords:   "Boarding, UX, UI, user journey, progressive disclosure, gamification"
-image:      "dashboard-improvements.gif"
-
+title: Dashboard improvements
+excerpt: Quicker boarding, App access links and more.
+lead: "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
+keywords: Boarding, UX, UI, user journey, progressive disclosure, gamification
+image: dashboard-improvements.gif
+tags:
+  - changelog
 ---
 
 

@@ -1,11 +1,11 @@
 ---
-
 title: Sunsetting freemium
 author: fl
 published: true
-excerpt: "Yep, we are going to replace our freemium with a free trial model."
+excerpt: Yep, we are going to replace our freemium with a free trial model.
 created: 2014-03-18
-
+tags:
+  - chronicles
 ---
 
 # Freemium days are counted

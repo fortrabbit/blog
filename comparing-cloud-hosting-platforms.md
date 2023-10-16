@@ -1,10 +1,10 @@
 ---
-
-title:   Cloudscapes – Comparing PHP Cloud Hosting Platforms
-author:  fl
-excerpt: "What PHP cloud platforms are currently actually out there?"
+title: Cloudscapes – Comparing PHP Cloud Hosting Platforms
+author: fl
+excerpt: What PHP cloud platforms are currently actually out there?
 created: 2012-07-09
-
+tags:
+  - opinion
 ---
 
 We <del>are currently building yet another</del> **have recently launched** a [PHP Cloud Platform](http://fortrabbit.com) ourselves. Of course we looked around to see what the others are up to. This is my (Frank) personal point of view of the current market situation showcasing my favorite services. I try not to judge, neither i will compare features nor prices. 

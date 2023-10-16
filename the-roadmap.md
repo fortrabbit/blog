@@ -1,11 +1,11 @@
 ---
-
 title: The Roadmap
 author: fl
-published:  true
-excerpt: "By 2009, computers will disappear."
+published: true
+excerpt: By 2009, computers will disappear.
 created: 2012-11-19
-
+tags:
+  - chronicles
 ---
 
 According to Ray Kurzweil, we are in the **»Leveling Off Phase**«. I think we all agree that technology is moving fast these days. For us it is a real fun ride to see new web technologies popping up each day. And it is even more fun to be a (small) part of it – pushing things forward. Our platform enables PHP developers to be more productive and to do better things in shorter time with more comfort. 

@@ -1,14 +1,14 @@
 ---
-
-author:       fl
-created:      2020-11-26
+author: fl
+created: 2020-11-26
 published: true
-title:        "Let's Encrypt root certificate change"
-excerpt:      "Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client."
-lead:         "Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client."
-image:        'lets-encrypt-new-root.png'
-imagecredit:  ''
-
+title: Let's Encrypt root certificate change
+excerpt: Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client.
+lead: Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client.
+image: lets-encrypt-new-root.png
+imagecredit: ""
+tags:
+  - changelog
 ---
 
 ## How we use Let's Encrypt

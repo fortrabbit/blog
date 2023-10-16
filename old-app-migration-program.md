@@ -1,14 +1,14 @@
 ---
-
-author:     fl
-created:    2017-03-20
+author: fl
+created: 2017-03-20
 published: true
-title:      "Old App migration program"
-excerpt:    "We are manually moving many Old Apps to Universal Apps to avoid downtime and data loss for stragglers."
-lead:       "<span style='background-color:yellow;box-shadow:0 0 0 6px yellow'>Our Old App infrastructure is going to be shut down in less than two weeks — by the end of March 2017.</span> Most clients have already moved their Apps. But a high number of Old App is still running and this is worrying us. To avoid data loss, downtime and frustration we decided to do help out with an unusual step:"
-keywords:   "PSA, service, Old App, sunset"
-image:      "old-apps-migtation-program-poster.gif"
-
+title: Old App migration program
+excerpt: We are manually moving many Old Apps to Universal Apps to avoid downtime and data loss for stragglers.
+lead: "<span style='background-color:yellow;box-shadow:0 0 0 6px yellow'>Our Old App infrastructure is going to be shut down in less than two weeks — by the end of March 2017.</span> Most clients have already moved their Apps. But a high number of Old App is still running and this is worrying us. To avoid data loss, downtime and frustration we decided to do help out with an unusual step:"
+keywords: PSA, service, Old App, sunset
+image: old-apps-migtation-program-poster.gif
+tags:
+  - changelog
 ---
 
 **We will manually migrate most Old Apps to the Universal Stack.** Old App applicable for the migration program (see below) will be moved to the new Universal App infrastructure, this includes all files and the MySQL database contents. 

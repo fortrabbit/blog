@@ -1,14 +1,14 @@
 ---
-
-author:     fl
-published: true
-created:    2018-01-08
-title:      My favorite Facebook bot designs
-excerpt:    "The bizarre beauty of brutalist Facebook reaction bots."
-lead:       "As a hosting provider we fight against all kind of frauds, hacks, scams and phishings. This is my favorite, mostly harmless service misuse."
-keywords:   hacking, hack, culture, php, wordpress, design, demoscene, intro, facebook, script kids
-image:      facebook-bot-4.png
-
+author: fl
+published: false
+created: 2018-01-08
+title: My favorite Facebook bot designs
+excerpt: The bizarre beauty of brutalist Facebook reaction bots.
+lead: As a hosting provider we fight against all kind of frauds, hacks, scams and phishings. This is my favorite, mostly harmless service misuse.
+keywords: hacking, hack, culture, php, wordpress, design, demoscene, intro, facebook, script kids
+image: facebook-bot-4.png
+tags:
+  - chronicles
 ---
 
 So: A Facebook reaction bot will automatically like Facebook posts. I assume that this is used for farming business or maybe just to artificially boost someones reputation. We see some manually created WordPress based bots from time to time here. I think most are based on step by step [video instructions](https://www.youtube.com/watch?v=Bi3sLwnSncM).

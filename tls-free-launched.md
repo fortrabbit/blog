@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-06-15
-published:  true
-title:      "TLS free launched"
-excerpt:    "Free SSL certificates for custom domains via Let's Encrypt are here now."
-lead:       "SSL certificates for your custom domains by Let's Encrypt — <b>free and with zero config</b>."
-
-keywords:   "ssl, https, lets-encrypt, acme, CA, certificate authority, ACME, HTTP over TLS,HTTP over SSL, HTTP Secure"
-image:      "tls-free-poster.jpg"
-
+author: fl
+created: 2016-06-15
+published: true
+title: TLS free launched
+excerpt: Free SSL certificates for custom domains via Let's Encrypt are here now.
+lead: SSL certificates for your custom domains by Let's Encrypt — <b>free and with zero config</b>.
+keywords: ssl, https, lets-encrypt, acme, CA, certificate authority, ACME, HTTP over TLS,HTTP over SSL, HTTP Secure
+image: tls-free-poster.jpg
+tags:
+  - changelog
 ---
 
 

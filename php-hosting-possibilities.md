@@ -1,12 +1,13 @@
 ---
-
-author:     fl
-created:    2015-05-05
-title:      "PHP Hosting Possibilities"
+author: fl
+created: 2015-05-05
+title: PHP Hosting Possibilities
 published: true
-excerpt:    "A stubborn analysis of hosting solutions for developers."
-image:      cloudy2.gif
-
+excerpt: A stubborn analysis of hosting solutions for developers.
+image: cloudy2.gif
+tags:
+  - opinion
+  - php
 ---
 
 ## Another self-opinionated hosting guide

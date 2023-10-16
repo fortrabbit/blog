@@ -1,17 +1,15 @@
 ---
-
-title:      Introducing Upper
-created:    2018-08-16
+title: Introducing Upper
+created: 2018-08-16
 published: true
-author:     os
-excerpt:    "A Craft CMS plugin to help you with pull-CDNs"
-lead:       "So we said to do more open source on fortrabbit. TADA – here is Upper, a Craft CMS plugin to integrate CDN edge caches."
-keywords:   OSS, OS, Craft CMS, Varnish, cache-control
-image:      upper-poster.gif
-
+author: os
+excerpt: A Craft CMS plugin to help you with pull-CDNs
+lead: So we said to do more open source on fortrabbit. TADA – here is Upper, a Craft CMS plugin to integrate CDN edge caches.
+keywords: OSS, OS, Craft CMS, Varnish, cache-control
+image: upper-poster.gif
+tags:
+  - webdev
 ---
-
-
 
 **TLDR; Check it our yourself:  
 [github.com/ostark/upper](https://github.com/ostark/upper)**

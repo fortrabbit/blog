@@ -1,13 +1,13 @@
 ---
-
-title:      "Introducing the 'client invite'"
-excerpt:    "You can now transfer Apps to your clients!"
-created:    2017-06-15
+title: Introducing the 'client invite'
+excerpt: You can now transfer Apps to your clients!
+created: 2017-06-15
 published: true
-author:     fl
-lead:       "NEED: You are developing a website. You want your client to pay for the hosting."
-image:      client-invite-poster.gif
-
+author: fl
+lead: "NEED: You are developing a website. You want your client to pay for the hosting."
+image: client-invite-poster.gif
+tags:
+  - changelog
 ---
 
 In the PAST: you might have shared hosting account usernames and passwords or asked clients for their credit card details to setup payment. Sounds familiar? You can do better NOW:

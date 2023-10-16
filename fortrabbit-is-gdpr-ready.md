@@ -1,14 +1,13 @@
 ---
-
-author:     fl
-created:    2018-04-16
+author: fl
+created: 2018-04-16
 published: true
-title:      "fortrabbit is GDPR ready"
-excerpt:    "GDPR is here. Wat is changing for our clients, what not, why and when."
-lead:       "Comply by the end of May. The General Data Protection Regulation is coming. This post reflects when, why, what and what not is changing for our clients."
-
-image:      "gdpr-ready-poster.jpg"
-
+title: fortrabbit is GDPR ready
+excerpt: GDPR is here. Wat is changing for our clients, what not, why and when.
+lead: Comply by the end of May. The General Data Protection Regulation is coming. This post reflects when, why, what and what not is changing for our clients.
+image: gdpr-ready-poster.jpg
+tags:
+  - chronicles
 ---
 
 TLDR; No action required for for our clients, we are all good. You have some online business? Keep reading, as these changes might affect you as well. DISCLAIMER: This is not a legal advice. This is just our "worst practice".

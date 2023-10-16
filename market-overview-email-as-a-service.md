@@ -1,12 +1,14 @@
 ---
-author:   fl
+author: fl
 published: true
-created:  2017-10-30
-title:    "Market overview: Email services for business and private"
-excerpt:  "An opinionated field guide on Email as a Service providers."
-lead:     'We evangelize the idea of decoupled hosting. This post gives you an overview about cool "Email as a Service" providers.'
-keywords: "IMAP, squirrelmail, roundcube, horde, postfix, dovecot, zimbra, webmail, POP3, IMAPv4, TLSv1.2, LDAP, SMTP,Antivirus / Antispam, Microsoft Exchange"
-image:    email-as-a-service-poster.gif
+created: 2017-10-30
+title: "Market overview: Email services for business and private"
+excerpt: An opinionated field guide on Email as a Service providers.
+lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool "Email as a Service" providers.
+keywords: IMAP, squirrelmail, roundcube, horde, postfix, dovecot, zimbra, webmail, POP3, IMAPv4, TLSv1.2, LDAP, SMTP,Antivirus / Antispam, Microsoft Exchange
+image: email-as-a-service-poster.gif
+tags:
+  - webdev
 ---
 
 We do "PHP as a Service" here, specialized in PHP website/application hosting — **no frills attached**. So we expect our clients to have their e-mail hosted elsewhere. 

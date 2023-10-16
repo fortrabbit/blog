@@ -1,11 +1,11 @@
 ---
-
-author:     fl
-created:    2015-05-12
-published:  true
-title:      "Survey results"
-excerpt:    "What our users are saying and what we think it means."
-
+author: fl
+created: 2015-05-12
+published: true
+title: Survey results
+excerpt: What our users are saying and what we think it means.
+tags:
+  - webdev
 ---
 
 ## Thanks for your answers!
@@ -25,14 +25,6 @@ We asked our Twitter followers to take the survey. We "reached" around 1,700 PHP
 ### E-mail marketing
 
 We also did an email campaign to 13,000 of our users. It had an  open rate of 25%. We got around ~180 answers from that. Learning: A newsletter is a reliable way to get answers in. But around 200 mails for 1 answered survey is a lot of waste.
-
-<!--
-
-### Form tooling
-
-We have used [Google forms](https://www.google.com/forms/about/) before but tried [Typeform](http://typeform.com) this time. It helps getting more creative with a survey. 
-
--->
 
 
 ## Asking the right questions is hard

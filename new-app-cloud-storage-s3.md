@@ -1,11 +1,11 @@
 ---
-
-author:     uk
-created:    2015-09-03
+author: uk
+created: 2015-09-03
 published: true
-title:      "S3 as a cloud storage"
-excerpt:    "How to setup Amazon S3 as a cloud storage for your App."
-
+title: S3 as a cloud storage
+excerpt: How to setup Amazon S3 as a cloud storage for your App.
+tags:
+  - changelog
 ---
 
 ## Using AWS S3 as a static data resource for a modern PHP App

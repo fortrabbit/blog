@@ -1,11 +1,12 @@
 ---
-
-title: "New dashboard mission statement"
+title: New dashboard mission statement
 author: fl
-excerpt: "What to expect from our new dashboard."
+excerpt: What to expect from our new dashboard.
 image: dashboard-mission-statement.jpg
 created: 2014-09-08
-
+published: true
+tags:
+  - chronicles
 ---
 
 # Is fortrabbit still around?

@@ -1,10 +1,11 @@
 ---
-
-title:      A new blog layout, a new engine
-author:     fl
-excerpt:    "Tinkering with static site generation."
-created:    2015-01-23
-
+title: A new blog layout, a new engine
+author: fl
+excerpt: Tinkering with static site generation.
+created: 2015-01-23
+published: true
+tags:
+  - chronicles
 ---
 
 # New blog same old bla bla

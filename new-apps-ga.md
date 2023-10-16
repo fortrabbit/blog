@@ -1,12 +1,12 @@
 ---
-
-author:     fl
-created:    2015-12-10
+author: fl
+created: 2015-12-10
 published: true
-title:      "Announcing GA for New Apps"
-excerpt:    "Scalable, extensible and with even more features"
-image:      "new-apps-ga-intro.gif"
-
+title: Announcing GA for New Apps
+excerpt: Scalable, extensible and with even more features
+image: new-apps-ga-intro.gif
+tags:
+  - changelog
 ---
 
 # A big update

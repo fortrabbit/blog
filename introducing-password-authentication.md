@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-07-21
+author: fl
+created: 2016-07-21
 published: true
-title:      "Introducing password authentication + dynamic help"
-excerpt:    "Better Windows support and smoother boarding."
-lead:       "Boarding just got better. This new release makes it easier to get started with fortrabbit for new and novice users."
-
-keywords:   "UI, UX, design, funnel, username, password, windows hosting, novice, noob, QA, boarding"
-image:      "password-poster.gif"
-
+title: Introducing password authentication + dynamic help
+excerpt: Better Windows support and smoother boarding.
+lead: Boarding just got better. This new release makes it easier to get started with fortrabbit for new and novice users.
+keywords: UI, UX, design, funnel, username, password, windows hosting, novice, noob, QA, boarding
+image: password-poster.gif
+tags:
+  - chronicles
 ---
 
 **This is new**: Just use your Account password, when you have trouble setting up SSH keys. Copy/paste actually working code examples directly from our documentation. See the [help article](https://help.fortrabbit.com/access-methods) on how to do it.

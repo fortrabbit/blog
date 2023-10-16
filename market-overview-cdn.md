@@ -1,12 +1,14 @@
 ---
-author:         fl
+author: fl
 published: true
-created:        2017-08-03
-title:          "Market overview: CDN services"
-excerpt:        "An opinionated field guide on developer-friendly CDN services."
-lead:           "We evangelize the idea of decoupled hosting. This post gives you an overview about cool content delivery services."
-keywords:       "HTTP/2, SPDY, webp, CDN, gzip, http, cache-control, expires, pragma, ssl, DDOS protection, Content Delivery Network, Highwinds, Limelight, Bitgravity, bluemix, cachefly, brotli, WCO, Web content optimization, CDNIFY, RTT, HEIF"
-image:          cdn-overview-poster.gif
+created: 2017-08-03
+title: "Market overview: CDN services"
+excerpt: An opinionated field guide on developer-friendly CDN services.
+lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool content delivery services.
+keywords: HTTP/2, SPDY, webp, CDN, gzip, http, cache-control, expires, pragma, ssl, DDOS protection, Content Delivery Network, Highwinds, Limelight, Bitgravity, bluemix, cachefly, brotli, WCO, Web content optimization, CDNIFY, RTT, HEIF
+image: cdn-overview-poster.gif
+tags:
+  - webdev
 ---
 
 ## A generation of CDNs for developers

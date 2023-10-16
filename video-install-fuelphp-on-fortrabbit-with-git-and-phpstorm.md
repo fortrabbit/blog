@@ -1,14 +1,12 @@
 ---
-
-title: "FuelPHP on fortrabbit"
+title: FuelPHP on fortrabbit
 author: uk
-published:  true
-excerpt: "This video show you how to install FuelPHP on fortrabbit with Git and PhpStorm."
+published: true
+excerpt: This video show you how to install FuelPHP on fortrabbit with Git and PhpStorm.
 created: 2012-10-25
-
+tags:
+  - webdev
 ---
-
-
 We are continuing our video series by popular demand!. This is the fourth video of our screen-cast series. Here we are showcasing worst practices of PHP development & deployment on our sophisticated hosting platform.
 
 Learn here about one way (out of many) to install the framework **FuelPHP** on the fabulous fortrabbit PHP hosting platform. See the handy PhpStorm IDE, the fortrabbit web GUI and gorgeous Git version control in action. Please enlarge the video and switch to HD to get the details.

@@ -1,12 +1,12 @@
 ---
-
-author:     fl
+author: fl
 published: true
-image:      password-input.jpg
-created:    2015-03-10
-title:      "On password security"
-excerpt:    "Discussing usability, culture and security."
-
+image: password-input.jpg
+created: 2015-03-10
+title: On password security
+excerpt: Discussing usability, culture and security.
+tags:
+  - changelog
 ---
 
 ## Prelude

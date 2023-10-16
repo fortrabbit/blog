@@ -1,13 +1,13 @@
 ---
-
-title:      "The story of our new invoice number format"
-author:      fl
-published:  true
-excerpt:    "How our new invoice numbers are structured and what went wrong when we rolled it out."
-lead:        "We have just changed our invoice number format. This is why we changed it and about the issues during roll out."
-image:       new-invoice-number-format.gif
-created:     2020-02-03
-
+title: The story of our new invoice number format
+author: fl
+published: true
+excerpt: How our new invoice numbers are structured and what went wrong when we rolled it out.
+lead: We have just changed our invoice number format. This is why we changed it and about the issues during roll out.
+image: new-invoice-number-format.gif
+created: 2020-02-03
+tags:
+  - chronicles
 ---
 
 

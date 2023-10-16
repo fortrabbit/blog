@@ -1,10 +1,10 @@
 ---
-
-author:    fl
-title:     "Migration help"
-excerpt:   "Helping existing users boarding the new dashboard."
-created:   2015-02-26
-
+author: fl
+title: Migration help
+excerpt: Helping existing users boarding the new dashboard.
+created: 2015-02-26
+tags:
+  - chronicles
 ---
 
 The new fortrabbit dashboard has finally landed. This [follow up](/new-dashboard-migration-guide) guide helps existing users to explore the new features and spot the differences fast.

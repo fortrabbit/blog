@@ -1,10 +1,11 @@
 ---
-
-title: "Sudden traffic peak"
+title: Sudden traffic peak
 author: os
-excerpt: "A case study."
+excerpt: A case study.
 created: 2013-06-30 20:07:19
-
+published: true
+tags:
+  - opinion
 ---
 
 # How to survive a sudden traffic peak

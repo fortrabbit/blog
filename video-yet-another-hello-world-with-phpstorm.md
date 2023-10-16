@@ -1,13 +1,12 @@
 ---
-
-title: "Hello world with PHPStorm"
+title: Hello world with PHPStorm
 author: fl
-published:  true
-excerpt: "This video shows you a simple example with PHPStorm and fortrabbit"
+published: true
+excerpt: This video shows you a simple example with PHPStorm and fortrabbit
 created: 2012-10-12
-
+tags:
+  - webdev
 ---
-
 How many times have you read something like this: "This is the first video of a new upcoming screen-cast series…"?
 
 And how many times this was the only video of the planned sequel? Producing tutorial videos is a hassle. We know that. But screen-casts are a great way to show how something really works. OK, here we go: _This is the first video of a new how-to-videos series where we are showing off our worst practices of development & deployment on our PHP platform. _

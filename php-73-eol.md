@@ -1,14 +1,14 @@
 ---
-
-author:       fl
-created:      2022-01-19 16:03:34
+author: fl
+created: 2022-01-19 16:03:34
 published: true
-title:        "PHP 7.3 support to end soon"
-excerpt:      "What you might want to know about the upcoming EOL of PHP 7.3."
-lead:         "Time flies by. Here is yet another PHP version that will soon get no more security updates, so we will need to stop supporting it as well: PHP 7.3. Here is what our clients need to know about upcoming changes."
-image:        'php-eol-poster.jpg'
-imagecredit:  ''
-
+title: PHP 7.3 support to end soon
+excerpt: What you might want to know about the upcoming EOL of PHP 7.3.
+lead: "Time flies by. Here is yet another PHP version that will soon get no more security updates, so we will need to stop supporting it as well: PHP 7.3. Here is what our clients need to know about upcoming changes."
+image: php-eol-poster.jpg
+imagecredit: ""
+tags:
+  - psa
 ---
 
 ## Update 2022-03-21

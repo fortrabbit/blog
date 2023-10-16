@@ -1,14 +1,14 @@
 ---
-
-author:     uk
-created:    2017-04-03
-title:      "Deploying code with rsync"
-excerpt:    "Learn how to use rsync from the command line to deploy code changes (to our Universal Apps) incredibly fast."
-lead:       "rsync was first released in 1996 but is still a handsome tool every web developer should know about, because it is still one of the best and fastest ways to deploy code without hassle. By fast I mean: easily <strong>10 x faster than your average SFTP upload</strong>."
+author: uk
+created: 2017-04-03
+title: Deploying code with rsync
+excerpt: Learn how to use rsync from the command line to deploy code changes (to our Universal Apps) incredibly fast.
+lead: "rsync was first released in 1996 but is still a handsome tool every web developer should know about, because it is still one of the best and fastest ways to deploy code without hassle. By fast I mean: easily <strong>10 x faster than your average SFTP upload</strong>."
 published: true
-keywords:   "deploy, git, rsync, sftp, changeset"
-image:      "rsync-poster.gif"
-
+keywords: deploy, git, rsync, sftp, changeset
+image: rsync-poster.gif
+tags:
+  - webdev
 ---
 
 This article aims to acquaint web developers with the command line tool `rsync`, which is usually available out-of-the-box on any Mac or Linux machine. Using windows, we recommend to run `rsync` from Git bash, which comes with the [official Git release package](https://git-scm.com/downloads).

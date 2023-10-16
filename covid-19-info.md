@@ -1,13 +1,13 @@
 ---
-
-title:      "Covid-19 info for clients"
-excerpt:    "How we prepared for the virus and what you can do."
-created:     2020-03-27
+title: Covid-19 info for clients
+excerpt: How we prepared for the virus and what you can do.
+created: 2020-03-27
 published: true
-author:      fl
-lead:        "What we are doing to keep your business online and how you can help."
-image:       covid-19-poster.gif
-
+author: fl
+lead: What we are doing to keep your business online and how you can help.
+image: covid-19-poster.gif
+tags:
+  - chronicles
 ---
 
 

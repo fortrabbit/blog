@@ -1,11 +1,12 @@
 ---
-
-title:    First fortran PaaS
-author:   fl
-excerpt: "Breaking news, fortrabbit releases a brand new stack."
-image:    fortran.gif
-created:  2014-04-01
-
+title: First fortran PaaS
+author: fl
+excerpt: Breaking news, fortrabbit releases a brand new stack.
+image: fortran.gif
+created: 2014-04-01
+published: true
+tags:
+  - opinion
 ---
 
 Hold on tight. Something big is here! Today, we're very excited to announce: support for the [fortran](http://en.wikipedia.org/wiki/Fortran) programming language — right here, right now.

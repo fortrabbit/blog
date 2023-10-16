@@ -1,11 +1,11 @@
 ---
-
-title:   New write protection
-author:  fl
-published:  true
-excerpt: "Abot a new security feature."
+title: New write protection
+author: fl
+published: true
+excerpt: Abot a new security feature.
 created: 2013-03-21
-
+tags:
+  - chronicles
 ---
 
 **We have a new feature: Write protection for Apps.** Secure your Apps by reducing access their privileges. We strongly advice to enable this mode for all your Apps in production. This is the story why it took a bit longer to implement it. Read about how you can use it [here](http://support.fortrabbit.com/customer/portal/articles/1052580). We are a tech company with a twist for philosophy. These are two of our company main mantras: 

@@ -1,22 +1,20 @@
 ---
-
-author:       js
-created:      2021-03-01
+author: js
+created: 2021-03-01
 published: true
-title:        "Working with geographic features and spatial data in MySQL 8"
-excerpt:      "How to implement geo features in MySQL 8"
-lead:         ""
-image:        'mysql-spatial-data-poster.png'
-imagecredit:  ''
-
+title: Working with geographic features and spatial data in MySQL 8
+excerpt: How to implement geo features in MySQL 8
+lead: ""
+image: mysql-spatial-data-poster.png
+imagecredit: ""
+tags:
+  - php
+  - webdev
 ---
 
-With the release of MySQL 8 in the spring of 2018, a mature set of features has entered the mainstream.
-Having previously taken a closer look at the [JSON data type](/mysql-json-column-with-laravel), we now turn our attention to spatial data.
-Specifically, we will discuss how to **employ MySQL 8 as a spatial database** to  store and process geographic features.
+With the release of MySQL 8 in the spring of 2018, a mature set of features has entered the mainstream. Having previously taken a closer look at the [JSON data type](/mysql-json-column-with-laravel), we now turn our attention to spatial data. Specifically, we will discuss how to **employ MySQL 8 as a spatial database** to  store and process geographic features.
 
-Before we get to the nitty-gritty details, such as how to write spatial queries, let's consider a few basic questions:
-**What is spatial data, and what are geographic features?**
+Before we get to the nitty-gritty details, such as how to write spatial queries, let's consider a few basic questions: **What is spatial data, and what are geographic features?**
 
 ## Storing geographic features using spatial data
 

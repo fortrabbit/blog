@@ -1,12 +1,14 @@
 ---
-author:     fl
-created:    2016-08-22
+author: fl
+created: 2016-08-22
 published: true
-title:      "Sneak peek"
-excerpt:    "A new Hobby line, migration info for Old App owners."
-lead:       "What we are working on and how we'll proceed with the Old Apps."
-keywords:   "up next, roadmap, kilroy, preview, pipeline, prosumer, noob, startup, indie"
-image:      "upnext-poster.gif"
+title: Sneak peek
+excerpt: A new Hobby line, migration info for Old App owners.
+lead: What we are working on and how we'll proceed with the Old Apps.
+keywords: up next, roadmap, kilroy, preview, pipeline, prosumer, noob, startup, indie
+image: upnext-poster.gif
+tags:
+  - chronicles
 ---
 
 In our recent [mission statement](mission-statement-2016) we analyzed the current situation of our hosting platform in relation to the PHP movement. We concluded to "respect the double-claw hammer". So, we'll continue expanding our professional PHP hosting line (New Apps), but we are also going to introduce a new:

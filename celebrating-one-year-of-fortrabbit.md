@@ -1,10 +1,11 @@
 ---
-
 title: Celebrating one year of fortrabbit
 author: fl
-excerpt: "Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah!"
+excerpt: Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah!
 created: 2013-10-04
-
+published: true
+tags:
+  - chronicles
 ---
 
 As time flies by! It's already a year ago when we launched our PHP hosting platform here. I think we are doing good.

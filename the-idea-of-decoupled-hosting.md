@@ -1,11 +1,11 @@
 ---
-
 title: Decoupled hosting
 author: fl
-published:  true
-excerpt: "Modularize everything!"
+published: true
+excerpt: Modularize everything!
 created: 2012-12-31
-
+tags:
+  - opinion
 ---
 
 **You are one of the cool web kids?** You like [flat design](http://speckyboy.com/2012/12/11/the-flat-design-aesthetic/), use [preprocessors](http://css-tricks.com/musings-on-preprocessing/), your code is under [version control](http://git-scm.com/), you install components with a [dependency manager](http://getcomposer.org/) and your code is based on a **[decoupled** framework](https://github.com/illuminate). You call your websites Apps and host them on a new PaaS (such as [ours](http://fortrabbit.com)). But your domains are registered where again? And where are your e-mails hosted? 

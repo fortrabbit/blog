@@ -1,10 +1,12 @@
 ---
-
 title: About Composer
 author: uk
-excerpt: "How to handle your dependencies with PHP Composer."
+excerpt: How to handle your dependencies with PHP Composer.
 created: 2012-09-03
-
+published: true
+tags:
+  - webdev
+  - php
 ---
 
 ## Composer – Sounds Good!

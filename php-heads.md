@@ -1,12 +1,12 @@
 ---
-
-title:        "PHP heads"
-author:       fl
+title: PHP heads
+author: fl
 published: true
-excerpt:      "Thank you for being awesome."
-created:      2015-04-02
-image:        php-flag.jpg
-
+excerpt: Thank you for being awesome.
+created: 2015-04-02
+image: php-flag.jpg
+tags:
+  - php
 ---
 
 <div class="gutter-no m-top-l">

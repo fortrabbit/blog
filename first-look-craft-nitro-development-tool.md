@@ -1,21 +1,17 @@
 ---
-
-author:       js
-created:      2020-10-14
+author: js
+created: 2020-10-14
 published: true
-title:        "A first look at the new Craft Nitro development tool"
-excerpt:      "The new tool by Pixel & Tonic, can we recommend it yet?"
-lead:         "Previously, we explored a variety of dev tools in our <a href='https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup'>article on local PHP development</a>.
-We narrowed our focus to <a href='https://blog.fortrabbit.com/local-craft-dev-site-ddev-development-tool'>setting up a Craft CMS site with the DDEV development tool</a>.
-Here, we examine if the new Craft Nitro local dev tool will also fit our purpose."
-image:        'craft-nitro-poster.png'
-imagecredit:  ''
-
+title: A first look at the new Craft Nitro development tool
+excerpt: The new tool by Pixel & Tonic, can we recommend it yet?
+lead: 
+image: craft-nitro-poster.png
+imagecredit: ""
+tags:
+  - webdev
 ---
 
-<!-- # A first look at the new Craft Nitro development tool -->
-
-<!-- Previously, we explored a variety of dev tools in our [article on local PHP development](https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup).
+Previously, we explored a variety of dev tools in our [article on local PHP development](https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup).
 We narrowed our focus to [setting up a Craft CMS site with the DDEV development tool](https://blog.fortrabbit.com/local-craft-dev-site-ddev-development-tool).
 Here, we examine if the new Craft Nitro local dev tool will also fit our purpose. -->
 

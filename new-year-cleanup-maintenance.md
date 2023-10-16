@@ -1,10 +1,11 @@
 ---
-
-title:     New year cleanup
-author:    uk
-excerpt:   "Announcing upcoming maintenance work."
-created:   2014-01-30
-
+title: New year cleanup
+author: uk
+excerpt: Announcing upcoming maintenance work.
+created: 2014-01-30
+published: true
+tags:
+  - psa
 ---
 
 Same procedure as every year: the new year cleaning is about. For a hosting provider that might be a bit different than for oneself at home, but in a sense the same. We're hereby announcing upcoming maintenance work in two weeks on <del>Thursday 13th February</del> **Monday 17th February 2014**.

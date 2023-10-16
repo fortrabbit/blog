@@ -1,13 +1,12 @@
 ---
-
-title:      Add-Ons markdown
-author:     fl
-excerpt:    "Price reductions for: Memcache, MySQL and Workers."
-image:      pricedrop.jpg
-created:    2014-07-07
+title: Add-Ons markdown
+author: fl
+excerpt: "Price reductions for: Memcache, MySQL and Workers."
+image: pricedrop.jpg
+created: 2014-07-07
 tags:
- - chronicles
-
+  - chronicles
+published: true
 ---
 
 # Pay less, get more

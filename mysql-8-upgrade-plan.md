@@ -1,18 +1,17 @@
 ---
-
-author:       os
-created:      2021-04-07
+author: os
+created: 2021-04-07
 published: true
-title:        "MySQL 8 upgrade plan"
-excerpt:      "How to migrate an App to the new version of MySQL here"
-lead:         "This article guides with upgrading an App on fortrabbit to the newer version of MySQL 8."
-image:        'mysql-8-poster.png'
-imagecredit:  ''
-
+title: MySQL 8 upgrade plan
+excerpt: How to migrate an App to the new version of MySQL here
+lead: This article guides with upgrading an App on fortrabbit to the newer version of MySQL 8.
+image: mysql-8-poster.png
+imagecredit: ""
+tags:
+  - changelog
 ---
 
 <mark>UPDATE 2021-06-17</mark>: We have now enabled a migration workflow which is running on our platform. See below for [Method 3](#method3).
-
 
 ## Current state
 

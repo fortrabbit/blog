@@ -1,14 +1,14 @@
 ---
-
-author:       fl
-created:      2021-11-11
+author: fl
+created: 2021-11-11
 published: true
-title:        "PHP 8.0.12"
-excerpt:      "Changelog on new versions."
-lead:         "We are preparing to roll out PHP 8.0.12 to our platform. Here is a list with lots of numbers and dots."
-image:        'php-8-0-12-poster.png'
-imagecredit:  ''
-
+title: PHP 8.0.12
+excerpt: Changelog on new versions.
+lead: We are preparing to roll out PHP 8.0.12 to our platform. Here is a list with lots of numbers and dots.
+image: php-8-0-12-poster.png
+imagecredit: 
+tags:
+  - changelog
 ---
 
 

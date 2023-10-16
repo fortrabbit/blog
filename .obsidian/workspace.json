@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "what-the-hosting-and-the-meat-market-have-in-common.md",
+                "file": "php-eol-faq.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "what-the-hosting-and-the-meat-market-have-in-common.md",
+                "file": "php-eol-faq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "what-the-hosting-and-the-meat-market-have-in-common.md",
+                "file": "php-eol-faq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "what-the-hosting-and-the-meat-market-have-in-common.md"
+                "file": "php-eol-faq.md"
               }
             }
           }
@@ -146,13 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "263f31e1d18f3927",
+  "active": "a9a558e8bc82588e",
   "lastOpenFiles": [
-    "where-to-host-my-website-now.md",
-    "why-gui-not-cli.md",
-    "why-we-dont-do-add-ons.md",
-    "worker-addon-released.md",
-    "www-musings-about-a-subdomain.md",
-    "xsl-supported-welcome-symphony-cms.md"
+    "php-upgrade-path.md",
+    "php-upgrade-path-5-4-5-6-7-0.md",
+    "post-mortem-september-2023-maintenance.md",
+    "privacy-shield-obsolete-our-thoughts.md",
+    "post-mortem-under-the-hood-2019-06.md",
+    "release-early-release-often.md",
+    "remote-ssh-execution-released.md",
+    "roadmap-to-hack-app.md",
+    "seomatic-exploit.md",
+    "september-2023-updates.md",
+    "small-improvements.md",
+    "sneak-peek.md",
+    "ssl-v3-disabled-poodle-vulnerability.md",
+    "status-update.md",
+    "ssh-upgrade-php-cli-and-git.md",
+    "sunsetting-a-few-features.md",
+    "sunsetting-freemium.md",
+    "support-as-a-service.md",
+    "support-pages-are-on-now.md",
+    "survey-results.md",
+    "take-off-fortrabbit-php-platform-launched.md",
+    "the-cloud-economically-attractive-but-what-the-about-ecological-impact.md",
+    "the-freemium-hosting-business-models-our-thoughts.md",
+    "the-new-boarding-bonus.md",
+    "the-idea-of-decoupled-hosting.md",
+    "the-new-dashboard-is-here.md"
   ]
 }

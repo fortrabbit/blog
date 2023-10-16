@@ -1,15 +1,14 @@
 ---
-
-title:      "Under the hood updates"
-excerpt:    "Some internal changes ahead."
-created:     2019-05-28
-published:  true
-author:      fl
-lead:        "We are currently preparing a big internal update. You will not find new features (PHP7.4 and HTTP/2 not yet) but it includes many bigger under the hood changes, further improving platform stability and security."
-image:    new-improved-poster.gif
-
+title: Under the hood updates
+excerpt: Some internal changes ahead
+created: 2019-05-28
+published: true
+author: fl
+lead: We are currently preparing a big internal update. You will not find new features (PHP7.4 and HTTP/2 not yet) but it includes many bigger under the hood changes, further improving platform stability and security.
+image: new-improved-poster.gif
+tags:
+  - changelog
 ---
-
 ## Run down
 
 The updates will affect all Apps (Uni and Pro). The expected downtime for App web delivery is up to 30 minutes, we aim for a few minutes. We will run the updates sequentially, App after App. Pro Apps on production plans are planned to have near-to-zero downtime.

@@ -1,11 +1,11 @@
 ---
-
-title: "Slim PHP on fortrabbit"
+title: Slim PHP on fortrabbit
 author: fl
-published:  true
-excerpt: "This videos shows you how to set up SlimPHP on fortrabbit with Git and Composer"
+published: true
+excerpt: This videos shows you how to set up SlimPHP on fortrabbit with Git and Composer
 created: 2012-10-14
-
+tags:
+  - webdev
 ---
 
 This is the third video <del>and last (for the time being)</del> of our screen-cast series where we are showing off our worst practices of PHP development & deployment on our hosting platform.

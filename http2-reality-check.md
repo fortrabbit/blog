@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-created:    2016-05-09
+author: fl
+created: 2016-05-09
 published: true
-title:      "HTTP/2 reality check"
-excerpt:    "How we tried to test the speed benefits of the new internet protocol."
-lead:       'We have recently launched our <a href="/object-storage-launched">Object Storage</a> — an integrated S3-compatible asset storage. One of the features is HTTP/2 support. So we were curious to see the performance improvements: How much faster is it actually? TLDR: It depends. And it turned out that testing is never easy.'
-
-keywords:   "S3, AWS, object storage, HTTP2, HTTP1.1, HTTP/2, TTFB, block storage"
-image:      "http2-poster.gif"
-
+title: HTTP/2 reality check
+excerpt: How we tried to test the speed benefits of the new internet protocol.
+lead: 'We have recently launched our <a href="/object-storage-launched">Object Storage</a> — an integrated S3-compatible asset storage. One of the features is HTTP/2 support. So we were curious to see the performance improvements: How much faster is it actually? TLDR: It depends. And it turned out that testing is never easy.'
+keywords: S3, AWS, object storage, HTTP2, HTTP1.1, HTTP/2, TTFB, block storage
+image: http2-poster.gif
+tags:
+  - opinion
 ---
 
 ## HTTP/2 expectations

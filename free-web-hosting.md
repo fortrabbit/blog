@@ -1,11 +1,11 @@
 ---
-
 title: Free web hosting
 author: fl
 published: true
-excerpt: "Flat, unlimited and forever it shall be."
+excerpt: Flat, unlimited and forever it shall be.
 created: 2013-04-09
-
+tags:
+  - opinion
 ---
 
 ## FREE webhosting as long as supplies lasts

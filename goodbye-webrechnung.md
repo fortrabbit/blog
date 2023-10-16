@@ -1,10 +1,11 @@
 ---
-
 title: Goodbye WebRechnung
 author: fl
-excerpt: "Shutting down an old fortrabbit service."
+excerpt: Shutting down an old fortrabbit service.
 created: 2013-01-10
-
+published: true
+tags:
+  - chronicles
 ---
 
 **Goodbye to you, my trusted friend.** We are busy with our new [PHP developer cloud hosting](http://fortrabbit.com). Currently we are preparing to shut down our old MISH services on the 30st of April 2013 in favor to the new platform. A part of MISH is WebRechnung and we finally decided to take it down without replacement. WebRechnung was a free service to create and send invoices and estimates online – similar to FreshBooks, but especially designed to fit to the German tax laws. We have failed to make it a real business. This article is about our lessons learned. 

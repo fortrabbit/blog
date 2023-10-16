@@ -1,16 +1,15 @@
 ---
-
-author:       fl
-created:      2023-10-04 10:14:11
+author: fl
+created: 2023-10-04 10:14:11
 published: true
-title:        "Post mortem September maintenance"
-excerpt:      "Details on recent rocky updates"
-lead:         "We recently rolled out a BIG internal update. It was kinda rocky and we still have to deal with aftermath. Here are some technical details, as well as some personal reflections."
-image:        'improved-shaky.gif'
-imagecredit:  ''
-
+title: Post mortem September maintenance
+excerpt: Details on recent rocky updates
+lead: We recently rolled out a BIG internal update. It was kinda rocky and we still have to deal with aftermath. Here are some technical details, as well as some personal reflections.
+image: improved-shaky.gif
+imagecredit: ""
+tags:
+  - chronicles
 ---
-
 * See the [introduction blog post](/september-updates) for minor version changes
 * See the [main event on status page](https://status.fortrabbit.com/notices/oo2uy672ylbggpa6-internal-updates-maintenance-eu) for events
 
@@ -19,7 +18,6 @@ The maintenance in the EU took place over a series of nights and was referred to
 The main maintenance period began on September 1st and lasted until the 21st. We had to extend the maintenance window twice.
 
 The subject was to update the underlying Linux Operating System. We use Ubuntu, and both the host systems and container systems were updated. We generally use LTS versions, and such updates are performed every few years. The last time we performed this kind of update was in 2019, and [it was also challenging](/post-mortem-under-the-hood-2019-06).
-
 ## Related incidents
 
 Unplanned additional service regression happened - directly related to the maintenance. Client facing issues, we have posted:
@@ -31,17 +29,14 @@ Unplanned additional service regression happened - directly related to the maint
 * 24th of Sep - [Web delivery issues for Pro Apps](https://status.fortrabbit.com/notices/aqsx29b4ixiof45i-web-delivery-issues-for-some-pro-apps-in-eu)
 
 Most of the issues where only affecting a smaller number of Apps and specific services. Never the less, some clients faced multiple issues in short sequence. Ouch.
-
 ## Known issues
 
 A couple of smaller regressions became visible after the update.
-
 ### GeoIp database missing
 
 The GeoIP (GeoLite2) database was previously included. That's a service provided by MaxMind. The database and the extension are now been superseded by the GeoIP2 API, also by MaxMind. We forgot the database part, we have also not been aware that it is still in use.
 
 We have hot-patched Nodes for (2) clients requesting that file to be present. But it will not be available for all Apps. We are likely going to include it again with a future update to make it fully persistent.
-
 ### Ghostscript missing
 
 The Ghostscript library was initially missing. It can be used in combination with ImageMagick to tinker with PDF files, specifically creating preview images for PDF files. It was removed intentionally to avoid possible incompatibility issues with more recent versions of PHP. We currently provide PHP runtimes from PHP 7.4 to 8.2.

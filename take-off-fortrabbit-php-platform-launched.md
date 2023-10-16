@@ -1,14 +1,14 @@
 ---
-
-title: "Take off"
+title: Take off
 author: fl
-published:  true
-excerpt: "fortrabbit PHP platform launched"
+published: true
+excerpt: fortrabbit PHP platform launched
 created: 2012-10-04
-
+tags:
+  - chronicles
 ---
 
-**Berlin, 2012-10-04** – We, Fortrabbit, are thrilled to announce general availability for our new PHP platform hosting services. 
+**Berlin, 2012-10-04** – We, fortrabbit, are thrilled to announce general availability for our new PHP platform hosting services. 
 
 ### Which problem is solved?
 

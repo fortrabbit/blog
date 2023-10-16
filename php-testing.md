@@ -1,12 +1,15 @@
 ---
-title:      Testing code for PHP 7
-created:    2018-09-19
+title: Testing code for PHP 7
+created: 2018-09-19
 published: true
-author:     es
-excerpt:    "How to check your PHP code for future compability."
-keywords:   "deprecation, EOL, php5.6, php7.0, php7.2, php7cc, compatibility-test.php, PHP 7 Compatibility Checker"
-image:      php7-testing.gif
-lead:       This post helps running automated tests on your code to detect breaking changes before switching the PHP version. It includes instructions on how to use our predefined Docker image with PHPCompatibility.
+author: es
+excerpt: How to check your PHP code for future compability.
+keywords: deprecation, EOL, php5.6, php7.0, php7.2, php7cc, compatibility-test.php, PHP 7 Compatibility Checker
+image: php7-testing.gif
+lead: This post helps running automated tests on your code to detect breaking changes before switching the PHP version. It includes instructions on how to use our predefined Docker image with PHPCompatibility.
+tags:
+  - php
+  - webdev
 ---
 
 ## The PHP upgrade series

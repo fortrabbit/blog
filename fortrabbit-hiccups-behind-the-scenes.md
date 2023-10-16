@@ -1,10 +1,11 @@
 ---
-
 title: Hiccups
 author: fl
-excerpt: "Behind the scenes when something goes wrong."
+excerpt: Behind the scenes when something goes wrong.
 created: 2013-05-21
-
+published: true
+tags:
+  - chronicles
 ---
 
 **Not an easy post to write:** During the last two weeks a few of our customers had to experience some downtimes. Read here what basically is going on and what that means to us.
