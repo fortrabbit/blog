@@ -281,4 +281,4 @@ Here's a selection of popular geospatial PHP libraries:
 * [Geography in MySQL 8.0 | MySQL Server Blog](https://mysqlserverteam.com/geography-in-mysql-8-0/)
 * [Spatial Reference Systems in MySQL 8.0 | MySQL Server Blog](https://mysqlserverteam.com/spatial-reference-systems-in-mysql-8-0/)
 * [Simple Features - Wikipedia](https://en.wikipedia.org/wiki/Simple_Features)
-* 
+*

@@ -14,11 +14,9 @@ tag:
 
 How do you protect your access data? Your sensitive secrets, basically anything your PHP application uses to authenticate or authorize with other services such as databases, caches, cloud storages, image resize services, transactional mail providers. All of them. Where do you put this — easily accessible while in development and secure for production?
 
-
 ## Not in Git
 
 The first thing we can agree on is, that you will not store your secrets in version control (in a `config.json` file) — they will stay in there forever and they are exposed: `git log --follow -p -- config.json`. Why is that so bad? Because your never know what happens in the future: Who will have access to the code base? A VCS, by it's very nature, keeps everything in it's history. So even if you remove the credentials later on, everybody will be able to look them up in the history. Also, given multiple developers, not everybody needs to know the credentials, so they should not know the credentials.
-
 
 ## Not in an ENV var either?
 
@@ -33,7 +31,6 @@ We see a trend in storing secret credentials in environment variables. I think t
 During development one often creates a [phpinfo](http://php.net/manual/en/function.phpinfo.php) to check if changes in PHP settings have applied or which extensions are installed. Mind that this dumps all of your ENV vars including key and value. That's an bigger issue as you might think, because sometimes a phpinfo is there without you even knowing about it: The [Symfony Web Debug Toolbar](http://symfony.com/blog/new-in-symfony-2-8-redesigned-web-debug-toolbar) and the [Laravel debugbar](https://github.com/barryvdh/laravel-debugbar) come with a handy phpinfo out of the box. And if it's not a `phpinfo()` call, then it's one of the myriad of other development supporting tools, which will also dump environment variables with a glee.
 
 Now imagine that your App is already online during development, or one of those dumps is just temporary online, for a quick fix and now the Google bot comes along and happily gathers all those information. Now some weeks or month later, someone else finds it in the Google cache - or archive.org - or something akin. That will be a sorry day for you. Remember: The Internet does not forget (and in this case: does not forgive).
-
 
 ## A proposal
 

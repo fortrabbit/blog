@@ -118,6 +118,7 @@ sudo chown :wheel /var/run/multipass_socket
 # give read-write permissions to `wheel` group members
 sudo chmod 775 /var/run/multipass_socket
 ```
+
 Please note that we're changing permissions and group membership, so there may be security implications.
 **This code is included here for educational purposes only**;
 use at your own risk.

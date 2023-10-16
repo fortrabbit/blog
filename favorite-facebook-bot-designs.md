@@ -13,7 +13,7 @@ tag:
 
 So: A Facebook reaction bot will automatically like Facebook posts. I assume that this is used for farming business or maybe just to artificially boost someones reputation. We see some manually created WordPress based bots from time to time here. I think most are based on step by step [video instructions](https://www.youtube.com/watch?v=Bi3sLwnSncM).
 
-I admit to feel some sympathy for this. And I also like the designs in a way. They remind me of old [demoscene](https://en.wikipedia.org/wiki/Demoscene) crack intros and they also perfectly align with a modern [brutalistic web design](http://brutalistwebsites.com/) trend. Also one can sense the authors age, interests and cultural background. 
+I admit to feel some sympathy for this. And I also like the designs in a way. They remind me of old [demoscene](https://en.wikipedia.org/wiki/Demoscene) crack intros and they also perfectly align with a modern [brutalistic web design](http://brutalistwebsites.com/) trend. Also one can sense the authors age, interests and cultural background.
 
 ## Gallery
 
@@ -29,10 +29,9 @@ I admit to feel some sympathy for this. And I also like the designs in a way. Th
 ![](/dist/img/facebook-bot-15.png)
 ![](/dist/img/facebook-bot-16.png)
 
-
 ## Disclaimer
 
-Please mind that using fortrabbit in this way is against our terms and also very likely against Facebook terms. We'll continue to block and delete any such attempts and we also reserve the rights to take further (legal) steps on this matter. 
+Please mind that using fortrabbit in this way is against our terms and also very likely against Facebook terms. We'll continue to block and delete any such attempts and we also reserve the rights to take further (legal) steps on this matter.
 
 This post is only the design aesthetics. I totally respect hacking culture. It's not intended to harm or make fun of the creators. Some possibly personal data has therefore been blurred.
 

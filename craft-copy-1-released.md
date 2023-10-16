@@ -11,7 +11,6 @@ tag:
   - webdev
 ---
 
-
 ## How to get it?
 
 You can grab it from [Craft plugin store](https://plugins.craftcms.com/copy) or directly from [GitHub](https://github.com/fortrabbit/craft-copy).

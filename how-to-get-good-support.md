@@ -17,7 +17,7 @@ tag:
 
 Consider the following pattern when you have a question:
 
-1. **Read** - Our [documentation](https://help.fortrabbit.com) covers all general topics 
+1. **Read** - Our [documentation](https://help.fortrabbit.com) covers all general topics
 3. **Search** - See error logs, check Google & Stack Overflow
 4. **Ask** - Haven't found an answer? Ask us!
 
@@ -46,15 +46,13 @@ The more we know, the better we can answer. Please don't make us guess or query 
 
 With fortrabbit [an Account is a person](https://help.fortrabbit.com/account) — not a [Company](https://help.fortrabbit.com/company). By providing your name, conversations are getting more personal. With longterm clients we have 100s of conversations and 1000s of replies. We'll get to know each other. This is a relationship.
 
-
-
 ## Avoid this
 
 ### Ping pong games
 
 ![Support 1 - ping pong](/dist/img/support-01.png)
 
-Modern customer support systems, like [Intercom](https://www.intercom.com/) or [alike](https://www.producthunt.com/ask/1829-which-is-the-best-and-free-alternative-to-intercom-io) are chat based. **Your questions are getting conserved and we'll come back on you ASAP**. So like e-mail the conversation doesn't have to happen in real time. Avoid pleasantries and greetings, just be on point and ask right away. 
+Modern customer support systems, like [Intercom](https://www.intercom.com/) or [alike](https://www.producthunt.com/ask/1829-which-is-the-best-and-free-alternative-to-intercom-io) are chat based. **Your questions are getting conserved and we'll come back on you ASAP**. So like e-mail the conversation doesn't have to happen in real time. Avoid pleasantries and greetings, just be on point and ask right away.
 
 *"Hello, you there?"  
 "Hello anyone?"  
@@ -76,7 +74,7 @@ Our [extensive help pages](https://help.fortrabbit.com) should give you a good o
 
 ![Support 4](/dist/img/support-04.png)
 
-Imagine your car is not starting. You call up your mechanic and just tell him that. Do you expect a solution right away based on the limited information you provided? 
+Imagine your car is not starting. You call up your mechanic and just tell him that. Do you expect a solution right away based on the limited information you provided?
 
 Writing a good question requires some efforts on your side. But that will force you to overthink your problem. In many cases you'll find a solution yourself when thoroughly thinking about the question. Based on sufficient information we are likely to find an answer faster and better.
 
@@ -88,14 +86,8 @@ Writing a good question requires some efforts on your side. But that will force 
 
 ## Good to know
 
-General client support here is free of charge — we both profit from this! Your questions and feedback helps us understanding your needs and obstacles you might have. 
+General client support here is free of charge — we both profit from this! Your questions and feedback helps us understanding your needs and obstacles you might have.
 
 Support is officially limited to office hours, but in most cases we answer much faster. Our aim is to give you a good technical support and help you getting your PHP Apps up and running here. Check out our [Company plans](http://www.fortrabbit.com/company-plans) with extended, higher prioritized support.
 
-
-
 <a href="#asd" style="color:white" class="action p-l m-top-xxl" onclick="Intercom('showNewMessage')">Ask something smart now!</a>
-
-
-
-

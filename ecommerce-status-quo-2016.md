@@ -15,59 +15,48 @@ Online retail business is growing. People buy more stuff online. And all of this
 
 DICLAIMER: There are as many types of e-commerce as stars in the sky. This article is a look at those blinking lights from below with focus on new trends, lightweight and cloud-ready systems. We have a PHP background, which is the language of many E-commerce systems. And we come from Germany which is also home of many projects.
 
-
 <!--
 
 e-commerce, ecommers, eshop, esale, estore, eat it bot. online shopping
 
 -->
 
-
-
 ## Categories & trends
 
 Some ecommerce solutions are specialized for certain product categories, digital goods, physical products, tickets, coupons, mobile commerce, comparison shopping, all kind of things. Some are made for certain markets and languages. Here are some notable distinguishing features:
-
 
 ### Shopping cart software
 
 We'll mostly cover "full e-commerce solutions" for serious business here. To quickly sell some swag from your website you can use a "**shopping cart system**". Those webshops usually come with less features and are easy to use and easy to plug in to any site.
 
-
-
 ### E-commerce as an CMS Add-On
 
 Some eshops are integrated as **add-ons for established CMS**. The Drupal space is mostly ruled by [Drupal Commerce](https://drupalcommerce.org/); for WordPress we have: [WooCommerce](https://www.woothemes.com/woocommerce/), [WordPress eCommerce](https://wpecommerce.org/), [MarketPress](https://marketpress.com/), [Cart66](http://cart66.com/) and many many more as you can guess.
-
 
 ### E-commerce & frameworks
 
 Modern PHP frameworks are based on Composer. You'll find some commerce components on packagist, mostly for specific tasks (payment, billing, cart-solutions …). The **[Sonata project](https://www.sonata-project.org/)** is a set of bundles based on Symfony2. [Lavender](https://github.com/lavender/lavender) (not much going on) is an e-commerce framework built on top of Laravel. [Aimeos](https://aimeos.org/) provides ecommerce bundles for Typo3, Typo3 Flow, Symfony2 and Laravel.
 
-
 ### Hosted e-commerce
 
 Most online stores shown here are classical self-hosted e-commerce systems — these are of course more interesting for us as a hosting provider. But of course there are: **Hosted e-commerce solutions** — Commerce as a Service (CaaS). For example: [Shopify](https://www.shopify.com/), [Bigcommerce](https://www.bigcommerce.com/), [Volusion](http://www.volusion.com/), [Big Cartel](https://www.bigcartel.com/), [3dcart](http://www.3dcart.com/), [Kong](https://trykong.com/), [Squarespace commerce](http://www.squarespace.com/commerce/). Some hosted ecommerce solutions are made for micro-businesses (shopping carts) — where "no coding skills are required". But they are not limited to that: Shopify for instance has it's own template language: Liquid which gives you much freedom about the frontend.
 
-
 ### E-commerce by API
 
-**API is the new black**: Salvo Zappalà outlined concepts for API driven e-sales in his post about [building next-gen ecommerce](https://medium.com/@salvoadriano/building-the-next-generation-ecommerce-26093f98d2d7) — imagining the e-commerce system as the "back-end" as part of an Service Oriented Architecture. Front-ends are a web client, mobile apps and an admin panel. That also blurs the boundaries between programming languages. 
+**API is the new black**: Salvo Zappalà outlined concepts for API driven e-sales in his post about [building next-gen ecommerce](https://medium.com/@salvoadriano/building-the-next-generation-ecommerce-26093f98d2d7) — imagining the e-commerce system as the "back-end" as part of an Service Oriented Architecture. Front-ends are a web client, mobile apps and an admin panel. That also blurs the boundaries between programming languages.
 
-The Drupal Commerce Guys are going in that direction, Sylius and Sellvana as well. And there are already some startups out there. Those are mostly closed source and hosted: 
+The Drupal Commerce Guys are going in that direction, Sylius and Sellvana as well. And there are already some startups out there. Those are mostly closed source and hosted:
 
 * [Schema.io](https://schema.io/) API first and only
 * [Moltin](https://moltin.com/) hosted + API
 * [Mozu](https://www.mozu.com/) hosted + API, brainchild from Volusion, US
 * [commercetools](http://www.commercetools.com/) (ex sphere.io) from DE, Berlin
 
-
 ### Licensing
 
 You can have a professional e-commerce system for literary free. Or you can pay LOT'S of money for a license. This can even happen to be for the same software. And it all makes sense. E-commerce is undeniable a space where money is involved, nobody creates an e-commerce software to make the world a better place.
 
 That doesn't mean that all software is closed source. You can find interesting open source business models here as well: additions costs extra, commercial support, professional license + community edition …
-
 
 ## Rookie e-commerce software
 
@@ -89,8 +78,6 @@ We are mostly interested in those newcomers here of course. Composer packages ar
 
 **[Yo!Kart](http://www.yo-kart.com/)** (also comments) is rooted in India (I dig this). It's available as a hosted and a self-hosted version, it's not really open-source.
 
-
-
 ## Veteran e-commerce software
 
 Old does not have to be rusty. It also means means tried and tested, feature complete and maybe even in a new version:
@@ -109,13 +96,11 @@ Old does not have to be rusty. It also means means tried and tested, feature com
 
 **[Spreecommerce](https://spreecommerce.com/)** is probably the most notable e-commerce system written in Ruby. ~7k GitHub stars — But i learned (see below) that it is no longer maintained and succeeded by [Solidus](http://solidus.io/).
 
-**[OXID Esales](https://www.oxid-esales.com/en/home.html)** is yet another bedrock from Germany. 
-
+**[OXID Esales](https://www.oxid-esales.com/en/home.html)** is yet another bedrock from Germany.
 
 ### Even more
 
 The list should goes on: [Lemonstand](https://lemonstand.com/), [osCommerce](https://www.oscommerce.com/), [OpenCart](http://www.opencart.com/) (don't use it, [pushad claimed](https://www.reddit.com/r/PHP/comments/2tu3x5/whats_the_best_php_ecommerce_platform_to_get_into/co2f3ow)), [Avactis](http://www.avactis.com/), [loadedcommerce](http://www.loadedcommerce.com/), [zeuscart](http://zeuscart.com/). A special mention for the most-old-school-looking website goes to [AFCommerce](http://www.AFCommerce.com/). On AngelList you can find [24431 e-commerce startups](https://angel.co/e-commerce).
-
 
 ---
 

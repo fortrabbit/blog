@@ -52,7 +52,6 @@ In a sentence, utilizing the HTTP metaphor: SFTP makes one request per transferr
 
 That's just the start. rsync performances becomes really, really impressive once you deal with only file changes in development.
 
-
 ## Getting started
 
 Ok, let's dive in with the `rsync` command I used above:
@@ -88,11 +87,9 @@ $ rsync -av my-app-1@deploy.eu2.frbit.com:~/ my-app-2@deploy.eu2.frbit.com:~/
 
 Alright, this should give you an idea on simple it is to synchronize two locations.
 
-
 ### A note on protocols
 
 In the above and following examples, I specify an SSH remote, using the schema `<username>@<server>:<path-on-server>`. This way, `rsync` will use the `ssh` command line client automatically. rsync comes with it's built-in own "rsync protocol" for remote synchronization, which is more interesting for admins, than developers, so I won't elaborate on it more than that. Just so you have seen it and can identify it: the URL schema for rsync protocl would look like: `rsync://<username>@<server>/<path-on-server>`.
-
 
 ### SSH edge-cases
 
@@ -167,7 +164,7 @@ On the other hand, if you spotted a file which should not be transferred (now or
 Excluding files is really simple. In essence, you just add `--exclude=path/to/file`. Say we don't want the `404.php` from the previous example to be transferred, you would just do:
 
 ```bash
-$ rsync -av --exclude wp-content/themes/twentyfifteen/404.php ./ my-app@deploy.eu2.frbit.com:~/
+rsync -av --exclude wp-content/themes/twentyfifteen/404.php ./ my-app@deploy.eu2.frbit.com:~/
 ```
 
 The value of `--exclude` is actually not a file path, but a pattern. This pattern is matched against the files to be transferred. In this case, the following patterns would by synonymous:
@@ -208,7 +205,6 @@ Those patterns translate to:
 
 Also, As you can see, in the JPEG example, you can add any amount of `--exclude` options to the command.
 
-
 ### Remember excludes in a file
 
 If you have a set of files which you always want to exclude or you just don't want to add all excludes on the command line, then you can create an file containing all exclusions and then use it via `--exclude-from <file>`:
@@ -225,7 +221,6 @@ $ rsync -av --exclude-from .rsyncignore ./ my-app@deploy.eu2.frbit.com:~/
 The file name `.rsyncignore` I've used here, is just a hint for readers used to working with Git and it's `.gitignore` file, which serves a similar purpose. You can name it however you want, though,.
 
 There is still a lot more you can do with exclude, or rather filtering, patterns. Not only is there `--include`, which allows you to finely granulate previous `--exclude` patterns, but there is also `--filter`. I'll leave you to explore what best fits your use-case. Here is a [very interesting blog post by Ira Cooke](http://blog.mudflatsoftware.com/blog/2012/10/31/tricks-with-rsync-filter-rules/), showcasing some edge-case scenarios which might give you a hint at what is possible.
-
 
 ## Dealing with obsolete files
 
@@ -295,7 +290,6 @@ Besides the dry run, remote shell, exclude and delete options, which I've explai
 | `-h`   | Make the output human readable, which means: display byte sizes in MiB, GiB instead of plain bytes. |
 
 For an exhaustive list of all the possible options and more in depth info on the above options, check out the official [rsync man page](https://linux.die.net/man/1/rsync).
-
 
 ## Further reading
 

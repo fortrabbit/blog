@@ -30,9 +30,9 @@ Now, for the sake of simplicity, a general rule of thumbs is that everything nee
 
 ### Sign-up double opt-in
 
-With e-mail double opt-in, a new user first needs to verify their e-mail address before completing the sign-up process. This is a very common practice. So, when signing up to a new service, you first need to check your mail, and click the link to continue. 
+With e-mail double opt-in, a new user first needs to verify their e-mail address before completing the sign-up process. This is a very common practice. So, when signing up to a new service, you first need to check your mail, and click the link to continue.
 
-We have a "quick boarding" feature, where users can try out our service right away. The double-opt-in (confirm your e-mail) gets send, while signing up, but, even without clicking the link, the user already has access to the Dashboard to play around and test it. To fully activate the Account, the link in the welcome mail still needs to be clicked. 
+We have a "quick boarding" feature, where users can try out our service right away. The double-opt-in (confirm your e-mail) gets send, while signing up, but, even without clicking the link, the user already has access to the Dashboard to play around and test it. To fully activate the Account, the link in the welcome mail still needs to be clicked.
 
 This is not changing, as we believe that we still comply this way and that the delayed double opt-in is a usability win, while still respecting security and privacy.
 
@@ -44,7 +44,7 @@ New sign-ups here are also getting subscribed to e-mail communications:
 
 These are all mails send by the system, some by user interaction, some by time intervals. Common examples are: The before mentioned e-mail opt-in, a forgotten password link, the monthly invoice, the notification that a new collaborator has joined a Company, a reminder that a trial is about expire.
 
-Some of those mails are required by law or to make the service fully functional. Others might be marked as "retention" or even "marketing". For the "Trial App ends soon reminder" e-mail, some clients asked us to opt-out or even better opt-in on this. 
+Some of those mails are required by law or to make the service fully functional. Others might be marked as "retention" or even "marketing". For the "Trial App ends soon reminder" e-mail, some clients asked us to opt-out or even better opt-in on this.
 
 We have considered that carefully and deactivated all transactional e-mails with purpose to keep users engaged. We have compared our service with other similar ones and came to the conclusion, that we are sending very little mail to keep users engaged. On the other hand we get regular "Nobody told me." complains on deleted trial Apps. Yes, we did, with these transactional mails.
 
@@ -58,10 +58,9 @@ There are already options within the Dashboard Account Notifications settings to
 
 How we have changed this: When signing up, there is a box, that the user agrees to be contact by e-mail by us. This includes transactional mails, possibly downtime communication and newsletters. This checkbox will be required to sign up.
 
-
 ### Terms and privacy opt-in
 
-With GDRP, it is now required to actively opt-in to the terms and privacy when signing up. So something like: "By clicking the button above you'll agree to our TOC" is no longer allowed. 
+With GDRP, it is now required to actively opt-in to the terms and privacy when signing up. So something like: "By clicking the button above you'll agree to our TOC" is no longer allowed.
 
 When signing up, there now is a checkbox, that needs to be clicked.
 
@@ -75,9 +74,7 @@ When signing up, there now is a checkbox, that needs to be clicked.
 
 ![](/dist/img/after-gdpr.gif)
 
-
 - - -
-
 
 ## Export and see my data
 
@@ -93,7 +90,7 @@ The right to be forgotten is also quite a good idea. So, with GDPR in place, the
 
 ### Delete all data
 
-Well, kind of. It depends. When there is a single Account / Company with some Apps, this mostly applies. All data is getting erased. Expect: for what we need to need to keep for book keeping  — 10 years required by law. 
+Well, kind of. It depends. When there is a single Account / Company with some Apps, this mostly applies. All data is getting erased. Expect: for what we need to need to keep for book keeping  — 10 years required by law.
 
 From a technical point of view, mind that we are in fact deleting all the files of your Apps, all your databases and all database entries with us, but we are not overwriting them with gibberish text seven times. That means that forensic procedures might bring back some of the data.
 
@@ -117,7 +114,7 @@ So when a client deletes their Account, all external services should be notified
 
 ### Remove Backups
 
-When Apps get deleted while deleting Accounts, possible available Backups (when booked with a App plan) will stay around until the retention period is over. So those backups are not getting deleted immediately. 
+When Apps get deleted while deleting Accounts, possible available Backups (when booked with a App plan) will stay around until the retention period is over. So those backups are not getting deleted immediately.
 
 We believe that immediate deletion is not in the interest of our clients. We have support cases, where clients accidentally deleted their Apps or even Accounts and are quite happy about provided backups. Also, from a technical point of view, most of those delete actions will be carried out by some kind queue/worker task, so this can't be done on the fly.
 

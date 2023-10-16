@@ -10,7 +10,7 @@ tag:
 
 One of the greatest challenges our PHP PaaS startup is facing is not a technical one: We need to change the way people think about hosting. Today there is still too much attention on the performance / price ratio. Think different.
 
-Of course i browse [Hacker News](https://news.ycombinator.com/news) for fun. But it is also a good source to learn about our target audience with lots of threads about PHP and hosting. Some days ago there was [a discussion](https://news.ycombinator.com/item?id=5978364) about [an article](http://remcobron.com/cloud-server-review-and-comparison-amazon-aws-ec2-vs-linode-vs-digitalocean/) by Ronald van Woensel. He compared the performance of three hosting services: Digital Ocean, Linode and Amazon Web Services. Most of the comments discussed the quality of the benchmarking and other services that were missing in the list. I posted: 
+Of course i browse [Hacker News](https://news.ycombinator.com/news) for fun. But it is also a good source to learn about our target audience with lots of threads about PHP and hosting. Some days ago there was [a discussion](https://news.ycombinator.com/item?id=5978364) about [an article](http://remcobron.com/cloud-server-review-and-comparison-amazon-aws-ec2-vs-linode-vs-digitalocean/) by Ronald van Woensel. He compared the performance of three hosting services: Digital Ocean, Linode and Amazon Web Services. Most of the comments discussed the quality of the benchmarking and other services that were missing in the list. I posted:
 
 My two cents here: Benchmarking is all fine, but from my point of view, the performance-price-ratio is not sooooo important in hosting.
 

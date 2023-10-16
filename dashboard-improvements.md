@@ -19,16 +19,13 @@ tag:
 * Instant login with non-blocking double-opt-in
 * Trial starts immediately after sign up, no extra clicks
 
-
 ### A setup guide to extend the trial
 
 * Complete tasks to extend the trial time & experience platform features
 
-
 ### App access infos
 
 * The App overview now includes direct code access infos
-
 
 ### As well as
 
