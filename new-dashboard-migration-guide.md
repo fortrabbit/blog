@@ -4,7 +4,7 @@ author: fl
 excerpt: Learn what is going to change with the new dashboard.
 created: 2014-10-15
 published: true
-tags:
+tag:
   - chronicles
 ---
 

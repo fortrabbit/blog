@@ -5,7 +5,7 @@ published: true
 title: Universal Stack changelog
 excerpt: See all platform changes with new Universal Stack.
 lead: "This is nuts and bolts for our existing clients on changes with the latest platform update. TL;DR: No action required from your side. All platform updates are opt-in. Your Apps, plans, settings and pricing will stay exactly the same."
-tags:
+tag:
   - changelog
 ---
 ## New Apps > Professional Stack — WORDING

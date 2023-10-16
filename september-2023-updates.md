@@ -7,7 +7,7 @@ excerpt: Changelog on new versions.
 lead: We are preparing rolling out some minor version updates. Here is a list with lots of numbers and dots.
 image: new-improved-poster.gif
 imagecredit: ""
-tags:
+tag:
   - chronicles
 ---
 We are updating the underlying operating system layer components and moving to newer hardware. This platform update will affect all Apps (Uni and Pro). The expected downtime for App web delivery is up to 60 minutes, but we aim for only a few minutes. We will run the updates sequentially, one App at a time, over the course of several days. The individual downtime per App will likely be less than 60 minutes. We cannot predict which App will be affected ahead of time.

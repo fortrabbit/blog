@@ -7,8 +7,8 @@ excerpt: "FYI: Remaining Apps are going to be migrated to MySQL 8"
 lead: This article informs our clients about a long running maintenance project to move remaining Apps from MySQL 5.7 to MySQL 8.0
 image: mysql-8-poster.png
 imagecredit: ""
-tags:
-  - psa
+tag:
+  - changelog
 ---
 
 We started the [path to MySQL 8](/mysql-8-upgrade-plan) back in April 2021. Now it's time to move the last remaining Apps to MySQL 8. So far we have good experiences with it and we are able to migrate almost all Apps without any issues or client involvement. There is good upward compatibility.

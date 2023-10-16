@@ -7,7 +7,7 @@ excerpt: A new integrated S3 compatible cloud storage is here.
 lead: fortrabbit now offers a new Object Storage Component which allows you to store uploads, runtime data and static assets. This milestone marks our New Apps as fully feature complete as <a href="/new-apps-are-here">announced back in August</a>.
 keywords: S3, AWS, cloudfiles, cloud storage
 image: object-storage-poster.gif
-tags:
+tag:
   - changelog
 ---
 

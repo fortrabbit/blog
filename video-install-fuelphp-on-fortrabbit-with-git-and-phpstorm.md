@@ -4,7 +4,7 @@ author: uk
 published: true
 excerpt: This video show you how to install FuelPHP on fortrabbit with Git and PhpStorm.
 created: 2012-10-25
-tags:
+tag:
   - webdev
 ---
 We are continuing our video series by popular demand!. This is the fourth video of our screen-cast series. Here we are showcasing worst practices of PHP development & deployment on our sophisticated hosting platform.

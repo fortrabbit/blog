@@ -7,7 +7,7 @@ excerpt: Using Pest to test Craft CMS websites.
 lead: Testing a Craft CMS website might be less difficult than you think. Level up and follow us along as we learn about frontend testing Craft CMS websites.
 image: craft-pestphp.jpg
 keywords: craft, craftcms, craft-cms, hosting, testing, pest, pestphp
-tags:
+tag:
   - webdev
 ---
 
@@ -28,7 +28,7 @@ There is some documentation for Codeception, the default test framework for Yii,
 
 Pest is not reinventing the wheel. It is a layer on top of PHPUnit, the de facto standard tool for testing in PHP. The syntax and the philosophy are inspired by Jest, a popular testing framework in the JavaScript world. [Nuno Maduro](https://github.com/nunomaduro) created it for PHP as he liked writing tests in Jest. Within the last months it became increasingly popular in the Laravel community, hopefully soon in the Craft space too.
 
-Pest doesn't work out-of-the-box with Craft. [Mark Huot](https://github.com/markhuot) put a lot of effort into a plugin that takes care of bootstrapping Pest, so you don't have to. The plugin also adds additional functionality which is needed to fully test Craft sites properly. 
+Pest doesn't work out-of-the-box with Craft. [Mark Huot](https://github.com/markhuot) put a lot of effort into a plugin that takes care of bootstrapping Pest, so you don't have to. The plugin also adds additional functionality which is needed to fully test Craft sites properly.
 Its main focus is on HTTP tests, which means stuff you previously did manually in the browser becomes an automated test, by using a syntax that is easy to write and read.
 
 Although Craft Pest isn't released yet, there is a lot of documentation on [craft-pest.com](https://www.craft-pest.com) already. The docs are not complete, but you can find useful examples to get started quickly.
@@ -119,17 +119,17 @@ Datasets in Pest, also known as data providers in PHPUnit, allow you to run cert
 
 For example, instead of testing a search form with only one static search term `Pine Mountain`, you define an array of terms but keep your actual test simple.
 
-More: https://pestphp.com/docs/datasets
+More: <https://pestphp.com/docs/datasets>
 
 ### Factories
 
 Testing against a consistent dataset is important, this you can achieve by importing a sql dump or by using fixtures. Often more a bit more flexibility is required, and here is where factories come into play.
-If you have some experience with Laravel, you will notice what this implementation was inspired by. 
+If you have some experience with Laravel, you will notice what this implementation was inspired by.
 
 With factories, you actually fill the database with entries and fields for a specific scenario you want to test, then Craft can query against it in the next request.
 After the test all changes (`INSERT`s, `UPDATE`s, `DELETE`s) are rolled back, so you don't pollute your database with dummy data.
 
-More: https://craft-pest.com/factories
+More: <https://craft-pest.com/factories>
 
 ### Act as a logged-in user
 
@@ -149,7 +149,7 @@ it ('allows admin users accessing the plugin in the cp', function () {
 
 Reading others' tests helps in writing your own. That's why we've created a test for the multi-step checkout process of the official Craft Commerce demo site:
 
-https://github.com/fortrabbit/spoke-and-chain-pestphp/blob/pest/tests/Feature/CheckoutTest.php
+<https://github.com/fortrabbit/spoke-and-chain-pestphp/blob/pest/tests/Feature/CheckoutTest.php>
 
 ## Closing thoughts
 

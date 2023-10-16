@@ -4,7 +4,7 @@ author: uk
 published: true
 lead: One of the major problems all hosting providers have to solve is to make it transparent to the customer what kind of resources she needs. Our Map your App helps.
 created: 2013-08-23
-tags:
+tag:
   - webdev
   - opinion
 ---

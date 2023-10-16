@@ -7,7 +7,7 @@ excerpt: The backstory of recent issues related to image transformations.
 lead: During the last week we have had some trouble with ImageMagick. Sorry for the inconvenience. This article provides some background about what happened.
 keywords: imagick
 image: imagemagick-issues-poster.gif
-tags:
+tag:
   - chronicles
 ---
 

@@ -6,7 +6,7 @@ excerpt: How our new invoice numbers are structured and what went wrong when we 
 lead: We have just changed our invoice number format. This is why we changed it and about the issues during roll out.
 image: new-invoice-number-format.gif
 created: 2020-02-03
-tags:
+tag:
   - chronicles
 ---
 

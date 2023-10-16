@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: About the the new fortrabbit knowledge base.
 created: 2012-08-15
-tags:
+tag:
   - changelog
   - chronicles
 ---

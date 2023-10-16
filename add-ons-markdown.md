@@ -4,7 +4,7 @@ author: fl
 excerpt: "Price reductions for: Memcache, MySQL and Workers."
 image: pricedrop.jpg
 created: 2014-07-07
-tags:
+tag:
   - chronicles
 published: true
 ---
@@ -14,7 +14,6 @@ published: true
 Effective today: We are dropping prices for some of our Add-On plans, including Memcache, MySQL and Workers. No action required from your side — just enjoy the lower costs.
 
 A few months ago Google [stated](http://googlecloudplatform.blogspot.de/2014/03/google-cloud-platform-live-blending-iaas-and-paas-moores-law-for-the-cloud.html) that "(cloud computing) pricing hasn’t followed [Moore's Law](http://en.wikipedia.org/wiki/Moore's_law) (so far)". In fact exactly that was something I already asked myself. fortrabbit runs on AWS and I was interested on how we should calculate our future costs. It's clear that they will go down, but how much? Not easy. At least, it's good to see that when one big player is moving, the others are following. Now we pass the decreased costs to our clients. We are reducing some of our Add-On plans like this:
-
 
 | Add-On name            | Old monthly price | New monthly price |
 |------------------------|-------------------|-------------------|

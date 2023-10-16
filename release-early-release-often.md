@@ -4,7 +4,7 @@ author: os
 published: true
 excerpt: Our iterative approach.
 created: 2012-10-05
-tags:
+tag:
   - opinion
 ---
 

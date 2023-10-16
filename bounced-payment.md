@@ -6,7 +6,7 @@ title:      "That bounced payment"
 excerpt:    "Insights on how we deal with bounced payments"
 lead:       "Things will go wrong — they say. That other day I had to deal with this complicated support ticket. I'd like to share the conversation and some thoughts on billing & accounting for startups here with you."
 image:      payment-poster.jpg
-tags:
+tag:
  - chronicles
 ---
 

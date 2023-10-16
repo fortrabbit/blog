@@ -6,7 +6,7 @@ title: "Craft Nitro 2 first look: How to quickly set up a local Craft CMS dev si
 excerpt: ""
 image: craft-nitro-poster.png
 imagecredit: ""
-tags:
+tag:
   - webdev
 ---
 
@@ -21,11 +21,9 @@ Here we like to show you how to:
 1. Get Craft Nitro 2 up and running on your machine.
 2. Use Nitro to run existing or new Craft sites.
 
-
 ### Nitro 2 and Craft Copy: not ready to be best friends, at least not yet 😢
 
 We had hoped to also be able to show you how to use fortrabbit's Craft Copy tool with Nitro to sync your Craft site to your fortrabbit Apps. Unfortunately, that's not currently possible due to some limitations in the environment Nitro provides. You can [read more about why at the end of this article](#craft-copy).
-
 
 ### The Craft Nitro 2 development tool
 
@@ -376,7 +374,6 @@ Summing up, here are some of the **strong points of Craft Nitro 2 and DDEV** com
 | Dedicated commands for dependencies inside container | Craft, Composer, PHP, NPM | Composer, PHP |
 | Use SSH keys inside container | Currently unsupported | Supported via `ddev auth ssh` |
 
-
 <!--
 
 * nice: `'nitro create'` command sets up Craft site
@@ -545,10 +542,8 @@ More details on SSH key setup with fortrabbit here: [help.fortrabbit.com/ssh-key
 * [Official Craft Nitro 2 Installation Guide][nitro-install]
 * [Official Craft CMS Installation Guide][craft-install]
 
-
 -->
 
 [nitro-install]: https://craftcms.com/docs/nitro/2.x/installation.html "Installation | Craft Nitro Documentation"
 
 [craft-install]: https://craftcms.com/docs/3.x/installation.html "Installation | Craft CMS Documentation | 3.x"
-

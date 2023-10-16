@@ -5,7 +5,7 @@ published: true
 excerpt:        "Value-based VS cost-based pricing for a hosting service."
 image:          paas-pricing-clouds.jpg
 created:        2015-05-08
-tags:
+tag:
  - opinion
 
 ---

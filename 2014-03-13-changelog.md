@@ -3,7 +3,7 @@ title: Updates
 author: uk
 published: true
 created: 2014-03-13
-tags:
+tag:
   - changelog
 ---
 

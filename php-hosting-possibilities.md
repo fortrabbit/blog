@@ -5,9 +5,8 @@ title: PHP Hosting Possibilities
 published: true
 excerpt: A stubborn analysis of hosting solutions for developers.
 image: cloudy2.gif
-tags:
+tag:
   - opinion
-  - php
 ---
 
 ## Another self-opinionated hosting guide

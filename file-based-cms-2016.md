@@ -7,7 +7,7 @@ excerpt: Thoughts on flat file CMS and static site generators, mostly PHP-relate
 lead: Let's have a look at different types of database-less CMS — the candidates, the pros, the cons and what you need to consider when it comes to deployment & hosting.
 keywords: headless, lambda, flat-file, database-less, file-based, blog aware, weblog, textile, non-DB, no-db, twig, prototyping, service manuals, decoupled CMS
 image: flat-file-cms-poster.gif
-tags:
+tag:
   - opinion
 ---
 

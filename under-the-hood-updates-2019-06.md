@@ -6,7 +6,7 @@ published: true
 author: fl
 lead: We are currently preparing a big internal update. You will not find new features (PHP7.4 and HTTP/2 not yet) but it includes many bigger under the hood changes, further improving platform stability and security.
 image: new-improved-poster.gif
-tags:
+tag:
   - changelog
 ---
 ## Run down

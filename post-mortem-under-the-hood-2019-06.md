@@ -6,7 +6,7 @@ published: true
 author: fl
 lead: We recently rolled out a BIG internal update and it didn't work out exactly as planned. Here is what went wrong.
 image: improved-shaky.gif
-tags:
+tag:
   - chronicles
 ---
 

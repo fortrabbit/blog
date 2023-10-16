@@ -6,7 +6,7 @@ published: true
 author: uk
 lead: "We have updated our platform yesterday, nothing big, only minor version jumps. Then something went wrong. Here is what happened:"
 image: new-improved-poster.gif
-tags:
+tag:
   - webdev
 ---
 

@@ -7,7 +7,7 @@ excerpt: Learn how to enhance your workflows with this new feature.
 lead: We regularly get support requests on how to use Laravel Artisan commands — especially for database migration. That just became a lot easier.
 image: remote-ssh-exec-poster.gif
 keywords: SSH, SFTP
-tags:
+tag:
   - changelog
   - chronicles
 ---

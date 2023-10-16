@@ -4,7 +4,7 @@ author: fl
 excerpt: How bound are you to your hosting provider? Does this really matter?
 created: 2012-07-30
 published: true
-tags:
+tag:
   - opinion
 ---
 

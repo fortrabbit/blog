@@ -7,8 +7,8 @@ excerpt:    "What took us so long to come up with a Drupal 8 install guide."
 lead:       "Why it took us such a crazy long time to write an <a href='https://help.fortrabbit.com/install-drupal-8'>install guide for Drupal 8</a>."
 keywords:   "CMS, install-guide, Drupal8"
 image:      "drupal8-poster.gif"
-tags:
- - php
+tag:
+ - chronicles
 ---
 
 We maintain a couple of [install guides](https://help.fortrabbit.com/#install-guides) to help our clients to get started with their CMS or framework on our hosting service quickly. So we have some superficial knowledge about modern and popular PHP CMS/frameworks. 

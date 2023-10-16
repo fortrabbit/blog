@@ -4,7 +4,7 @@ author: uk
 published: true
 excerpt: Welcome Symphony CMS, we now support XSL.
 created: 2013-03-10
-tags:
+tag:
   - chronicles
 ---
 

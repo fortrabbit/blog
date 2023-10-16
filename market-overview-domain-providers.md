@@ -7,7 +7,7 @@ excerpt: An opinionated field guide on developer-friendly domain hosting service
 lead: Your application is running on a cloud service (like this one here). You now ask where the developer-friendly domain registration service is?
 keywords: CDN, TLD, NS, TTL, DNS, domain hoster, domain registrar, domain provider, domain hosting, TLD pricing, webhosting, web-hosting
 image: domain-hosting-poster.jpg
-tags:
+tag:
   - webdev
 ---
 

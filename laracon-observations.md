@@ -5,7 +5,7 @@ author: fl
 image: laracon.jpg
 created: 2013-09-02
 published: true
-tags:
+tag:
   - opinion
 ---
 

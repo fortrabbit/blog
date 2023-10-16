@@ -7,7 +7,7 @@ excerpt: Where we are, what we are up to.
 lead: 4 years of fortrabbit cloud hosting already. What's going on?
 keywords: vision, roadmap, pipeline, startup lessons, company history, status quo, insider, inertia
 image: mission-statement-poster.gif
-tags:
+tag:
   - chronicles
 ---
 

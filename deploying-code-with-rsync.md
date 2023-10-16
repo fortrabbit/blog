@@ -7,7 +7,7 @@ lead: "rsync was first released in 1996 but is still a handsome tool every web d
 published: true
 keywords: deploy, git, rsync, sftp, changeset
 image: rsync-poster.gif
-tags:
+tag:
   - webdev
 ---
 

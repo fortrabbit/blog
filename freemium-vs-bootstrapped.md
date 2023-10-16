@@ -4,7 +4,7 @@ author: fl
 excerpt: Bootstrapping in Berlin.
 created: 2012-09-25
 published: true
-tags:
+tag:
   - opinion
 ---
 

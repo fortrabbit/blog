@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: Introducing a more fair and more fun freemium model.
 created: 2013-10-07
-tags:
+tag:
   - changelog
 ---
 

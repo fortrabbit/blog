@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: This videos shows you how to set up SlimPHP on fortrabbit with Git and Composer
 created: 2012-10-14
-tags:
+tag:
   - webdev
 ---
 

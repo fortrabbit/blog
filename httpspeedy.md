@@ -4,7 +4,7 @@ created: 2015-11-05
 published: true
 title: httpSpeedy?
 excerpt: HTTP/2 expectations and pitfalls
-tags:
+tag:
   - opinion
 ---
 

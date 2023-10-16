@@ -8,14 +8,14 @@ lead: Using the Image Toolbox plugin, you can create responsive pictures with We
 image: craft-image-toolbox-poster.png
 imagecredit: ""
 canonical: craftsnippets.com/articles/image-processing-in-craft-cms-with-image-toolbox-plugin
-tags:
+tag:
   - webdev
 ---
 
 
 ## Introduction
 
-Craft CMS offers developers a robust functionality for [transforming and processing](https://craftcms.com/docs/4.x/image-transforms.html) images uploaded through its control panel, allowing for seamless integration with templates. Leveraging the power of image transforms, developers can effortlessly modify image proportions, size, format, and more. 
+Craft CMS offers developers a robust functionality for [transforming and processing](https://craftcms.com/docs/4.x/image-transforms.html) images uploaded through its control panel, allowing for seamless integration with templates. Leveraging the power of image transforms, developers can effortlessly modify image proportions, size, format, and more.
 
 While this functionality provides a solid foundation, Craft CMS does not support more advanced functionalities out of the box, such as automatically generating WebP versions of images, implementing responsive images, and automatically creating image placeholders for missing images.
 
@@ -79,7 +79,6 @@ The picture element, along with [multiple source elements](https://craftsnippets
 One may wonder, why can't we use two regular img tags and employ CSS breakpoints and `display: none;` to toggle their visibility. Such approach falls short as hiding images through CSS does not prevent the browser from downloading their contents. Consequently, when implementing responsive images with multiple variants, this method would result in increased bandwidth usage.
 
 Let's use the `craft.images.pictureMultiple()` function again. This time, we will provide it with multiple assets and transform settings. Each object representing a source has an additional `media` property.
-
 
 ```twig
 {% set settings = 
@@ -157,7 +156,7 @@ Instead of passing the entire media query into the source settings, you can also
 {{ craft.images.pictureMultiple(settings) }}
 ```
 
-This will generate the same HTML code as the first example. 
+This will generate the same HTML code as the first example.
 
 ## Using responsive images with Transform Layouts
 
@@ -294,7 +293,7 @@ Similar to the PRO version of Image Toolbox, ImageOptimize offers a control pane
 
 ## Summary
 
-In conclusion, the [Image Toolbox](https://plugins.craftcms.com/image-toolbox?craft4) plugin for Craft CMS enhances the image processing capabilities of the platform, offering advanced functionalities that are not available out of the box. By providing seamless integration with basic image transform system, it empowers developers to effortlessly generate WebP versions of images and implement responsive images with multiple variants. The plugin's ability to generate image placeholders further contributes to maintaining the layout and structure of a website, ensuring a consistent visual experience even when images are missing. 
+In conclusion, the [Image Toolbox](https://plugins.craftcms.com/image-toolbox?craft4) plugin for Craft CMS enhances the image processing capabilities of the platform, offering advanced functionalities that are not available out of the box. By providing seamless integration with basic image transform system, it empowers developers to effortlessly generate WebP versions of images and implement responsive images with multiple variants. The plugin's ability to generate image placeholders further contributes to maintaining the layout and structure of a website, ensuring a consistent visual experience even when images are missing.
 
 With this set functionalities, Image Toolbox proves to be very useful tool for developers looking to optimize image delivery on Craft CMS-powered websites.
 

@@ -6,7 +6,7 @@ published: true
 excerpt: What's going on in e-commerce?
 lead: We are constantly on the lookout for new software. This is a brief look on current developments in the e-commerce section.
 image: shoppingcart-2970468736_0fdb725f9f_o.jpg
-tags:
+tag:
   - opinion
 ---
 

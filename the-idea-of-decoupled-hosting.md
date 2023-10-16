@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: Modularize everything!
 created: 2012-12-31
-tags:
+tag:
   - opinion
 ---
 

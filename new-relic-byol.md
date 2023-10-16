@@ -4,7 +4,7 @@ author: os
 excerpt: We now have the New Relic demon running.
 created: 2014-05-20
 published: true
-tags:
+tag:
   - chronicles
   - changelog
 ---

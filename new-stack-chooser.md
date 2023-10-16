@@ -7,7 +7,7 @@ excerpt: Choose a framework or CMS to get started more quickly.
 lead: Simply select your stack when creating a new App — get started more quickly. We now help out by setting basic configs like root path, environment variables and App secrets for you.
 keywords: beginner, boarding, laravel, wordpress, drupal, symfony
 image: stack-chooser-poster.gif
-tags:
+tag:
   - changelog
 ---
 

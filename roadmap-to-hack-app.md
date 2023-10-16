@@ -5,7 +5,7 @@ published: true
 excerpt: Where we are heading to.
 image: road-to-hack.jpg
 created: 2015-04-20
-tags:
+tag:
   - chronicles
 ---
 

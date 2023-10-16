@@ -6,7 +6,7 @@ published: true
 author: fl
 lead: We are currently preparing a patch version update. Here is what you need to know.
 image: minor-and-patch-updates-poster.gif
-tags:
+tag:
   - changelog
 ---
 ## Run down

@@ -6,8 +6,8 @@ published: true
 author: fl
 lead: We are currently preparing a small update. PHP 7.4 and some extensions. Here is a list with lots of numbers and dots.
 image: php-74-poster.gif
-tags:
-  - psa
+tag:
+  - changelog
 ---
 
 **Last update:** 1st of April 2020, 12:09 CET

@@ -8,7 +8,7 @@ lead: Here is a combined update from the home office working task force, announc
 image: new-improved-poster.gif
 imagecredit: ""
 keywords: 
-tags:
+tag:
   - changelog
 ---
 

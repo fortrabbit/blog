@@ -7,7 +7,7 @@ excerpt: The bizarre beauty of brutalist Facebook reaction bots.
 lead: As a hosting provider we fight against all kind of frauds, hacks, scams and phishings. This is my favorite, mostly harmless service misuse.
 keywords: hacking, hack, culture, php, wordpress, design, demoscene, intro, facebook, script kids
 image: facebook-bot-4.png
-tags:
+tag:
   - chronicles
 ---
 

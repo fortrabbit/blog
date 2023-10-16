@@ -6,7 +6,7 @@ published: true
 image: fortrabbit-us-blog-banner.png
 excerpt: New data center location, new currency
 lead: Hoooooooooray! The new data center location in US-EAST-1 is now available for New Apps. And you can pay in USD directly.
-tags:
+tag:
   - changelog
 ---
 

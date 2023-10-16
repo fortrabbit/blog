@@ -7,7 +7,7 @@ excerpt: Successful communication in customer support chat channels.
 lead: Customer service is crucial, especially for hosting. Help us helping you! Get better answers faster. Learn how to ask.
 keywords: "Intercom, live chat, "
 image: support-poster.gif
-tags:
+tag:
   - opinion
 ---
 

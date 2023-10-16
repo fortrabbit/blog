@@ -7,19 +7,18 @@ excerpt: Composer 2 will soon be available here. What you need to know.
 lead: What you need to know and how to troubleshoot issues.
 image: composer-poster.png
 imagecredit: ""
-tags:
+tag:
   - changelog
 ---
 
 
 As requested, we plan to switch to Composer 2 on **Tuesday, the 15th of December 2020**. This will make the Git deployments with Composer much faster. In general we expect nothing but rainbows and unicorns.
 
-
 ## Troubleshooting
 
 In some edge cases, your deployments might break. Here is how you can fix things:
 
-### <a class="anchored" id="laravel">Fix Laravel</a> 
+### <a class="anchored" id="laravel">Fix Laravel</a>
 
 Applies to Laravel versions: 5.5, 5.6, 5.7, 5.8, 6, and 7
 
@@ -33,8 +32,7 @@ composer self-update --2
 composer update laravel/framework
 ```
 
-
-### <a class="anchored" id="craft">Fix Craft</a> 
+### <a class="anchored" id="craft">Fix Craft</a>
 
 Applies to Craft CMS version 3.
 
@@ -46,17 +44,15 @@ Failed to extract vendor/plugin-name
 
 Solution: Update Craft to 3.5.15 or higher
 
-
 ### <a class="anchored" id="composer-1">How to still use Composer 1</a>
 
-There might be another other reason why Composer 2 does not work for your, like packages that don't follow PSR-4 naming conventions. In this case you may don't want to use Composer 2. With a little effort you can stick with Composer 1: 
+There might be another other reason why Composer 2 does not work for your, like packages that don't follow PSR-4 naming conventions. In this case you may don't want to use Composer 2. With a little effort you can stick with Composer 1:
 
 Create a `fortrabbit.yml` that calls a custom script instead:
 
 ```
 pre: custom-composer.php
 ```
-
 
 Create the custom script `custom-composer.php`:
 
@@ -87,7 +83,6 @@ unlink($LOCK_FILE);
 Put both files in the root of your project, commit the changes and use it as long as Composer supports the 1.x branch. Composer 1.x is not actively maintained, so we recommend upgrading to Composer 2 sooner or later.
 
 Mind that this will apply to the Composer installed on the deployment service only, not for Composer that runs on Universal Apps on the App itself.
-
 
 ### Git reset
 

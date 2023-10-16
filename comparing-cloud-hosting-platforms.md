@@ -3,11 +3,11 @@ title: Cloudscapes – Comparing PHP Cloud Hosting Platforms
 author: fl
 excerpt: What PHP cloud platforms are currently actually out there?
 created: 2012-07-09
-tags:
+tag:
   - opinion
 ---
 
-We <del>are currently building yet another</del> **have recently launched** a [PHP Cloud Platform](http://fortrabbit.com) ourselves. Of course we looked around to see what the others are up to. This is my (Frank) personal point of view of the current market situation showcasing my favorite services. I try not to judge, neither i will compare features nor prices. 
+We <del>are currently building yet another</del> **have recently launched** a [PHP Cloud Platform](http://fortrabbit.com) ourselves. Of course we looked around to see what the others are up to. This is my (Frank) personal point of view of the current market situation showcasing my favorite services. I try not to judge, neither i will compare features nor prices.
 
 HEADS UP! This is an old article a lot of things changed since then. I wrote a new post: [Cloudscapes revisited](/cloudscapes-revisited-php-cloud-overview/) in 2014.
 
@@ -15,20 +15,20 @@ HEADS UP! This is an old article a lot of things changed since then. I wrote a n
 
 ## The PaaS Category
 
-Cloud Hosting is a difficult term, used by many people for entirely different purposes. So let me make clear what I am talking about. First off, I am not speaking about those old school web-hosters, which use this buzz word to market their good ol' Virtual Private Servers as the next big thing. I am talking about something else: new-school, new-approach, new-generation clouds. Big players like Amazon Web Services, Windows Azure, Rackspace, Google App Engine, IBM and Softlayer actually run data centers supplying the infrastructure (IaaS) for most cloud hosting platforms. I see those kinds of platforms as an abstraction layer on top of cloud technology. Sure, you could simply call them "resource resellers", but i do not think that this describes the actual reality. So, in my opinion, what a "real" Cloud Hosting PaaS does is: 
+Cloud Hosting is a difficult term, used by many people for entirely different purposes. So let me make clear what I am talking about. First off, I am not speaking about those old school web-hosters, which use this buzz word to market their good ol' Virtual Private Servers as the next big thing. I am talking about something else: new-school, new-approach, new-generation clouds. Big players like Amazon Web Services, Windows Azure, Rackspace, Google App Engine, IBM and Softlayer actually run data centers supplying the infrastructure (IaaS) for most cloud hosting platforms. I see those kinds of platforms as an abstraction layer on top of cloud technology. Sure, you could simply call them "resource resellers", but i do not think that this describes the actual reality. So, in my opinion, what a "real" Cloud Hosting PaaS does is:
 
-  * Buying a big piece of cloud cake, refine it, slice it into smaller pieces and sell it - this is what you would call a reseller.
-  * Deal with complex technology, built a system on top of it that is easy to use for your client - and this is the service they provide making it worth the money.
-The core task for a cloud hosting provider is to bring benefit on top of the actual resources to the web developer. In short, those mostly include: 
-  * True scalability - without PHD in rocket science to manage it.
-  * An interface (CLI and/or GUI) to control the hosting without certified SysAdmin skills (DevOps).
-  * Easy access to new technologies, such as NoSQL Databases, version controlled deployments and so on.
+* Buying a big piece of cloud cake, refine it, slice it into smaller pieces and sell it - this is what you would call a reseller.
+* Deal with complex technology, built a system on top of it that is easy to use for your client - and this is the service they provide making it worth the money.
+The core task for a cloud hosting provider is to bring benefit on top of the actual resources to the web developer. In short, those mostly include:
+* True scalability - without PHD in rocket science to manage it.
+* An interface (CLI and/or GUI) to control the hosting without certified SysAdmin skills (DevOps).
+* Easy access to new technologies, such as NoSQL Databases, version controlled deployments and so on.
 
 Enough talk, let's see who is there…
 
 ## PHP Cloud Platforms in the United States
 
-Of course the US market is the biggest and was the first. They always invent such things. 
+Of course the US market is the biggest and was the first. They always invent such things.
 
 ### Heroku
 
@@ -52,7 +52,7 @@ Yet another funded Startup PaaS from the valley, currently without public inform
 
 ## PHP Cloud Platforms in Europe
 
-From my perspective it makes not much sense to go with an US cloud provider for a project in Europe (unless you expect your vistors to come mostly from the US). It's not only data latency across the ocean (you might use a CDN to back this up), it's also the legal stuff (contracts) and the billing. So where are the cloud platforms for Europe? There are definitely some on the raise. At the time of this writing it looked to me that some currently run something that is more a Minimum Viable Product than a reliable business solution. 
+From my perspective it makes not much sense to go with an US cloud provider for a project in Europe (unless you expect your vistors to come mostly from the US). It's not only data latency across the ocean (you might use a CDN to back this up), it's also the legal stuff (contracts) and the billing. So where are the cloud platforms for Europe? There are definitely some on the raise. At the time of this writing it looked to me that some currently run something that is more a Minimum Viable Product than a reliable business solution.
 
 ### CloudControl
 
@@ -76,7 +76,7 @@ I am not sure why they have this big silhouette of a bong on their homepage. _Th
 
 ### Engine Yard (with Orchestra)
 
-Orchestra (Ireland) has been&nbsp;acquired by Engine Yard (US) mid 2011. They provide 3 different plans: Free (for free, but very limited environment), Basic (fixed dedicated resources) and Elastic (auto-scaling). You can deploy your app with Git or SVN. Orchestra, unlike many others, do not run on Apache webserver but rather runs on Nginx. The infrastructure is powered by AWS, but it’s not clear if they use data centers in US or Europe.[ engineyard.com](http://engineyard.com/)
+Orchestra (Ireland) has been&nbsp;acquired by Engine Yard (US) mid 2011. They provide 3 different plans: Free (for free, but very limited environment), Basic (fixed dedicated resources) and Elastic (auto-scaling). You can deploy your app with Git or SVN. Orchestra, unlike many others, do not run on Apache webserver but rather runs on Nginx. The infrastructure is powered by AWS, but it’s not clear if they use data centers in US or Europe.[engineyard.com](http://engineyard.com/)
 
 ## Closing Note
 

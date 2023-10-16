@@ -7,7 +7,7 @@ excerpt: More powerful plans, same price level.
 lead: "The Universal Stack was launched 5 months ago. We are now implementing a frequent feedback: Meet our new more powerful Universal Stack plans:"
 image: old-new-pricing-poster.gif
 imagecredit: "After/Before slider shamelessly stolen from: https://codepen.io/bamf/pen/jEpxOX"
-tags:
+tag:
   - chronicles
   - changelog
 ---

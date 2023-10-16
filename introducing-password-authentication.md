@@ -7,7 +7,7 @@ excerpt: Better Windows support and smoother boarding.
 lead: Boarding just got better. This new release makes it easier to get started with fortrabbit for new and novice users.
 keywords: UI, UX, design, funnel, username, password, windows hosting, novice, noob, QA, boarding
 image: password-poster.gif
-tags:
+tag:
   - chronicles
 ---
 

@@ -7,7 +7,7 @@ excerpt: An opinionated field guide on Email as a Service providers.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool "Email as a Service" providers.
 keywords: IMAP, squirrelmail, roundcube, horde, postfix, dovecot, zimbra, webmail, POP3, IMAPv4, TLSv1.2, LDAP, SMTP,Antivirus / Antispam, Microsoft Exchange
 image: email-as-a-service-poster.gif
-tags:
+tag:
   - webdev
 ---
 

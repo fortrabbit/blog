@@ -7,7 +7,7 @@ excerpt: Basic WAF, Craft Copy for Nitro, Craft Copy for Craft CMS 4
 lead: Time flies by. We keep maintaining and improving our service. Here is a recap of recent updates.
 image: new-improved-poster.gif
 imagecredit: ""
-tags:
+tag:
   - changelog
 ---
 

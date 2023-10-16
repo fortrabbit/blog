@@ -7,7 +7,7 @@ excerpt: The new tool by Pixel & Tonic, can we recommend it yet?
 lead: 
 image: craft-nitro-poster.png
 imagecredit: ""
-tags:
+tag:
   - webdev
 ---
 

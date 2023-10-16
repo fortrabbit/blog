@@ -4,7 +4,7 @@ author: uk
 excerpt: PHP 5.5 is finally here. This and some other news.
 created: 2014-03-13
 published: true
-tags:
+tag:
   - changelog
 ---
 

@@ -7,7 +7,7 @@ excerpt: Learn how to use CDNs as an easy-to-use edge cache.
 lead: Using CDNs has long been something in the domain of the Alexa top 100; something a small(er) website does not need or cannot afford. This has changed over the last years, with a multitude of pay-per-use, non-enterprise vendors on the market CDNs became affordable for everybody. This article intends to show you how to get started with this easy to use caching variant.
 keywords: cdn, caching, max-age, http, wordpress, cache-control, expires, pragma
 image: http-cache-poster.gif
-tags:
+tag:
   - webdev
 ---
 

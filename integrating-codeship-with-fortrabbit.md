@@ -4,7 +4,7 @@ author: uk
 excerpt: Learn how to do continuous integration with Codehip on fortrabbit.
 created: 2013-08-28
 published: true
-tags:
+tag:
   - webdev
 ---
 

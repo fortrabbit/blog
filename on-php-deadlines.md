@@ -6,7 +6,7 @@ author: fl
 excerpt: "PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!"
 keywords: deprecation, EOL, php5.6, php7.0, php7.2
 image: php56-deadline-poster.jpg
-tags:
+tag:
   - opinion
 ---
 

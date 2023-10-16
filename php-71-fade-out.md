@@ -6,8 +6,8 @@ published: true
 author: fl
 lead: The official security support for PHP 7.1 is ending in December 2019. Bring your Apps up-to-date now. Here are the basic and some advanced steps you — dear fortrabbit client — might need to do.
 image: php71-fade-poster.gif
-tags:
-  - psa
+tag:
+  - changelog
 ---
 
 [ Updated: 2019-12-20 ]

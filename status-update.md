@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: What's currently happening here and what's not.
 created: 2013-11-27
-tags:
+tag:
   - chronicles
 ---
 

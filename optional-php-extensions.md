@@ -4,7 +4,7 @@ author: fl
 excerpt: Have you seen our new PHP settings page?
 created: 2013-01-31
 published: true
-tags:
+tag:
   - changelog
 ---
 

@@ -7,7 +7,7 @@ excerpt: "Optimized for CMS driven websites - made for your needs: Backups, Git,
 lead: It's been a long time. The rabbits crew is back with yet another major release. The all new all great 'U-new-versal' Stack is available now — ready to blow your mind.
 keywords: legacy support, php7, mysql5.7, GA, general availability
 image: universal-poster.gif
-tags:
+tag:
   - changelog
 ---
 

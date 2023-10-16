@@ -7,7 +7,7 @@ excerpt: Props to the OSS communities and highlighting some of our open source c
 lead: fortrabbit wouldn't be possible without great open source projects. So we are thinking about ways to give back.
 keywords: OSS, OS,
 image: open-source-poster.gif
-tags:
+tag:
   - opinion
 ---
 

@@ -4,7 +4,7 @@ author: fl
 excerpt: New features in the dashboard.
 created: 2012-12-18
 published: true
-tags:
+tag:
   - chronicles
   - changelog
 ---

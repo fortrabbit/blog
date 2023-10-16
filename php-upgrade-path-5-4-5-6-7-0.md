@@ -5,7 +5,7 @@ published: true
 title: PHP upgrade path (5.4), 5.6, 7.0
 excerpt: Which PHP versions we'll support when.
 image: sandbox-elephant.jpg
-tags:
+tag:
   - changelog
 ---
 

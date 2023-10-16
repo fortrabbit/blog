@@ -9,7 +9,7 @@ lead:       "Setting up domains for your fortrabbit Apps just became easier. We 
 
 keywords:   "DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, APEX domain, naked domain, forward, IP, cname, CA"
 image:      "domain-update-poster.gif"
-tags:
+tag:
  - changelog
 
 ---

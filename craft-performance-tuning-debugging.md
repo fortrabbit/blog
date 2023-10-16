@@ -7,7 +7,7 @@ lead: Here's what we've learned helping clients to increase performance of their
 published: true
 image: craft-cms-tuning-2021.png
 keywords: craft, craftcms, craft-cms, performance
-tags:
+tag:
   - webdev
 ---
 
@@ -101,7 +101,7 @@ There is much more to know, exceeding the scope of this post. Here are the most 
 
 **Understand that the MySQL dataset size matters**
 
-The flexible content model in Craft CMS makes it easy to write code that makes either too many database queries and/or slow queries in MySQL. 
+The flexible content model in Craft CMS makes it easy to write code that makes either too many database queries and/or slow queries in MySQL.
 
 Most commonly poorly performing MySQL queries are easy to miss during development, since with local development you commonly **only have a small dummy dataset**.
 
@@ -139,7 +139,7 @@ Examples from support:
 
 ### Memory/CPU related issues
 
-Sometimes there is just not enough memory or computing power to perform a calculation. This is often the case when image transformations are involved or when a lot of concurrent requests hit your App. 
+Sometimes there is just not enough memory or computing power to perform a calculation. This is often the case when image transformations are involved or when a lot of concurrent requests hit your App.
 
 Examples from our support:
 
@@ -179,7 +179,7 @@ In our experience, problems are often unique to individual projects. So there is
 
 ### Check and maybe block certain requests
 
-Depending on your configuration, checking the source of requests might help you to understand where resources are getting spent. 
+Depending on your configuration, checking the source of requests might help you to understand where resources are getting spent.
 
 Examples from support:
 
@@ -189,7 +189,7 @@ Examples from support:
 
 ### Caching to the rescue
 
-Caching can be highly beneficial, particularly in providing the fastest possible end user experience but shouldn't be a crutch. Instead, it's usually better to find and remediate the **root cause** of the issue where possible. 
+Caching can be highly beneficial, particularly in providing the fastest possible end user experience but shouldn't be a crutch. Instead, it's usually better to find and remediate the **root cause** of the issue where possible.
 
 Doing caching wrong can also be the problem itself.
 

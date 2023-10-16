@@ -7,7 +7,7 @@ excerpt: What PHP development tools are available? What are the pros and cons of
 lead: The PHP ecosystem is diverse and has brought forth such industry heavyweights as WordPress, Drupal, and Laravel. Having a local PHP development environment set up allows one to develop and test sites and apps on one’s own machine. Without this, one needs to push any code changes to a remote staging environment for testing; a time-consuming and inefficient process.
 image: local-php-dev-poster.gif
 imagecredit: 
-tags:
+tag:
   - webdev
 ---
 

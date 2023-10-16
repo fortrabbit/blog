@@ -7,7 +7,7 @@ excerpt: Some details on our open source CSS framework.
 lead: So we said to do more open source on fortrabbit. TADA – here is my first big open source publication. A CSS framework.
 keywords: SCSS, CSS, CSS custom properties
 image: teutonic-poster.jpg
-tags:
+tag:
   - webdev
 ---
 

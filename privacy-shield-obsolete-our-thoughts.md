@@ -7,7 +7,7 @@ excerpt: The Privacy Shield is no longer valid. How to proceed?
 lead: The European Court of Justice (EUCJ) invalidated the Privacy Shield agreement recently. This is what clients may want to know.
 image: privacy-shield-poster.gif
 imagecredit: ""
-tags:
+tag:
   - opinion
 ---
 TLDR; Keep calm and continue business.

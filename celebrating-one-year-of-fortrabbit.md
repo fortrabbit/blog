@@ -4,7 +4,7 @@ author: fl
 excerpt: Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah, Yeah!
 created: 2013-10-04
 published: true
-tags:
+tag:
   - chronicles
 ---
 

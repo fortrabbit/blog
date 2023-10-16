@@ -4,9 +4,8 @@ author: fl
 excerpt: We had the honor to present fortrabbit at the Berlin PHP usergroup.
 created: 2012-11-12
 published: true
-tags:
+tag:
   - chronicles
-  - php
 ---
 
 We have presented the fortrabbit platform at the last [Berlin PHP usergroup meeting](http://www.bephpug.de/). See the slides [here](https://github.com/berlinphp/berlinphp.github.com/blob/master/folien/fortrabbit-bephpug-2012-11-s.pdf).

@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: Abot a new security feature.
 created: 2013-03-21
-tags:
+tag:
   - chronicles
 ---
 

@@ -7,7 +7,7 @@ excerpt: A command line tool to help with Craft CMS deployment on fortrabbit.
 lead: So we said to do more open source on fortrabbit. TADA – here (if you haven't seen already) is Craft Copy. Deployment tools for Craft Apps on fortrabbit.
 keywords: Craft CMS, Craft Copy, craft-copy, Git, SSH key
 image: craft-copy-poster.gif
-tags:
+tag:
   - webdev
 ---
 

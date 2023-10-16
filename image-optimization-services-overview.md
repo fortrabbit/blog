@@ -7,7 +7,7 @@ excerpt: A field guide on image transformation and optimization providers
 lead: Learn about image processing service providers here. What are they? What problem do they solve? What options and alternatives are available?
 image: cute-cat-pic.jpg
 imagecredit: Cute cat pic by Tracie Hall via <a href="https://www.flickr.com/photos/twobears2/37604436396/in/photolist-6Pjxge-6PoG69-6PjxfH-3eqRoo-ZnmzJx-v8waGk-ZhYyPE-ouKa9x-8ojtiF-YYuFpw-YYuF1q-Ym1g6M-8mi4pJ-4FQTyx-9BAaQK-6ko4xj-9BD67S-9BA7ek-9BD52w-8S2zXo-9agUQR-8guKEj-8S9bLE-9BA6ee-8KYihX-7fztGU-99iUFr-6Pjxer-66qMJP-achUUZ-5r9CxN-nmb3b-9FBcjV-5syW5Y-5bbX9P-741cFi-5NKLao-5BYhxD-8vPXAz-8zzshp-qqguz-aF5ZXH-7CpNdc-2eyi4Ti-7k1BhP-7k1ATp-7k1B5T-9NeM1U-7hmoNZ">Flickr</a>
-tags:
+tag:
   - opinion
 ---
 

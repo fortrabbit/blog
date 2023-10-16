@@ -5,8 +5,8 @@ published: true
 excerpt: Thank you for being awesome.
 created: 2015-04-02
 image: php-flag.jpg
-tags:
-  - php
+tag:
+  - opinion
 ---
 
 <div class="gutter-no m-top-l">

@@ -8,7 +8,7 @@ excerpt:    "Ultimately, you are responsible for your code and as well for the 3
 lead:       "« Application security encompasses measures taken to improve the security of an application often by finding, fixing and preventing security vulnerabilities. » (Wikipedia)"
 image:      "security-advisories-header.jpg"
 keywords:   "php, composer, security"
-tags:
+tag:
  - webdev
 
 ---

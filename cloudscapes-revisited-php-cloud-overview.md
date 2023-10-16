@@ -4,7 +4,7 @@ author: fl
 excerpt: A state of the PHP cloud hosting scene overview.
 image: cloudy.png
 created: 2014-05-19
-tags:
+tag:
   - opinion
 published: true
 ---
@@ -12,7 +12,7 @@ published: true
 
 About two years ago i published "[Cloudscapes — comparing PHP cloud hosting platforms"](/comparing-cloud-hosting-platforms/). I think it's a good time to revisit the scene.
 
-Note: This is a totally subjective insider view. We are a PHP cloud hosting provider ourselves, that's why **fortrabbit** is not included as a third-person singular in this list. The boundaries are blurred. There is not really a PHP cloud hosting category, i have just included everything that looked interesting to me as a developer / startup guy. 
+Note: This is a totally subjective insider view. We are a PHP cloud hosting provider ourselves, that's why **fortrabbit** is not included as a third-person singular in this list. The boundaries are blurred. There is not really a PHP cloud hosting category, i have just included everything that looked interesting to me as a developer / startup guy.
 
 ## Past participants
 
@@ -30,7 +30,7 @@ Note: This is a totally subjective insider view. We are a PHP cloud hosting p
 
 **Omnicloud** needed some more time to finally launch. It's called [Jumpstarter](http://jumpstarter.io/) now and is <del>up and running</del>. UPDATE 2014/07: [Jumpstarter closed](http://blog.jumpstarter.io/jumpstarter-is-evolving) their platform to focus on something new.
 
-After **[Engine Yard](https://www.engineyard.com/)** acquired Orchestra it took a while until they finally integrated everything to one seamless service. The transition is over and everything looks very smooth, on an enterprise level. 
+After **[Engine Yard](https://www.engineyard.com/)** acquired Orchestra it took a while until they finally integrated everything to one seamless service. The transition is over and everything looks very smooth, on an enterprise level.
 
 ## New kids on the block
 
@@ -40,11 +40,11 @@ After **[Engine Yard](https://www.engineyard.com/)** acquired Orchestra it took 
 
 **[Bowery](http://bowery.io/)** is another new interesting service, aiming to simplify setup of development environments.
 
-**[AnyNines](http://www.anynines.com/)** based on Cloud Foundry also supports PHP (see comments below) is still in Beta but looks very promising — from the makers of [railshoster.de](http://www.railshoster.de/). 
+**[AnyNines](http://www.anynines.com/)** based on Cloud Foundry also supports PHP (see comments below) is still in Beta but looks very promising — from the makers of [railshoster.de](http://www.railshoster.de/).
 
 ## All the others
 
-[GetPantheon](https://www.getpantheon.com/), [CloudProvider](http://www.cloudprovider.net/), [JiffyBox](https://www.jiffybox.de/), [GetUp cloud](http://getupcloud.com/index_en.html), [Acquia](http://www.acquia.com/), [Google App Engine](https://cloud.google.com/products/app-engine/), [OpenShift](https://www.openshift.com/), [AWS](http://aws.amazon.com/), [Windows Azure](http://www.windowsazure.com/), [Rackspace](http://www.rackspace.com/), [CloudSigma](https://www.cloudsigma.com/), [ElasticDot](https://elasticdot.com/), [Fused](http://www.fused.com/), [CityCloud](https://www.citycloud.com/), [Little Orange](http://asmallorange.com/) and of course [Digital Ocean](https://www.digitalocean.com/), [Linode](https://www.linode.com/), [WebFaction](https://www.webfaction.com/), [Media Temple](http://mediatemple.net/), [NearlyFreeSpeach](https://www.nearlyfreespeech.net/) and even [GoDaddy](http://www.godaddy.com/), [Hetzner](http://www.hetzner.de/en/) and that's still just the tip of the iceberg, because that is just the english speaking side of the world and these are only the offers for developers. There are also services targeting the needs of consumers without HTML-skills, designers or enterprises (top-down approach). 
+[GetPantheon](https://www.getpantheon.com/), [CloudProvider](http://www.cloudprovider.net/), [JiffyBox](https://www.jiffybox.de/), [GetUp cloud](http://getupcloud.com/index_en.html), [Acquia](http://www.acquia.com/), [Google App Engine](https://cloud.google.com/products/app-engine/), [OpenShift](https://www.openshift.com/), [AWS](http://aws.amazon.com/), [Windows Azure](http://www.windowsazure.com/), [Rackspace](http://www.rackspace.com/), [CloudSigma](https://www.cloudsigma.com/), [ElasticDot](https://elasticdot.com/), [Fused](http://www.fused.com/), [CityCloud](https://www.citycloud.com/), [Little Orange](http://asmallorange.com/) and of course [Digital Ocean](https://www.digitalocean.com/), [Linode](https://www.linode.com/), [WebFaction](https://www.webfaction.com/), [Media Temple](http://mediatemple.net/), [NearlyFreeSpeach](https://www.nearlyfreespeech.net/) and even [GoDaddy](http://www.godaddy.com/), [Hetzner](http://www.hetzner.de/en/) and that's still just the tip of the iceberg, because that is just the english speaking side of the world and these are only the offers for developers. There are also services targeting the needs of consumers without HTML-skills, designers or enterprises (top-down approach).
 
 ## Now what?
 

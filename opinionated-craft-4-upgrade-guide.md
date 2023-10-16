@@ -7,7 +7,7 @@ excerpt: Everything you always wanted to know about updating to Craft 4 - but we
 lead: Upgrading to a new major version of Craft CMS is a bigger undertaking as you may think. This article aims to dive a bit deeper than the official docs. Here is what you need to know before getting started and some of our opinionated practices.
 image: craft-update-poster.png
 keywords: craft, craftcms, craft-cms, hosting, testing, updating
-tags:
+tag:
   - webdev
 ---
 

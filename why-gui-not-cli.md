@@ -7,7 +7,7 @@ excerpt: An insight into product development at fortrabbit
 lead: ""
 image: gui-not-cli.png
 keywords: startup, company culture, cli, gui
-tags:
+tag:
   - chronicles
 ---
 

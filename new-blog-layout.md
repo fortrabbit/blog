@@ -4,7 +4,7 @@ author: fl
 excerpt: Tinkering with static site generation.
 created: 2015-01-23
 published: true
-tags:
+tag:
   - chronicles
 ---
 

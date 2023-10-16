@@ -8,8 +8,7 @@ lead: Learn about JSON columns in MySQL and how to use them in Laravel.
 image: mysql-json-laravel.png
 imagecredit: ""
 keywords: 
-tags:
-  - php
+tag:
   - webdev
 ---
 

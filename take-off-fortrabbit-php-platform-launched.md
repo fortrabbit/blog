@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: fortrabbit PHP platform launched
 created: 2012-10-04
-tags:
+tag:
   - chronicles
 ---
 

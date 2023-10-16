@@ -4,8 +4,8 @@ author: fl
 published: true
 excerpt: Some links on newish PHP.
 created: 2012-10-02
-tags:
-  - php
+tag:
+  - opinion
 ---
 
 > PHP development began in 1994 when the Danish/Greenlandic/Canadian programmer Rasmus Lerdorf initially created a set of Perl scripts he called "**P**ersonal** H**ome** P**age Tools" to maintain his personal homepage. – Wikipedia

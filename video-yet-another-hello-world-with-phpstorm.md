@@ -4,7 +4,7 @@ author: fl
 published: true
 excerpt: This video shows you a simple example with PHPStorm and fortrabbit
 created: 2012-10-12
-tags:
+tag:
   - webdev
 ---
 How many times have you read something like this: "This is the first video of a new upcoming screen-cast series…"?

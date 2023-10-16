@@ -3,8 +3,8 @@ title: 20 years Pretty Home Pages
 author: fl
 excerpt: Just a fancy info-graphic to say happy birthday to PHP.
 created: 2014-05-28
-tags:
-  - php
+tag:
+  - opinion
 published: true
 ---
 

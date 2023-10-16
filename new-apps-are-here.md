@@ -5,7 +5,7 @@ published: true
 title: New Apps are here
 excerpt: Introducing the New Apps in BETA.
 image: new-apps-intro.jpg
-tags:
+tag:
   - changelog
 ---
 

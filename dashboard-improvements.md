@@ -7,7 +7,7 @@ excerpt: Quicker boarding, App access links and more.
 lead: "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
 keywords: Boarding, UX, UI, user journey, progressive disclosure, gamification
 image: dashboard-improvements.gif
-tags:
+tag:
   - changelog
 ---
 

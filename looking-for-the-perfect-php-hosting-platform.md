@@ -4,7 +4,7 @@ author: os
 excerpt: Looking for the perfect PHP hosting platform.
 created: 2012-09-06
 published: true
-tags:
+tag:
   - opinion
 ---
 

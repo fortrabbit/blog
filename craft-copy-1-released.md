@@ -7,7 +7,7 @@ excerpt: Our command line tool to help with Craft CMS deployment on fortrabbit i
 lead: We are pleased to announce that Craft Copy has now reached version 1.0.0. Craft Copy is an open source command line interface to sync your local Craft with fortrabbit in more convenient and sophisticated ways.
 keywords: Craft CMS, Craft Copy, craft-copy, Git, SSH key
 image: craft-copy-poster.gif
-tags:
+tag:
   - webdev
 ---
 
@@ -16,18 +16,15 @@ tags:
 
 You can grab it from [Craft plugin store](https://plugins.craftcms.com/copy) or directly from [GitHub](https://github.com/fortrabbit/craft-copy).
 
-
 ## Some history
 
 Two years ago [we initially announced Craft Copy](/introducing-craft-copy): CLI deployment tools for Craft CMS Apps running on fortrabbit. During the last two years we have refactored and hardened the tool. Thanks to the testers and early adapters for sharing feedback and [issues on GitHub](https://github.com/fortrabbit/craft-copy).
 
 We now see around [5.500 installs on packagist](https://packagist.org/packages/fortrabbit/craft-copy) and maybe more precise around [700 installs](https://plugins.craftcms.com/copy) on the Craft plugin store. THANKS!
 
-
-
 ## What problem does it solve?
 
-Understand that it takes the following data types to sync your local changes up and down to your hosting environment. 
+Understand that it takes the following data types to sync your local changes up and down to your hosting environment.
 
 1. Your code: configuration and templates
 2. The CMS code: pulled in by Composer
@@ -44,15 +41,11 @@ Craft Copy also contains some other magic to overcome certain gotachs, like sett
 Please best follow our README here:
 [github.com/fortrabbit/craft-copy](https://github.com/fortrabbit/craft-copy)
 
-
 ## What are the latest changes?
 
 With the latest released we have changed the way assets are handled. Now Craft Copy will iterate over the defined volumes. There also is a new command to sync folders. Please see the release notes for more: [github.com/fortrabbit/craft-copy/releases/tag/1.0.0)](https://github.com/fortrabbit/craft-copy/releases/tag/1.0.0)
 
-
-
 ## Next steps
 
-* We plan to promote to use Craft Copy as our standard recommendation to deploy Craft Copy in our [help pages](https://help.fortrabbit.com/craft-3-about). 
+* We plan to promote to use Craft Copy as our standard recommendation to deploy Craft Copy in our [help pages](https://help.fortrabbit.com/craft-3-about).
 * We have a [milestone 1.1 planned](https://github.com/fortrabbit/craft-copy/issues?q=is%3Aopen+is%3Aissue+milestone%3A1.1). Contributions welcome!
-
