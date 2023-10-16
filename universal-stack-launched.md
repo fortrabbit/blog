@@ -4,7 +4,6 @@ author:     fl
 created:    2016-12-20
 published:  true
 title:      "Universal Stack launched"
-longtitle:  "The Universal Stack is here"
 excerpt:    "Optimized for CMS driven websites - made for your needs: Backups, Git, SFTP, HTTPS & team collaboration."
 lead:       "It's been a long time. The rabbits crew is back with yet another major release. The all new all great 'U-new-versal' Stack is available now — ready to blow your mind."
 

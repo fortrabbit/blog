@@ -4,10 +4,8 @@ author:     fl
 created:    2016-12-20
 published:  true
 title:      "Universal Stack changelog"
-longtitle:  "Universal Stack platform changelog"
 excerpt:    "See all platform changes with new Universal Stack."
-lead:       "This is nuts and bolts for our existing clients on changes with the latest platform update. <b>TL;DR:</b> No action required from your side. All platform updates are opt-in. Your Apps, plans, settings and pricing will stay exactly the same."
-keywords:   "legacy support, changelog, client information, PSR"
+lead:       "This is nuts and bolts for our existing clients on changes with the latest platform update. TL;DR: No action required from your side. All platform updates are opt-in. Your Apps, plans, settings and pricing will stay exactly the same."
 
 ---
 

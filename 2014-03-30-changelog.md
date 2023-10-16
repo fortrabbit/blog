@@ -1,11 +1,10 @@
 ---
-
-template:    post.hbt
 title:       Updates
 author:      uk
 published: true
 created:     2014-03-30
-
+tags:
+ - changelog
 ---
 
 * PHP: 5.4.25 -> 5.4.26

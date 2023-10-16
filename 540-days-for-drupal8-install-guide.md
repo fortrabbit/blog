@@ -1,21 +1,19 @@
 ---
-
 author:     fl
 created:    2016-08-25
 published: true
 title:      "Our Drupal 8 install guide took 540 days"
-longtitle:  "Our Drupal 8 install guide took 540 days"
 excerpt:    "What took us so long to come up with a Drupal 8 install guide."
 lead:       "Why it took us such a crazy long time to write an <a href='https://help.fortrabbit.com/install-drupal-8'>install guide for Drupal 8</a>."
-
 keywords:   "CMS, install-guide, Drupal8"
 image:      "drupal8-poster.gif"
-
+tags:
+ - php
 ---
 
 We maintain a couple of [install guides](https://help.fortrabbit.com/#install-guides) to help our clients to get started with their CMS or framework on our hosting service quickly. So we have some superficial knowledge about modern and popular PHP CMS/frameworks. 
 
-**Drupal 8 is a huge step forward.** It features modern, object-oriented code (classes, inheritance, interfaces), requires a least PHP 5.5.9, makes use of PHP standards  (PSR-4, namespaces, traits), Symfony components, PHPunit integration, Twig, HTML5, Guzzle, Assetic, file system abstraction and more. We were quite exited about Drupal 8, from the first Beta on — as we saw it to be a good fit for our platform.
+**Drupal 8 is a huge step forward.** It features modern, object-oriented code (classes, inheritance, interfaces), requires a least PHP 5.5.9, makes use of PHP standards (PSR-4, namespaces, traits), Symfony components, PHPunit integration, Twig, HTML5, Guzzle, Assetic, file system abstraction and more. We were quite exited about Drupal 8, from the first Beta on — as we saw it to be a good fit for our platform.
 
 
 

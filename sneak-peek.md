@@ -3,10 +3,8 @@ author:     fl
 created:    2016-08-22
 published: true
 title:      "Sneak peek"
-longtitle:  "A little sneak peek"
 excerpt:    "A new Hobby line, migration info for Old App owners."
 lead:       "What we are working on and how we'll proceed with the Old Apps."
-
 keywords:   "up next, roadmap, kilroy, preview, pipeline, prosumer, noob, startup, indie"
 image:      "upnext-poster.gif"
 ---

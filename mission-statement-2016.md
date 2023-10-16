@@ -4,7 +4,6 @@ author:     fl
 created:    2016-06-27
 published: true
 title:      "Mission statement 2016"
-longtitle:  "Mission statement 2016"
 excerpt:    "Where we are, what we are up to."
 lead:       "4 years of fortrabbit cloud hosting already. What's going on?"
 

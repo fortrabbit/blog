@@ -1,10 +1,10 @@
 ---
-
-title:       Updates
-author:      uk
+title: Updates
+author: uk
 published: true
-created:     2014-03-13
-
+created: 2014-03-13
+tags:
+ - changelog
 ---
 
 * PHP: 5.4 -> 5.4.26

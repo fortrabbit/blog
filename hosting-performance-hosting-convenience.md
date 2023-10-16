@@ -2,7 +2,7 @@
 
 title: "Performance / convenience"
 author: fl
-excerpt: "What's more important in hosting nowadays? Performance or convenience?"
+excerpt: "What's more important in hosting? Performance or convenience?"
 created: 2013-07-10
 
 ---
@@ -17,6 +17,6 @@ This discussion reminds me of PC customers buying behavior in the 90ies. What's 
 
 Convenience also matters in hosting a lot. How much time do i have to spend to have my app up and running? Do i really want to set up and maintain everything myself? How good is the support? Do i want just bare metal computing resources or a solution provider with an eco system?
 
-What matters the fastest server ever, when your queries are slow (because of poor design)? The performance of any app/website relies heavily on the engineering skills of the developers. See caching, see i/o load, see frontend technologies, see page load, see #perfmatters.
+What matters the fastest server ever, when your queries are slow (because of poor design)? The performance of any app/website relies heavily on the engineering skills of the developers. See caching, see i/o load, see frontend technologies, see page load.
 
 It is easy to say that AWS just sucks and is overpriced. Think again, what is AWS really charging for? What does it cost to develop and maintain a website compared to what it costs to host a website? Are [virtual private servers or containers](http://www.linuxjournal.com/content/containers%E2%80%94not-virtual-machines%E2%80%94are-future-cloud?page=0,1) the future of the cloud? Another example: Is horsepower still so important to you when buying a car? What about design and fuel consumption? Do you need your own car at all? Maybe car sharing is an alternative?

@@ -1,5 +1,4 @@
 ---
-
 author:       fl
 created:      2021-03-23
 published: true
@@ -7,8 +6,8 @@ title:        "About a recent security patch"
 excerpt:      "About things that are usually not visible."
 lead:         "This is the story of a small security update we recently deployed to our Dashboard."
 image:        'security-update-poster.png'
-imagecredit:  ''
-
+tags:
+ - chronicles
 ---
 
 About a week ago our friend and most active security researcher **[Mayank Bhatodra](https://www.mayankbhatodra.com/)** (we have been in contact since 2014) contacted us with a new vulnerability report:

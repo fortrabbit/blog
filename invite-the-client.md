@@ -1,7 +1,6 @@
 ---
 
 title:      "Introducing the 'client invite'"
-longtitle:  "Introducing the 'client invite'"
 excerpt:    "You can now transfer Apps to your clients!"
 created:    2017-06-15
 published: true

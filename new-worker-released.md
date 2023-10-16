@@ -1,7 +1,6 @@
 ---
 
 title:      "New Worker Component released"
-longtitle:  "New Worker Component for New Apps released"
 published: true
 author:     os
 created:    2016-01-20

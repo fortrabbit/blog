@@ -3,7 +3,6 @@
 author:     fl
 created:    2022-01-16
 title:      "Things to know about fast Craft CMS websites"
-longtitle:  "What we've learned helping clients troubleshooting Craft CMS performance issues."
 excerpt:    "What we learned helping clients improving Craft CMS performance"
 lead:       "Here's what we've learned helping clients to increase performance of their Craft CMS websites."
 published: true

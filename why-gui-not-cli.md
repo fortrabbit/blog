@@ -1,15 +1,14 @@
 ---
-
-author:     fl
-title:      "Why a GUI and not a CLI"
-longtitle:  "Why we are building a GUI and not a CLI for a developer facing service"
-published:  true
-created:    2023-08-28 09:36:38
-excerpt:    "An insight into product development at fortrabbit"
-lead:       ""
-image:      "gui-not-cli.png"
-keywords:   "startup, company culture, cli, gui"
-
+author: fl
+title: Why a GUI and not a CLI
+published: true
+created: 2023-08-28 09:36:38
+excerpt: An insight into product development at fortrabbit
+lead: ""
+image: gui-not-cli.png
+keywords: startup, company culture, cli, gui
+tags:
+  - chronicles
 ---
 
 We are currently working on a new version of our PHP hosting platform. Early in the process we asked ourselves: How will our clients want to interact with our services?

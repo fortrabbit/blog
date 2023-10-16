@@ -1,12 +1,12 @@
 ---
-
 title:      Battling with billing
 author:     fl
 published: true
 excerpt:    How hustling with accounting keeps us away from developing our service.
 created:    2015-03-24
-tags:       bootstrap, startup, SaaS
-
+tags:
+ - chronicles
+ - opinion
 ---
 
 We are developers without much backgrounds in accounting and bookkeeping. Still we need to bill our clients for our hosting service here. We have learned some lessons the hard way and I still find it surprisingly difficult. We have put huge efforts in optimizing these processes. Time we would rather have spent developing the platform itself.

@@ -4,7 +4,6 @@ author:     fl
 created:    2016-09-02
 published: true
 title:      "Dashboard improvements"
-longtitle:  "Dashboard improvements"
 excerpt:    "Quicker boarding, App access links and more."
 lead:       "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
 

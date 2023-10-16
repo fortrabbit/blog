@@ -1,15 +1,13 @@
 ---
-
-author:     fl
-created:    2016-02-29
-published:   true
-title:      "Why we don't do Add-Ons"
-longtitle:  "Why we don't do Add-Ons"
-excerpt:    "Insights why we will not offer an Add-On program soon and what we have instead"
-lead:       "We have long thought about bringing Add-Ons to fortrabbit to make the service offering more versatile. Now, after lots' of research and discussions, we can finally conclude: We won't do it — for now. Here is why and what instead."
-
-keywords:   "dBaaS, data-stores, X-as-a-Service, data stores, NoSQL, "
-
+author: fl
+created: 2016-02-29
+published: true
+title: Why we don't do Add-Ons
+excerpt: Insights why we will not offer an Add-On program soon and what we have instead
+lead: "We have long thought about bringing Add-Ons to fortrabbit to make the service offering more versatile. Now, after lots' of research and discussions, we can finally conclude: We won't do it — for now. Here is why and what instead."
+keywords: "dBaaS, data-stores, X-as-a-Service, data stores, NoSQL, "
+tags:
+  - opinion
 ---
 
 

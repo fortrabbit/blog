@@ -1,11 +1,11 @@
 ---
-
 title: Where to host my website now?
 author: fl
-published:  true
-excerpt: "IaaS, PaaS, bare metal, shared hosting, managed hosting — Quo vadis?"
+published: true
+excerpt: IaaS, PaaS, bare metal, shared hosting, managed hosting — Quo vadis?
 created: 2012-12-04
-
+tags:
+  - opinion
 ---
 
 Our old, bare-metal hosting platform MISH is in the sunset phase. This article should help our existing clients to decide where to host their stuff in the future. It's also meant as a general advice to anyone who is not sure whether a cloud PaaS provider is the right choice. If not: what alternatives are there? If yes: what other services need to be booked beside a cloud hosting platform? 

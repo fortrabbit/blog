@@ -3,25 +3,19 @@
 author:     os
 created:    2018-03-28
 title:      "Your responsibility: App security"
-longtitle:  "Your responsibility: App security"
 published: true
 excerpt:    "Ultimately, you are responsible for your code and as well for the 3rd party code you rely on."
 lead:       "« Application security encompasses measures taken to improve the security of an application often by finding, fixing and preventing security vulnerabilities. » (Wikipedia)"
 image:      "security-advisories-header.jpg"
 keywords:   "php, composer, security"
-
+tags:
+ - webdev
 
 ---
 
 A few days ago, late in the evening, we received a support ticket with the following message:
 
-<blockquote class="hero-quote">
-    <p class="p-m">My website nicesite.com and the https://niceapp.frb.io are being redirected to https://some.paypal.fishing.site. I haven't changed anything on the site in 2 months. It is not running a CMS and is a simple read-only php app.</p>
-    <p class="p-m">Have you been hacked?</p>
-    <div class="row m-top-m">
-        <div style="background-image: url('https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Cat-32.png')" class="media-face media media-m"></div>
-    </div>
-</blockquote>
+> My website nicesite.com and the https://niceapp.frb.io are being redirected to https://some.paypal.fishing.site. I haven't changed anything on the site in 2 months. It is not running a CMS and is a simple read-only php app. Have you been hacked?
 
 The support team started the conversation with the client and checked the domain routing first. It quickly became clear that the redirects to the phishing domain happened on our platform, so they searched the access logs for suspicious requests. And they found this one:
 
@@ -47,12 +41,7 @@ There is nothing wrong with the code, was my first impression. Then I discovered
 
 I came back to the developer with my investigations. He patched his code immediately and replied as follows:  
 
-<blockquote class="hero-quote">
-    <p class="p-m"> THANK YOU. I will definitely be recommending your service from now on. The other PaaS providers haven't been nearly as helpful.</p>
-    <div class="row m-top-m">
-        <div style="background-image: url('https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Cat-32.png')" class="media-face media media-m"></div>
-    </div>
-</blockquote>
+> THANK YOU. I will definitely be recommending your service from now on. The other PaaS providers haven't been nearly as helpful.
 
 # Takeaways
 
@@ -110,7 +99,6 @@ If your project dictates a different structure, with the `vendor` folder under t
 </Directory>
 ```
 
-
 ## Be aware that public repos are visible to everybody
 
 Don't get me wrong, open source is great! But think twice before publishing something on github or other public repositories.
@@ -118,6 +106,3 @@ Crawlers, bots and even humans will find it. Not everybody has a white hat menta
  
 Really important: Never store sensitive information like passwords or access tokens in git. Remember, git never forgets! 
 If you have committed sensitive information by accident, even if you revert the mistake, it will stay in the git history.
-
-
-

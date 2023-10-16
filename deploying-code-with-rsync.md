@@ -3,7 +3,6 @@
 author:     uk
 created:    2017-04-03
 title:      "Deploying code with rsync"
-longtitle:  "Deploying code with rsync"
 excerpt:    "Learn how to use rsync from the command line to deploy code changes (to our Universal Apps) incredibly fast."
 lead:       "rsync was first released in 1996 but is still a handsome tool every web developer should know about, because it is still one of the best and fastest ways to deploy code without hassle. By fast I mean: easily <strong>10 x faster than your average SFTP upload</strong>."
 published: true
