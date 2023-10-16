@@ -1,0 +1,14 @@
+- name: all
+  tooltip: All posts
+- name: changelog
+  tooltip: Latest updates
+  description: Latest platform updates, version changes and new features.
+- name: chronicles
+  tooltip: Our story
+  description: Our Story. Stories of struggle building a hosting platform and sustainable business. 
+- name: webdev
+  tooltip: Web development
+  description: Tutorials, guides, web development tips.
+- name: opinion
+  tooltip: Random rants
+  description: Commentary on web development trends, technology and running a bootstrapped business.
