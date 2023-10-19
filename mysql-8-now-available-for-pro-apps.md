@@ -50,7 +50,7 @@ Please ping us if your have any questions along the way. We are also happy to gi
 
 Take this as an opportunity to update the rest of your application as well.
 
-## End of life for MySQL 5.6<
+## End of life for MySQL 5.6
 
 We will eventually switch off MySQL 5.6 at some point. The official End Of Life for MySQL 5.6 is February 2021. We plan to support it longer than that, but no date for deprecation has been set yet. Further communication from us on the topic will follow.
 
