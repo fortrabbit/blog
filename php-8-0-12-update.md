@@ -58,7 +58,6 @@ Here is the complete list of client facing changes:
 - yaml (2.2.1) > 2.2.2 - [changelog](https://pecl.php.net/package-changelog.php?package=yaml)
 - ssh2 (1.2 + [93265d71b](https://github.com/php/pecl-networking-ssh2/commit/93265d71bdeb23350e8320126c7949ed791310df)) > 1.3.1 - [changelo](https://pecl.php.net/package-changelog.php?package=ssh2)
 
-
 ### 3rd party extensions
 
 - blackfire php probe (1.49.1) > 1.69.0 - [list of current versions](https://blackfire.io/docs/up-and-running/update)
@@ -66,8 +65,7 @@ Here is the complete list of client facing changes:
 - newrelic php probe (9.16.0.295) > 9.18.1.303 - [release notes](https://docs.newrelic.com/docs/release-notes/agent-release-notes/php-release-notes)
 - newrelic agent (9.16.0.295) > 9.18.1.303 - [release notes](https://docs.newrelic.com/docs/release-notes/agent-release-notes/php-release-notes)
 
-
-## <a class="anchored" id="craft">Older Craft CMS versions need to be updated</a>
+## Older Craft CMS versions need to be updated
 
 During testing for this release we have noticed an incompatibility (signature change) of the imagick extension and older versions of Craft CMS which use an unpatched version of `pixelandtonic/imagine`.
 
@@ -82,13 +80,11 @@ Version `1.2.4.2` of `pixelandtonic/imagine` includes a patch. All previous vers
 In general we advice to use the Craft CLI (`./craft update all`) to update your local Craft CMS before deploying the new version to fortrabbit. Here are detailed instructions on how to verify that you are already on the correct version and get it up-to-date with Composer (locally first).
 
 ```shell
-$ composer info pixelandtonic/imagine | grep versions
+composer info pixelandtonic/imagine | grep versions
 ```
 
 1. Version: 1.2.4.2 > Nothing to do 🥳
 2. Version: 1.2.4.0 or 1.2.4.1 > run `composer update pixelandtonic/imagine -w`
 3. Version: 1.2.2.0 or 1.2.2.1 > run `composer require pixelandtonic/imagine:"1.2.4.2 as 1.2.2.1"`
 
-
 After successfully updating the package, commit and push the updated composer.json/lock to your App.
-

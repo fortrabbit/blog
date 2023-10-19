@@ -61,7 +61,7 @@ We've **completed installation** using the following software / package versions
 | Docker Desktop | Container virtualization | `3.2.2` |
 | Craft Nitro | Craft CMS dev tool | `2.0.7` |
 
-## <a class="anchored" id="install-craft-nitro2">Install Craft Nitro 2 to power your local Craft CMS dev sites</a>
+## Install Craft Nitro 2 to power your local Craft CMS dev sites
 
 The first step is to install Docker Desktop. If you already have Docker installed you can skip this bit.
 At the time of writing, the **minimal supported Docker version is 3.0**.
@@ -150,7 +150,7 @@ we've documented ours here:
 | Would you like to use PostgreSQL [Y/n]? [Y/n] | `n` |
 | Would you like to use Redis [Y/n]? | `n` |
 
-## <a class="anchored" id="new-craft-site-with-nitro2">Set up a local Craft CMS dev site with Craft Nitro 2</a>
+## Set up a local Craft CMS dev site with Craft Nitro 2
 
 In this section we'll show how to **set up a fresh Craft CMS site with Craft Nitro 2** for local development.
 In case you want to use Nitro to power an existing Craft CMS dev site, please refer to the section [using Craft Nitro 2 with an existing Craft CMS installation](#existing-craft-site-with-nitro2) below.
@@ -226,7 +226,7 @@ A couple **things to note**:
 
 Our site should now load in the browser — **make sure to test it works**!
 
-## <a class="anchored" id="existing-craft-site-with-nitro2">Use Craft Nitro 2 to power an existing Craft CMS dev site</a>
+## Use Craft Nitro 2 to power an existing Craft CMS dev site
 
 Maybe you'd like to **run an existing Craft CMS project via Craft Nitro 2**.
 In this case, we'll use the `'nitro add'` command instead of `'nitro create'`:
@@ -254,7 +254,7 @@ In this case, we'll use the `'nitro add'` command instead of `'nitro create'`:
 
 <!--
 
-## <a class="anchored" id="sync-craft-site-fortrabbit-craft-copy">Sync your local Craft CMS dev site with your fortrabbit app</a>
+## Sync your local Craft CMS dev site with your fortrabbit app
 
 * employing fortrabbit's own [Craft Copy tool](https://github.com/fortrabbit/craft-copy/)
 
@@ -320,7 +320,7 @@ brew install git rsync php composer mysql-client
 
 -->
 
-### <a class="anchored" id="craft-copy">Craft Nitro 2 and Craft Copy</a>
+### Craft Nitro 2 and Craft Copy
 
 Over the years, fortrabbit has contributed to the Craft CMS ecosystem.
 We've published plugins, guides and blog posts.
@@ -344,7 +344,7 @@ Certainly not something we want to recommend.
 
 That said, Pixel & Tonic have a great track record of responding to demand from the Craft CMS community, so it's possible they will update Nitro in future to allow better integration with other tools. If this is something you'd like to see, consider [letting them know](https://github.com/craftcms/nitro/issues/).
 
-## <a class="anchored" id="conclusion">Conclusion</a>
+## Conclusion
 
 A fair share of fortrabbit's client base use our infrastructure to host their Craft CMS sites.
 This includes less technically-minded folks, for whom setting up a local dev sites is a real challenge.

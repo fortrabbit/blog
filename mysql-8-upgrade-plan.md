@@ -32,24 +32,21 @@ MySQL 8.0 is now enabled for all new Apps created on the fortrabbit platform and
 + automatically upgrading your MySQL 5.6 plan to 8.0 is possible, read more below
 + on the 13th of July we will start force upgrading all remaining 5.6 plans to 8.0
 
-
 ## Deadline
 
 On the __13th of July__ we will force upgrade all remaining Professional Apps that are still on MySQL 5.6 to MySQL 8.0. Please take the time to test and upgrade before this deadline to make sure that your Apps will work properly with MySQL 8.0.
 
-
 ## MySQL upgrade methods
 
 Here are two workflows on how to upgrade the MySQL version of your App:
-
 
 ### Method 1 - New App with MySQL 8
 
 This is the safest workflow and uses a new App for the new MySQL version. This method causes some downtime when switching your domains.
 
 1. Download an up-to-date backup of your MySQL database
-   - If you have backups enabled, you can download a zip file from the Dashboard
-   - You can also manually dump the database using a [mysql client and our tunnel](https://help.fortrabbit.com/mysql#toc-access-the-mysql-database-from-local)
+   + If you have backups enabled, you can download a zip file from the Dashboard
+   + You can also manually dump the database using a [mysql client and our tunnel](https://help.fortrabbit.com/mysql#toc-access-the-mysql-database-from-local)
 2. Upgrade your local development environment to MySQL 8
 3. Test your project in your local environment and ensure everything works
 4. Create a new App with MySQL 8
@@ -57,7 +54,6 @@ This is the safest workflow and uses a new App for the new MySQL version. This m
 6. Test your project on the new App and ensure everything works
 7. Switch DNS entries to the new App
 8. Once you see that everything works, delete the old App
-
 
 ### Method 2 - Switch existing App (Pro Apps only)
 
@@ -70,8 +66,7 @@ This is also a safe workflow, but only applicable for Pro Apps. Here you work wi
 6. Book a MySQL again, it will be on MySQL 8
 7. Import the database dump you created earlier
 
-
-### <a class="anchored" id="method3">Method 3 - Use our automatic migration (Pro Apps only)</a>
+### Method 3 - Use our automatic migration (Pro Apps only)
 
 This is a less safe workflow. The beauty is that it does not involve much action from your side. This method also causes minimal downtime, as only write access is removed while the database migrates to a new Node.
 
@@ -83,7 +78,6 @@ This is a less safe workflow. The beauty is that it does not involve much action
 6. Wait 5 minutes until the operations are complete.
 
 We can not guarantee that our database migration will work perfectly for every database, which is why the manual migration above is the safer option.
-
 
 ## Related help articles
 

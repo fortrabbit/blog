@@ -178,7 +178,7 @@ nitro add
 During this part of the process we were asked to provide additional details, such as the desired **host name for the site and the webroot directory**.
 Craft Nitro tries to make this as easy as possible by providing sensible defaults.
 
-### <a class="anchored" id="multipass-issues">Multipass issues preventing us from using Craft Nitro on macOS</a>
+### Multipass issues preventing us from using Craft Nitro on macOS
 
 Unfortunately, when attempting to add a site to Craft Nitro we again ran into a Multipass permissions issue.
 At this moment, we felt it was prudent to look a bit deeper into Multipass, as it is the critical software component that Craft Nitro depends on.

@@ -35,7 +35,7 @@ Many of our clients are using a CMS like Craft CMS or WordPress. In that case, y
 * Universal Apps will receive the same upgrade at a later date when we have ensured that everything works well
 * We plan to phase out MySQL 5.6 at some point (see [EOL section](#eol) below)
 
-## <a class="anchored" id="upgrading" href="#">Upgrading</a>
+## Upgrading
 
 We recommend the following workflow to get your App up and running with the new version of MySQL:
 
@@ -50,7 +50,7 @@ Please ping us if your have any questions along the way. We are also happy to gi
 
 Take this as an opportunity to update the rest of your application as well.
 
-## <a class="anchored" id="eol" href="#">End of life for MySQL 5.6</a>
+## End of life for MySQL 5.6<
 
 We will eventually switch off MySQL 5.6 at some point. The official End Of Life for MySQL 5.6 is February 2021. We plan to support it longer than that, but no date for deprecation has been set yet. Further communication from us on the topic will follow.
 

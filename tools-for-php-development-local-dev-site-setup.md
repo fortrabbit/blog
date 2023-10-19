@@ -30,7 +30,7 @@ There are **many ways to set up a local PHP development environment**, and devel
     What are the pros and cons of each tool?  
     What tool is best suited for different use cases?  
 
-## <a class="anchored" id="php-development-environment">What a local PHP development environment consist of</a>
+## What a local PHP development environment consist of
 
 In essence, a local development environment comprises **everything needed to *run* local dev sites**. This commonly includes software that needs to be installed and configured to work together in concert, such as a web server, database, and so forth.
 
@@ -80,7 +80,7 @@ Let’s look at all of the parts a local development environment consists of:
 
 As should be clear by now, a local development environment consists of quite a few interrelated parts. As such, there are many ways to set things up, with ample room for us to end up with suboptimal results. While development tools can help with some of the setup, the **precise balance of components is specific to each development workflow**. We therefore look for guidelines to find a good solution.
 
-## <a class="anchored" id="local-dev-site-setup">What our local dev site setup should look like</a>
+## What our local dev site setup should look like
 
 ![local-php-dev--7515248418_831c15e4d7_o](/dist/img/local-php-dev--7515248418_831c15e4d7_o.jpg)
 
@@ -156,7 +156,7 @@ In principle, all four ways can be used to run local dev sites. However, in prac
     ⨉ Performance issues if not running Linux  
     ⨉ Known issues with certain tools and techniques
 
-## <a class="anchored" id="php-development-tools">Tools for running a local PHP dev site</a>
+## Tools for running a local PHP dev site
 
 We’ll look at the pros and cons of each tool. Be aware that **some of these tools cannot be used in parallel.**
 
@@ -167,7 +167,7 @@ We’ll look at the pros and cons of each tool. Be aware that **some of these to
 5. [**DDEV**](#ddev) (Container)
 6. [**Lando**](#lando) (Container)
 
-### <a class="anchored" id="vagrant">Vagrant</a>
+### Vagrant
 
 ![local-php-dev--vagrant](/dist/img/local-php-dev--vagrant.gif)
 
@@ -191,11 +191,10 @@ Fortunately, Vagrant makes the **process of configuring the development environm
 
 Configuring a **Vagrant box affords a lot of control**. However, for most PHP development use cases it’s probably a better idea to start with Homestead.
 
-
 Website: [vagrantup.com](https://www.vagrantup.com/)  
 Supported operating systems: Linux, macOS, Windows
 
-### <a class="anchored" id="homestead">Laravel Homestead</a>
+### Laravel Homestead
 
 ![local-php-dev--homestead](/dist/img/local-php-dev--homestead.gif)
 
@@ -212,8 +211,7 @@ Be aware that a Homestead instance **may results in a large virtual machine file
 Website: [laravel.com/docs/7.x/homestead](https://laravel.com/docs/7.x/homestead)  
 Supported operating systems: Linux, macOS, Windows
 
-
-### <a class="anchored" id="valet">Laravel Valet</a>
+### Laravel Valet
 
 ![local-php-dev--valet](/dist/img/local-php-dev--valet.gif)
 
@@ -233,11 +231,10 @@ That being said, when going with Valet one should make sure to **keep up-to-date
 
 > “Valet isn’t a complete replacement for Vagrant or Homestead, but provides a great alternative if you want flexible basics, prefer extreme speed, or are working on a machine with a limited amount of RAM.”
 
-
 Website: [laravel.com/docs/7.x/valet](https://laravel.com/docs/7.x/valet)  
 Supported operating systems: macOS only
 
-### <a class="anchored" id="docker">Docker</a>
+### Docker
 
 ![local-php-dev--docker](/dist/img/local-php-dev--docker.gif)
 
@@ -250,11 +247,10 @@ Each stack component is installed in its own container, which makes it easy to, 
 
 Furthermore, setting up a development environment with Docker is technically challenging. Unless you’re super pro and know exactly what you’re doing, you most likely don’t want to go with pure Docker. It’s **probably a better idea to use an abstraction layer**, such as Lando or DDEV, to set up your container-based local PHP development environment.
 
-
 Website: [docker.com](https://www.docker.com/)  
 Supported operating systems: Linux, macOS, Windows
 
-### <a class="anchored" id="lando">Lando</a>
+### Lando
 
 ![local-php-dev--lando](/dist/img/local-php-dev--lando.gif)
 
@@ -275,8 +271,7 @@ One word of caution: Lando for macOS and Windows ships with its own version of D
 Website: [lando.dev](https://lando.dev/)  
 Supported operating systems: Linux, macOS, Windows
 
-
-### <a class="anchored" id="ddev">DDEV</a>
+### DDEV
 
 ![local-php-dev--ddev](/dist/img/local-php-dev--ddev.gif)
 
@@ -292,12 +287,10 @@ Unlike Lando, DDEV is **exclusively geared towards PHP development**. Although i
 
 The singular focus on PHP development simplifies things, as it allows the makers of DDEV to make more opinionated choices. Out of the box, DDEV includes useful tools, such as Xdebug, Ngrok, and MailHog. All in all, **DDEV feels more light-weight than Lando and may presently be the quickest solution** to getting a PHP dev site up and running.
 
-
 Website: [ddev.com](https://www.ddev.com/)  
 Supported operating systems: Linux, macOS, Windows
 
 <mark>Please also see our [follow up post on how to set up DDEV for Craft CMS](/local-craft-dev-site-ddev-development-tool) in 15 minutes.</mark>
-
 
 ## In conclusion, what tool should we use to run our local dev sites?
 
@@ -309,13 +302,11 @@ Furthermore, to find the right solution for our needs, **we need to ask ourself:
 
 While it is difficult to give detailed recommendations, here’s a **condensed rundown of the technologies discussed, along with their strongest use case**:
 
-
 ### For most use cases go with…
 
 - [**Homestead**](#homestead), if you're fine with using a virtual machine. Homestead offers a great ecosystem, so it's easy to find guides for setting up different PHP-based projects. Since Homestead runs on top of Vagrant, you can just add more boxes for development in other languages if needed. Keep in mind that each box eats up multiple gigabytes of disk space.
 
 - [**DDEV**](#ddev), if you're only going to develop using PHP and want to get your site up and running as quickly as possible. This is an especially good choice if you're running Linux, as you'll get the full Docker performance benefit.
-
 
 ### If you have special requirements, consider…
 
@@ -328,7 +319,6 @@ While it is difficult to give detailed recommendations, here’s a **condensed r
 - [**Lando**](#lando), for larger teams and professional deployments. Make sure your hardware is beefy enough for Lando to do its job. Unlike DDEV, Lando supports multiple languages via its recipes.
 
 - **XAMPP** / **MAMP** / **WAMP**, for learning and experimentation. These are not a great choice for serious development, due to the lack of site isolation.
-
 
 ### Dev tool feature overview and comparison
 

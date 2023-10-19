@@ -13,7 +13,6 @@ tag:
 
 ## Introduction
 
-
 ### The DDEV development tool
 
 A detailed introduction to DDEV was given in our previous [article on PHP development tools](https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup#ddev). Maybe also check out the DDEV website at [ddev.com](https://www.ddev.com/).
@@ -24,7 +23,6 @@ To quickly sum up:
 * DDEV supports a number of popular **content management systems and frameworks**.
 
 * We can set up **DDEV with a standard LAMP stack for local Craft CMS** development.
-
 
 ### Installation requirements
 
@@ -44,8 +42,7 @@ For this installation procedure, you will need:
     * Install Homebrew on [macOS](https://brew.sh/)
     * Install Homebrew on [Linux or Linux Subsystem for Windows](https://docs.brew.sh/Homebrew-on-Linux)
 
-
-## <a class="anchored" id="ddev-installation">Install DDEV to power your local Craft CMS dev sites</a>
+## Install DDEV to power your local Craft CMS dev sites
 
 First, we need to install DDEV on our machine.
 
@@ -75,8 +72,7 @@ brew install ddev
 
 If you're using a different operating system, or are uncomfortable using `brew`, check the official [DDEV installation](https://ddev.readthedocs.io/en/stable/#installation) instructions to find alternative means of installing DDEV.
 
-
-## <a class="anchored" id="ddev-with-new-site">Set up a local Craft CMS dev site with DDEV</a>
+## Set up a local Craft CMS dev site with DDEV
 
 In this section we'll show how to **set up a brand new Craft CMS site with DDEV** for local development.
 In case you want to use DDEV to power an existing local Craft dev site instead, please refer to our section [Using DDEV with an existing Craft CMS installation](#ddev-with-existing-site) below.
@@ -116,8 +112,7 @@ exit
 
 That's it. Now you should be able to **just access the URL shown via `ddev describe` in your browser** to visit your site.
 
-
-## <a class="anchored" id="ddev-with-existing-site">Using DDEV with an existing Craft CMS installation</a>
+## Using DDEV with an existing Craft CMS installation
 
 We've shown how to use DDEV to set up a fresh dev site for local Craft CMS development.
 Now you might be curious how to approach your existing local Craft dev sites.
@@ -141,8 +136,7 @@ Here's how you run an existing Craft site via DDEV:
 
 You should be up and running with the Craft site showing in your browser.
 
-
-## <a class="anchored" id="deploy-to-hosting-platform">Deploy your local Craft CMS dev site</a>
+## Deploy your local Craft CMS dev site
 
 You've gotten your local Craft CMS dev site up and running — great!
 But what's next?
@@ -204,7 +198,7 @@ $ php craft copy/db/up
 $ php craft copy/volumes/up
 ```
 
-## <a class="anchored" id="conclusion">Conclusion</a>
+## Conclusion
 
 In conclusion, **DDEV is a great choice for local Craft CMS development**.
 DDEV can be used to quickly set up a new Craft CMS dev site and works just as well with your existing sites.

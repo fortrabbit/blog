@@ -18,7 +18,7 @@ As requested, we plan to switch to Composer 2 on **Tuesday, the 15th of December
 
 In some edge cases, your deployments might break. Here is how you can fix things:
 
-### <a class="anchored" id="laravel">Fix Laravel</a>
+### <Fix Laravel
 
 Applies to Laravel versions: 5.5, 5.6, 5.7, 5.8, 6, and 7
 
@@ -32,7 +32,7 @@ composer self-update --2
 composer update laravel/framework
 ```
 
-### <a class="anchored" id="craft">Fix Craft</a>
+### Fix Craft
 
 Applies to Craft CMS version 3.
 
@@ -44,7 +44,7 @@ Failed to extract vendor/plugin-name
 
 Solution: Update Craft to 3.5.15 or higher
 
-### <a class="anchored" id="composer-1">How to still use Composer 1</a>
+### How to still use Composer 1
 
 There might be another other reason why Composer 2 does not work for your, like packages that don't follow PSR-4 naming conventions. In this case you may don't want to use Composer 2. With a little effort you can stick with Composer 1:
 
