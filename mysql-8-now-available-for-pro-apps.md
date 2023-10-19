@@ -20,11 +20,9 @@ Compared to MySQL 5.6, MySQL 5.7 and MySQL 8 have some nice features you might w
 * Emoji support: 🤩
 * Better handling of GeoSpatial data types for working with geographic data
 
-
 ### Target audience
 
 Many of our clients are using a CMS like Craft CMS or WordPress. In that case, you might not need to bother too much about this. For Symfony or Laravel users building custom applications the new features might come in handy, and the effort required to update your application might be worth the time.
-
 
 ## Now
 
@@ -32,12 +30,10 @@ Many of our clients are using a CMS like Craft CMS or WordPress. In that case, y
 * All new Apps created on the Pro Stack will run on MySQL 8
 * To upgrade your App see the [Upgrade section](#upgrading) below
 
-
 ## Next
 
 * Universal Apps will receive the same upgrade at a later date when we have ensured that everything works well
 * We plan to phase out MySQL 5.6 at some point (see [EOL section](#eol) below)
-
 
 ## <a class="anchored" id="upgrading" href="#">Upgrading</a>
 
@@ -54,14 +50,9 @@ Please ping us if your have any questions along the way. We are also happy to gi
 
 Take this as an opportunity to update the rest of your application as well.
 
-* <a href="#" onclick="Intercom('showNewMessage', 'I have question regarding MySQL 8:').preventDefault()">Contact support</a>
-
-
-
 ## <a class="anchored" id="eol" href="#">End of life for MySQL 5.6</a>
 
 We will eventually switch off MySQL 5.6 at some point. The official End Of Life for MySQL 5.6 is February 2021. We plan to support it longer than that, but no date for deprecation has been set yet. Further communication from us on the topic will follow.
-
 
 ## Heads-up for Sequel Pro users
 

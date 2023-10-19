@@ -1,14 +1,19 @@
 - name: all
+  route: /
   tooltip: All posts
 - name: changelog
-  tooltip: Latest updates
-  description: Latest platform updates, version changes and new features.
+  route: /tag/changelog
+  tooltip: Platform updates
+  description: New features, version changes and deprecations.
 - name: chronicles
+  route: /tag/chronicles
   tooltip: Our story
-  description: Our Story. Stories of struggle building a hosting platform and sustainable business. 
+  description: Stories of struggle building a hosting platform. 
 - name: webdev
+  route: /tag/webdev
   tooltip: Web development
-  description: Tutorials, guides, web development tips.
+  description: Tutorials, guides and some practical tips.
 - name: opinion
+  route: /tag/opinion
   tooltip: Random rants
-  description: Commentary on web development trends, technology and running a bootstrapped business.
+  description: Commentary on trends, technology and running a bootstrapped business.

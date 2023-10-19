@@ -34,7 +34,6 @@ We DO NOT recommend using outdated software, but we also understand real live sc
 * **Craft CMS**: Recently released **2.7** [supports PHP 7.2](https://craftcms.com/news/craft-2-7) with mcrypt polyfill
 * **WordPress**: We have tested version 4.4.16 which is the latest release from 4.4 which was published in 2015. Still we recommend to update.
 
-
 ## 1 - Update your local development environment
 
 We recommend to have a local development environment, also see our [help article on that](https://help.fortrabbit.com/local-development). So the first thing you need to do is make sure that your local PHP version is up-to-date. Depending on how your local development is set up, the path to upgrade is different.
@@ -50,7 +49,6 @@ To upgrade your local PHP on macOS, [Homebrew](https://brew.sh/) is a popular pa
 When you are running a more complex setup with PHP virtualized, such as Vagrant, Virtual Box or Docker, you have to dig in to your specific virtualization setup to see how to upgrade PHP.
 
 If you don't have a local development environment yet: Reconsider that now. A work around might be to use an additional App for that on fortrabbit.
-
 
 ## 2 - Update your software dependencies
 
@@ -78,13 +76,11 @@ Many Content Management Systems, like WordPress, Craft CMS and Grav come with a 
 
 **Tip:** WordPress also has a handy plugin to check whether your other plugins will work with the latest PHP version: [PHP Compatibility Checker](https://wordpress.org/plugins/php-compatibility-checker/).
 
-
-## 3 - Test it!
+## 3 - Test it
 
 When you have upgraded your local PHP version as well as your projects dependencies, it's time to make sure nothing is broken! Open your browser and try out as many views and actions as you can in your local development setup.
 
 If you are running a lot of custom code you have written yourself, we recommend that you run an automated code analysis. It checks your code and finds any deprecated functions that might break. [See our analysis article &rarr;](/php-testing#code-analysis)
-
 
 ## 4 - Go live with the updated version
 
@@ -109,6 +105,6 @@ Now, quickly after the new PHP version is in place, deploy your updated code fro
 
 Don't forget that you might also have to run database migrations so that your database structure matches the latest code version. WordPress and Craft CMS automatically handle this in the web UI. For any other system, see their documentation on how to properly update the database.
 
-## Cheers!
+## Cheers
 
-Thanks for taking the time to keep your software up-to-date. Have a question? Don't hesitate <a href="javascript:Intercom('showNewMessage');">to ask us right away</a>! We can also offer you some discount for running two versions of your Apps side by side for a little while.
+Thanks for taking the time to keep your software up-to-date.

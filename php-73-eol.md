@@ -45,7 +45,7 @@ We plan to force-update all Apps still running on `PHP 7.3` to `PHP 7.3` on the 
 
 ## Grace period
 
-You will still be able to switch back your App to `PHP 7.3` with our Dashboard for an extended period of time after the first switch — this is what we consider the grace period. You can also <a href="javascript:Intercom('showNewMessage');">ask us</a> to exclude certain of your Apps (please include the App names) from the switch right away, so no switch will happen initially.
+You will still be able to switch back your App to `PHP 7.3` with our Dashboard for an extended period of time after the first switch — this is what we consider the grace period. You can also ask us to exclude certain of your Apps (please include the App names) from the switch right away, so no switch will happen initially.
 
 We plan to support the deprecated PHP version for one more month at least. The final switch off is planned to happen about a month later. We will announce that in our usual communication channels - [status.fortrabbit.com](https://status.fortrabbit.com).
 
@@ -77,4 +77,4 @@ Please check out our old [PHP testing article](php-testing), highlighting strate
 
 ## Cheers
 
-Thanks for taking the time to keep your software up-to-date. Have a question? Don't hesitate <a href="javascript:Intercom('showNewMessage');">to ask us right away</a>! We can also offer you a discount for running two versions of your Apps side by side.
+Thanks for taking the time to keep your software up-to-date. Have a question? Don't hesitate to ask us right away! We can also offer you a discount for running two versions of your Apps side by side.
