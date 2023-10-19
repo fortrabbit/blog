@@ -37,20 +37,20 @@ Here's a simple example where we output a transformed version of an image using 
 {% set someAsset = entry.imageField1.one() %}
 
 {% set settings = 
-    [
-        {
-            asset: someAsset1,
-            transform: {
-                width: 200,
-                height: 500,
-                mode: 'crop',
-            },
-        }       
-    ]
+  [
+    {
+      asset: someAsset1,
+      transform: {
+        width: 200,
+        height: 500,
+        mode: 'crop',
+      },
+    }
+  ]
  %}
 
 {% set htmlAttributes = {
-    class: 'some-class',
+  class: 'some-class',
 } %}
 
 {{ craft.images.pictureMultiple(settings, htmlAttributes) }}
@@ -62,9 +62,9 @@ Here is the generated HTML:
 
 ```twig
 <picture>
-<source type="image/webp" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.webp">
-<source type="image/jpeg" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg">
-<img src="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg" class="some-class">
+  <source type="image/webp" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.webp">
+  <source type="image/jpeg" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg">
+  <img src="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg" class="some-class">
 </picture>
 ```
 
@@ -82,30 +82,30 @@ Let's use the `craft.images.pictureMultiple()` function again. This time, we wil
 
 ```twig
 {% set settings = 
-    [
-        {
-            asset: someAsset1,
-            transform: {
-                width: 200,
-                height: 500,
-                mode: 'crop',
-            },
-            media: '(min-width: 1024px)',
-        },
-        {
-            asset: someAsset2,
-            transform: {
-                width: 100,
-                height: 100,
-                mode: 'crop',
-            },
-            media: '(max-width: 1023px)',
-        }        
-    ]
- %}
+  [
+    {
+      asset: someAsset1,
+      transform: {
+        width: 200,
+        height: 500,
+        mode: 'crop',
+      },
+      media: '(min-width: 1024px)',
+    },
+    {
+      asset: someAsset2,
+      transform: {
+        width: 100,
+        height: 100,
+        mode: 'crop',
+      },
+      media: '(max-width: 1023px)',
+    }
+  ]
+%}
 
 {% set htmlAttributes = {
-    class: 'some-class',
+  class: 'some-class',
 } %}
 
 {{ craft.images.pictureMultiple(settings, htmlAttributes) }}
@@ -115,11 +115,11 @@ Here is the generated HTML code:
 
 ```twig
 <picture>
-<source type="image/webp" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.webp" media="(min-width: 1024px)">
-<source type="image/jpeg" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg" media="(min-width: 1024px)">
-<source type="image/webp" srcset="http://website.com/uploads/_400x500_fit_center-center_none/image2.webp" media="(max-width: 1023px)">
-<source type="image/jpeg" srcset="http://website.com/uploads/_400x500_fit_center-center_none/image2.jpg" media="(max-width: 1023px)">
-<img src="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg" class="some-class">
+  <source type="image/webp" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.webp" media="(min-width: 1024px)">
+  <source type="image/jpeg" srcset="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg" media="(min-width: 1024px)">
+  <source type="image/webp" srcset="http://website.com/uploads/_400x500_fit_center-center_none/image2.webp" media="(max-width: 1023px)">
+  <source type="image/jpeg" srcset="http://website.com/uploads/_400x500_fit_center-center_none/image2.jpg" media="(max-width: 1023px)">
+  <img src="http://website.com/uploads/_200x500_crop_center-center_none/image1.jpg" class="some-class">
 </picture>
 ```
 
@@ -132,27 +132,27 @@ Instead of passing the entire media query into the source settings, you can also
 {% set someAsset2 = entry.imageField2.one() %}
 
 {% set settings = 
-    [
-        {
-            asset: someAsset1,
-            transform: {
-                width: 200,
-                height: 500,
-                mode: 'crop',
-            },
-            min: 1024,
-        },
-        {
-            asset: someAsset2,
-            transform: {
-                width: 100,
-                height: 100,
-                mode: 'crop',
-            },
-            max: 1023,
-        }        
-    ]
- %}
+  [
+    {
+      asset: someAsset1,
+      transform: {
+        width: 200,
+        height: 500,
+        mode: 'crop',
+      },
+      min: 1024,
+    },
+    {
+      asset: someAsset2,
+      transform: {
+        width: 100,
+        height: 100,
+        mode: 'crop',
+      },
+      max: 1023,
+    }
+  ]
+%}
 {{ craft.images.pictureMultiple(settings) }}
 ```
 
@@ -166,27 +166,27 @@ Let's define a transform layout with the handle `someHandle` in the `config/imag
 
 ```php
 'transformLayouts' => [
-    'someHandle' => [
-        'variants' => [
-            [
-                'media' => '(max-width: 999px)',
-                'transform' => [
-                    'width' => 300,
-                    'mode' => 'crop',
-                ]
-            ],
-            [
-                'media' => '(min-width: 1000px)',
-                'transform' => [
-                    'width' => 600,
-                    'mode' => 'stretch',
-                ]
-            ]               
-        ],
-        'attributes' => [
-            'class' => 'some-class'
-        ],
+  'someHandle' => [
+    'variants' => [
+      [
+        'media' => '(max-width: 999px)',
+        'transform' => [
+            'width' => 300,
+            'mode' => 'crop',
+        ]
+      ],
+      [
+        'media' => '(min-width: 1000px)',
+        'transform' => [
+          'width' => 600,
+          'mode' => 'stretch',
+        ]
+      ]
     ],
+    'attributes' => [
+      'class' => 'some-class'
+    ],
+  ],
 ],
 ```
 
@@ -209,39 +209,39 @@ Using transform layouts offers one more advantage. HTML attributes applied to th
 
 ```php
 'transformLayouts' => [
-    'someHandle' => [
-        'variants' => [
-            [
-                'media' => '(max-width: 999px)',
-                'transform' => [
-                    'width' => 300,
-                    'mode' => 'crop',
-                ]
-            ],
-            [
-                'media' => '(min-width: 1000px)',
-                'transform' => [
-                    'width' => 600,
-                    'mode' => 'stretch',
-                ]
-            ]               
-        ],
-        'attributes' => function($assets){
-            if(!is_null($assets[0])){
-                if($assets[0]->getFieldValue('someField') != ''){
-                    $title = $assets[0]->getFieldValue('someField');
-                }else{
-                    $title = $assets[0]->title;
-                }
-            }else{
-                $title = null;
-            }
-            $attrs = [
-                'title' => $title;
-            ];
-            return $attrs;
-        },
+  'someHandle' => [
+    'variants' => [
+      [
+          'media' => '(max-width: 999px)',
+          'transform' => [
+              'width' => 300,
+              'mode' => 'crop',
+          ]
+      ],
+      [
+          'media' => '(min-width: 1000px)',
+          'transform' => [
+              'width' => 600,
+              'mode' => 'stretch',
+          ]
+      ]
     ],
+    'attributes' => function($assets){
+      if(!is_null($assets[0])){
+        if($assets[0]->getFieldValue('someField') != ''){
+          $title = $assets[0]->getFieldValue('someField');
+        }else{
+          $title = $assets[0]->title;
+        }
+      }else{
+        $title = null;
+      }
+      $attrs = [
+        'title' => $title;
+      ];
+      return $attrs;
+    },
+  ],
 ],
 ```
 
@@ -263,7 +263,7 @@ The placeholder mode can be changed using the `placeholderMode` [plugin setting]
 
 Below there is an example transformed image and placeholder generated from the same set of transform settings. As you can see, base placeholder image has empty space added to the sides make it same proportions as the missing image.
 
-![](/dist/img/craft-image-toolbox-placeholder2.png)
+![](images/craft-image-toolbox-placeholder2.png)
 
 ## Image variants field
 
@@ -283,7 +283,7 @@ To output picture with configuration defined using **Images variant** field, you
 
 In this example, `variantField` is handle of the Image Variants field assigned to the asset source. Below is a screenshot showcasing the Image Variants settings, with three picture sources defined:
 
-![](/dist/img/craft-image-toolbox-variants-field.png)
+![](images/craft-image-toolbox-variants-field.png)
 
 ## Alternative solution - ImageOptimize plugin
 
