@@ -13,7 +13,7 @@ tag:
 
 Previously, we explored a variety of dev tools in our [article on local PHP development](https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup).
 We narrowed our focus to [setting up a Craft CMS site with the DDEV development tool](https://blog.fortrabbit.com/local-craft-dev-site-ddev-development-tool).
-Here, we examine if the new Craft Nitro local dev tool will also fit our purpose. -->
+Here, we examine if the new Craft Nitro local dev tool will also fit our purpose.
 
 DISCLAIMER: this article reflects the author's opinions and is based on their experience testing Craft Nitro on macOS while adhering to common best practices.
 
