@@ -16,11 +16,9 @@ tag:
 
 Just last month we have launched [free https](/tls-free-launched) (via Let's Encrypt) for all custom domains. Now we are continuing in this direction with a new forwarding service and more descriptive domain setup and management.
 
-
 ## Naked domain forwarding
 
 TLDR; We will now provide A-records for your naked domains; here we forward requests to www.
-
 
 ### A little refresher
 
@@ -33,7 +31,7 @@ In classical hosting you usually use A-records to route your domain to the IP of
 
 In general you should route your domain using a CNAME like so:
 
-```nohighlight
+```
 NAME               TYPE    VALUE
 ----------------------------------------
 www.mydomain.com.  CNAME   myapp.frb.io.
@@ -47,12 +45,11 @@ But until now it was not clear how naked domain should be handled.
 
 **Simply using the CNAME for naked domains**. That is against the [DNS specs](http://www.ietf.org/rfc/rfc1035.txt) and it breaks emails for `you@domain.com` — CNAME on a naked domain breaks the MX record so you and cannot receive emails on that domain anymore.
 
-**Ignoring naked domains**. That is not good, as some users might try to enter the domain without the www. prefix in the browser which would end up in a dead end.
+**Ignoring naked domains**. That is not good, as some users might try to enter the domain without the <www>. prefix in the browser which would end up in a dead end.
 
 **Using the IP address of the App for the A-Record**. That's not good, as your App might be moved around and thus will receive a different IP.
 
 **Using naked and www side by side, not forwarding requests**. This way the Google bot and your users don't which domain is the right one.
-
 
 ### Hacks until now ⚡
 
@@ -64,7 +61,7 @@ From now on, we offer **free forwarding** for domains used with your App. Also w
 
 Using the above example, you can now setup your records like so:
 
-```nohighlight
+```
 NAME               TYPE    VALUE
 ----------------------------------------
 mydomain.com.      A       52.18.136.112
@@ -73,8 +70,7 @@ www.mydomain.com.  CNAME   myapp.frb.io.
 
 For EU clients it's the IP: `52.18.136.112`, for US clients it's: `50.16.35.210`.
 
-You can point any naked domain to the above IPs and they will be redirected automatically to the corresponding `www.` subdomain. Just make sure you have added the `www.domain.tld` to your App before, and it's a "New App". 
-
+You can point any naked domain to the above IPs and they will be redirected automatically to the corresponding `www.` subdomain. Just make sure you have added the `www.domain.tld` to your App before, and it's a "New App".
 
 ### Why this matters
 
@@ -87,12 +83,9 @@ Most of our clients are using classical domain providers for domain registration
 * Enforce HTTPS by redirecting non HTTPS requests to HTTPS
 * Use [HSTS](https://help.fortrabbit.com/tls#toc-force-https-for-future-visits-with-hsts) to force HTTPS within the browser
 
-
 ### Alternatives
 
 The new domain forwarding feature is optional. You can also use any other service in combination with fortrabbit. There are specialized DNS services — like [DNSimple](https://dnsimple.com) or [DNS Made Easy](https://www.dnsmadeeasy.com)  — offerings the aforementioned ANAME or ALIAS records, enabling CNAME-like behavior with a naked domain. [CloudFlare](https://www.cloudflare.com/) does all kinds of magic with your domain which allows you to use naked domains with fortrabbit.
-
-
 
 ## Dashboard improvements
 
@@ -104,17 +97,10 @@ You can compare the current (actual) DNS settings of your domain with the suppos
 
 Additionally, you now get infos on the TLS status and if your domain is available over HTTPS.
 
-
-
-
 ## Wrap up
 
 Now: Isn't fortrabbit your best PHP hosting platform ever? All domains with fortrabbit Apps get zero-config HTTPS via Let's Encrypt and to all "www." domains, there is an automatic forward from the naked domain.
 
-
 ## Further readings
 
 We have also updated our [help page on domains](https://help.fortrabbit.com/about-domains).
-
-
-

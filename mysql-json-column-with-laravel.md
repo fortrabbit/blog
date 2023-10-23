@@ -15,12 +15,11 @@ tag:
 
 ## Why JSON columns?
 
-MySQL, like any other relational database, is great at modelling data structures and making connections between them. But what if there is some parts of your data that does not fit into a relational model - data that does not follow a strict schema? You could opt for a NoSQL database like MongoDB, that is optimized for storing JSON-like documents. But the truth is you don't need another database. MySQL has had a built-in JSON column type since 5.7, and a lot of improvements have been introduced with the 8.0 release. This hybrid approach is not new - PostgreSQL has supported JSON since 2013.    
-
+MySQL, like any other relational database, is great at modelling data structures and making connections between them. But what if there is some parts of your data that does not fit into a relational model - data that does not follow a strict schema? You could opt for a NoSQL database like MongoDB, that is optimized for storing JSON-like documents. But the truth is you don't need another database. MySQL has had a built-in JSON column type since 5.7, and a lot of improvements have been introduced with the 8.0 release. This hybrid approach is not new - PostgreSQL has supported JSON since 2013.
 
 ## RAW SQL - preparation
 
-To understand what you can do with JSON columns, let's create a table with a `meta` JSON field and also a reference to an imaginary users table. (Feel free to ignore the `user_id` field: it's just there to show that we can mix relational data and JSON objects in a single table.)   
+To understand what you can do with JSON columns, let's create a table with a `meta` JSON field and also a reference to an imaginary users table. (Feel free to ignore the `user_id` field: it's just there to show that we can mix relational data and JSON objects in a single table.)
 
 ```
 CREATE TABLE things (
@@ -31,8 +30,8 @@ CREATE TABLE things (
 );    
 ```
 
-We also need some dummy data to play around with. If you take a look at the `INSERT` statements below, you will notice that the values we insert into the `meta` fields look like strings. 
- 
+We also need some dummy data to play around with. If you take a look at the `INSERT` statements below, you will notice that the values we insert into the `meta` fields look like strings.
+
 ```
 INSERT INTO things (user_id, meta) VALUES(100, '{"single": "Towel", "many": ["Toilet Paper", "Mirror", "Soap"]}');
 INSERT INTO things (user_id, meta) VALUES(200, '{"single": "Gingerbread", "many": ["Clotted cream", "Fruit fool"]}');
@@ -52,14 +51,13 @@ SELECT * FROM `things`;
 +----+---------+--------------------------------------------------------------------+---------------------+
 ```
 
-As you can see, there is nothing special so far. The `meta` fields look like the JSON encoded strings we inserted previously, just like any other column with string data type `TEXT` or `VARCHAR`. 
+As you can see, there is nothing special so far. The `meta` fields look like the JSON encoded strings we inserted previously, just like any other column with string data type `TEXT` or `VARCHAR`.
 
-However, under the hood MySQL stores the values in a binary format and validates the documents when inserting or updating them. Which means, if you try to insert invalid or broken JSON, you will get an `Invalid JSON text` error. 
-
+However, under the hood MySQL stores the values in a binary format and validates the documents when inserting or updating them. Which means, if you try to insert invalid or broken JSON, you will get an `Invalid JSON text` error.
 
 ## Raw SQL - JSON queries
 
-So far we gained almost nothing from the JSON columns, except a bit of validation. But there is much more! 
+So far we gained almost nothing from the JSON columns, except a bit of validation. But there is much more!
 
 Let's start with a very basic query and try to select specific data from our `meta` field. The JSON objects in our example have two properties on the root level: "many" and "single". As of MySQL 5.7.13, we can use the `->>` accessor to specify which property we want to access. If this were a PHP object, you would call `$meta->single` to retrieve the values of the `single` property on the `$meta` object. The MySQL syntax is a bit different:
 
@@ -76,7 +74,7 @@ SELECT user_id, meta->>"$.single" FROM `things`;
 
 If you are still on MySQL 5.7.12 or lower, instead of `->>` you should use `->`. With this accessor, all string values are quoted - for example `Towel` becomes `"Towel"`. If you wrap your expression in a `JSON_UNQUOTE()` function you can get rid of the quotes without using the `->>` operator.
 
-So far we've extracted data from the nested JSON object in our result. Using it in a WHERE condition or with an ORDER BY clause is even more interesting. In the example below, we basically search in the JSON object and limit the result to the matching condition. 
+So far we've extracted data from the nested JSON object in our result. Using it in a WHERE condition or with an ORDER BY clause is even more interesting. In the example below, we basically search in the JSON object and limit the result to the matching condition.
 
 ```
 SELECT user_id, meta FROM `things` WHERE meta->>"$.single" = 'Gingerbread';
@@ -97,7 +95,6 @@ SELECT user_id, meta  FROM `things` WHERE JSON_CONTAINS(`meta`, JSON_QUOTE('Ward
 |     300 | {"many": ["Sideboard", "Bench", "Wardrobe"], "single": "Table"} |
 +---------+-----------------------------------------------------------------+
 ```
-
 
 ## Laravel built-in support
 
@@ -144,7 +141,7 @@ class Thing extends Model
 
 ```
 
-These are the SQL queries we used before translated to Eloquent: 
+These are the SQL queries we used before translated to Eloquent:
 
 ```
 // all things
@@ -161,7 +158,7 @@ $things = App\Models\Thing::whereJsonContains('meta->many', 'Wardrobe')->first()
 
 ```
 
-To prove that the JSON encoded string is cast to an array, we can dump the `$things->meta` attribute of the last query: 
+To prove that the JSON encoded string is cast to an array, we can dump the `$things->meta` attribute of the last query:
 
 ```
 array:2 [▼
@@ -191,12 +188,11 @@ $thing->meta = $meta;
 $thing->save();
 ```
 
-
 ## Indexing and virtual columns
 
-MySQL doesn't have a way to index JSON documents directly, but there is an alternative: generated columns. 
+MySQL doesn't have a way to index JSON documents directly, but there is an alternative: generated columns.
 
-As long as you don't use a `WHERE` condition or an `ORDER BY` clause on the JSON column, you don't need to worry about generated columns and indexing. On a very small dataset it's also not that important, but with larger datasets the right index will improve read performance a lot.   
+As long as you don't use a `WHERE` condition or an `ORDER BY` clause on the JSON column, you don't need to worry about generated columns and indexing. On a very small dataset it's also not that important, but with larger datasets the right index will improve read performance a lot.
 
 To index a property within your JSON document, you first create a generated column. By default is a `VIRTUAL` column, which means values in these columns are evaluated on-the-fly and do not take up any storage. The `STORED` keyword, on the other hand, indicates that values are evaluated when rows are inserted or updated.
 
@@ -219,7 +215,7 @@ Schema::table('things', function (Blueprint $table) {
 });
 ```
 
-Let's have a look at the different index usage using `EXPLAIN`. 
+Let's have a look at the different index usage using `EXPLAIN`.
 Before adding the index:
 
 ```
@@ -246,15 +242,13 @@ Explanation of the `EXPLAIN`: In the first example, "Key `NULL`", "Rows `3`" and
 
 For the same query, after adding the index, we see "Key `idx_single`" - the key (index) that MySQL actually decided to use - and "Rows `1`" - the number of rows MySQL thinks it has to examine to execute the query. Fewer rows means less work for the database and faster execution.
 
-
 ## Summary
 
 I learned a few new things in preparing this article and I hope some of you have too. Everything discussed here can be used on fortrabbit. For Apps on the Universal Stack, MySQL 5.7 has been available for a while, and recently we [introduced Mysql 8.0](https://blog.fortrabbit.com/mysql-8-now-available-for-pro-apps) support on the Professional Stack.
 
-In a follow-up article you will learn how to cast JSON fields to custom DTOs. 
+In a follow-up article you will learn how to cast JSON fields to custom DTOs.
 
-### Further reading elsewhere:
+### Further reading elsewhere
 
 * [Arrays in MySQL 8.0 and multi-valued indexes](https://saveriomiroddi.github.io/Storage-and-indexed-access-of-denormalized-columns-arrays-on-mysql-8.0-via-multi-valued-indexes/)
 * [Performance Gains on JSON Column Queries using MySql Virtual Columns](https://medium.com/@michalisantoniou6/massive-performance-gains-on-json-column-queries-using-mysql-virtual-columns-and-indexes-in-laravel-dc7d289a41b3)
-
