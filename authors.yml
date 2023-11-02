@@ -1,50 +1,51 @@
-- initials: fl
-  name:     Frank Lämmer
-  email:    fl@fortrabbit.com
-  bio:      is a grown up graffiti kid. He cares about user experience, design, culture, frontend development, product and the daily business.
-  twitter:  frank_laemmer
-  gravatar: 3eafcd73ff05efa151a07f277cd1210f
-  mastodon: 
-    link: https://mastodon.social/@franklaemmer
-    text: '@franklaemmer'
-- initials: uk
-  name:     Ulrich Kautz
-  email:    uk@fortrabbit.com
-  bio:      is the master of abstraction. He cares about sysOps, infrastructure, architecture and product development.
-  twitter:  ukautz
-  gravatar: 79a9db36addc6d437801e4684e5960f2
-- initials: os
-  name:     Oliver Stark
-  email:    os@fortrabbit.com
-  bio:      Part time nerd and a pre digital native. He cares about the PHP ecosystem, our product and devOps.
-  twitter:  o_stark
-  gravatar: bc6cd109a2e484b8e2994ba9edcd0562
-- initials: eh
-  name:     Edgar Hipp
-  email:    eh@fortrabbit.com
-  bio:      The french guy.
-  twitter:  EdgarHipp
-  gravatar: abe0cea0ef460dae552297d99540576d
-- initials: es
-  name:     Esbjörn Eriksson
-  email:    ee@fortrabbit.com
-  bio:      is a glamorous PHP coder.
-  gravatar: 4e975656bc671edde43e8cd263ce6a61
-- initials: yr
-  name:     Yann Rabiller
-  email:    yann.rabiller+blog@fortrabbit.com
-  bio:      Symfony developer and trainer. Natural languages lover. Skeptic. Alpaca.
-  gravatar: 2507d298d4fc7fbc6d27a6b7122c5a06
-- initials: js
-  name:     Jascha Silbermann
-  email:    info@jsics.de
-  bio:      is a guest author here at fortrabbit and an independent web consultant and open source enthusiast in real life.
-  twitter:  
-  gravatar: a813b45007a84cd750f53c311a68950e
-- initials: pp
-  name:     Piotr Pogorzelski
-  bio:      is a web developer and Craft CMS enthusiast.
-  gravatar: f0f7727f4c096ecbde60250ecded3f78
-  website: 
-    link: https://craftsnippets.com/
-    text: craftsnippets.com 
+body: 
+  - initials: fl
+    name:     Frank Lämmer
+    email:    fl@fortrabbit.com
+    bio:      is a grown up graffiti kid. He cares about user experience, design, culture, frontend development, product and the daily business.
+    twitter:  frank_laemmer
+    gravatar: 3eafcd73ff05efa151a07f277cd1210f
+    mastodon: 
+      link: https://mastodon.social/@franklaemmer
+      text: '@franklaemmer'
+  - initials: uk
+    name:     Ulrich Kautz
+    email:    uk@fortrabbit.com
+    bio:      is the master of abstraction. He cares about sysOps, infrastructure, architecture and product development.
+    twitter:  ukautz
+    gravatar: 79a9db36addc6d437801e4684e5960f2
+  - initials: os
+    name:     Oliver Stark
+    email:    os@fortrabbit.com
+    bio:      Part time nerd and a pre digital native. He cares about the PHP ecosystem, our product and devOps.
+    twitter:  o_stark
+    gravatar: bc6cd109a2e484b8e2994ba9edcd0562
+  - initials: eh
+    name:     Edgar Hipp
+    email:    eh@fortrabbit.com
+    bio:      The french guy.
+    twitter:  EdgarHipp
+    gravatar: abe0cea0ef460dae552297d99540576d
+  - initials: es
+    name:     Esbjörn Eriksson
+    email:    ee@fortrabbit.com
+    bio:      is a glamorous PHP coder.
+    gravatar: 4e975656bc671edde43e8cd263ce6a61
+  - initials: yr
+    name:     Yann Rabiller
+    email:    yann.rabiller+blog@fortrabbit.com
+    bio:      Symfony developer and trainer. Natural languages lover. Skeptic. Alpaca.
+    gravatar: 2507d298d4fc7fbc6d27a6b7122c5a06
+  - initials: js
+    name:     Jascha Silbermann
+    email:    info@jsics.de
+    bio:      is a guest author here at fortrabbit and an independent web consultant and open source enthusiast in real life.
+    twitter:  
+    gravatar: a813b45007a84cd750f53c311a68950e
+  - initials: pp
+    name:     Piotr Pogorzelski
+    bio:      is a web developer and Craft CMS enthusiast.
+    gravatar: f0f7727f4c096ecbde60250ecded3f78
+    website: 
+      link: https://craftsnippets.com/
+      text: craftsnippets.com 

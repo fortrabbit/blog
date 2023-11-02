@@ -1,19 +1,20 @@
-- name: all
-  route: /
-  tooltip: All posts
-- name: changelog
-  route: /tag/changelog
-  tooltip: Platform updates
-  description: New features, version changes and deprecations.
-- name: chronicles
-  route: /tag/chronicles
-  tooltip: Our story
-  description: Stories of struggle building a hosting platform. 
-- name: webdev
-  route: /tag/webdev
-  tooltip: Web development
-  description: Tutorials, guides and some practical tips.
-- name: opinion
-  route: /tag/opinion
-  tooltip: Random rants
-  description: Commentary on trends, technology and running a bootstrapped business.
+body:
+  - name: all
+    route: /
+    tooltip: All posts
+  - name: changelog
+    route: /tag/changelog
+    tooltip: Platform updates
+    description: New features, version changes and deprecations.
+  - name: chronicles
+    route: /tag/chronicles
+    tooltip: Our story
+    description: Stories of struggle building a hosting platform. 
+  - name: webdev
+    route: /tag/webdev
+    tooltip: Web development
+    description: Tutorials, guides and some practical tips.
+  - name: opinion
+    route: /tag/opinion
+    tooltip: Random rants
+    description: Commentary on trends, technology and running a bootstrapped business.
