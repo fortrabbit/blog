@@ -1,13 +1,13 @@
 ---
 author: fl
 created: 2016-07-12
-title:  "Introducing a better domain handling"
-excerpt:    "A more helpful UI + forwarding naked domains."
-lead:       "Setting up domains for your fortrabbit Apps just became easier. We have vastly improved handling for naked domains."
+title: 'Introducing a better domain handling'
+excerpt: 'A more helpful UI + forwarding naked domains.'
+lead: 'Setting up domains for your fortrabbit Apps just became easier. We have vastly improved handling for naked domains.'
 figure:
   src: domain-update-poster.gif
 tag:
- - changelog
+  - changelog
 head:
   meta:
     - name: 'keywords'
@@ -22,8 +22,8 @@ TLDR; We will now provide A-records for your naked domains; here we forward requ
 
 ### A little refresher
 
-* `blog.fortrabbit.com` and `www.fortrabbit.com` are subdomains
-* `fortrabbit.com` and `fortrabbit.co.uk` are naked domains, aka APEX domains
+- `blog.fortrabbit.com` and `www.fortrabbit.com` are subdomains
+- `fortrabbit.com` and `fortrabbit.co.uk` are naked domains, aka APEX domains
 
 In classical hosting you usually use A-records to route your domain to the IP of your web server. In modern hosting you use CNAME-records to route your domain to your App.
 
@@ -78,14 +78,14 @@ Most of our clients are using classical domain providers for domain registration
 
 ### Best practices — do this 💚
 
-* Use CNAMEs for routing
-* Forward all requests on the naked domain to the www domain
-* Enforce HTTPS by redirecting non HTTPS requests to HTTPS
-* Use [HSTS](https://help.fortrabbit.com/tls#toc-force-https-for-future-visits-with-hsts) to force HTTPS within the browser
+- Use CNAMEs for routing
+- Forward all requests on the naked domain to the www domain
+- Enforce HTTPS by redirecting non HTTPS requests to HTTPS
+- Use [HSTS](https://help.fortrabbit.com/tls#toc-force-https-for-future-visits-with-hsts) to force HTTPS within the browser
 
 ### Alternatives
 
-The new domain forwarding feature is optional. You can also use any other service in combination with fortrabbit. There are specialized DNS services — like [DNSimple](https://dnsimple.com) or [DNS Made Easy](https://www.dnsmadeeasy.com)  — offerings the aforementioned ANAME or ALIAS records, enabling CNAME-like behavior with a naked domain. [CloudFlare](https://www.cloudflare.com/) does all kinds of magic with your domain which allows you to use naked domains with fortrabbit.
+The new domain forwarding feature is optional. You can also use any other service in combination with fortrabbit. There are specialized DNS services — like [DNSimple](https://dnsimple.com) or [DNS Made Easy](https://www.dnsmadeeasy.com) — offerings the aforementioned ANAME or ALIAS records, enabling CNAME-like behavior with a naked domain. [CloudFlare](https://www.cloudflare.com/) does all kinds of magic with your domain which allows you to use naked domains with fortrabbit.
 
 ## Dashboard improvements
 

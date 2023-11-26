@@ -17,7 +17,7 @@ At first this model looks very appealing. While in development you don't really 
 
 ### Reality check
 
-Turns out that it still costs us about 8 € (only hosting everything else is excluded) to run a development plan for one month. I can hear you think: we are doing something wrong here and it can't be that expensive. Well, maybe. We asked ourselves:
+Turns out that it still costs us about 8 € (only hosting everything else is excluded) to run a development plan for one month. I can hear you think: we are doing something wrong here and it can't be that expensive. Well, maybe. We asked ourselves:
 
 **What to expect from a freemium plan?**
 Something cool and convincing.
@@ -33,7 +33,7 @@ No.
 
 ### Disposable hosting
 
-The solution is our current freemium plan with the often criticized "freeze" after 48 hours. When an App freezes, we basically turn everything off and put all the contents in a zip file. You can avoid the freeze by logging in to the dashboard and hitting a reset button. This helps us to dramatically reduce our costs. Most apps are idle anyways. You can also unfreeze your Apps and continue working on them, unfreezing might take a couple of minutes. As expected the majority of the free Apps are just frozen. We have around 3.500 Apps, only about 10% are actually "hot".
+The solution is our current freemium plan with the often criticized "freeze" after 48 hours. When an App freezes, we basically turn everything off and put all the contents in a zip file. You can avoid the freeze by logging in to the dashboard and hitting a reset button. This helps us to dramatically reduce our costs. Most apps are idle anyways. You can also unfreeze your Apps and continue working on them, unfreezing might take a couple of minutes. As expected the majority of the free Apps are just frozen. We have around 3.500 Apps, only about 10% are actually "hot".
 
 #### Upsides
 
@@ -49,7 +49,7 @@ What happened to my original free development vision? Logging in to some dashboa
 
 ### Wait a second
 
-**Assumption**: If only people are using the service heavily, they will later on convert to a paid plan. Well, well, well. We see that there are some folks out there just using our freemium plan without ever considering to switch. Just recently we got mentioned on a [chinese website for free hosting](http://www.571free.com/mfjz/gw/2013-08/7846.html), now hundreds chinese users come floating in looking for free WordPress hosting. Will they ever convert? Maybe not. We also see that some people figured out how to automate the process of clicking on the reset button. There are some free Apps running for months like this. The funny thing is, the owners seem to have forgotten about their Apps, the bot keeps them alive, but their are no requests on it. That's just a waste.
+**Assumption**: If only people are using the service heavily, they will later on convert to a paid plan. Well, well, well. We see that there are some folks out there just using our freemium plan without ever considering to switch. Just recently we got mentioned on a [chinese website for free hosting](http://www.571free.com/mfjz/gw/2013-08/7846.html), now hundreds chinese users come floating in looking for free WordPress hosting. Will they ever convert? Maybe not. We also see that some people figured out how to automate the process of clicking on the reset button. There are some free Apps running for months like this. The funny thing is, the owners seem to have forgotten about their Apps, the bot keeps them alive, but their are no requests on it. That's just a waste.
 
 #### Is freemium helping us in other ways?
 
@@ -75,7 +75,7 @@ The free users make some noise. They ask us questions and keep us busy with this
 
 ### What's next
 
-We are getting more popular, more and more people are signing up to our service and of source are first using the free plan. But we have a limit for the ratio between free and paid apps. And we will soon hit that limit, so it will not be possible any more to create new free Apps, or to unfreeze frozen Apps. The interface will handle this nicely and you can get notified as soon as enough Apps are frozen so that you can start with yours. We must stop the "abuse" of our platform by people looking for the wrong thing. We are not a free hosting service like [000webhost](http://www.000webhost.com/). We would like to support real active development on our platform, we like to see great stuff happening here and it must be hassle free. But as we recently saw, currently a lot of people see us as development platform, not so much for live production. [CodeEnvy](https://codenvy.com/) is just that, a cloud development environment. So, are we giving away too much?
+We are getting more popular, more and more people are signing up to our service and of source are first using the free plan. But we have a limit for the ratio between free and paid apps. And we will soon hit that limit, so it will not be possible any more to create new free Apps, or to unfreeze frozen Apps. The interface will handle this nicely and you can get notified as soon as enough Apps are frozen so that you can start with yours. We must stop the "abuse" of our platform by people looking for the wrong thing. We are not a free hosting service like [000webhost](http://www.000webhost.com/). We would like to support real active development on our platform, we like to see great stuff happening here and it must be hassle free. But as we recently saw, currently a lot of people see us as development platform, not so much for live production. [CodeEnvy](https://codenvy.com/) is just that, a cloud development environment. So, are we giving away too much?
 
 * * *
 
@@ -83,4 +83,4 @@ Bottom line is that we will optimize our boarding process and we have already st
 
 ### Further Reading
 
-Rob Walling already stated in 2010 that [freemium doesn't work](http://www.softwarebyrob.com/2010/08/18/why-free-plans-dont-work/). This is not the first time i ramble on Freemium, also read my previous posts: [Freemium VS bootstrapped](/freemium-vs-bootstrapped/) and [the freemium hosting business model](http://blog.fortrabbit.com/the-freemium-hosting-business-models-our-thoughts/). Or read about [the psychological difference between freemium & free trial plans](http://www.layeredthoughts.com/startups/the-psychological-difference-between-freemium-free-trial-plans), or [why Workable dropped their freemium plan](https://medium.com/p/bfab146c47c8). According to Google [there is even more](http://bit.ly/1a09mQE).
+Rob Walling already stated in 2010 that [freemium doesn't work](http://www.softwarebyrob.com/2010/08/18/why-free-plans-dont-work/). This is not the first time i ramble on Freemium, also read my previous posts: [Freemium VS bootstrapped](/freemium-vs-bootstrapped/) and [the freemium hosting business model](http://blog.fortrabbit.com/the-freemium-hosting-business-models-our-thoughts/). Or read about [the psychological difference between freemium & free trial plans](http://www.layeredthoughts.com/startups/the-psychological-difference-between-freemium-free-trial-plans), or [why Workable dropped their freemium plan](https://medium.com/p/bfab146c47c8). According to Google [there is even more](http://bit.ly/1a09mQE).

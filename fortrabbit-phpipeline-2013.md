@@ -7,7 +7,7 @@ tag:
   - chronicles
 ---
 
-In spring 2012 i joined the Fortrabbit team - namely [Frank](http://franklaemmer.de/) and [Uli](http://foaa.de). Both guys are highly skilled in their fields and very passionate about moving their hosting company to the next level. I became a kind of man-in-the-middle to connect the tech and the marketing/product world - as a person and as a coder (i write the glue code between the frontend and our infrastructure API). It was a great experience to build a hosting platform from the scratch, a product that is still beyond a [MVP](http://theleanstartup.com/principles#develop_mvp) or buggy prototype.
+In spring 2012 i joined the Fortrabbit team - namely [Frank](http://franklaemmer.de/) and [Uli](http://foaa.de). Both guys are highly skilled in their fields and very passionate about moving their hosting company to the next level. I became a kind of man-in-the-middle to connect the tech and the marketing/product world - as a person and as a coder (i write the glue code between the frontend and our infrastructure API). It was a great experience to build a hosting platform from the scratch, a product that is still beyond a [MVP](http://theleanstartup.com/principles#develop_mvp) or buggy prototype.
 
 ### Current Traction
 
@@ -15,7 +15,7 @@ During BETA and the first weeks after launch PHP developers from all over the wo
 
 ### The Road Ahead
 
-The awesome feedback of our customers is the best inspiration for us to build and develop a service that solves real world problems. They ask the right questions and give us hints to make the platform better. So, please [don't stop to ask](http://support.fortrabbit.com/customer/portal/emails/new?emai\[body\]=Hello+fortrabbit) and tell us your ideas. Here is a short list of out upcoming features:
+The awesome feedback of our customers is the best inspiration for us to build and develop a service that solves real world problems. They ask the right questions and give us hints to make the platform better. So, please [don't stop to ask](http://support.fortrabbit.com/customer/portal/emails/new?emai\[body\]=Hello+fortrabbit) and tell us your ideas. Here is a short list of out upcoming features:
 
 * [Optional PHP Extensions](http://fortrabbit.com/feature/optional-php-extensions)
 * [PHP Runtime in SSH](http://fortrabbit.com/feature/php-runtime-in-ssh)
@@ -24,4 +24,4 @@ The awesome feedback of our customers is the best inspiration for us to build a
 
 ### Company Building
 
-Our line-up of three self-motivated guys worked very well to ramp up a very solid core product and we know now it takes time to form a company. Building a team that allows us to make bigger steps and to keep the support on a high level, without losing the fun will be the biggest challenge. It's a shift from a hacker to an entrepreneur. Bootstrapping the first development cycle was a great way to start, but we know that good staff expects a solid salary, so we have to bridge the gap until being profitable. Company funding is a kind of unknown territory for us (we are engineers/designers). Fortunately there are different options we can explore and there are some advisors around guiding us. As you can see, there are many things that will keep us busy in 2013. Let's go for it!
+Our line-up of three self-motivated guys worked very well to ramp up a very solid core product and we know now it takes time to form a company. Building a team that allows us to make bigger steps and to keep the support on a high level, without losing the fun will be the biggest challenge. It's a shift from a hacker to an entrepreneur. Bootstrapping the first development cycle was a great way to start, but we know that good staff expects a solid salary, so we have to bridge the gap until being profitable. Company funding is a kind of unknown territory for us (we are engineers/designers). Fortunately there are different options we can explore and there are some advisors around guiding us. As you can see, there are many things that will keep us busy in 2013. Let's go for it!

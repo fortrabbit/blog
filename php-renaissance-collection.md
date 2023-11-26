@@ -25,9 +25,9 @@ https://twitter.com/genexp/status/244534837598355456 https://twitter.com/nikita_
 ### Further Readings
 
   * [PHP is much better than you think](http://fabien.potencier.org/article/64/php-is-much-better-than-you-think) by Fabien Potencier >[HN](http://news.ycombinator.com/item?id=4198271)
-  * [PHP the right way](http://www.phptherightway.com/) the definite guide by Josh Lockhart >[HN](http://news.ycombinator.com/item?id=4212568)
+  * [PHP the right way](http://www.phptherightway.com/) the definite guide by Josh Lockhart >[HN](http://news.ycombinator.com/item?id=4212568)
   * [Is this the PHP renaissance?](http://articles.firstclown.us/post/is-this-the-php-renaissance) by Joseph Erickson
   * [PHP Ecosystem Update](http://philsturgeon.co.uk/blog/2012/07/php-ecosystem-update) "The Best Worst Language around" by Phil Sturgeon
-  * [PHP 5.4 is here! What you must know](http://net.tutsplus.com/tutorials/php/php-5-4-is-here-what-you-must-know/) by Dejan Marjanovic on net.tuts
+  * [PHP 5.4 is here! What you must know](http://net.tutsplus.com/tutorials/php/php-5-4-is-here-what-you-must-know/) by Dejan Marjanovic on net.tuts
   * [Practical PHP 5.3](http://de.slideshare.net/nateabele/practical-php-53) slide from Nate Abele
 Missing something? Please comment!

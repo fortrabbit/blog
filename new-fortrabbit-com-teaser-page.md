@@ -8,7 +8,7 @@ tag:
 ---
 
 
-**Why Don't we do it in the Cloud?** We have just launched a new coming soon page on our upcoming main domain: [fortrabbit.com](http://fortrabbit.com). **Frontend Geek Talk: **I have played a bit with HTML5 Video in the background. Moving clouds to visualize the dynamism. Looks best in WebKit based Browsers. It's not consuming as much CPU as flash video would do. **Credits:** [JQuery Video Background](https://github.com/georgepaterson/jquery-videobackground) plugin by George Paterson (slighty hacked). Cloud Timelapse Video by [orangeHD](http://www.orangehd.com).** **
+**Why Don't we do it in the Cloud?** We have just launched a new coming soon page on our upcoming main domain: [fortrabbit.com](http://fortrabbit.com). **Frontend Geek Talk: **I have played a bit with HTML5 Video in the background. Moving clouds to visualize the dynamism. Looks best in WebKit based Browsers. It's not consuming as much CPU as flash video would do. **Credits:** [JQuery Video Background](https://github.com/georgepaterson/jquery-videobackground) plugin by George Paterson (slighty hacked). Cloud Timelapse Video by [orangeHD](http://www.orangehd.com).** **
 
 ### Help us understand your needs!
 

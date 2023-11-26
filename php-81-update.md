@@ -6,7 +6,6 @@ excerpt: Changelog on new versions.
 lead: We are preparing to roll out PHP 8.1 to our platform. Here is a list with lots of numbers and dots.
 figure:
   src: php-8-1-poster.png
-imagecredit: ""
 tag:
   - changelog
 ---

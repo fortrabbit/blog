@@ -93,7 +93,7 @@ We have three new PHP scaling extension states within the Tinkering section: "PH
 
 The "New App BETA" was available in two extension states: the initial "PHP xxs" with 32 MB of memory and "PHP xs" with 64 MB. Those tiny sizes were astonishingly capable, but lots of frameworks and CMS require more RAM once you start actually using them.
 
-The New Apps in BETA started at €5 with 32 MB (including MySQL), the now final New Apps are starting at €7 and with 128 MB (including MySQL). You will not be forced to update: Currently booked "PHP xxs" & "PHP xs" plans will stay booked. 
+The New Apps in BETA started at €5 with 32 MB (including MySQL), the now final New Apps are starting at €7 and with 128 MB (including MySQL). You will not be forced to update: Currently booked "PHP xxs" & "PHP xs" plans will stay booked. 
 
 We are still discussing the "PHP xs" scaling. I personally really like the idea, of a tiny container for smart hackers and micro frameworks — Do more with less.  Your feedback is very welcome! 
 

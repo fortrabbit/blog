@@ -8,17 +8,17 @@ tag:
   - changelog
 ---
 
-We are thrilled to announce the availability of a new feature from our roadmap: [Permission Management](http://fortrabbit.com/feature/permission-management). Actually these are <del>two</del> three (maybe even four) new features for the web control panel:
+We are thrilled to announce the availability of a new feature from our roadmap: [Permission Management](http://fortrabbit.com/feature/permission-management). Actually these are <del>two</del> three (maybe even four) new features for the web control panel:
 
 ## App Collaboration
 
-Grant your team mates access to your App - multi-tenancy workflows for the web control panel. Set the level of permissions based on roles: 
+Grant your team mates access to your App - multi-tenancy workflows for the web control panel. Set the level of permissions based on roles: 
 
   * **Analyst:** read only
   * **Junior Developer:** change settings
-  * **Lead Developer:** change settings, scale App, purchase Add-Ons
-  * **Project Manager:** change settings, scale App, purchase Add-Ons, handle collaborators
-  * **Owner:** change settings, scale App, purchase Add-Ons, handle collaborators, delete the App
+  * **Lead Developer:** change settings, scale App, purchase Add-Ons
+  * **Project Manager:** change settings, scale App, purchase Add-Ons, handle collaborators
+  * **Owner:** change settings, scale App, purchase Add-Ons, handle collaborators, delete the App
 Sorry, this new feature is only available for paid plans. It was simply easier to implement like this. 
 
 #### Who Benefits?
@@ -27,11 +27,11 @@ We really like this feature, because it's not yet another tech feature, it solve
 
 ## App Transfer
 
-Change the payee of an App by inviting a new owner. The new owner will be guided thru the boarding process. After the transfer you can still work as a collaborator on the App - of course, when both parties agree. 
+Change the payee of an App by inviting a new owner. The new owner will be guided thru the boarding process. After the transfer you can still work as a collaborator on the App - of course, when both parties agree. 
 
 #### Who Benefits?
 
-Again this helps to manage your real world hosting needs. Imagine this workflow for you as a **freelancer:**
+Again this helps to manage your real world hosting needs. Imagine this workflow for you as a **freelancer:**
 
   1. develop a project for a client (maybe on a free plan)
   2. send over testing URL
@@ -49,4 +49,4 @@ Each App has an event log now in the web control panel. Here you can see exactly
 
 #### (4) Bonus feature: Gravatar support
 
-Ok. That's really a minor change and not really worth mentioning: Now you will find icons on your profile and anywhere accounts need to identified  in control panel. These profile icons come from the free [Gravatar](http://gravatar.com) service. So in order you want to see your beautiful face up there you need to have your e-mail registered on Gravatar. We have noticed that a lot of our users are already using this anyways.
+Ok. That's really a minor change and not really worth mentioning: Now you will find icons on your profile and anywhere accounts need to identified  in control panel. These profile icons come from the free [Gravatar](http://gravatar.com) service. So in order you want to see your beautiful face up there you need to have your e-mail registered on Gravatar. We have noticed that a lot of our users are already using this anyways.

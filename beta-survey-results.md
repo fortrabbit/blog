@@ -11,13 +11,13 @@ We have asked our readers a few questions on their PHP workflows, hosting and to
 
 * About 160 people finished the survey (cool!)
 * Zend is the most popular Framework
-* More people deploy code with Git than with FTP
+* More people deploy code with Git than with FTP
 * Memcache is the most popular caching engine
 * MySQL is still THE database of choice, followed by MongoDB
 * Most coders want SSH access
 * A fully managed platform is more important than full root access
 * A multistage deployment (testing, staging, live) is preferred
-* Reliability, performance and price are core factors for hosting
+* Reliability, performance and price are core factors for hosting
 
 Thanks everyone for taking the time. We have already implemented some new features based on this feedback. The survey was a fun ride, we have currently set up another more general one here: [coders-survey.com](http://coders-survey.com). And yes: We are rolling out the private BETA soon. [Download Survey Results printable PDF](/dist/img/fortrtabbit-beta-survey-results.pdf)
 
@@ -35,11 +35,11 @@ Thanks everyone for taking the time. We have already implemented some new featur
 
 ### "Must have" SSH commands/tasks:
 
-  * Basic file manipulation  (find, cp, mv, mkdir, tar, zip)
+  * Basic file manipulation  (find, cp, mv, mkdir, tar, zip)
   * Log access (tail -s php_error.log)
   * Misc (cron, vim, wget)
 
-### Describe your preferred Backup strategy
+### Describe your preferred Backup strategy
 
   * rsync over ssh
   * scheduled backup to Amazon S3

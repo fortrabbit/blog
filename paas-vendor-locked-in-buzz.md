@@ -7,7 +7,7 @@ tag:
   - opinion
 ---
 
-Apple, Microsoft, the wireless carrier and your razor blade supplier: They all lock you in - in a walled garden. Now, how dependent are you from your web-host? Lucas Carlson, founder of AppFog claimed that he has escaped vendor prison. His new platform runs on multiple cloud infrastructures. So the customer can choose on which infrastructure his project should be hosted on. Other PaaS providers also have a "No locked-in" icon and copy-text on their homepage. But what does that mean?  You are unsatisfied with your web-hosting provider. So you want to leave. What are the real obstacles to overcome? 
+Apple, Microsoft, the wireless carrier and your razor blade supplier: They all lock you in - in a walled garden. Now, how dependent are you from your web-host? Lucas Carlson, founder of AppFog claimed that he has escaped vendor prison. His new platform runs on multiple cloud infrastructures. So the customer can choose on which infrastructure his project should be hosted on. Other PaaS providers also have a "No locked-in" icon and copy-text on their homepage. But what does that mean?  You are unsatisfied with your web-hosting provider. So you want to leave. What are the real obstacles to overcome? 
 
 ### Legal locked-in
 
@@ -15,7 +15,7 @@ The contract with your old web-host says you can get out by the end of the perio
 
 ### Technical locked-in
 
-Imagine a host or cloud provider with a proprietary deployment method. Your app life cycle management totally relies on a special solution only offered by this vendor. To move over to another provider you need to adjust your whole work-flow. Google App Engine is a service with a custom own API. Some people don't like that. See [this question](http://news.ycombinator.com/item?id=2947577) on Hacker News. 
+Imagine a host or cloud provider with a proprietary deployment method. Your app life cycle management totally relies on a special solution only offered by this vendor. To move over to another provider you need to adjust your whole work-flow. Google App Engine is a service with a custom own API. Some people don't like that. See [this question](http://news.ycombinator.com/item?id=2947577) on Hacker News. 
 
 ### Data locked-in
 

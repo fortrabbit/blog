@@ -6,7 +6,6 @@ excerpt: Install the DDEV and power existing Craft CMS development sites.
 lead: We will show you how to use the DDEV development tool to quickly set up a Craft CMS dev site for local development.
 figure:
   src: ddev-poster.gif
-imagecredit: ""
 tag:
   - webdev
 ---

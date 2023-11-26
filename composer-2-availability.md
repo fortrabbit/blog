@@ -6,7 +6,6 @@ excerpt: Composer 2 will soon be available here. What you need to know.
 lead: What you need to know and how to troubleshoot issues.
 figure:
   src: composer-poster.png
-imagecredit: ""
 tag:
   - changelog
 ---

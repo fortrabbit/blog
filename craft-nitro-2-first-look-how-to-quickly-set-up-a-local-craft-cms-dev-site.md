@@ -5,7 +5,6 @@ title: "Craft Nitro 2 first look: How to quickly set up a local Craft CMS dev si
 excerpt: ""
 figure:
   src: craft-nitro-poster.png
-imagecredit: ""
 tag:
   - webdev
 ---

@@ -6,7 +6,6 @@ excerpt: How to implement geo features in MySQL 8
 lead: ""
 figure:
   src: mysql-spatial-data-poster.png
-imagecredit: ""
 tag:
   - webdev
 ---

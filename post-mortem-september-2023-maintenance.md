@@ -6,7 +6,6 @@ excerpt: Details on recent rocky updates
 lead: We recently rolled out a BIG internal update. It was kinda rocky and we still have to deal with aftermath. Here are some technical details, as well as some personal reflections.
 figure:
   src: improved-shaky.gif
-imagecredit: ""
 tag:
   - chronicles
 ---

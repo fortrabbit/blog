@@ -6,7 +6,6 @@ excerpt: Let's Encrypt will change its root certificates. Learn how this might a
 lead: Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client.
 figure:
   src: lets-encrypt-new-root.png
-imagecredit: ""
 tag:
   - changelog
 ---

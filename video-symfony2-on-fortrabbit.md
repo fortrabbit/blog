@@ -46,7 +46,7 @@ $ php app/console generate:bundle
 
 # modify AppDemo/web/.htaccess -> add the following after "Rewrite Engine On"
 RewriteCond %{REQUEST_URI} \.php/ [NC]
-RewriteRule ^(.*)\.php/(.*)$    /$1.php [NC,L,QSA,E=PATH_INFO:"/$2"]
+RewriteRule ^(.*)\.php/(.*)$    /$1.php [NC,L,QSA,E=PATH_INFO:"/$2"]
 
 $ git add -AV
 $ git commit -am 'Bundle & .htaccess'

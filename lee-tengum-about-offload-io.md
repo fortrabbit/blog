@@ -12,7 +12,7 @@ tag:
 
 # Lee Tengum
 
-Earlier this month we've reached 10k users. Digits are all fine, but real people with real projects are more interesting. We asked Lee to tell us about his latest project on fortrabbit:
+Earlier this month we've reached 10k users. Digits are all fine, but real people with real projects are more interesting. We asked Lee to tell us about his latest project on fortrabbit:
 
 **Lee**: I'm Lee Tengum, aka [@thatleeguy](http://twitter.com/thatleeguy), a freelance developer from rural Cranbrook British columbia Canada. I work from a 80sq [backyard office](https://twitter.com/ThatLeeGuy/status/482659411186679808) which gives me the freedom to work when I'm feeling inspired and to hangout with my kids. I've been a perpetual "start up" guy for a while now, with [Pancakeapp](https://pancakeapp.com) being my most successful venture to date. I have to say though that the greatest asset Pancake has is Bruno and Matt, they look after the day to day operations allowing me to pursue these other projects. Being a freelancer is in essence a small accelerator of projects, which brings us to what we're here to talk about, [Offload.io](http://offload.io)!
 

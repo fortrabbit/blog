@@ -1,7 +1,7 @@
 ---
 title: Custom HTTP Error Pages (Sneek Peek)
 author: fl
-lead: "As Murphy knew: Things will go wrong. Let's be prepared for that moment. Our error pages offer some help in a dark hour. Nice looking 404, 403, 500 … pages for the rest of us."
+lead: "As Murphy knew: Things will go wrong. Let's be prepared for that moment. Our error pages offer some help in a dark hour. Nice looking 404, 403, 500 … pages for the rest of us."
 created: 2012-07-26
 tag:
   - webdev

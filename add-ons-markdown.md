@@ -27,6 +27,6 @@ A few months ago Google [stated](http://googlecloudplatform.blogspot.de/2014/03/
 | Worker small           | 45 €              | 35 €              |
 | Worker medium          | 100 €             | 80 €              |
 
-## MySQL dedicated with more power
+## MySQL dedicated with more power
 
-Beside the price drop, we increased storage for the MySQL dedicated small plan from 10GB to 20GB, to give less CPU intensive applications more room to grow. MySQL dedicated medium and large plans run now on the latest Intel Xeon processor, for faster execution especially on CPU expensive queries. Existing databases will be migrated without interruption.
+Beside the price drop, we increased storage for the MySQL dedicated small plan from 10GB to 20GB, to give less CPU intensive applications more room to grow. MySQL dedicated medium and large plans run now on the latest Intel Xeon processor, for faster execution especially on CPU expensive queries. Existing databases will be migrated without interruption.

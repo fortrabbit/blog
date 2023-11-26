@@ -9,7 +9,7 @@ tag:
 
 # How to survive a sudden traffic peak
 
-Usually you can see your App's traffic and performance developing over time. So you have plenty of time to tweak your application and to adjust your setup. But how to be prepared for a sudden traffic peak?
+Usually you can see your App's traffic and performance developing over time. So you have plenty of time to tweak your application and to adjust your setup. But how to be prepared for a sudden traffic peak?
 
 Our client Peter Gombos runs a web agency ([kriek](http://kriek.hu/)) in Hungary with focus on developing facebook apps. He asked us:
 
@@ -36,4 +36,4 @@ He has built a straightforward voting app: [Slim Framework](http://www.slimframe
 
 #### Our final words
 
-Thank you Peter for this real world benchmark. It was real fun to support you. For everyone interested diving even further: Our article [App design and optimization](http://fortrabbit.com/docs/in-depth/app-design-and-optimization) is a comprehensive guide that helps you to optimize your application and to understand our platform.
+Thank you Peter for this real world benchmark. It was real fun to support you. For everyone interested diving even further: Our article [App design and optimization](http://fortrabbit.com/docs/in-depth/app-design-and-optimization) is a comprehensive guide that helps you to optimize your application and to understand our platform.

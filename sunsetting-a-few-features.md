@@ -28,4 +28,4 @@ Our [Resync tool](http://fortrabbit.com/docs/essentials/deployment-workflows/res
 
 ### BTW: About PHP versions
 
-We will incorporate new PHP versions as soon as we can. We will support old versions as long as there will we be security fixes for it. PHP 5.3 will be due within the next months (though we don't support it anyway). Given PHP's record, 5.4 will probably become unsupported sometime during mid 2016 , that's 2.5 years ahead. What do you think? What are your expectations?
+We will incorporate new PHP versions as soon as we can. We will support old versions as long as there will we be security fixes for it. PHP 5.3 will be due within the next months (though we don't support it anyway). Given PHP's record, 5.4 will probably become unsupported sometime during mid 2016 , that's 2.5 years ahead. What do you think? What are your expectations?

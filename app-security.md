@@ -76,10 +76,10 @@ The following directory structure is very common when you use a framework like S
 ```plain
 .
 └── htdocs
-    ├── composer.json
-    ├── composer.lock
-    ├── vendor
-    └── public << Your document root (www or web is common as well) 
+    ├── composer.json
+    ├── composer.lock
+    ├── vendor
+    └── public << Your document root (www or web is common as well) 
 ```
 
 As there is no need to access any PHP library directly, you should prevent it.

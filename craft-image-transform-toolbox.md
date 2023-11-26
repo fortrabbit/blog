@@ -6,7 +6,6 @@ excerpt: How to migrate an App to the new version of MySQL here
 lead: Using the Image Toolbox plugin, you can create responsive pictures with WebP variants and automatically generate placeholders in case an image asset is missing.
 figure:
   src: craft-image-toolbox-poster.png
-imagecredit: ""
 canonical: craftsnippets.com/articles/image-processing-in-craft-cms-with-image-toolbox-plugin
 tag:
   - webdev

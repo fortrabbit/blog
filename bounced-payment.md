@@ -1,13 +1,13 @@
 ---
 author: fl
-created:    2016-01-28
-title:      "That bounced payment"
-excerpt:    "Insights on how we deal with bounced payments"
-lead:       "Things will go wrong — they say. That other day I had to deal with this complicated support ticket. I'd like to share the conversation and some thoughts on billing & accounting for startups here with you."
+created: 2016-01-28
+title: 'That bounced payment'
+excerpt: 'Insights on how we deal with bounced payments'
+lead: "Things will go wrong — they say. That other day I had to deal with this complicated support ticket. I'd like to share the conversation and some thoughts on billing & accounting for startups here with you."
 figure:
   src: payment-poster.jpg
 tag:
- - chronicles
+  - chronicles
 ---
 
 Filed under: daily operations, book-keeping, best practices in worst scenarios, privacy over convenience, disaster communication, company culture, late paying customer, drama … Disclaimer: Mails slightly edited.
@@ -53,4 +53,4 @@ I guess that's just the way this all works and there is no easy way around it. L
 
 ## Further readings
 
-* [Battling with billing](http://blog.fortrabbit.com/battling-billing) my list of obvious billing mistakes for founders
+- [Battling with billing](http://blog.fortrabbit.com/battling-billing) my list of obvious billing mistakes for founders

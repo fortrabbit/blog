@@ -39,7 +39,7 @@ The idea behind PHP Fog is pretty simple: Heroku is very successful, there are w
 
 ### Pagodabox
 
-The new kid on the block. The approach is a bit similar to PHP Fog: it's exclusively made for PHP and it also features a hipster web interface. But apart from that it's pretty unique with some really fresh ideas such as the box file. It's fun to see how this projects grows, it's under very active development. "An Object Oriented Hosting Framework" is a cool claim. Probably the only thing i don't like about Pagodabox is that you they don't tell you anything about their company and the people behind it. Earlier this year they had problems with the underlying cloud infrastructure of Softtlayer, so they switched to physical hardware. [pagodabox.com](http://pagodabox.com)
+The new kid on the block. The approach is a bit similar to PHP Fog: it's exclusively made for PHP and it also features a hipster web interface. But apart from that it's pretty unique with some really fresh ideas such as the box file. It's fun to see how this projects grows, it's under very active development. "An Object Oriented Hosting Framework" is a cool claim. Probably the only thing i don't like about Pagodabox is that you they don't tell you anything about their company and the people behind it. Earlier this year they had problems with the underlying cloud infrastructure of Softtlayer, so they switched to physical hardware. [pagodabox.com](http://pagodabox.com)
 
 ### dotCloud
 
@@ -51,7 +51,7 @@ Yet another funded Startup PaaS from the valley, currently without public inform
 
 ## PHP Cloud Platforms in Europe
 
-From my perspective it makes not much sense to go with an US cloud provider for a project in Europe (unless you expect your vistors to come mostly from the US). It's not only data latency across the ocean (you might use a CDN to back this up), it's also the legal stuff (contracts) and the billing. So where are the cloud platforms for Europe? There are definitely some on the raise. At the time of this writing it looked to me that some currently run something that is more a Minimum Viable Product than a reliable business solution.
+From my perspective it makes not much sense to go with an US cloud provider for a project in Europe (unless you expect your vistors to come mostly from the US). It's not only data latency across the ocean (you might use a CDN to back this up), it's also the legal stuff (contracts) and the billing. So where are the cloud platforms for Europe? There are definitely some on the raise. At the time of this writing it looked to me that some currently run something that is more a Minimum Viable Product than a reliable business solution.
 
 ### CloudControl
 

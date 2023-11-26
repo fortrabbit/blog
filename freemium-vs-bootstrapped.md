@@ -13,7 +13,7 @@ Our aim is to build this really great hosting platform for sophisticated PHP dev
 
 > Are the razors any good? No. They are f****** great.
 
-There is no such thing as free hosting, someone always got to pay. Our free version is not slimmed down. It already has all of the nice features (such as writable storage, git-push deployment, composer integration…). The question for us was: How can we be open for us much users as possible without wasting resources? Our answer is the _freeze mode_. An unused (currently after 48 hours of inactivity) free plan will automatically be shut down and archived. We think that this totally OK for an app in development. You might have just used the free plan to check out the service. If you need it again, you can wake it up with a click in the control panel. Unfreezing an app takes about 5 minutes. We have calculated very carefully and we hope that we can loosen the limitations in the future bit by bit.
+There is no such thing as free hosting, someone always got to pay. Our free version is not slimmed down. It already has all of the nice features (such as writable storage, git-push deployment, composer integration…). The question for us was: How can we be open for us much users as possible without wasting resources? Our answer is the _freeze mode_. An unused (currently after 48 hours of inactivity) free plan will automatically be shut down and archived. We think that this totally OK for an app in development. You might have just used the free plan to check out the service. If you need it again, you can wake it up with a click in the control panel. Unfreezing an app takes about 5 minutes. We have calculated very carefully and we hope that we can loosen the limitations in the future bit by bit.
 
 ### Further readings
 

@@ -27,5 +27,5 @@ In this tutorial screencast video you see one way (out of many) to install the c
   * [Laravel Framework](http://laravel.com/) by Taylor Otwell
   * [More Laravel How To Videos](http://heybigname.com/series/laravel) by Shawn McCool
   * [PHP Storm IDE](http://www.jetbrains.com/phpstorm/)
-  * Music: [drb] - [Couldn't wait](http://soundcloud.com/b-rog/couldnt-wait)
+  * Music: [drb] - [Couldn't wait](http://soundcloud.com/b-rog/couldnt-wait)
   * [Install Laravel on fortrabbit](http://support.fortrabbit.com/customer/portal/articles/769508-install-laravel-3-x) < more infos on our support pages
