@@ -8,7 +8,7 @@ lead:       "Why it took us such a crazy long time to write an <a href='https://
 image:      "drupal8-poster.gif"
 tag:
  - chronicles
- head:
+head:
   meta:
     - name: 'keywords'
       content: 'CMS, install-guide, Drupal8'
