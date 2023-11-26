@@ -2,7 +2,6 @@
 author: fl
 created: 2015-05-05
 title: PHP Hosting Possibilities
-published: true
 excerpt: A stubborn analysis of hosting solutions for developers.
 figure:
   src: cloudy2.gif

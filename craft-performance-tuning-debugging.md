@@ -4,7 +4,6 @@ created: 2022-01-16
 title: Things to know about fast Craft CMS websites
 excerpt: What we learned helping clients improving Craft CMS performance
 lead: Here's what we've learned helping clients to increase performance of their Craft CMS websites.
-published: true
 figure:
   src: craft-cms-tuning-2021.png
 tag:

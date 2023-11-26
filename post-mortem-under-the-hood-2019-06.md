@@ -2,7 +2,6 @@
 title: Post mortem for `Under the hood updates`
 excerpt: Some details on recent platform problems.
 created: 2019-06-28
-published: true
 author: fl
 lead: We recently rolled out a BIG internal update and it didn't work out exactly as planned. Here is what went wrong.
 figure:

@@ -1,6 +1,5 @@
 ---
 title: New Worker Component released
-published: true
 author: os
 created: 2016-01-20
 excerpt: Outsource that heavy lifting in the background — now you can.

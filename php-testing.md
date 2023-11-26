@@ -1,7 +1,6 @@
 ---
 title: Testing code for PHP 7
 created: 2018-09-19
-published: true
 author: es
 excerpt: How to check your PHP code for future compability.
 figure:

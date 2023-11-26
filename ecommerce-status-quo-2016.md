@@ -2,7 +2,6 @@
 author: fl
 created: 2016-01-06
 title: E-commerce in 2016
-published: true
 excerpt: What's going on in e-commerce?
 lead: We are constantly on the lookout for new software. This is a brief look on current developments in the e-commerce section.
 figure:

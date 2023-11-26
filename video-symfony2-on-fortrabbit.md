@@ -1,7 +1,6 @@
 ---
 title: Symfony2 on fortrabbit
 author: fl
-published: true
 excerpt: This video shows you how easy it is to set up Symfony on fortrabbit.
 created: 2012-11-01
 tag:

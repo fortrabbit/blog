@@ -2,7 +2,6 @@
 title: imageMagick patch 2
 excerpt: Some smaller internal improvements mostly on imageMagick ahead.
 created: 2019-08-16
-published: true
 author: fl
 lead: We are currently preparing for a smaller platform update. Mainly, this is about releasing a new patch, improving imageMagick performance - general stability and security improvements included.
 figure:

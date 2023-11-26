@@ -1,7 +1,6 @@
 ---
 author: fl
 created: 2022-10-11
-published: true
 title: Opinionated Craft CMS 4 upgrade guide
 excerpt: Everything you always wanted to know about updating to Craft 4 - but were afraid to ask.
 lead: Upgrading to a new major version of Craft CMS is a bigger undertaking as you may think. This article aims to dive a bit deeper than the official docs. Here is what you need to know before getting started and some of our opinionated practices.

@@ -5,7 +5,6 @@ excerpt: Just a fancy info-graphic to say happy birthday to PHP.
 created: 2014-05-28
 tag:
   - opinion
-published: true
 ---
 
 We don't know the exact date, maybe there is none, maybe it's not really important at all. But i think it's notable that the web programming language for pretty homepages is already 20 years old. A lot of people hate PHP, some take it seriously, we love it.

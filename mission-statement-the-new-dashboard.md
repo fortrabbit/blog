@@ -5,7 +5,6 @@ excerpt: What to expect from our new dashboard.
 figure:
   src: dashboard-mission-statement.jpg
 created: 2014-09-08
-published: true
 tag:
   - chronicles
 ---

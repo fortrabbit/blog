@@ -2,7 +2,6 @@
 title: Introducing the 'client invite'
 excerpt: You can now transfer Apps to your clients!
 created: 2017-06-15
-published: true
 author: fl
 lead: "NEED: You are developing a website. You want your client to pay for the hosting."
 figure:

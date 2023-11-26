@@ -1,6 +1,5 @@
 ---
 author: fl
-published: true
 created: 2017-07-18
 title: "Market overview: Domain services for developers"
 excerpt: An opinionated field guide on developer-friendly domain hosting services.

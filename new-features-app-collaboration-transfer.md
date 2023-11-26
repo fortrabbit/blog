@@ -3,7 +3,6 @@ title: App collaboration & owner transfer
 author: fl
 excerpt: New features in the dashboard.
 created: 2012-12-18
-published: true
 tag:
   - chronicles
   - changelog

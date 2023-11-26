@@ -1,7 +1,6 @@
 ---
 title: Roadmap to Hack App
 author: fl
-published: true
 excerpt: Where we are heading to.
 figure:
   src: road-to-hack.jpg

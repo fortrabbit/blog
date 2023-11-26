@@ -5,7 +5,6 @@ excerpt: A client interview from the real world client.
 figure:
   src: leetengum.jpg
 created: 2014-08-28
-published: true
 tag:
   - chronicles
 ---

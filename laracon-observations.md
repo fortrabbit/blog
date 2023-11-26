@@ -5,7 +5,6 @@ author: fl
 figure:
   src: laracon.jpg
 created: 2013-09-02
-published: true
 tag:
   - opinion
 ---

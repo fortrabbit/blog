@@ -1,7 +1,6 @@
 ---
 title:       Updates
 author:      uk
-published: true
 created:     2014-04-14
 tag:
  - changelog

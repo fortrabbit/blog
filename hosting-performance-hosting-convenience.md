@@ -3,7 +3,6 @@ title: Performance / convenience
 author: fl
 excerpt: What's more important in hosting? Performance or convenience?
 created: 2013-07-10
-published: true
 tag:
   - opinion
 ---

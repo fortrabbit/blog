@@ -1,7 +1,6 @@
 ---
 author: fl
 created: 2020-11-11
-published: true
 title: PHP 7.2 support to end soon
 excerpt: What you might want to know about the upcoming EOL of PHP 7.2.
 lead: "Time flies by. Here is yet another PHP version that will soon get no more security updates, so we will need to stop supporting it as well: PHP 7.2. Here is what our clients need to know about upcoming changes."

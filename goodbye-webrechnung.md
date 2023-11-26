@@ -3,7 +3,6 @@ title: Goodbye WebRechnung
 author: fl
 excerpt: Shutting down an old fortrabbit service.
 created: 2013-01-10
-published: true
 tag:
   - chronicles
 ---

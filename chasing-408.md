@@ -5,7 +5,6 @@ excerpt: Those random 408 errors should finally be resolved!
 created: 2014-05-26
 tag:
   - changelog
-published: true
 ---
 
 Those nasty random "408 your browser didn't send a complete request" errors should finally be solved. Here's the story.

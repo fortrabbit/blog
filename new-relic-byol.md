@@ -3,7 +3,6 @@ title: New Relic BYOL
 author: os
 excerpt: We now have the New Relic demon running.
 created: 2014-05-20
-published: true
 tag:
   - chronicles
   - changelog

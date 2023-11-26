@@ -1,7 +1,6 @@
 ---
 title: Free web hosting
 author: fl
-published: true
 excerpt: Flat, unlimited and forever it shall be.
 created: 2013-04-09
 tag:

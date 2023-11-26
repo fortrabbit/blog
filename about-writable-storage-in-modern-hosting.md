@@ -5,7 +5,6 @@ excerpt: New-school cloud or legacy LAMP style — what's state of the art in PH
 created: 2012-07-23
 tag:
   - opinion
-published: true
 ---
 
 

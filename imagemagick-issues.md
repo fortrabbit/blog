@@ -1,7 +1,6 @@
 ---
 title: ImageMagick issues
 created: 2019-03-04
-published: true
 author: fl
 excerpt: The backstory of recent issues related to image transformations.
 lead: During the last week we have had some trouble with ImageMagick. Sorry for the inconvenience. This article provides some background about what happened.

@@ -1,7 +1,6 @@
 ---
 title: The meat market
 author: fl
-published: true
 excerpt: What the hosting- and the meat-market have in common.
 created: 2012-10-19
 tag:

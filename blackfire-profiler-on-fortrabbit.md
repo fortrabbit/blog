@@ -7,7 +7,6 @@ excerpt: Blackfire profiler BETA is now available at fortrabbit.
 created: 2015-01-21
 tag:
   - changelog
-published: true
 ---
 
 tldr; We are excited to announce the availability of the Blackfire profiler on fortrabbit.

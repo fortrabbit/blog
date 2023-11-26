@@ -1,7 +1,6 @@
 ---
 title: Battling with billing
 author: fl
-published: true
 excerpt: How hustling with accounting keeps us away from developing our service.
 created: 2015-03-24
 tag:

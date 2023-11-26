@@ -2,7 +2,6 @@
 author: fl
 created: 2016-02-24
 title: fortrabbit just launched in the US
-published: true
 figure:
   src: fortrabbit-us-blog-banner.png
 excerpt: New data center location, new currency

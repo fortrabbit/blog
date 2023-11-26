@@ -1,7 +1,6 @@
 ---
 author: fl
 created: 2015-05-12
-published: true
 title: Survey results
 excerpt: What our users are saying and what we think it means.
 tag:

@@ -1,7 +1,6 @@
 ---
 title: PHP heads
 author: fl
-published: true
 excerpt: Thank you for being awesome.
 created: 2015-04-02
 figure:

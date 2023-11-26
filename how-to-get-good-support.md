@@ -1,6 +1,5 @@
 ---
 author: fl
-published: true
 created: 2017-10-18
 title: How to get good support
 excerpt: Successful communication in customer support chat channels.

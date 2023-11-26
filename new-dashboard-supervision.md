@@ -3,7 +3,6 @@ author: fl
 title: New dashboard supervision
 excerpt: We are listening. Feedback is welcome.
 created: 2015-03-04
-published: true
 tag:
   - chronicles
 ---

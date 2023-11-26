@@ -7,7 +7,6 @@ figure:
 created: 2014-05-19
 tag:
   - opinion
-published: true
 ---
 
 

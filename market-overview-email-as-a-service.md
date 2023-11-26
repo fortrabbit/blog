@@ -1,6 +1,5 @@
 ---
 author: fl
-published: true
 created: 2017-10-30
 title: "Market overview: Email services for business and private"
 excerpt: An opinionated field guide on Email as a Service providers.

@@ -1,7 +1,6 @@
 ---
 title: CMS, quo vadis?
 author: os
-published: true
 excerpt: Are content management systems ready for the cloud?
 figure:
   src: cms-frameworks-drawing.jpg

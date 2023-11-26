@@ -2,7 +2,6 @@
 
 author:     fl
 created:    2016-07-12
-published: true
 title:  "Introducing a better domain handling"
 excerpt:    "A more helpful UI + forwarding naked domains."
 lead:       "Setting up domains for your fortrabbit Apps just became easier. We have vastly improved handling for naked domains."

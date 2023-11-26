@@ -1,7 +1,6 @@
 ---
 title: www
 author: fl
-published: true
 excerpt: Musings about the comon www. subdomain.
 created: 2012-08-17
 tag:

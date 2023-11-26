@@ -3,7 +3,6 @@ title: New fortrabbit.com teaser page
 author: fl
 excerpt: Help us build the perfect platform for you — answer 20 questions.
 created: 2012-06-21
-published: true
 tag:
   - chronicles
 ---

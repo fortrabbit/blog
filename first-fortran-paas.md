@@ -5,7 +5,6 @@ excerpt: Breaking news, fortrabbit releases a brand new stack.
 figure:
   src: fortran.gif
 created: 2014-04-01
-published: true
 tag:
   - opinion
 ---

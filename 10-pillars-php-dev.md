@@ -1,6 +1,5 @@
 ---
 author: uk
-published: true
 figure:
   src: 10-php-pillars.png
 title: 10 pillars of modern PHP development
@@ -33,7 +32,7 @@ The most important part of your application.
 
 ### Management
 
-The code should be under version control. We go a step further and strongly recommend Git due to it's wide spread and availability across the board (and because we are not aware of truly superior alternatives). 
+The code should be under version control. We go a step further and strongly recommend Git due to it's wide spread and availability across the board (and because we are not aware of truly superior alternatives).
 
 ### Style
 
@@ -98,6 +97,7 @@ $password = "foobar";
 ```
 
 ### Complex config
+
 Environment variables can contain complex information (think: multi level array). It should be marshaled as JSON and encoded into base 64 so it is easily modifiable and readable from outside the application.
 
 ```php
@@ -179,17 +179,15 @@ It's a bit of a side effect of the cloud infrastructure. Before: all you had to 
 
 In short: You got access to the red button and with great power comes great responsibility.
 
-
 ## Summary
 
 **It's harder now**: You must know more about coding patterns, deployment strategies, testing and application design than ever before. **It's easier now:** a fleet of new tools, better services and coding standards help and support as never before.
 
 > The art of writing PHP code has changed. A lot. And we think it's now more interesting than ever.
 
-
 ## Further readings
 
-When writing about modern application development in the cloud, one must mention the [12-factor App](http://12factor.net/) by Adam Wiggins. It lays out the complete design and life-cycle of a modern application. 
+When writing about modern application development in the cloud, one must mention the [12-factor App](http://12factor.net/) by Adam Wiggins. It lays out the complete design and life-cycle of a modern application.
 
 <!--
 Please read the full document linked above. In short it asks and answers the following:
@@ -211,4 +209,3 @@ Please read the full document linked above. In short it asks and answers the fol
 Corey McMahon wrote up a great three part series on how to apply (as close as possible) the 12-factor draft [here](http://slashnode.com/the-12-factor-php-app-part-1/).
 
 From a pure PHP point of view, I can subscribe to the abstract ideas, but not to (all) of their concrete approaches. In addition, I think the scope of their document overreaches what should be the concern of a developer.
-

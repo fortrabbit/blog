@@ -5,7 +5,6 @@ excerpt: The obvious first post claiming we are here to take over the world.
 created: 2012-06-15
 tag:
   - chronicles
-published: true
 ---
 
 

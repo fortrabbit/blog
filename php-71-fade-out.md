@@ -2,7 +2,6 @@
 title: PHP 7.1 is slowly fading out
 excerpt: Informations on upcoming PHP 7.1 switch off here.
 created: 2019-09-25
-published: true
 author: fl
 lead: The official security support for PHP 7.1 is ending in December 2019. Bring your Apps up-to-date now. Here are the basic and some advanced steps you — dear fortrabbit client — might need to do.
 figure:

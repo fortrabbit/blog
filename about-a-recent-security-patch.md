@@ -1,7 +1,6 @@
 ---
 author:       fl
 created:      2021-03-23
-published: true
 title:        "About a recent security patch"
 excerpt:      "About things that are usually not visible."
 lead:         "This is the story of a small security update we recently deployed to our Dashboard."

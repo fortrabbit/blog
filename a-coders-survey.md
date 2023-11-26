@@ -6,7 +6,6 @@ created: 2012-08-21
 tag:
   - chronicles
   - webdev
-published: true
 ---
 
 We have asked everyone interested in a BETA of our upcoming platform a few questions on hosting. That included very valuable feedback for us. Surprisingly we learned that such data was not available on the web. So we have done this little web survey for developers and designers with a wider range (than just hosting). Apply now until and help to make the web a better place (for developers):

@@ -1,7 +1,6 @@
 ---
 author: fl
 created: 2015-02-25 14:00
-published: true
 title: The new Dashboard is here
 excerpt: That's one small step for mankind, a giant leap for us.
 tag:

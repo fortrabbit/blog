@@ -1,7 +1,6 @@
 ---
 author: fl
 created: 2023-04-12
-published: true
 title: PHP 8.2
 excerpt: Changelog on new versions.
 lead: We are preparing to roll out PHP 8.2 to our platform. Here is a list with lots of numbers and dots.
