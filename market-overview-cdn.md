@@ -5,10 +5,13 @@ created: 2017-08-03
 title: "Market overview: CDN services"
 excerpt: An opinionated field guide on developer-friendly CDN services.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool content delivery services.
-keywords: HTTP/2, SPDY, webp, CDN, gzip, http, cache-control, expires, pragma, ssl, DDOS protection, Content Delivery Network, Highwinds, Limelight, Bitgravity, bluemix, cachefly, brotli, WCO, Web content optimization, CDNIFY, RTT, HEIF
 image: cdn-overview-poster.gif
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'HTTP/2, SPDY, webp, CDN, gzip, http, cache-control, expires, pragma, ssl, DDOS protection, Content Delivery Network, Highwinds, Limelight, Bitgravity, bluemix, cachefly, brotli, WCO, Web content optimization, CDNIFY, RTT, HEIF'
 ---
 
 ## A generation of CDNs for developers
@@ -17,19 +20,16 @@ Not so long ago, Content Delivery Networks was only for the enterprise only. Now
 
 ### When to use a CDN
 
-CDN is cool tech to play with. But mind that for many websites and applications it might be overkill. Keep your tech stack simple. Additional features come at the cost of additional complexity (like cache invalidation) and additional points of failure. CDN benefits are: 
+CDN is cool tech to play with. But mind that for many websites and applications it might be overkill. Keep your tech stack simple. Additional features come at the cost of additional complexity (like cache invalidation) and additional points of failure. CDN benefits are:
 
 * Increased speed: especially for distant visitors
 * Optimization: by offloading (less CPU, traffic & storage) and better delivery
 
 Rule of thumb: Consider a CDN when you have a few thousand requests per hour and you are serving a lot of static assets. The most common use case is to serve images.
 
-
-
-
 ### How a CDN works
 
-The basic idea is this: Websites are global, visitors are local. Content is delivered faster, when served from a server closer to the visitor. The more points of presence, the closer, the better. So the visitor should get the heavy (static) assets — mostly images, but also JS, CSS, fonts and maybe even cached versions of full pages — from a nearby server. That reduces latency and round-trips (RTT). And that also helps with performance as it offloads requests from the application web server. 
+The basic idea is this: Websites are global, visitors are local. Content is delivered faster, when served from a server closer to the visitor. The more points of presence, the closer, the better. So the visitor should get the heavy (static) assets — mostly images, but also JS, CSS, fonts and maybe even cached versions of full pages — from a nearby server. That reduces latency and round-trips (RTT). And that also helps with performance as it offloads requests from the application web server.
 
 ### How implement it
 
@@ -47,12 +47,11 @@ So you do something like this …
 
 #### Push & Pull
 
-You might ask yourself, when and how are these images uploaded to the CDN? 
+You might ask yourself, when and how are these images uploaded to the CDN?
 
-Classical CDN are working as **push CDN**s, so it's actually your responsibility to upload the assets to the CDN. The benefit is that you have a good control about your media. 
+Classical CDN are working as **push CDN**s, so it's actually your responsibility to upload the assets to the CDN. The benefit is that you have a good control about your media.
 
 All the cool kids are using **pull CDN**s (reverse proxying). Why? Because it adds on top: The images are uploaded locally and then pulled to the CDN "automagically". Please see our extended [post about HTTP caching](https://blog.fortrabbit.com/mastering-http-caching) & how to implement a pull CDN. TLDR: You'll easily find plug-ins for your CMS and example configs for your framework.
-
 
 ### Additional services
 
@@ -77,12 +76,11 @@ CDN functionality is only one part of performance and security. Often also inclu
 
 All this correctly combined can really help to fasten up things. But don't forget: clean code is the best base for a fast website. Keep your stuff slim (also see our [application design guide](https://help.fortrabbit.com/app-design-pro)) and avoid the [website obesity](http://idlewords.com/talks/website_obesity.htm). And of course you know: Decreasing page load time can increase conversions, sales and even SEO.
 
-
 ## CDN providers
 
 We are using [keycdn](https://www.keycdn.com/) from Switzerland, which is popular among devs. Other developer-friendly CDN providers are [fastly](https://www.fastly.com/) and [cdn77](https://www.cdn77.com/). MaxCDN and Highwinds recently joined [StackPath](https://www.stackpath.com/). IaaS users might have a look at [Cloudfront (AWS)](https://aws.amazon.com/cloudfront/), [Azure CDN](https://azure.microsoft.com/en-us/services/cdn/) or even [Google Cloud CDN](https://cloud.google.com/cdn/). Enterprise clients might have look at [Akamai](https://www.akamai.com/), the [enterprise CDN by IBM](http://www-03.ibm.com/software/products/en/enterprise-content-delivery-network-ecdn) or [GlobalDots](http://www.globaldots.com/).
 
-**[cdncomparison.com](http://cdncomparison.com/)** by betahex is an almost up-to-date table of CDN providers with all features. 
+**[cdncomparison.com](http://cdncomparison.com/)** by betahex is an almost up-to-date table of CDN providers with all features.
 
 ### Special mention
 
@@ -102,7 +100,7 @@ We are using [keycdn](https://www.keycdn.com/) from Switzerland, which is popula
 
 As mentioned: In most cases, those images (of cats) are making your website heavy. So I like to include image delivery services under this topic as well. In fact, they usually come with an integrated CDN + all the magic you want for your images.
 
-Image transformation (crunching image uploads for web delivery) can be outsourced to free up CPU power. ImageMagick — for instance — can be resource-hungry and it usually runs on the web facing server, so your visitors might have to wait a little longer while crunching is in progress. 
+Image transformation (crunching image uploads for web delivery) can be outsourced to free up CPU power. ImageMagick — for instance — can be resource-hungry and it usually runs on the web facing server, so your visitors might have to wait a little longer while crunching is in progress.
 
 Imagine an URL-API for image sizes like `/img/w_400,h_400/cat.jpg`, so there is no need to define thumbnail and preview sizes upfront. You can change that with the design. Responsive images are easier to setup as well. Less work for your framework or CMS, more magic in the background.
 
@@ -111,7 +109,6 @@ Imagine an URL-API for image sizes like `/img/w_400,h_400/cat.jpg`, so there is 
 ## Final words
 
 Commercial CDN services are doing a useful job. YOU the sophisticated web developer should be aware of this.
-
 
 ## Disclosure
 

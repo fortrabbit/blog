@@ -5,13 +5,16 @@ created: 2017-10-30
 title: "Market overview: Email services for business and private"
 excerpt: An opinionated field guide on Email as a Service providers.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool "Email as a Service" providers.
-keywords: IMAP, squirrelmail, roundcube, horde, postfix, dovecot, zimbra, webmail, POP3, IMAPv4, TLSv1.2, LDAP, SMTP,Antivirus / Antispam, Microsoft Exchange
 image: email-as-a-service-poster.gif
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'IMAP, squirrelmail, roundcube, horde, postfix, dovecot, zimbra, webmail, POP3, IMAPv4, TLSv1.2, LDAP, SMTP,Antivirus / Antispam, Microsoft Exchange'
 ---
 
-We do "PHP as a Service" here, specialized in PHP website/application hosting — **no frills attached**. So we expect our clients to have their e-mail hosted elsewhere. 
+We do "PHP as a Service" here, specialized in PHP website/application hosting — **no frills attached**. So we expect our clients to have their e-mail hosted elsewhere.
 
 There are two types of e-mails you'll need to take care of:
 
@@ -22,17 +25,15 @@ There are two types of e-mails you'll need to take care of:
 
 This is a support-driven post — based on my experience with our clients. It's a guideline for anyone considering options for e-mail hosting and stand-alone email hosting solutions in detail. This is aimed for small business owners and developers of course. So this is what you can do about your email accounts in general:
 
-
 ### 1. No domain-attached email at all
 
 It's totally normal to have a business email with a gmail.com suffix these days. So you might just create a generic Gmail account for your service as well, like: _myservice@gmail.com_. OK: it's a bit of hack, but why not get you started for free?
 
-Few of our clients are actually doing this. 
-
+Few of our clients are actually doing this.
 
 ### 2. Run your own
 
-You might be tempted to spin up a mail server (MUA, MTA, MDA) on your cheap VPS. Just don't do it, you will drown in SPAM. 
+You might be tempted to spin up a mail server (MUA, MTA, MDA) on your cheap VPS. Just don't do it, you will drown in SPAM.
 
 ### 3. Classical hosting bundle
 
@@ -40,14 +41,13 @@ You might still have a classical web-hosting running somewhere. Those packages o
 
 Many of our clients are still doing this. Is this you? Read on to learn about alternatives.
 
-
 ### 4. Dedicated email service
 
 Now, this finally gets interesting. A dedicated email service might bring you benefits you are not aware of yet:
 
 ## Features
 
-> Who needs email these days anyway? 
+> Who needs email these days anyway?
 
 E-mail was considered dead many times (remember Google Wave?). Still, more and more communication goes away from e-mail to services like Slack, WhatsApp, Telegram and alike. Each dedicated email service offering will include additional features. Some kind of office (at least Calendar and Contacts) integration is common, but also team management, fancy clients, backups and security.
 
@@ -59,12 +59,11 @@ In Germany all business correspondence needs to be kept for 10 years. This also 
 
 ### Pricing
 
-Dedicated Email as a Services are more expensive then packaged goods. One usually pays per seat (aka mailbox), usually something around 5 €/$ monthly. The bigger the team, the higher the costs. 
+Dedicated Email as a Services are more expensive then packaged goods. One usually pays per seat (aka mailbox), usually something around 5 €/$ monthly. The bigger the team, the higher the costs.
 
 ### Geo location
 
-Hosting used to be local business, but in fact it doesn't matter too much where your mail-servers are geographical located from a service level point of view — email is not real time communication. But maybe the location does play a role in terms of privacy or maybe you just want the GUI to be displayed in your local language (Hello Europe!). 
-
+Hosting used to be local business, but in fact it doesn't matter too much where your mail-servers are geographical located from a service level point of view — email is not real time communication. But maybe the location does play a role in terms of privacy or maybe you just want the GUI to be displayed in your local language (Hello Europe!).
 
 ### Client
 
@@ -80,8 +79,6 @@ Depending on your use case, the webmail user experience might play a role here i
 
 Dedicated mail providers might have their own proprietary mail clients.
 
-
-
 ## Some private/business email providers
 
 Sorry — as usual, the market overview part of this market overview post is small. Do the research on your own — it's about your custom business needs. Take this as a starting point:
@@ -95,9 +92,6 @@ Sorry — as usual, the market overview part of this market overview post is sma
 | [Zoho mail](https://www.zoho.com/mail/)  | dedicated | Office solution with free entry          |
 | [AWS workmail](https://aws.amazon.com/workmail/) | dedicated | Amazon swallowing everything             |
 | [runbox](https://runbox.com/)            | dedicated | Secure mail from Norway                  |
-
-
-
 
 ## Further readings
 

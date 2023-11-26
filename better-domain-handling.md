@@ -6,11 +6,13 @@ published: true
 title:  "Introducing a better domain handling"
 excerpt:    "A more helpful UI + forwarding naked domains."
 lead:       "Setting up domains for your fortrabbit Apps just became easier. We have vastly improved handling for naked domains."
-
-keywords:   "DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, APEX domain, naked domain, forward, IP, cname, CA"
 image:      "domain-update-poster.gif"
 tag:
  - changelog
+head:
+  meta:
+    - name: 'keywords'
+      content: 'DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, APEX domain, naked domain, forward, IP, cname, CA'
 
 ---
 

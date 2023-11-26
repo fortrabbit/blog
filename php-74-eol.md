@@ -6,9 +6,12 @@ title: PHP 7.4 support to end some day
 excerpt: Client information for the end of life of PHP 7.4.
 lead: Same procedure as every year. PHP 7.4 will reach its end of life soon. This means that no security patches will be applied any more. This is information for PHP developers and fortrabbit clients.
 image: php-eol-poster.jpg
-keywords: PHP 7, PHP 5, PHP end of life
 tag:
   - changelog
+head:
+  meta:
+    - name: 'keywords'
+      content: 'PHP 7, PHP 5, PHP end of life'
 ---
 
 ## Why upgrade to PHP 8?
@@ -33,7 +36,7 @@ We plan to support PHP 7.4 until mid 2023 or longer. We will inform our clients 
 
 ## What are the lowest software versions with support for PHP 8?
 
-In general we advise you to use the latest software versions available. This is especially true for your framework and CMS system. But upgrading to new major versions can be a hassle - maybe you want to know if it's possible to upgrade to another minor release of your software. 
+In general we advise you to use the latest software versions available. This is especially true for your framework and CMS system. But upgrading to new major versions can be a hassle - maybe you want to know if it's possible to upgrade to another minor release of your software.
 
 ### Craft CMS
 

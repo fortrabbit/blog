@@ -5,10 +5,13 @@ published: true
 title: Mastering HTTP Caching
 excerpt: Learn how to use CDNs as an easy-to-use edge cache.
 lead: Using CDNs has long been something in the domain of the Alexa top 100; something a small(er) website does not need or cannot afford. This has changed over the last years, with a multitude of pay-per-use, non-enterprise vendors on the market CDNs became affordable for everybody. This article intends to show you how to get started with this easy to use caching variant.
-keywords: cdn, caching, max-age, http, wordpress, cache-control, expires, pragma
 image: http-cache-poster.gif
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'cdn, caching, max-age, http, wordpress, cache-control, expires, pragma'
 ---
 
 
@@ -16,13 +19,11 @@ To use **C**ontent **D**elivery **N**etworks as HTTP caches you need to know abo
 
 The post does not claim to be exhaustive or even completely precise. In some instances, I will simplify and be opinionated for the sake of clarity, brevity and reduced complexity. This text handles the theory of caching - with a couple of practical examples, though. There will be follow up articles, building on this one, showing how to work with a CDN as caching layer with specific CMS or frameworks.
 
-
 ## Why use a CDN?
 
 CDNs are intended as a globally distributed network to provide (not only) website contents faster to geographic locations, which are far from the actual infrastructure, which serves the actual content. For example: Your website is hosted in Ireland, your clients mostly sit in Australia. When a client visits your website the connection will suffer from latency leaving you with a sad client. Moving the (static) data to Australia with a CDN improves the client's experience.
 
 However, CDNs are not limited to this use-case. As per their nature, CDNs are also a plain and simple cache; a **proxy cache** (or edge cache) to be precise. So, even if the geographic location part is non of your concern, you still should consider using the proxy cache aspect of CDNs to improve the experience of your users.
-
 
 ## Why use a Proxy Cache?
 
@@ -32,7 +33,6 @@ The resource requirements scale linear with the amount of requests/visitors. Sou
 
 A proxy cache in between allows you to mitigate resource limitations. Using the above example, with a proxy cache, only the first request would need to execute the PHP script, do the database queries and render the result HTML. All subsequent requests would be served from the cache. Cache access is basically direct memory access, which is about as fast as it gets. This means: the linear scaling problem is no more! A hundred visitors or a thousand visitors, it doesn't matter. Still only one PHP execution, one time database queries, one time rendering.
 
-
 ## CDN != CDN
 
 There are various "kinds" of CDNs out there. Administrators would probably be most interested in where and how the data is stored and how the data is distributed within the CDN and differentiate by that. Since this is article is not addressed to administrators but developers let me just say that there are "classic CDNs" and "peer to peer CDNs", the latter being the modern approach.
@@ -40,7 +40,6 @@ There are various "kinds" of CDNs out there. Administrators would probably be mo
 From the developer perspective, it's more interesting how you get data into the CDN rather then how it then handles said data. In that sense, there are **push CDNs** and **pull CDNs** (also called "origin pull CDNs"). As their name implies, the push CDNs expect you to provide them the content while pull CDNs take care of fetching the content themselves.
 
 This article will primarily address pull CDNs, because they are much simpler to implement and can, in many cases, be integrated transparently before an existing website without much effort.
-
 
 ## How pull CDNs work
 
@@ -75,7 +74,6 @@ The most simplistic pull CDN would act as following:
 * In cache: deliver result from cache
 * Not in cache: request `http://direct.foobar.tld/some/page`, write response under `some/page` in cache and deliver
 
-
 ## Static vs dynamic content
 
 The above setup works fine for completely static contents. Static contents means: Any data, which does not change for all visitors requesting the same URL. A good example would be assets, like CSS files. Say `http://www.foobar.tld/public/css/main.css`, where `main.css` is actually a plain file, which is the same for anybody visiting the site. Perfect for caching.
@@ -83,7 +81,6 @@ The above setup works fine for completely static contents. Static contents means
 Opposed to static contents are, of course, dynamic contents. There are various reasons as to why content must be generated at runtime. Think, for example, about multi-language: Deliver contents based on the browser language. Also any kind of "user session" related content, such as switching the "Login" button with a "Logout" button when the user is logged in. You don't want that cached. Also don't forget about highly active contents as well: News pages, which change hourly or even more often, cannot be cached - or at least not for long.
 
 Don't panic now. This is where it gets interesting, but still not hard to understand or implement:
-
 
 ## Cache headers
 
@@ -156,12 +153,11 @@ Content-Type: text/plain; charset=UTF-8
 
 As you can see, this time the server response was not a _200 OK_, but a _304 Not Modified_, which omits the body and leads the client to use what was cached before. Sure, in case the body is only _the body_, as in this example, there is not much gained. But think of larger contents. Also think of expensive, dynamically generated contents.
 
-As a developer, you might now think: _Not so great. Means that I have to handle those `If-` header in my application myself. More effort then before._ 
+As a developer, you might now think: _Not so great. Means that I have to handle those `If-` header in my application myself. More effort then before._
 
 No worries. This is where the shared cache aka proxy aka CDN comes in. So going back to the original setup (client <-> proxy <-> origin). The proxy now is responsible for generating those _304 Not modified_ responses, based on it's cache. More on that in the following section. Before I get to it, a quick note on the `Last-Modified` header:
 
 In this particular case, dealing with static content, which the `hello.txt` file is, the client could also have used `If-Not-Modified-Since: Sun, 05 Feb 2017 10:34:56 UTC` to achieve the same result (304 response). This works great with static contents, since the `Last-Modified` header in responses to static contents is automatically generated by the web server based on the modified timestamp of the file on the disk. However a modified date is often useless, because hard to determine, for dynamically generated contents. You know, the contents you want to have cached the most, because they are the most expensive to generate. So when developing, the `ETag` header is often a better choice.
-
 
 ### Cache-Control header
 
@@ -206,7 +202,6 @@ And to put it all together, here is how to read the above code examples in plain
 3. Don't cache it - or do. Just make sure to revalidate always!
 4. Cache it for an hour on laptop, but for two hours on the CDN
 5. Cache it both on CDN and laptop for an hour. BUT: if a request hits the CDN, although it's cached here for an hour, it still must check with the origin whether the document is still unchanged.
-
 
 ### Example
 
@@ -261,7 +256,6 @@ Cache-Control: max-age=7200 public must-revalidate
 Content-Type: text/css
 ```
 
-
 ## Cookies
 
 Now that you understand how caching headers work, let us consider how cookies play into caching. Firstly, Cookies are HTTP response headers. Namely the `Set-Cookie` header. The purpose of providing a cookie to a user is to identify the user, hence you _need_ a unique cookie per user.
@@ -271,7 +265,6 @@ When putting that in context of caching: Would you cache the response, including
 The other implication is that the user session state potentially changes the rendered content of the response. Simple scenario: Eshop basket. Based on the session cookie your application either renders no basket or renders a basket with the items this specific user has chosen. Again: You don't want that cached. Each customer should have their own basket, after all.
 
 Having this said, don't confuse these session cookies with the more "benevolent" kind. A good example for the latter are Cookies set at runtime, via JavaScript. For example: Google Analytics integrated via JavaScript. GA sets a cookie (via JS), but this cookie does not impact rendering nor is there any `Set-Cookie` header involved. Even if GA would change the rendered site, eg by adding a small "you are tracked via Google Analytics"-icon, or something, it would not be a problem _as long as those changes are applied at runtime, in the browser and not by the (PHP) script in the background_.
-
 
 ### Dealing with cookies vs caching
 
@@ -299,7 +292,6 @@ Header set Cache-Control "no-cache max-age=0 must-revalidate" "expr=-n resp('Set
 * Rule (2) does the opposite: Strip `Cache-Control`, _if the Set-Cookie header does exist_
 * Rule (2a) is a variant of the second, which sets an explicit 0-cache, instead of stripping the cache header.
 
-
 #### Path based cookie suppression
 
 Some CMS/frameworks seem to follow a brute-force'ish strategy, saturating generated responses automagically with an abundance of `Set-Cookie` headers. Whether setting those cookies with each and every response is necessary or redundant depends on various factors. For example session time: If you have a high security application with a very low session time of 5 minutes, then setting a new cookie with every response makes sense. If you not even have a "user space", i.e. everything is public and the same for every visitor, then setting any cookie (aside from tacking purposes) makes no sense.
@@ -320,7 +312,6 @@ RewriteRule ^$ index.php [NC,L,QSA]
 ```
 
 For those who are interested: The redirect, using `path=$1` and the subsequent evaluation of `QUERY_STRING` are necessary in Apache, due to the execution order of the Apache directives. `If` is simply later evaluated then `RewriteRule`, so it cannot use the `REQUEST_URI` or anything of the original request, because that has already been changed due to the rewrite.
-
 
 #### Cachability by design
 
@@ -355,7 +346,6 @@ The strategy would now be to first render the "generic" page, which every user, 
 
 This strategy, or variations thereof, is hard to apply to existing applications, cause it would change most of it's controller and probably most of the view layer (given a MVC layout). Best you make sure to do it from the start.
 
-
 ## Cache invalidation: Busting and purging
 
 With the `max-age` and `s-maxage` directives, you already have detailed control on how long a specific response is to be cached. However, that's not sufficient in all cases. Those directives are set at rendering time. At this time, you simply might not know when the response should expire. Think for example about the home page a news website: Say, it contains the latest 10 entries. You set `max-age=900` for this home page, to make sure that is refreshed every 15 minutes. Now, one of the entries was published too early and shall go back to the drawing board again. You need a way to remove the cached response, so that it is refreshed now, not in 15 minutes.
@@ -364,7 +354,6 @@ With the `max-age` and `s-maxage` directives, you already have detailed control 
 
 * **Cache busting** means to circumvent the cache, by changing the cache key. Remember the (very) above example of `http://www.foobar.tld/some/page`, for which `some/page` would be used as the cache key? When changing the request to `http://www.foobar.tld/some/page?v2` the key changes to `some/page?v2`. Cache busted.
 * **Cache purging** means to remove an item (aka a response) from the cache, so that it can/will/must be refreshed immediately.
-
 
 ### Cache busting with versioning
 
@@ -375,7 +364,6 @@ This strategy is very often used with assets (eg CSS, JS, ..). The idea is to in
 * Timestamp as version: `styles.css?t=1486398121`
 
 What you need to consider is the context. In this case: the rendered HTML, which includes the CSS file via `<link rel="stylesheet" href="..">`, might be cached itself. So if your `style.css` is decorated with the latest version, it helps only if the CSS file is included using this latest version. If the HTML, which includes the CSS file, is served from the cache, it contains most likely the old version/file, so the old styles will still be served.
-
 
 ### Cache purging
 
@@ -391,7 +379,6 @@ Those purge requests usually require some kind of authentication or at least a s
 While purging a single item, or a couple, is easy and fast there are scenarios in which that is not sufficient - or at least not elegant. For example, imagine a blog, which contains the author on most rendered pages. Now you change something in that "author block" and want to purge all "affected" pages. Sure, you can do that one-by-one, but if you have to purge a couple of thousand pages (ok, now leaving the blog example), then it can become harder.
 
 The solution for that problem are:
-
 
 #### Surrogate keys (aka Cache tags)
 
@@ -414,11 +401,9 @@ Having tagged the response, you can now easily purge all items in the cache whic
 
 How the actual purging is handled, again depends on the specific CDN vendor.
 
-
 ## Finish
 
 That's about if for the theory. There will be follow up articles using specific CDN providers with specific CMS/frameworks. How many - we'll see. If you want to dig in now, here are some additional resources which you might want to read:
-
 
 * [Google Developers: HTTP Caching](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en#cache-control)
 * [Push vs Pull CDN](http://www.whoishostingthis.com/blog/2010/06/30/cdns-push-vs-pull/)

@@ -5,15 +5,17 @@ published: true
 author: os
 excerpt: A Craft CMS plugin to help you with pull-CDNs
 lead: So we said to do more open source on fortrabbit. TADA – here is Upper, a Craft CMS plugin to integrate CDN edge caches.
-keywords: OSS, OS, Craft CMS, Varnish, cache-control
 image: upper-poster.gif
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'OSS, OS, Craft CMS, Varnish, cache-control'
 ---
 
 **TLDR; Check it our yourself:  
 [github.com/ostark/upper](https://github.com/ostark/upper)**
-
 
 ## Who is it for?
 
@@ -29,7 +31,7 @@ It adds `Cache-Control` and `XKEY/Surrogate-Key/Cache-Tag` headers to your pages
 
 ![](https://github.com/ostark/upper/blob/master/resources/preformance.png?raw=true)
 
-It helps making your page load much faster. 
+It helps making your page load much faster.
 
 ## How can I use it?
 

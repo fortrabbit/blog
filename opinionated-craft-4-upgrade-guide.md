@@ -6,9 +6,12 @@ title: Opinionated Craft CMS 4 upgrade guide
 excerpt: Everything you always wanted to know about updating to Craft 4 - but were afraid to ask.
 lead: Upgrading to a new major version of Craft CMS is a bigger undertaking as you may think. This article aims to dive a bit deeper than the official docs. Here is what you need to know before getting started and some of our opinionated practices.
 image: craft-update-poster.png
-keywords: craft, craftcms, craft-cms, hosting, testing, updating
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'craft, craftcms, craft-cms, hosting, testing, updating'
 ---
 
 ## Do I need to update?
@@ -38,7 +41,6 @@ It depends. If your website is actively maintained, probably yes, since new feat
 ## Get ready
 
 As usual, we suggest to update your local version of Craft CMS first before deploying anything to production.
-
 
 1. Upgrade to the latest 3.x version of Craft CMS first, [see our guide](https://help.fortrabbit.com/craft-update).
 2. Upgrade you local development environment to the latest versions
@@ -73,7 +75,6 @@ fortrabbit/craft-copy                1.2.4              2.1.1              Tooli
 mattstauffer/happybrad               v1.2               v1.2               Add a Happy Brad to your Craft CMS Dashboard.
 ostark/craft-async-queue             2.1.1              3.1.0              A queue handler that moves queue execution to a non-blocking ...
 ```
-
 
 #### Your plugin is not updated?
 
@@ -145,4 +146,3 @@ Easy-peasy. Wasn't it?
 ### Mind that the ENV var naming schema has changed
 
 `DB_PASSWORD` now is `CRAFT_DB_PASSWORD` and so on. Make sure to apply the new schema with the `CRAFT_` prefix to your `config/db.php` and other config files that make use of ENV vars.
-

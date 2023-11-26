@@ -5,20 +5,22 @@ published: true
 author: fl
 excerpt: Props to the OSS communities and highlighting some of our open source contributions.
 lead: fortrabbit wouldn't be possible without great open source projects. So we are thinking about ways to give back.
-keywords: OSS, OS,
 image: open-source-poster.gif
 tag:
   - opinion
+head:
+  meta:
+    - name: 'keywords'
+      content: 'OSS, OS, FOSS'
 ---
 
 ## Open source everywhere
 
-The fortrabbit hosting platform itself is a combination of several open source software systems to make your life as a developer a little more convenient. The operating system is Linux, Ubuntu + Debian. We are making use of LXC and Docker for virtualization. The web-servers Apache, NGINX and HAProxy are running here side by side. There is Golang and PHP itself. Not to forget about Git and Composer. And these are just the most obvious ones. The list goes on. 
+The fortrabbit hosting platform itself is a combination of several open source software systems to make your life as a developer a little more convenient. The operating system is Linux, Ubuntu + Debian. We are making use of LXC and Docker for virtualization. The web-servers Apache, NGINX and HAProxy are running here side by side. There is Golang and PHP itself. Not to forget about Git and Composer. And these are just the most obvious ones. The list goes on.
 
 You as a developer will most likely again use more open source here. WordPress, Laravel, Symfony or all the great Composer packages.
 
-It's obvious that there would be no fortrabbit without open source. 
-
+It's obvious that there would be no fortrabbit without open source.
 
 ## How to give back
 

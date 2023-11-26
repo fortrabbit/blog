@@ -6,7 +6,10 @@ created: 2023-08-28 09:36:38
 excerpt: An insight into product development at fortrabbit
 lead: ""
 image: gui-not-cli.png
-keywords: startup, company culture, cli, gui
+head:
+  meta:
+    - name: 'keywords'
+      content: 'startup, company culture, cli, gui'
 tag:
   - chronicles
 ---
@@ -17,7 +20,7 @@ Being developers ourselves, the natural reflex was:
 
 > *“Let’s build a CLI and never ever leave the terminal again!”*
 
-Start with a CLI now and maybe build a GUI later on! Well. 
+Start with a CLI now and maybe build a GUI later on! Well.
 
 A CLI is of course sexy and considered to bring a good Developer Experience. But we don’t think it’s the best tool for all the tasks we need to cover. The fortrabbit dashboard is the place where customers can create apps, manage technical settings, route domains, edit billing-related data and collaborate with others.
 

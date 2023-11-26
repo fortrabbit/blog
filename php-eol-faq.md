@@ -5,10 +5,13 @@ published: true
 author: fl
 excerpt: What else you need to know about the upcoming EOL of the two PHP versions 5.6 and 7.0.
 lead: The end is near. At least for PHP 5.6 and PHP 7.0. Here are most facts for fortrabbit clients on the upcoming updates.
-keywords: deprecation, migration, EOL, php5.6, php7.0, php7.2, enigma
 image: php56-deadline-faq.jpg
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'deprecation, migration, EOL, php5.6, php7.0, php7.2, enigma'
 ---
 
 

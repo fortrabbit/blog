@@ -6,9 +6,12 @@ published: true
 excerpt: Using Codeception and Cypress to test Craft CMS websites.
 lead: Testing a Craft CMS website might be less difficult than you think. Level up and follow us along as we learn about frontend testing Craft CMS websites.
 image: craft-codeception-cypress-poster.png
-keywords: craft, craftcms, craft-cms, hosting, testing, cypress, codeception
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'craft, craftcms, craft-cms, hosting, testing, cypress, codeception'
 ---
 
 ## Why test Craft CMS websites?

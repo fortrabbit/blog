@@ -4,11 +4,14 @@ created: 2018-09-19
 published: true
 author: es
 excerpt: How to check your PHP code for future compability.
-keywords: deprecation, EOL, php5.6, php7.0, php7.2, php7cc, compatibility-test.php, PHP 7 Compatibility Checker
 image: php7-testing.gif
 lead: This post helps running automated tests on your code to detect breaking changes before switching the PHP version. It includes instructions on how to use our predefined Docker image with PHPCompatibility.
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'deprecation, EOL, php5.6, php7.0, php7.2, php7cc, compatibility-test.php, PHP 7 Compatibility Checker'
 ---
 
 ## The PHP upgrade series
@@ -24,13 +27,11 @@ This is part three of a series on the approaching end of life of PHP 5.6 and PHP
 
 This article is for sophisticated developers running PHP web applications, Laravel, Symfony or alike. The path provided is of general nature, so not only for fortrabbit clients, nothing in here is specific to our platform.
 
-
 ## Problem
 
 You are about to migrate to a current version of PHP, maybe to PHP 7.2, maybe from PHP 5.6, PHP 7.0 or PHP 7.1. You are doing this in your local development environment first and you have already upgraded your core dependencies.
 
 Now you want to find out if your own code might cause problems with a new PHP version, and also double check that all dependencies actually have full support.
-
 
 ## Reading Tips
 
@@ -61,7 +62,6 @@ There are a quite few PHP code check tools you can run on your code to verify it
 * **PhpStorm IDE** users can also make use of a "PHP 7 Compatibility Inspection", which (now) can be found under "Language Level" in the settings.
 
 We have tested all of them briefly. They all work in rather different ways with different features and output. For the problem we are trying to solve in this article, we recommend **PHPCompatibility**. It gives you the most comprehensive help in finding deprecated features and syntax in your code.
-
 
 ### Running a PHPCompatibility check
 
@@ -109,11 +109,9 @@ To ignore these dependency problems for now and focus on only your code you can 
 phpco -p --colors --extensions=php . -n --ignore="vendor/"
 ```
 
-
 ## Further tests
 
 You are hopefully following test driven development patterns? Now is the time that all your automated tests come to great use. Your individual tests are probably one of the best ways to see if your application is working properly. Fire up PHPUnit and run test your tests again. Finally, manual testing can also catch a lot of problems that automated tests can never see. Click around your website and make sure all important actions works as expected ;)
-
 
 ## Closing words
 

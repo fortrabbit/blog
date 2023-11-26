@@ -6,8 +6,6 @@ title: Meanwhile at fortrabbit
 excerpt: Finally HTTP/2 is here, as well as some other updates
 lead: Here is a combined update from the home office working task force, announcing upcoming and recent changes. You care about detail? We do too!
 image: new-improved-poster.gif
-imagecredit: ""
-keywords: 
 tag:
   - changelog
 ---

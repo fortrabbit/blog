@@ -5,21 +5,22 @@ published: true
 title: Universal Stack launched
 excerpt: "Optimized for CMS driven websites - made for your needs: Backups, Git, SFTP, HTTPS & team collaboration."
 lead: It's been a long time. The rabbits crew is back with yet another major release. The all new all great 'U-new-versal' Stack is available now — ready to blow your mind.
-keywords: legacy support, php7, mysql5.7, GA, general availability
 image: universal-poster.gif
 tag:
   - changelog
+head:
+  meta:
+    - name: 'keywords'
+      content: 'legacy support, php7, mysql5.7, GA, general availability'
 ---
 
-In [August we have revealed](/sneak-peek) that we are working on a new general purpose "hobby stack" to better support small projects and legacy PHP websites. Now, after months of intensive work and testing, we proudly release it. 
+In [August we have revealed](/sneak-peek) that we are working on a new general purpose "hobby stack" to better support small projects and legacy PHP websites. Now, after months of intensive work and testing, we proudly release it.
 
 fortrabbit is available in two flavors now — one hosting platform for all the projects you are building — from website to web application, from xxs to XXXL, side by side. More PHPower for more PHPeople. With each App you'll create you can choose:
 
 ## 1. Professional Stack
 
 The Professional Stack — formerly known as New App — is made for state-of-the-art PHP development. It is a scalable high performance hosting solution for business critical web applications. The flexible structure is based on components which are individually scalable, vertical and horizontal. The Professional Stack is strictly based on modern web app design paradigms and thus made for sophisticated developers.
-
-
 
 ## 2. Universal Stack — NEW
 

@@ -5,17 +5,18 @@ published: true
 title:      "Our Drupal 8 install guide took 540 days"
 excerpt:    "What took us so long to come up with a Drupal 8 install guide."
 lead:       "Why it took us such a crazy long time to write an <a href='https://help.fortrabbit.com/install-drupal-8'>install guide for Drupal 8</a>."
-keywords:   "CMS, install-guide, Drupal8"
 image:      "drupal8-poster.gif"
 tag:
  - chronicles
+ head:
+  meta:
+    - name: 'keywords'
+      content: 'CMS, install-guide, Drupal8'
 ---
 
-We maintain a couple of [install guides](https://help.fortrabbit.com/#install-guides) to help our clients to get started with their CMS or framework on our hosting service quickly. So we have some superficial knowledge about modern and popular PHP CMS/frameworks. 
+We maintain a couple of [install guides](https://help.fortrabbit.com/#install-guides) to help our clients to get started with their CMS or framework on our hosting service quickly. So we have some superficial knowledge about modern and popular PHP CMS/frameworks.
 
 **Drupal 8 is a huge step forward.** It features modern, object-oriented code (classes, inheritance, interfaces), requires a least PHP 5.5.9, makes use of PHP standards (PSR-4, namespaces, traits), Symfony components, PHPunit integration, Twig, HTML5, Guzzle, Assetic, file system abstraction and more. We were quite exited about Drupal 8, from the first Beta on — as we saw it to be a good fit for our platform.
-
-
 
 ### Timeline
 
@@ -30,7 +31,6 @@ We maintain a couple of [install guides](https://help.fortrabbit.com/#install-gu
 * 2016-06-24 - We [ask to help](https://twitter.com/fortrabbit/status/746305157076553728) with the feature request
 * 2016-07-21 - Our feature requests goes upstream > [drupal 8.1.x-dev](https://www.drupal.org/project/drupal/releases/8.1.x-dev) — Thank you!
 * **2016-08-03** - We finally release our [Drupal 8 install guide](https://help.fortrabbit.com/install-drupal-8)
-
 
 ### Conclusions
 

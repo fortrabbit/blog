@@ -6,9 +6,13 @@ excerpt: What we learned helping clients improving Craft CMS performance
 lead: Here's what we've learned helping clients to increase performance of their Craft CMS websites.
 published: true
 image: craft-cms-tuning-2021.png
-keywords: craft, craftcms, craft-cms, performance
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'craft, craftcms, craft-cms, performance'
+
 ---
 
 Update 2022-10-28: We have most of the content of this post to our help page [Craft CMS performance tips](https://help.fortrabbit.com/craft-performance).

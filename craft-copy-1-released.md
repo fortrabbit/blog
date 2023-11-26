@@ -5,10 +5,14 @@ published: true
 author: fl
 excerpt: Our command line tool to help with Craft CMS deployment on fortrabbit is now production grade ready.
 lead: We are pleased to announce that Craft Copy has now reached version 1.0.0. Craft Copy is an open source command line interface to sync your local Craft with fortrabbit in more convenient and sophisticated ways.
-keywords: Craft CMS, Craft Copy, craft-copy, Git, SSH key
 image: craft-copy-poster.gif
 tag:
   - webdev
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Craft CMS, Craft Copy, craft-copy, Git, SSH key'
+
 ---
 
 ## How to get it?

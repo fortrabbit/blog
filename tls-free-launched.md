@@ -5,10 +5,13 @@ published: true
 title: TLS free launched
 excerpt: Free SSL certificates for custom domains via Let's Encrypt are here now.
 lead: SSL certificates for your custom domains by Let's Encrypt — <b>free and with zero config</b>.
-keywords: ssl, https, lets-encrypt, acme, CA, certificate authority, ACME, HTTP over TLS,HTTP over SSL, HTTP Secure
 image: tls-free-poster.jpg
 tag:
   - changelog
+head:
+  meta:
+    - name: 'keywords'
+      content: 'ssl, https, lets-encrypt, acme, CA, certificate authority, ACME, HTTP over TLS,HTTP over SSL, HTTP Secure'
 ---
 
 
@@ -24,7 +27,6 @@ tag:
 
 **TLS custom**: Additionally you can book our TLS Component to bring your own custom certificate (from any CAs) and install it on the App for your custom domain.
 
-
 ### TLS on fortrabbit now
 
 **Piggyback TLS for the App URL**: Stays as it is of course, as you might want to test HTTPS without routing a domain.
@@ -37,11 +39,9 @@ tag:
 
 A quick and easy way to benefit from transport security for your App. Use it for small sites, hobby projects, during development for tinkering and for testing. No setup required, it's just there.
 
-
 ### When to use TLS custom
 
 The more sophisticated, advanced way to achieve transport security. The setup is a bit more complicated and you need to purchase the certificate on your own as well as the TLS Component from fortrabbit. Your own commercial certificates can deliver a higher level of trust and they also offer some advanced configurations that are not possible with the free version (eg wildcard).
-
 
 ## Some backgrounds
 
@@ -51,21 +51,17 @@ TLS stands for Transport Layer Security and is the successor of SSL (Secure Sock
 
 Back in the days only business critical applications, like banking or e-commerce needed encryption. But nowadays Google and others are promoting to use "HTTPS everywhere" (for more online security).
 
-
 ### About Certificate Authorities
 
 In order to communicate privately and encrypted, you need to know that your counterpart is who he claims to be. That's where certificate authorities (CAs) come into play: In essence, it's a chain of trust: they know somebody, who knows somebody, who knows somebody … who knows you. Pay a little money, send over a facsimile and they'll confirm that you are you. The more money you pay the more thoroughly they will check you out and the more your customers can trust that you are who you claim to be.
 
 Classical CAs are: Comodo, Thawte, DigiCert, GeoTrust, Symantec, GlobalSign and StartSSL …
 
-
-
 ### About Let's Encrypt
 
 [Let's Encrypt](https://letsencrypt.org/) is relatively new project aiming to bring certificates to everyone. It's a free, open and automated Certificate Authority. The service itself left beta in April this year. The Let's Encrypt setup is a bit different to classical CAs: the certificates only have a lifetime of ninety days. New certificates should be requested and installed automatically using a special client.
 
 Developers really love Let's Encrypt and it already has a [market share of 0.1%](https://w3techs.com/technologies/details/sc-letsencrypt/all/all).
-
 
 ### Benefits of the fortrabbit implementation
 
@@ -82,7 +78,6 @@ With this update we finally fulfill a frequent feature request. Traditional HTTP
 ### Lowering entry barriers
 
 **This is what I really like about it**: HTTPS is often a business requirement. But setting up TLS - by it's nature - was a complicated process so far: Creating keys and certs locally, purchasing certs from (shady-looking) external providers, Uploading keys … We tried to make the process as easy as possible, but it was still a hustle. So from a very complicated setup to no setup required at all is a major improvement. From costs on the fortrabbit side and on the external providers side to no costs at all is also a very good deal.
-
 
 ### Increasing general web security
 

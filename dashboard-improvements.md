@@ -5,10 +5,14 @@ published: true
 title: Dashboard improvements
 excerpt: Quicker boarding, App access links and more.
 lead: "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
-keywords: Boarding, UX, UI, user journey, progressive disclosure, gamification
 image: dashboard-improvements.gif
 tag:
   - changelog
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Boarding, UX, UI, user journey, progressive disclosure, gamification'
+
 ---
 
 

@@ -5,19 +5,20 @@ published: true
 title: Introducing password authentication + dynamic help
 excerpt: Better Windows support and smoother boarding.
 lead: Boarding just got better. This new release makes it easier to get started with fortrabbit for new and novice users.
-keywords: UI, UX, design, funnel, username, password, windows hosting, novice, noob, QA, boarding
 image: password-poster.gif
 tag:
   - chronicles
+head:
+  meta:
+    - name: 'keywords'
+      content: 'UI, UX, design, funnel, username, password, windows hosting, novice, noob, QA, boarding'
 ---
 
 **This is new**: Just use your Account password, when you have trouble setting up SSH keys. Copy/paste actually working code examples directly from our documentation. See the [help article](https://help.fortrabbit.com/access-methods) on how to do it.
 
-
 ## The story behind the new features
 
 **Less initial complexity** is one of our current goals, as stated in the last [mission statement](/mission-statement-2016). When examining our conversion funnels, we saw big drop off rates after the signup. It turned out that we have overlooked some important details:
-
 
 ### Hidden SSH key setup barrier
 
@@ -51,12 +52,10 @@ What you will see depends on your the SSH authentication method of your Account.
 
 We have also updated our documentation to match with the new authentication methods. The progress is still ongoing.
 
-With this update we also included some changes to our deployment Nodes. The tunnel services changed (new URLs, see our [status update](http://status.fortrabbit.com/incidents/7n4nmn4695hm)) and there is a new shorter URL schema available for deploying, the old one still works. 
+With this update we also included some changes to our deployment Nodes. The tunnel services changed (new URLs, see our [status update](http://status.fortrabbit.com/incidents/7n4nmn4695hm)) and there is a new shorter URL schema available for deploying, the old one still works.
 
 The new features are available for New Apps (new stack) only.
 
 **What does this mean for existing Accounts?** Nothing. If you have a fortrabbit Account and prefer to use SSH password authentication just remove all SSH keys from your Account. If you choose to stick with public key authentication just do nothing.
-
-
 
 So far the **theory**, let's see how it works in **reality**.

@@ -5,7 +5,6 @@ published: true
 author: fl
 excerpt: The backstory of recent issues related to image transformations.
 lead: During the last week we have had some trouble with ImageMagick. Sorry for the inconvenience. This article provides some background about what happened.
-keywords: imagick
 image: imagemagick-issues-poster.gif
 tag:
   - chronicles
@@ -19,7 +18,6 @@ For PHP there is an additionally interface, called "imagick" which is installed 
 
 You will most likely have been using ImageMagick for years. Whenever PHP does an image transformation, like when thumbnails are created, it is probably doing all the magic in the background with ImageMagick. The GD Graphics Library is an alternative also available here.
 
-
 ### A design trade-off
 
 Our Apps are designed as lightweight containers serving fast PHP processes. Allocated resources are limited. Image transformation on the other hand are resource hungry by nature. Loading images in memory (uncompressed) requires a lot of RAM and processing and compressing them with ever advancing codecs will keep even the most modern CPU busy. You can try it at home: Transform images with any program and watch your CPU spike.
@@ -28,15 +26,13 @@ From our point of view, in an ideal web application architecture, such operation
 
 So we aim to bring a good solution for Universal Apps - a balance between performance and expected results. We therefore have been limiting ImageMagick memory usage with a "policy.xml" file for quite a while already. The limits are designed to give each ImageMagick process a reasonable limit while still performing as expected. With Universal Apps, each ImageMagick process was limited to 64 MB of memory. This setup has worked great for years.
 
-
 ### Recent imagemagick updates
 
 We recently updated ImageMagick from version 6 to version 7. One of the goals was to bring "**webp**" support 😎. It now seems to us, that something changed with the new ImageMagick version.
 
-
 ### Hard to detect issues
 
-We rolled out the update around a month ago (10th of Feb) and we initially did not see any issues, neither in our tests we did before nor in production after the update. But one by one, more and more image transformation related issues appeared. So we tried to find a connection between them. 
+We rolled out the update around a month ago (10th of Feb) and we initially did not see any issues, neither in our tests we did before nor in production after the update. But one by one, more and more image transformation related issues appeared. So we tried to find a connection between them.
 
 ![](/dist/img/imagemagick-corrupted-image-1.jpg)
 
@@ -48,7 +44,6 @@ We finally found out, that image transformations done on larger images coming in
 
 Only a small number of clients were affected by these issues, but for some of them issues were critical.
 
-
 ## The current situation
 
 We have investigated all kinds of settings. We now think to have found a solution. It offers much better use case coverage in the ImageMagick policies. A [patch](https://status.fortrabbit.com/incidents/ysbw39h49n1s) has been applied globally just recently.
@@ -59,7 +54,6 @@ Those two settings together (RAM & swap) have provided much better results in ou
 
 We are still investigating this and are looking for ways to further improve the service further.
 
-
 <h2 id="further-actions">Further actions</h2>
 
 To get rid of past failed transformations, your action might be required.
@@ -68,9 +62,9 @@ Image transformation are usually cached on disk. Those caches now - after the in
 
 How to delete image caches depends on the framework or CMS in use, maybe settings and even plugins.
 
-The actual cache files are kinda temporary runtime data, so they are usually not stored with Git. 
+The actual cache files are kinda temporary runtime data, so they are usually not stored with Git.
 
-In most cases, the caching is a combination of files on disk and entries in the database. The CMS / framework needs to keep track of cached files. So there likely gonna be methods available. Simply deleting files might not solve the issue. 
+In most cases, the caching is a combination of files on disk and entries in the database. The CMS / framework needs to keep track of cached files. So there likely gonna be methods available. Simply deleting files might not solve the issue.
 
 Pro Apps don't have persistent storage. So the transformed images, when configured correctly will end up on the Object Storage. There might be local copies on the ephemeral file system as well. The local copies will be deleted with each deploy. Again, usually you just have to use the available methods. With Universal Apps, the generated images usually will end up on the file system of the App.
 
@@ -81,7 +75,6 @@ Craft CMS users have three ways to trigger a rebuild to delete already cached br
 1. **Control Panel**: You can do so in the Craft Panel (on fortrabbit) under "Utilities" > "Clear Caches" > Check "Asset transform index". Make sure that the flag "allowAdminChanges" in "general.php" for the fortrabbit environment is set to "true" (default is false here), otherwise those options are not accessible.
 2. **Craft CLI (3.0.37+)**: Login via SSH and issue `php craft clear-caches/transform-indexes`
 3. **MYSQL**: Delete specific rows in "assettransformindex" or truncate the whole table.
-
 
 ### Laravel
 

@@ -5,10 +5,13 @@ published: true
 title: Mission statement 2016
 excerpt: Where we are, what we are up to.
 lead: 4 years of fortrabbit cloud hosting already. What's going on?
-keywords: vision, roadmap, pipeline, startup lessons, company history, status quo, insider, inertia
 image: mission-statement-poster.gif
 tag:
   - chronicles
+head:
+  meta:
+    - name: 'keywords'
+      content: 'vision, roadmap, pipeline, startup lessons, company history, status quo, insider, inertia'
 ---
 
 ## Analysis
@@ -19,8 +22,7 @@ Some more than a year ago we have announced [a new generation of Apps](roadmap-t
 
 The user adaption is quite OK, but to be honest here: The New Apps have not been a real smash hit until now. So what's the issue here?
 
-
-###  Initial expectations
+### Initial expectations
 
 Part of our job is to assume which technological trends (in our space) will have an impact, so that we can start building solutions today and release them tomorrow.
 
@@ -56,8 +58,6 @@ While PHP itself is on fire, the eco-system is moving slower than we have antici
 .red    { color: red; }
 </style>
 
-
-
 1. <span class="green">**green**</span>: Runs perfectly here
 2. <span class="yellow">**yellow**</span>: Somehow runs here
 3. <span class="red">**red**</span>: Really hard to run here
@@ -82,10 +82,9 @@ But you still ignore Git and Composer. Yes, we can use [Bedrock](https://help.fo
 
 We know that a lot of clients want to use WP here and we are not satisfied with current solution. No hope in sight. WordPress is eventually becoming API-first, headless, or even JS-based.
 
-####  Craft CMS
+#### Craft CMS
 
 <span class="yellow">**yellow**</span>: You are our hope - we see a lot of energy here. Still, it requires [a plugin](https://help.fortrabbit.com/install-craft-2#toc-setup-object-storage) (from us) to support the custom S3 endpoint to use our Object Storage. And another [extra plugin](https://help.fortrabbit.com/install-craft-2#toc-logging-amp-debugging) if you want to have logging.
-
 
 ### Listening to our users
 
@@ -106,7 +105,6 @@ There is also a large group of novice users who are looking for something better
 fortrabbit is especially attractive to host modern PHP, SaaS-like applications or backends, in Laravel or Symfony. But PHP is also a lot about classical websites, which are mainly based on WordPress.
 
 fortrabbit shines when it comes to scaling and high availability, but many projects are tiny small and don't need all that power.
-
 
 ## Conclusion
 

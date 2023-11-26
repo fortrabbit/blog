@@ -5,7 +5,6 @@ published: true
 title: MySQL Backups for Pro Apps
 excerpt: "Now available: Automated backups for Professional Apps."
 lead: Our recently launched Universal Apps support automatic backups on the Plus plan. We now ported this feature for Professional App MySQL databases as well.
-keywords: php
 image: mysql-backups-pro-poster.gif
 tag:
   - changelog
@@ -28,7 +27,6 @@ Backups are generated every night (for exact timing, see [specs](https://www.for
 
 ## No impact, no hassle
 
-Backups are created from snapshots of the databases. Those snapshots are taken nightly and do not affect the database performance at all, because they are made of the underlying file server by AWS. We start new database instances from those snapshots and dump the backups from those instances. 
+Backups are created from snapshots of the databases. Those snapshots are taken nightly and do not affect the database performance at all, because they are made of the underlying file server by AWS. We start new database instances from those snapshots and dump the backups from those instances.
 
-**This means:** Your live application is _not_ impacted in the least. 
-
+**This means:** Your live application is _not_ impacted in the least.
