@@ -12,7 +12,7 @@ tag:
 
 ## Project internals
 
-**Long time in preparation**: This was an internal update with focus on stability, security and agility, also a major internal mile stone and groundwork for future releases. It's biggest part was a global Operating System update. This alone – as you can imagine – brings lot's of changes. With it a lot libraries and dependencies have been updated, check our [original announcement](/under-the-hood-updates-2019-06) which only includes front-facing changes. It was a big and complex project and we have started working on it over a year ago. 
+**Long time in preparation**: This was an internal update with focus on stability, security and agility, also a major internal mile stone and groundwork for future releases. It's biggest part was a global Operating System update. This alone - as you can imagine - brings lot's of changes. With it a lot libraries and dependencies have been updated, check our [original announcement](/under-the-hood-updates-2019-06) which only includes front-facing changes. It was a big and complex project and we have started working on it over a year ago. 
 
 **End sprint**: We postponed the rollout multiple times. But then we forced ourselves — also due to external circumstances — to set a deadline. The whole team participated to make it happen. Already on home stretch, around a month before roll-out, we were still dealing with road blockers. That gave us less time for testing. We still decided to do it, as we became more and more confident that it was doable.
 

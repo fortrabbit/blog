@@ -11,7 +11,7 @@ tag:
 
 ### The meat market
 
-All experts agree that meat prices are much too low. The brutal price competition results in factory farming and the massive usage of antibiotics. That's not good - neither for the animals nor for us customers. We eat too much meat and get too fat. **How to fix it**: Go to your butcher of trust. Ask about the welfare of animals and meat quality. Eat meat more consciously. Vote for a party that supports meat market regulation. 
+All experts agree that meat prices are much too low. The brutal price competition results in factory farming and the massive usage of antibiotics. That's not good - neither for the animals nor for us customers. We eat too much meat and get too fat. **How to fix it**: Go to your butcher of trust. Ask about the welfare of animals and meat quality. Eat meat more consciously. Vote for a party that supports meat market regulation.
 
 ### The hosting market
 

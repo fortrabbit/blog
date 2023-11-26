@@ -7,15 +7,15 @@ tag:
   - opinion
 ---
 
-> PHP development began in 1994 when the Danish/Greenlandic/Canadian programmer Rasmus Lerdorf initially created a set of Perl scripts he called "**P**ersonal** H**ome** P**age Tools" to maintain his personal homepage. – Wikipedia
+> PHP development began in 1994 when the Danish/Greenlandic/Canadian programmer Rasmus Lerdorf initially created a set of Perl scripts he called "**P**ersonal** H**ome** P**age Tools" to maintain his personal homepage. - Wikipedia
 
 Since then a lot of spaghetti code has been written. PHP is the popular programming language everybody complains about. We see a new rise of sophisticated PHP programming. Here are some bits and pieces. 
 
 ### Technologies
 
-  * PHP5.4 – the latest version with new features
-  * [Composer](http://getcomposer.org/) – Dependency Manager (See also [here](/handle-your-dependencies-with-php-composer/))
-  * [PSR](https://github.com/pmjones/fig-standards) – PHP standards
+  * PHP5.4 - the latest version with new features
+  * [Composer](http://getcomposer.org/) - Dependency Manager (See also [here](/handle-your-dependencies-with-php-composer/))
+  * [PSR](https://github.com/pmjones/fig-standards) - PHP standards
   * [Modern](http://proemframework.org/) frameworks based on [decoupled](https://github.com/illuminate) components
 
 ### Tweets

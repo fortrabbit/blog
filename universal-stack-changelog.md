@@ -9,7 +9,7 @@ tag:
 ---
 ## New Apps > Professional Stack — WORDING
 
-Your "**New Apps**" are now called "**Professional Apps**". That's it. Everything else stays the same. We are fully committed to further support and develop the Professional Stack. 
+Your "**New Apps**" are now called "**Professional Apps**". That's it. Everything else stays the same. We are fully committed to further support and develop the Professional Stack.
 
 ## Universal Stack — NEW
 
@@ -28,7 +28,6 @@ The large Universal plan comes with a new Backups feature. We hope you like dail
 
 * [Read the backups help page](https://help.fortrabbit.com/backups)
 
-
 ### MySQL 5.7 — NEW for Universal Apps only
 
 Universal Apps are coming with the **latest MySQL 5.7** version. We are evaluating to offer MySQL 5.7 for Professional Stack Apps as well.
@@ -40,19 +39,16 @@ One aspect of our Professional Stack Apps is ephemeral storage, which allows tho
 * [Read the SSH help page](https://help.fortrabbit.com/ssh-uni)
 * [Read the SFTP help page](https://help.fortrabbit.com/sftp-uni)
 
-
-
 ## Company plans — NEW
 
 The new Company plans are combining support and collaboration features. The "Developer" role is now called "**App Collaborator**" and is available for all Professional Apps and most Universal Apps. Company collaboration with "Admins" and "Owners" can be booked in various sizes:
 
 * [See the Company plans and features](https://www.fortrabbit.com/company-plans)
-* [Read about the new collaboration in the help](https://help.fortrabbit.com/collaboration) 
+* [Read about the new collaboration in the help](https://help.fortrabbit.com/collaboration)
 
 Already booked support plans are automatically converted to Company plans with the same feature set. All existing collaboration configurations are untouched and can be used indefinitely for free. To be sure: Existing collaboration setups are completely untouched. No worries.
 
-Support literally has many faces. For us it's: A signal to learn about our customers, a sales channel and a great part of our work days. The support chat is open to everyone, but users with a Company plan have higher priority in the loop. 
-
+Support literally has many faces. For us it's: A signal to learn about our customers, a sales channel and a great part of our work days. The support chat is open to everyone, but users with a Company plan have higher priority in the loop.
 
 ## Help pages — UPDATE
 
@@ -61,21 +57,15 @@ The official fortrabbit documentation has been re-factored and re-edited. It now
 * [See all the commits](https://github.com/fortrabbit/help/commits/master)
 * [See the new list of all articles, including deprecated ones](https://help.fortrabbit.com/all-articles)
 
-
 ## Improved design — UPDATE
 
 On our quest to improve ease of use, the look and feel of our web properties [www](https://www.fortrabbit.com), [blog](https://blog.fortrabbit.com), [help](https://help.fortrabbit.com) and of course [Dashboard](https://dashboard.fortrabbit.com) got a face-lift. We hope you like the new look while still feeling at home. The new styles ate featuring more visual hierarchy, clearer states. It's lighter, faster, uses less break points and there is less stuff to be loaded.
-
-
-
 
 ## Legal docs — CHANGE
 
 We did some tiny minor changes to our legal docs to reflect the new wordings and the aspect that canceling the service by letter is not secure.
 
 * [Diff the commits on GitHub](https://github.com/fortrabbit/legal/commits/master)
-
-
 
 ## App Secrets are becoming more optional — CHANGE
 
@@ -85,29 +75,21 @@ Still, App Secrets for existing Apps are completely untouched and will be availa
 
 * [See the new help article](https://help.fortrabbit.com/env-vars)
 
-
-
-
 ## Collaboration information changes — UPDATE
 
-For extra security through transparency, we are going to send more infos via mail on collaboration changes like demoting, promoting and leaving a Company. 
-
+For extra security through transparency, we are going to send more infos via mail on collaboration changes like demoting, promoting and leaving a Company.
 
 ## Unified HTTPS handling — UPDATE / WORDING
 
-It's true, everybody is still talking about SSL, but SSL is not in use any more. It's TLS now. But TLS is still not so well known. So we ditched all that and now refer to it as HTTPS, which is an acronym hopefully everybody will have heard of. 
+It's true, everybody is still talking about SSL, but SSL is not in use any more. It's TLS now. But TLS is still not so well known. So we ditched all that and now refer to it as HTTPS, which is an acronym hopefully everybody will have heard of.
 
 * [See the new help article](https://help.fortrabbit.com/https)
-
-
 
 ## Better root path handling — UPDATE
 
 In the Dashboard, the root path (aka web root or document root) setting of your App can now also be obtained from the App overview directly. We also added an overview to show which domains are routed where.
 
-
 ![New Root path dialouge](/dist/img/root-path-new.gif)
-
 
 ## Separation of "Performance Metrics" & "Usage Metrics"— CHANGE
 
@@ -115,20 +97,15 @@ Performance Metrics are data visualizations which give you insights into the "sp
 
 ![New Usage metric box](/dist/img/usage-metric-inline.png)
 
-
-
 ## "Page views" instead of "PHP requests" — WORDING
 
-"PHP requests" is a core performance metric that shows many PHP executions your App handles: A PHP request is a single execution of a PHP script. Viewing one web page can result in multiple PHP requests, in rare cases. Usually that is not the case and "Page views" are much better known and understood. Hence we are changing the wording from "PHP request" to "Page view" to make the service offering more transparent and more comparable. 
+"PHP requests" is a core performance metric that shows many PHP executions your App handles: A PHP request is a single execution of a PHP script. Viewing one web page can result in multiple PHP requests, in rare cases. Usually that is not the case and "Page views" are much better known and understood. Hence we are changing the wording from "PHP request" to "Page view" to make the service offering more transparent and more comparable.
 
 We also replaced "All requests" which included all PHP requests + and all non-PHP requests for static assets (JS, IMG …). From now on you have  "Static requests" in the Performance Metrics section of your App, which only contains non-PHP requests. We think that makes some more sense and is easier to understand.
-
 
 ## App alerts — COMING SOON
 
 This feature did not make it in the launch but will soon follow: As requested by many users, we will make service limit alerts available, which will send out mails to the App Owners if any resource is near exhaustion. This allows you to become aware of bottlenecks before they occur and allow you to scale in time.
-
-
 
 ## Longer trial time — UPDATE
 
@@ -140,7 +117,6 @@ Still using Old Apps? You can migrate them easily to the Universal Stack. The ow
 
 * [Migrating an Old App to an Universal App help page](https://help.fortrabbit.com/migrate-old-to-uni)
 
-
 ## Final End of Life date for Old Apps — UPDATE
 
 This huge platform update also marks the end of our first generation of Apps: Old Apps. We hereby inform you that the so called Old Apps will should be migrated by the **end of March 2017**. So don't worry, there is still time. And don't worry, we will also mail affected clients with more infos soon. We take this transition serious.
@@ -148,6 +124,3 @@ This huge platform update also marks the end of our first generation of Apps: Ol
 - - -
 
 You came a long way fellow scroller and we haven't bothered you with any christmas talk at all.
-
-
-

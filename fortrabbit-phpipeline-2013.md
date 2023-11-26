@@ -7,7 +7,7 @@ tag:
   - chronicles
 ---
 
-In spring 2012 i joined the Fortrabbit team – namely [Frank](http://franklaemmer.de/) and [Uli](http://foaa.de). Both guys are highly skilled in their fields and very passionate about moving their hosting company to the next level. I became a kind of man-in-the-middle to connect the tech and the marketing/product world – as a person and as a coder (i write the glue code between the frontend and our infrastructure API). It was a great experience to build a hosting platform from the scratch, a product that is still beyond a [MVP](http://theleanstartup.com/principles#develop_mvp) or buggy prototype.
+In spring 2012 i joined the Fortrabbit team - namely [Frank](http://franklaemmer.de/) and [Uli](http://foaa.de). Both guys are highly skilled in their fields and very passionate about moving their hosting company to the next level. I became a kind of man-in-the-middle to connect the tech and the marketing/product world - as a person and as a coder (i write the glue code between the frontend and our infrastructure API). It was a great experience to build a hosting platform from the scratch, a product that is still beyond a [MVP](http://theleanstartup.com/principles#develop_mvp) or buggy prototype.
 
 ### Current Traction
 

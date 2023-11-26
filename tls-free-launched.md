@@ -14,7 +14,6 @@ head:
       content: 'ssl, https, lets-encrypt, acme, CA, certificate authority, ACME, HTTP over TLS,HTTP over SSL, HTTP Secure'
 ---
 
-
 **TL;DR** All custom domains with your fortrabbit (New) App can now also be served via `https://` with a valid certificate from Let's Encrypt unless a custom certificate is installed. Check out our [TLS help article](https://help.fortrabbit.com/tls) to learn more on implementation or continue here to read about what changes and a bit about the backgrounds.
 
 ![Browser Screenshot of TLS in action](/dist/img/tls-free-screenshot.png)
@@ -81,7 +80,7 @@ With this update we finally fulfill a frequent feature request. Traditional HTTP
 
 ### Increasing general web security
 
-**This is where I am bit sceptical**: There is [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), which enables multiple certs per IP making hosting HTTPS much more efficient and more affordable – we introduced that in December 2015. There is HTTP/2 which is only supported by browsers when running over HTTPS. Google, Apple and others pushing for a wider [HTTPS](http://techcrunch.com/2016/06/14/apple-will-require-https-connections-for-ios-apps-by-the-end-of-2016/) [adaption](https://www.youtube.com/watch?v=cBhZ6S0PFCY) — Chrome (Canary) and Firefox now even display a red icon when for HTTP-only-websites. And we have Let's Encrypt solving the big authentication obstacle.
+**This is where I am bit sceptical**: There is [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), which enables multiple certs per IP making hosting HTTPS much more efficient and more affordable - we introduced that in December 2015. There is HTTP/2 which is only supported by browsers when running over HTTPS. Google, Apple and others pushing for a wider [HTTPS](http://techcrunch.com/2016/06/14/apple-will-require-https-connections-for-ios-apps-by-the-end-of-2016/) [adaption](https://www.youtube.com/watch?v=cBhZ6S0PFCY) — Chrome (Canary) and Firefox now even display a red icon when for HTTP-only-websites. And we have Let's Encrypt solving the big authentication obstacle.
 
 On the other side, we have seen some serious security bugs in this space lately: [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed), [Poodle](https://en.wikipedia.org/wiki/POODLE), [Drown](https://en.wikipedia.org/wiki/DROWN_attack) and now just recently the [Padding Oracle](https://en.wikipedia.org/wiki/Padding_oracle_attack).
 

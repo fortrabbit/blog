@@ -30,7 +30,7 @@ In consequence, SSH key setup was one of the most frequent support requests. Wit
 
 It was still hard for Windows users, especially for novice ones: When you Google "[SSH key setup windows](https://www.google.de/search?btnG=1&pws=0&q=SSH+key+setup+windows)" you will get instructions for PuTTY, which is all fine, but to make PuTTY working with fortrabbit you need to know where it stores it's SSH keys.
 
-Now we give up on this – SSH keys are no longer required to use fortrabbit. We are introducing password authentication on Account level and it is enabled by default. So when boarding, users will no longer be asked for their SSH keys, instead they can simply create their first App right away.
+Now we give up on this - SSH keys are no longer required to use fortrabbit. We are introducing password authentication on Account level and it is enabled by default. So when boarding, users will no longer be asked for their SSH keys, instead they can simply create their first App right away.
 
 - - -
 

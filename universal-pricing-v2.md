@@ -38,8 +38,8 @@ tag:
         width: 50%;
         overflow: hidden;
     }
-    .handle { /* Thin line seperator */
-      position:absolute; 
+    .handle { /*Thin line seperator*/
+      position:absolute;
       left:50%;
       top:0;
       bottom:0;
@@ -48,8 +48,8 @@ tag:
       background: rgba(0,0,0,.5);
       cursor: ew-resize;
     }
-     
-    .handle:after {  /* Big orange knob  */
+
+    .handle:after {  /*Big orange knob*/
         position: absolute;
         top: 50%;
         width: 64px;
@@ -62,13 +62,13 @@ tag:
         font-size:36px;
         text-align:center;
         line-height:64px;
-     
-        background: #00e6bf; 
-        border:1px solid #118771; /* darken(@orange, 5%) */
+
+        background: #00e6bf;
+        border:1px solid #118771; /*darken(@orange, 5%)*/
         border-radius: 50%;
         transition:all 0.3s ease;
         box-shadow:
-          0 2px 6px rgba(0,0,0,.3), 
+          0 2px 6px rgba(0,0,0,.3),
           inset 0 2px 0 rgba(255,255,255,.5),
           inset 0 60px 50px -30px #21FFD8;
     }
@@ -81,7 +81,6 @@ tag:
         font-size:30px;
     }
 </style>
-
 
 <script>
     // Call & init
@@ -96,7 +95,7 @@ $(document).ready(function(){
   });
 });
 
-// Update sliders on resize. 
+// Update sliders on resize.
 // Because we all do this: i.imgur.com/YkbaV.gif
 $(window).resize(function(){
   $('.ba-slider').each(function(){
@@ -107,45 +106,45 @@ $(window).resize(function(){
 });
 
 function drags(dragElement, resizeElement, container) {
-    
+
   // Initialize the dragging event on mousedown.
   dragElement.on('mousedown touchstart', function(e) {
-    
+
     dragElement.addClass('draggable');
     resizeElement.addClass('resizable');
-    
+
     // Check if it's a mouse or touch event and pass along the correct value
     var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
-    
+
     // Get the initial position
     var dragWidth = dragElement.outerWidth(),
         posX = dragElement.offset().left + dragWidth - startX,
         containerOffset = container.offset().left,
         containerWidth = container.outerWidth();
- 
+
     // Set limits
     minLeft = containerOffset + 10;
     maxLeft = containerOffset + containerWidth - dragWidth - 10;
-    
+
     // Calculate the dragging distance on mousemove.
     dragElement.parents().on("mousemove touchmove", function(e) {
-        
+
       // Check if it's a mouse or touch event and pass along the correct value
       var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;
-      
+
       leftValue = moveX + posX - dragWidth;
-      
+
       // Prevent going off limits
       if ( leftValue < minLeft) {
         leftValue = minLeft;
       } else if (leftValue > maxLeft) {
         leftValue = maxLeft;
       }
-      
+
       // Translate the handle's left value to masked divs width.
       widthValue = (leftValue + dragWidth/2 - containerOffset)*100/containerWidth+'%';
-            
-      // Set the new values for the slider and the handle. 
+
+      // Set the new values for the slider and the handle.
       // Bind mouseup events to stop dragging.
       $('.draggable').css('left', widthValue).on('mouseup touchend touchcancel', function () {
         $(this).removeClass('draggable');
@@ -208,9 +207,9 @@ We are also changing a wording: We think that "Standard" is a better than "Basic
 
 ### More details
 
-Yes, this is a professionalisation of the Universal Stack. We are re-introducing the PHP processes here, an important metric that describes the number of maximum concurrent requests. More resources even for low/mid traffic sites with multiple (Ajax) requests per visit make a huge difference. 
+Yes, this is a professionalisation of the Universal Stack. We are re-introducing the PHP processes here, an important metric that describes the number of maximum concurrent requests. More resources even for low/mid traffic sites with multiple (Ajax) requests per visit make a huge difference.
 And there are bigger PHP memory options available now, to support intensive tasks like image transformations without running into trouble.  
 
 This is also a step back from features to hardware specs. For the sake of clarity we have skipped the distinctive features: Automatic HTTPS, Performance metrics and App collaboration, which are now always included.
 
-**Are we doing the right thing?** We are very curious what you think. 
+**Are we doing the right thing?** We are very curious what you think.

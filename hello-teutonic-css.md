@@ -3,7 +3,7 @@ title: Hello Teutonic CSS
 created: 2018-08-02
 author: fl
 excerpt: Some details on our open source CSS framework.
-lead: So we said to do more open source on fortrabbit. TADA – here is my first big open source publication. A CSS framework.
+lead: So we said to do more open source on fortrabbit. TADA - here is my first big open source publication. A CSS framework.
 figure:
   src: teutonic-poster.jpg
 tag:

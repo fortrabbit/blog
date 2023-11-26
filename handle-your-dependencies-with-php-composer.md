@@ -7,7 +7,7 @@ tag:
   - webdev
 ---
 
-## Composer – Sounds Good
+## Composer - Sounds Good
 
 [Composer](http://getcomposer.org/) describes itself as "a tool for dependency management in PHP". It uses a large [repository of packages](http://packagist.org/packages/) which is continuously extended and maintained by the community. It is now out there for about a year or so. This article goes out to everybody who is not already using it: we want you to give it a try it and here is why.
 

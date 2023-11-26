@@ -13,7 +13,7 @@ UDPATE 2014-10: We have switched support to [help.fortrabbit.com](http://help.fo
 
 - - - -
 
-The help pages for our (upcoming) PHP PaaS are basically kind of ready. Well, you know – the lean way. Have a sneek peak:
+The help pages for our (upcoming) PHP PaaS are basically kind of ready. Well, you know - the lean way. Have a sneek peak:
 
 * [support.fortrabbit.com](http://support.fortrabbit.com/)
 

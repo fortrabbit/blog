@@ -134,7 +134,7 @@ Please mind that SNI based HTTPS will not work in some really, really old browse
 
 ![Secrets in the Dashboard](/dist/img/secrets-preview.png)
 
-A while ago we kicked off a [discussion](/how-to-keep-a-secret) on the (bad) practice of storing secret informations in ENV vars. Now, we introduce a new feature called App secrets to help you keep your App secure. The `secrets.json` is a file in your App. Only you and your team have access. It's a vault for secrets provided by us — think: database password, plus your own sensitive informations – think: API keys, passwords and so on. Parsing secrets is easy. The App secrets are an optional new feature only for New Apps.
+A while ago we kicked off a [discussion](/how-to-keep-a-secret) on the (bad) practice of storing secret informations in ENV vars. Now, we introduce a new feature called App secrets to help you keep your App secure. The `secrets.json` is a file in your App. Only you and your team have access. It's a vault for secrets provided by us — think: database password, plus your own sensitive informations - think: API keys, passwords and so on. Parsing secrets is easy. The App secrets are an optional new feature only for New Apps.
 
 * [App secrets help article](http://help.fortrabbit.com/app-secrets)
 

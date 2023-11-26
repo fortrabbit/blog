@@ -7,7 +7,7 @@ tag:
   - opinion
 ---
 
-Bootstrapped in Berlin – Our startup business model as a PaaS without VC (and the hype). Just like Baron Münchhausen we have to pull ourselves up by our bootstraps. In other words: we have no funding and no big money in the background – and that's alright.
+Bootstrapped in Berlin - Our startup business model as a PaaS without VC (and the hype). Just like Baron Münchhausen we have to pull ourselves up by our bootstraps. In other words: we have no funding and no big money in the background - and that's alright.
 
 Our aim is to build this really great hosting platform for sophisticated PHP developers. We don't want to make a hell lot of money or to find a quick exit, we simply want this kind of development- and hosting-environment for ourselves and hope that like-minded people will also enjoy it. Of course we have a free plan (called BOOTSTRAP). It's mandatory, everybody has one. With a free plan customers can try out the product quickly and without obligations. But we want more than just a trial. Our vision is that the developing area for your apps and websites should always be free. The free plan should really be something you can work with. Unlike a SaaS startup our platform as a service is about real hardware resources and we actually have to pay for your free plans.
 

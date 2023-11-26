@@ -6,7 +6,6 @@ created: 2015-02-26
 tag:
   - chronicles
 ---
-
 The new fortrabbit dashboard has finally landed. This [follow up](/new-dashboard-migration-guide) guide helps existing users to explore the new features and spot the differences fast.
 
 ## Keep calm and code on

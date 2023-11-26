@@ -7,7 +7,7 @@ tag:
   - chronicles
 ---
 
-**Goodbye to you, my trusted friend.** We are busy with our new [PHP developer cloud hosting](http://fortrabbit.com). Currently we are preparing to shut down our old MISH services on the 30st of April 2013 in favor to the new platform. A part of MISH is WebRechnung and we finally decided to take it down without replacement. WebRechnung was a free service to create and send invoices and estimates online – similar to FreshBooks, but especially designed to fit to the German tax laws. We have failed to make it a real business. This article is about our lessons learned.
+**Goodbye to you, my trusted friend.** We are busy with our new [PHP developer cloud hosting](http://fortrabbit.com). Currently we are preparing to shut down our old MISH services on the 30st of April 2013 in favor to the new platform. A part of MISH is WebRechnung and we finally decided to take it down without replacement. WebRechnung was a free service to create and send invoices and estimates online - similar to FreshBooks, but especially designed to fit to the German tax laws. We have failed to make it a real business. This article is about our lessons learned.
 
 See WebRechnung in action in the video above.
 
@@ -27,7 +27,7 @@ It feels a bit strange when i think about it now: WebRechnung could be used stan
 
 #### Set it free
 
-By the end of 2011 we only had about 50 paying customers with an overall monthly revenue of something like 300 €. We decided that we should focus on our core product hosting and put no more energy in this invoicing tool. We didn't wanted to feel too responsible for our few paying customers. So we removed all costs (aside from the one we had ourselves: sending invoices via snail mail). So we had a professional developed billing software for free – no handicapped freemium crap. My secret hope was that maybe now it will have a positive effect on our hosting or the invoice user base could increase to a critical mass so that we could think about a business model again. More contacts should help to manifest the fortrabbit brand, improve our Google ranking and so on. With enough users we might have even been able to bring back some new "premium features".
+By the end of 2011 we only had about 50 paying customers with an overall monthly revenue of something like 300 €. We decided that we should focus on our core product hosting and put no more energy in this invoicing tool. We didn't wanted to feel too responsible for our few paying customers. So we removed all costs (aside from the one we had ourselves: sending invoices via snail mail). So we had a professional developed billing software for free - no handicapped freemium crap. My secret hope was that maybe now it will have a positive effect on our hosting or the invoice user base could increase to a critical mass so that we could think about a business model again. More contacts should help to manifest the fortrabbit brand, improve our Google ranking and so on. With enough users we might have even been able to bring back some new "premium features".
 
 #### Still not enough success
 
@@ -39,7 +39,7 @@ Our main problem with WebRechnung is that it doesn't fit our standards any more 
 
 #### What about Open Sourcing it?
 
-We would love to publish it on GitHub. Unfortunately this software is not really a modern ninja style stand alone application. It is tightly integrated into our monolithic MISH system – mostly written in Perl and impossible to understand for an outsider anyways. And it's really old: dependencies are outdated, large parts of the code are in need of major re-factoring. We would rather rewrite everything before touching this code again.
+We would love to publish it on GitHub. Unfortunately this software is not really a modern ninja style stand alone application. It is tightly integrated into our monolithic MISH system - mostly written in Perl and impossible to understand for an outsider anyways. And it's really old: dependencies are outdated, large parts of the code are in need of major re-factoring. We would rather rewrite everything before touching this code again.
 
 #### What about crowdfunding it?
 

@@ -6,7 +6,6 @@ created: 2013-11-14
 tag:
   - webdev
 ---
-
 Just a quicky: How to use [Codio](https://codio.com/) and fortrabbit.
 
 Codio is a new, amazing online code editor. As it supports deploying your code via Git, there is nothing stopping you from connecting it via fortrabbit and code away! 

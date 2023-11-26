@@ -11,7 +11,7 @@ Our old, bare-metal hosting platform MISH is in the sunset phase. This article s
 
 ## Is the new fortrabbit for me?
 
-You might head over to our [main website](http://fortrabbit.com) and check out the product features. In case you don't understand a word: it might not be the best product for you. Our old MISH hosting was far more broad-band – great for developers but also versatile enough to fit the needs of classical hosting. The new fortrabbit platform is _very_ specialized – the focus is on the needs of development and growing web applications. 
+You might head over to our [main website](http://fortrabbit.com) and check out the product features. In case you don't understand a word: it might not be the best product for you. Our old MISH hosting was far more broad-band - great for developers but also versatile enough to fit the needs of classical hosting. The new fortrabbit platform is _very_ specialized - the focus is on the needs of development and growing web applications. 
 
 ## Real world needs
 
@@ -59,4 +59,4 @@ PaaS providers, like us, are more specialized. We provide the best we possibly c
 
 ### Domains
 
-You got us. Just as all other cloud hosting platforms the fortrabbit PaaS does not support  domain registration. Well it's "decoupled" – you know. Actually we are still thinking about integrating domain management in our platform. We have done this in the past and know how to it. But the whole domain ordering process is really a hassle. There are tons of special cases and conditions and in some many cases we had to intervene manually. And to be honest: the money is no good - as long as you do not make this your primary business. At the current state, we leave this to third party providers which concentrate only on this - so they are good at it and we can concentrate on keeping up our end.
+You got us. Just as all other cloud hosting platforms the fortrabbit PaaS does not support  domain registration. Well it's "decoupled" - you know. Actually we are still thinking about integrating domain management in our platform. We have done this in the past and know how to it. But the whole domain ordering process is really a hassle. There are tons of special cases and conditions and in some many cases we had to intervene manually. And to be honest: the money is no good - as long as you do not make this your primary business. At the current state, we leave this to third party providers which concentrate only on this - so they are good at it and we can concentrate on keeping up our end.

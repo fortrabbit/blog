@@ -1,7 +1,7 @@
 ---
-title:       Updates
-author:      uk
-created:     2014-04-14
+title: Updates
+author: uk
+created: 2014-04-14
 tag:
  - changelog
 ---

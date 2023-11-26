@@ -14,7 +14,6 @@ head:
       content: 'hacking, hack, culture, php, wordpress, design, demoscene, intro, facebook, script kids'
 
 ---
-
 So: A Facebook reaction bot will automatically like Facebook posts. I assume that this is used for farming business or maybe just to artificially boost someones reputation. We see some manually created WordPress based bots from time to time here. I think most are based on step by step [video instructions](https://www.youtube.com/watch?v=Bi3sLwnSncM).
 
 I admit to feel some sympathy for this. And I also like the designs in a way. They remind me of old [demoscene](https://en.wikipedia.org/wiki/Demoscene) crack intros and they also perfectly align with a modern [brutalistic web design](http://brutalistwebsites.com/) trend. Also one can sense the authors age, interests and cultural background.

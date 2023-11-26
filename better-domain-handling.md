@@ -1,7 +1,6 @@
 ---
-
-author:     fl
-created:    2016-07-12
+author: fl
+created: 2016-07-12
 title:  "Introducing a better domain handling"
 excerpt:    "A more helpful UI + forwarding naked domains."
 lead:       "Setting up domains for your fortrabbit Apps just became easier. We have vastly improved handling for naked domains."
@@ -13,7 +12,6 @@ head:
   meta:
     - name: 'keywords'
       content: 'DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, APEX domain, naked domain, forward, IP, cname, CA'
-
 ---
 
 Just last month we have launched [free https](/tls-free-launched) (via Let's Encrypt) for all custom domains. Now we are continuing in this direction with a new forwarding service and more descriptive domain setup and management.

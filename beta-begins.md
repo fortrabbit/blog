@@ -6,7 +6,6 @@ created: 2012-08-30
 tag:
   - chronicles
 ---
-
 We are happy to announce that we have finally started the private BETA of our upcoming PHP Platform. The first invitations are sent out. Thank you for your interest and for waiting so long.**
 
 ### Informations for BETA Testers

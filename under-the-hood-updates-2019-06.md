@@ -9,6 +9,7 @@ figure:
 tag:
   - changelog
 ---
+
 ## Run down
 
 The updates will affect all Apps (Uni and Pro). The expected downtime for App web delivery is up to 30 minutes, we aim for a few minutes. We will run the updates sequentially, App after App. Pro Apps on production plans are planned to have near-to-zero downtime.

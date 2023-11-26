@@ -44,7 +44,7 @@ You get an individual URL per App: `https://your-app.objects.frb.io`. All HTTPS 
 
 ## What's next
 
-For existing clients we advise to migrate Old App to New Apps now. There is – however – still time and we don't rush you. We also will put some efforts to help clients with the transition from Old Apps to [New Apps](https://help.fortrabbit.com/new-apps). Please ask us when you need help.
+For existing clients we advise to migrate Old App to New Apps now. There is - however - still time and we don't rush you. We also will put some efforts to help clients with the transition from Old Apps to [New Apps](https://help.fortrabbit.com/new-apps). Please ask us when you need help.
 
 ## How we got here
 

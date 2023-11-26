@@ -1,19 +1,17 @@
 ---
-
-author:     os
-created:    2018-03-28
-title:      "Your responsibility: App security"
-excerpt:    "Ultimately, you are responsible for your code and as well for the 3rd party code you rely on."
-lead:       "« Application security encompasses measures taken to improve the security of an application often by finding, fixing and preventing security vulnerabilities. » (Wikipedia)"
+author: os
+created: 2018-03-28
+title: "Your responsibility: App security"
+excerpt: "Ultimately, you are responsible for your code and as well for the 3rd party code you rely on."
+lead: "« Application security encompasses measures taken to improve the security of an application often by finding, fixing and preventing security vulnerabilities. » (Wikipedia)"
 figure:
   src: security-advisories-header.jpg
 tag:
- - webdev
+  - webdev
 head:
   meta:
     - name: 'keywords'
       content: 'php, composer, security'
-
 ---
 
 A few days ago, late in the evening, we received a support ticket with the following message:

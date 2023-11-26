@@ -3,7 +3,7 @@ title: Introducing Craft Copy
 created: 2018-11-01
 author: os
 excerpt: A command line tool to help with Craft CMS deployment on fortrabbit.
-lead: So we said to do more open source on fortrabbit. TADA – here (if you haven't seen already) is Craft Copy. Deployment tools for Craft Apps on fortrabbit.
+lead: So we said to do more open source on fortrabbit. TADA - here (if you haven't seen already) is Craft Copy. Deployment tools for Craft Apps on fortrabbit.
 figure:
   src: craft-copy-poster.gif
 tag:

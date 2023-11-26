@@ -12,7 +12,7 @@ We are thrilled to announce the availability of a new feature from our roadmap:�
 
 ## App Collaboration
 
-Grant your team mates access to your App – multi-tenancy workflows for the web control panel. Set the level of permissions based on roles: 
+Grant your team mates access to your App - multi-tenancy workflows for the web control panel. Set the level of permissions based on roles: 
 
   * **Analyst:** read only
   * **Junior Developer:** change settings
@@ -27,7 +27,7 @@ We really like this feature, because it's not yet another tech feature, it solve
 
 ## App Transfer
 
-Change the payee of an App by inviting a new owner. The new owner will be guided thru the boarding process. After the transfer you can still work as a collaborator on the App – of course, when both parties agree. 
+Change the payee of an App by inviting a new owner. The new owner will be guided thru the boarding process. After the transfer you can still work as a collaborator on the App - of course, when both parties agree. 
 
 #### Who Benefits?
 

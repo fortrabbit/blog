@@ -7,11 +7,11 @@ tag:
   - opinion
 ---
 
-Apple, Microsoft, the wireless carrier and your razor blade supplier: They all lock you in – in a walled garden. Now, how dependent are you from your web-host? Lucas Carlson, founder of AppFog claimed that he has escaped vendor prison. His new platform runs on multiple cloud infrastructures. So the customer can choose on which infrastructure his project should be hosted on. Other PaaS providers also have a "No locked-in" icon and copy-text on their homepage. But what does that mean?  You are unsatisfied with your web-hosting provider. So you want to leave. What are the real obstacles to overcome? 
+Apple, Microsoft, the wireless carrier and your razor blade supplier: They all lock you in - in a walled garden. Now, how dependent are you from your web-host? Lucas Carlson, founder of AppFog claimed that he has escaped vendor prison. His new platform runs on multiple cloud infrastructures. So the customer can choose on which infrastructure his project should be hosted on. Other PaaS providers also have a "No locked-in" icon and copy-text on their homepage. But what does that mean?  You are unsatisfied with your web-hosting provider. So you want to leave. What are the real obstacles to overcome? 
 
 ### Legal locked-in
 
-The contract with your old web-host says you can get out by the end of the period – usually a year. A letter on a dead tree with your original signature sent at least two months before is expected. New cloud platforms are all made by very nice people. Of course they would never lock you in with their terms. You can get out ad-hoc or at least at the end of the current month. 
+The contract with your old web-host says you can get out by the end of the period - usually a year. A letter on a dead tree with your original signature sent at least two months before is expected. New cloud platforms are all made by very nice people. Of course they would never lock you in with their terms. You can get out ad-hoc or at least at the end of the current month. 
 
 ### Technical locked-in
 

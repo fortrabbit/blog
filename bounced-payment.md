@@ -1,5 +1,5 @@
 ---
-author:     fl
+author: fl
 created:    2016-01-28
 title:      "That bounced payment"
 excerpt:    "Insights on how we deal with bounced payments"

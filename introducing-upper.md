@@ -3,7 +3,7 @@ title: Introducing Upper
 created: 2018-08-16
 author: os
 excerpt: A Craft CMS plugin to help you with pull-CDNs
-lead: So we said to do more open source on fortrabbit. TADA – here is Upper, a Craft CMS plugin to integrate CDN edge caches.
+lead: So we said to do more open source on fortrabbit. TADA - here is Upper, a Craft CMS plugin to integrate CDN edge caches.
 figure:
   src: upper-poster.gif
 tag:

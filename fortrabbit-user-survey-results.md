@@ -6,7 +6,6 @@ created: 2013-08-26
 tag:
   - chronicles
 ---
-
 We recently did a poll amongst users of our PHP cloud hosting platform. Here are the results and our learnings.
 
 As time flies by: Our PHP cloud platform is already available for ten months. We are very happy with feedback and traction so far. By now over 3.500 smart PHP developers are using our service. Seems that we are doing something right. This motivates us for our [ambitious roadmap](http://fortrabbit.com/roadmap).

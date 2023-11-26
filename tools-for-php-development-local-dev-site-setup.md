@@ -11,7 +11,6 @@ tag:
   - webdev
 ---
 
-
 Not only does a local PHP development environment **speed up and simplify development**, when done correctly it also allows different team members to use the same environment on their respective machines. This reduces the amount of friction between team members and allows for smoother deployments.
 
 While the advantages of local PHP development are clear, the process of getting a dev site up and running **can be one of the least enjoyable parts of a PHP development** project. For WordPress, an integrated solution in the form of [Local by Flywheel](<https://localwp.com/features/>) exists. But for the generalized case of “PHP development” everybody seems to come up with their own solution.
@@ -206,7 +205,7 @@ Homestead comes packed with lots of cool features: one can run multiple dev site
 
 Instead of Vagrant’s traditional Vagrantfile, Homestead uses a `Homestead.yaml` file for configuration. This **file contains all of the configuration for our project** and can shared amongst a team to set up identical development environments.
 
-Be aware that a Homestead instance **may results in a large virtual machine file**. It’s not unusual for this file to take up 5–15 GB of storage on the local disk. To achieve true dev site isolation, we might have to spin up multiple instances of Homestead. If our local machine only has a small SSD, this can present a serious disadvantage.
+Be aware that a Homestead instance **may results in a large virtual machine file**. It’s not unusual for this file to take up 5-15 GB of storage on the local disk. To achieve true dev site isolation, we might have to spin up multiple instances of Homestead. If our local machine only has a small SSD, this can present a serious disadvantage.
 
 Website: [laravel.com/docs/7.x/homestead](https://laravel.com/docs/7.x/homestead)  
 Supported operating systems: Linux, macOS, Windows

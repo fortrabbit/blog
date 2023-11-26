@@ -22,7 +22,7 @@ About 18 months ago the first players in the PHP Platform as a Service (PaaS) ma
 #### Serve a fully managed & optimized stack
 
   * An extended maintenance-free LAMP stack
-  * Bootable with a single click in seconds – a no-brainer
+  * Bootable with a single click in seconds - a no-brainer
   * Stick to the latest stable versions (Apache 2.2 + PHP 5.4.6 at the moment)
   * A high level of security
 
@@ -34,7 +34,7 @@ About 18 months ago the first players in the PHP Platform as a Service (PaaS) ma
 
 #### Make the deployment process easy & fast
 
-  * As quick as possible (push to deploy – done in seconds)
+  * As quick as possible (push to deploy - done in seconds)
   * Stick to standards: GIT, SSH & (S)FTP
   * No proprietary tools/workflows
 

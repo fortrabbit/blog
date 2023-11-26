@@ -32,12 +32,9 @@ We are just getting started. Now the real fun begins:
 
 You not only can access code, change settings and scale the initial App, as an Admin of a Company you can also create new Apps on behalf of your clients Company.
 
-
-
-
 ### Working with multiple clients
 
-You can of course repeat this with other clients. Login once, manage many: All Apps you can access are listed with your personal Dashboard Account. Your own projects and your client work. You can also move Apps between Companies. 
+You can of course repeat this with other clients. Login once, manage many: All Apps you can access are listed with your personal Dashboard Account. Your own projects and your client work. You can also move Apps between Companies.
 
 ### Quitting made easy
 
@@ -70,14 +67,13 @@ This is still not all. The freelancer/client relationship is just one use case. 
 * Transactional e-mails: Style update, wordings and nice looking buttons
 * Bug fixes & stability updates
 
-
 ---
 
 ## Why we are doing collaboration this way
 
-We get feature requests for white-label reseller hosting on a regular basis. We know that web developers take care of all stuff related to the website, from web-design to web-hosting, so they want to offer it under their own brand. 
+We get feature requests for white-label reseller hosting on a regular basis. We know that web developers take care of all stuff related to the website, from web-design to web-hosting, so they want to offer it under their own brand.
 
-We believe that we can help web developers better with this transparent collaboration solution. A separation of responsibility is key here. We are responsible for the hosting, while you can focus on crafting great applications. Imagine an unexpected down-time. We are responsible and we will deal this with the Owners. 
+We believe that we can help web developers better with this transparent collaboration solution. A separation of responsibility is key here. We are responsible for the hosting, while you can focus on crafting great applications. Imagine an unexpected down-time. We are responsible and we will deal this with the Owners.
 
 So, please stop cramping your VPS with client projects.
 

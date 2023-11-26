@@ -13,7 +13,6 @@ head:
 tag:
   - chronicles
 ---
-
 We are currently working on a new version of our PHP hosting platform. Early in the process we asked ourselves: How will our clients want to interact with our services?
 
 Being developers ourselves, the natural reflex was:

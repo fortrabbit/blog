@@ -1,12 +1,11 @@
 ---
-title: Cloudscapes – Comparing PHP Cloud Hosting Platforms
+title: Cloudscapes - Comparing PHP Cloud Hosting Platforms
 author: fl
 excerpt: What PHP cloud platforms are currently actually out there?
 created: 2012-07-09
 tag:
   - opinion
 ---
-
 We <del>are currently building yet another</del> **have recently launched** a [PHP Cloud Platform](http://fortrabbit.com) ourselves. Of course we looked around to see what the others are up to. This is my (Frank) personal point of view of the current market situation showcasing my favorite services. I try not to judge, neither i will compare features nor prices.
 
 HEADS UP! This is an old article a lot of things changed since then. I wrote a new post: [Cloudscapes revisited](/cloudscapes-revisited-php-cloud-overview/) in 2014.
@@ -32,7 +31,7 @@ Of course the US market is the biggest and was the first. They always invent suc
 
 ### Heroku
 
-The original inventor of this category founded in 2007, now owned by Salesforce. They realized that a cool Ruby hosting platform was missing (but they where wrong about the browser based code editor). One can't run Ruby apps on most of the old school shared hosts. Maybe the hip Ruby developers adapt new technologies a bit quicker. Straight forward: The admin tool is a comand-line interface. Heroku invented an AddOn market place where external providers can offer their services – an App Store for Cloud Hosting services. They actually don't offer PHP, but i've heard that there is hidden support. Heroku is based in San Francisco and relies on AWS. [heroku.com](http://heroku.com)
+The original inventor of this category founded in 2007, now owned by Salesforce. They realized that a cool Ruby hosting platform was missing (but they where wrong about the browser based code editor). One can't run Ruby apps on most of the old school shared hosts. Maybe the hip Ruby developers adapt new technologies a bit quicker. Straight forward: The admin tool is a comand-line interface. Heroku invented an AddOn market place where external providers can offer their services - an App Store for Cloud Hosting services. They actually don't offer PHP, but i've heard that there is hidden support. Heroku is based in San Francisco and relies on AWS. [heroku.com](http://heroku.com)
 
 ### PHP Fog / AppFog
 
@@ -60,11 +59,11 @@ For me Cloud Control looks a bit like Heroku (great artists steal). They have a 
 
 ### Relbit
 
-“Simplicity of a web hosting, the power of cloud.” is the claim. After i signed up for the free trial i got an auto-responder saying that a “trouble ticket” has been opened – umm. They support PHP&nbsp;primarily, have a web control panel and an PHP SDK(?!). The documentation-wiki is quite ok . Relbit is located in Bratislava (Slovakia) and they offer different data center locations. [relbit.com](http://relbit.com/)
+“Simplicity of a web hosting, the power of cloud.” is the claim. After i signed up for the free trial i got an auto-responder saying that a “trouble ticket” has been opened - umm. They support PHP&nbsp;primarily, have a web control panel and an PHP SDK(?!). The documentation-wiki is quite ok . Relbit is located in Bratislava (Slovakia) and they offer different data center locations. [relbit.com](http://relbit.com/)
 
 ### Omnicloud
 
-We have just discovered Omnicloud, they are currently in private BETA and we have not been invited yet. They support PHP now and plan to support Ruby soon. It seems they have a webcontrol panel. Onmicloud comes from Stockholm and is hosted on AWS prices are listed in USD. Currently in private Beta – public launch expected to be in September 2012. [omnicloudapp.com](https://omnicloudapp.com/)
+We have just discovered Omnicloud, they are currently in private BETA and we have not been invited yet. They support PHP now and plan to support Ruby soon. It seems they have a webcontrol panel. Onmicloud comes from Stockholm and is hosted on AWS prices are listed in USD. Currently in private Beta - public launch expected to be in September 2012. [omnicloudapp.com](https://omnicloudapp.com/)
 
 ### Stackblaze
 
