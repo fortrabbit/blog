@@ -5,7 +5,8 @@ published: true
 title: A first look at the new Craft Nitro development tool
 excerpt: The new tool by Pixel & Tonic, can we recommend it yet?
 lead: 
-image: craft-nitro-poster.png
+figure:
+  src: craft-nitro-poster.png
 imagecredit: ""
 tag:
   - webdev

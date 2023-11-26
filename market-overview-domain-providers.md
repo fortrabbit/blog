@@ -5,7 +5,8 @@ created: 2017-07-18
 title: "Market overview: Domain services for developers"
 excerpt: An opinionated field guide on developer-friendly domain hosting services.
 lead: Your application is running on a cloud service (like this one here). You now ask where the developer-friendly domain registration service is?
-image: domain-hosting-poster.jpg
+figure:
+  src: domain-hosting-poster.jpg
 tag:
   - webdev
 head:

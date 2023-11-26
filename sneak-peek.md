@@ -5,7 +5,8 @@ published: true
 title: Sneak peek
 excerpt: A new Hobby line, migration info for Old App owners.
 lead: What we are working on and how we'll proceed with the Old Apps.
-image: upnext-poster.gif
+figure:
+  src: upnext-poster.gif
 tag:
   - chronicles
 head:

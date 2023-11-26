@@ -3,7 +3,8 @@ title: Roadmap to Hack App
 author: fl
 published: true
 excerpt: Where we are heading to.
-image: road-to-hack.jpg
+figure:
+  src: road-to-hack.jpg
 created: 2015-04-20
 tag:
   - chronicles

@@ -5,7 +5,8 @@ published: true
 title: MySQL 8 upgrade plan
 excerpt: How to migrate an App to the new version of MySQL here
 lead: This article guides with upgrading an App on fortrabbit to the newer version of MySQL 8.
-image: mysql-8-poster.png
+figure:
+  src: mysql-8-poster.png
 imagecredit: ""
 tag:
   - changelog

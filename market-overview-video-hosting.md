@@ -5,7 +5,8 @@ created: 2017-08-14
 title: "Market overview: video hosting for business"
 excerpt: An opinionated field guide on developer-friendly video services.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool video encoding and hosting services you can usefor your business.
-image: video-overview-poster.gif
+figure:
+  src: video-overview-poster.gif
 tag:
   - webdev
 head:

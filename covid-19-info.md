@@ -5,7 +5,8 @@ created: 2020-03-27
 published: true
 author: fl
 lead: What we are doing to keep your business online and how you can help.
-image: covid-19-poster.gif
+figure:
+  src: covid-19-poster.gif
 tag:
   - chronicles
 ---

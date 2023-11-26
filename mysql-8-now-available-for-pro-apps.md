@@ -5,7 +5,8 @@ published: true
 title: MySQL 8 is now available for Pro Apps
 excerpt: We are finally making MySQL 8 available. What clients need to know about the roll-out.
 lead: This has been a long requested feature. Now, we can finally announce it. Starting today, all newly created Pro Apps will run on MySQL version 8. Here is what else you might want to know.
-image: mysql-8-poster.png
+figure:
+  src: mysql-8-poster.png
 imagecredit: ""
 tag:
   - changelog

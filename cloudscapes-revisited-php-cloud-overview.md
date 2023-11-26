@@ -2,7 +2,8 @@
 title: Cloudscapes revisited
 author: fl
 excerpt: A state of the PHP cloud hosting scene overview.
-image: cloudy.png
+figure:
+  src: cloudy.png
 created: 2014-05-19
 tag:
   - opinion

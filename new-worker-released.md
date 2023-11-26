@@ -5,7 +5,8 @@ author: os
 created: 2016-01-20
 excerpt: Outsource that heavy lifting in the background — now you can.
 lead: The New Apps are getting more feature complete today. We are pleased to announce the all new Worker Component. Read on to learn more about it and how it differs from our Workers for Old Apps.
-image: worker-poster.jpg
+figure:
+  src: worker-poster.jpg
 tag:
   - changelog
 ---

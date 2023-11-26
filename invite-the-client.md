@@ -5,7 +5,8 @@ created: 2017-06-15
 published: true
 author: fl
 lead: "NEED: You are developing a website. You want your client to pay for the hosting."
-image: client-invite-poster.gif
+figure:
+  src: client-invite-poster.gif
 tag:
   - changelog
 ---

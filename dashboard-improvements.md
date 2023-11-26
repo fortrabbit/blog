@@ -5,7 +5,8 @@ published: true
 title: Dashboard improvements
 excerpt: Quicker boarding, App access links and more.
 lead: "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
-image: dashboard-improvements.gif
+figure:
+  src: dashboard-improvements.gif
 tag:
   - changelog
 head:

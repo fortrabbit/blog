@@ -4,7 +4,8 @@ created: 2018-09-06
 published: true
 author: fl
 excerpt: "PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!"
-image: php56-deadline-poster.jpg
+figure:
+  src: php56-deadline-poster.jpg
 tag:
   - opinion
 head:

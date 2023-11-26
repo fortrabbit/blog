@@ -5,7 +5,8 @@ published: true
 title: Introducing password authentication + dynamic help
 excerpt: Better Windows support and smoother boarding.
 lead: Boarding just got better. This new release makes it easier to get started with fortrabbit for new and novice users.
-image: password-poster.gif
+figure:
+  src: password-poster.gif
 tag:
   - chronicles
 head:

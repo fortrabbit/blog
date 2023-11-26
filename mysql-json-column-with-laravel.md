@@ -5,7 +5,8 @@ published: true
 title: MySQL with JSON in Laravel
 excerpt: Learn about JSON columns in MySQL and how to use them in Laravel.
 lead: Learn about JSON columns in MySQL and how to use them in Laravel.
-image: mysql-json-laravel.png
+figure:
+  src: mysql-json-laravel.png
 tag:
   - webdev
 ---

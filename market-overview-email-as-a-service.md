@@ -5,7 +5,8 @@ created: 2017-10-30
 title: "Market overview: Email services for business and private"
 excerpt: An opinionated field guide on Email as a Service providers.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool "Email as a Service" providers.
-image: email-as-a-service-poster.gif
+figure:
+  src: email-as-a-service-poster.gif
 tag:
   - webdev
 head:

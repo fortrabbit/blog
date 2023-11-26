@@ -5,7 +5,8 @@ published: true
 title: TLS free launched
 excerpt: Free SSL certificates for custom domains via Let's Encrypt are here now.
 lead: SSL certificates for your custom domains by Let's Encrypt — <b>free and with zero config</b>.
-image: tls-free-poster.jpg
+figure:
+  src: tls-free-poster.jpg
 tag:
   - changelog
 head:

@@ -5,7 +5,8 @@ published: true
 created: 2023-08-28 09:36:38
 excerpt: An insight into product development at fortrabbit
 lead: ""
-image: gui-not-cli.png
+figure:
+  src: gui-not-cli.png
 head:
   meta:
     - name: 'keywords'

@@ -5,7 +5,8 @@ published: true
 title:        "About a recent security patch"
 excerpt:      "About things that are usually not visible."
 lead:         "This is the story of a small security update we recently deployed to our Dashboard."
-image:        'security-update-poster.png'
+figure:
+  src: security-update-poster.png
 tag:
  - chronicles
 ---

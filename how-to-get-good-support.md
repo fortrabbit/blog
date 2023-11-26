@@ -5,7 +5,8 @@ created: 2017-10-18
 title: How to get good support
 excerpt: Successful communication in customer support chat channels.
 lead: Customer service is crucial, especially for hosting. Help us helping you! Get better answers faster. Learn how to ask.
-image: support-poster.gif
+figure:
+  src: support-poster.gif
 tag:
   - opinion
 head:

@@ -5,7 +5,8 @@ published: true
 author: fl
 excerpt: Some details on our open source CSS framework.
 lead: So we said to do more open source on fortrabbit. TADA – here is my first big open source publication. A CSS framework.
-image: teutonic-poster.jpg
+figure:
+  src: teutonic-poster.jpg
 tag:
   - webdev
 head:

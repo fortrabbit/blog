@@ -5,7 +5,8 @@ published: true
 title: User account management with Craft CMS
 excerpt: Ready-to-use templates and detailed explanation of how they work
 lead: Craft CMS (4 at the time of this writing) is a powerful tool to build content heavy websites. Editors love it. Little known is, that you can also have custom user management with it.
-image: craft-login-form-poster.png
+figure:
+  src: craft-login-form-poster.png
 tag:
   - webdev
 head:

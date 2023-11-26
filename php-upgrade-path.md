@@ -4,7 +4,8 @@ created: 2018-09-19
 published: true
 author: es
 excerpt: Migrating your Apps to PHP 7.2 here on fortrabbit.
-image: php56-php72-migrate-poster.png
+figure:
+  src: php56-php72-migrate-poster.png
 lead: The official security support for PHP 5.6 and PHP 7.0 will end in December 2019. We plan to force-update all Apps on those versions to PHP 7.1 in February 2019. The exact date will be announced. We recommend you to update well before that. Here is how, exactly.
 tag:
   - webdev

@@ -5,7 +5,8 @@ published: true
 title: PHP 8.0.12
 excerpt: Changelog on new versions.
 lead: We are preparing to roll out PHP 8.0.12 to our platform. Here is a list with lots of numbers and dots.
-image: php-8-0-12-poster.png
+figure:
+  src: php-8-0-12-poster.png
 imagecredit: 
 tag:
   - changelog

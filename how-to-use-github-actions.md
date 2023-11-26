@@ -5,7 +5,8 @@ created: 2019-11-19
 published: true
 author: yr
 lead: GitHub Actions became public last week. This new CI system is free for all public repos. Private repos get 2000 minutes to build per month for free. This is a rough guide to use GitHub Actions as a deployment pipeline to fortrabbit.
-image: github-actions-poster.gif
+figure:
+  src: github-actions-poster.gif
 tag:
   - webdev
 ---

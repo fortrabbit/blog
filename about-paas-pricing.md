@@ -2,9 +2,10 @@
 title:          "About PaaS pricing"
 author:         fl
 published: true
-excerpt:        "Value-based VS cost-based pricing for a hosting service."
-image:          paas-pricing-clouds.jpg
-created:        2015-05-08
+excerpt: Value-based VS cost-based pricing for a hosting service.
+figure:
+  src: paas-pricing-clouds.jpg
+created: 2015-05-08
 tag:
  - opinion
 
@@ -85,7 +86,6 @@ That's true. But we need to respect what makes developers tick: Getting a kick o
 Warren Buffett
 
 Pricing is never isolated, it's always a price-value ratio. GOOD service CHEAP won't be FAST. GOOD service FAST won't be CHEAP. FAST service CHEAP won't be GOOD. For sure our next generation of Apps (working title Hack App) will offer superior technology and we will price it a bit differently.
-
 
 ### Same blog similar topics
 

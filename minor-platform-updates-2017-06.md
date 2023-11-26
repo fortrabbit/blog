@@ -5,7 +5,8 @@ created: 2017-06-14
 published: true
 author: uk
 lead: "We have updated our platform yesterday, nothing big, only minor version jumps. Then something went wrong. Here is what happened:"
-image: new-improved-poster.gif
+figure:
+  src: new-improved-poster.gif
 tag:
   - webdev
 ---

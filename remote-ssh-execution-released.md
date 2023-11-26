@@ -5,7 +5,8 @@ published: true
 title: Remote SSH execution is here
 excerpt: Learn how to enhance your workflows with this new feature.
 lead: We regularly get support requests on how to use Laravel Artisan commands — especially for database migration. That just became a lot easier.
-image: remote-ssh-exec-poster.gif
+figure:
+  src: remote-ssh-exec-poster.gif
 tag:
   - changelog
   - chronicles

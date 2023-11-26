@@ -1,6 +1,7 @@
 ---
 author: os
-image: blackfire-fortrabbit.gif
+figure:
+  src: blackfire-fortrabbit.gif
 title: Blackfire profiler on fortrabbit
 excerpt: Blackfire profiler BETA is now available at fortrabbit.
 created: 2015-01-21

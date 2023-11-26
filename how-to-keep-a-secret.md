@@ -3,7 +3,8 @@ author: uk
 published: true
 created: 2015-09-08
 title: How to keep a secret
-image: passwords-eye.gif
+figure:
+  src: passwords-eye.gif
 excerpt: Passwords in Git is bad, ENV vars considered harmful, now what?
 tag:
   - webdev

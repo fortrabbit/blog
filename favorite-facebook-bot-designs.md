@@ -4,7 +4,8 @@ created: 2018-01-08
 title: My favorite Facebook bot designs
 excerpt: The bizarre beauty of brutalist Facebook reaction bots.
 lead: As a hosting provider we fight against all kind of frauds, hacks, scams and phishings. This is my favorite, mostly harmless service misuse.
-image: facebook-bot-4.png
+figure:
+  src: facebook-bot-4.png
 tag:
   - chronicles
 head:

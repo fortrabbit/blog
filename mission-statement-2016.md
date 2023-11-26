@@ -5,7 +5,8 @@ published: true
 title: Mission statement 2016
 excerpt: Where we are, what we are up to.
 lead: 4 years of fortrabbit cloud hosting already. What's going on?
-image: mission-statement-poster.gif
+figure:
+  src: mission-statement-poster.gif
 tag:
   - chronicles
 head:

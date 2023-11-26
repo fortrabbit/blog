@@ -5,7 +5,8 @@ published: true
 title: September 2023 updates
 excerpt: Changelog on new versions.
 lead: We are preparing rolling out some minor version updates. Here is a list with lots of numbers and dots.
-image: new-improved-poster.gif
+figure:
+  src: new-improved-poster.gif
 imagecredit: ""
 tag:
   - chronicles

@@ -5,7 +5,8 @@ created: 2019-08-16
 published: true
 author: fl
 lead: We are currently preparing for a smaller platform update. Mainly, this is about releasing a new patch, improving imageMagick performance - general stability and security improvements included.
-image: imagemagick-issues-poster-2.gif
+figure:
+  src: imagemagick-issues-poster-2.gif
 tag:
   - changelog
 ---

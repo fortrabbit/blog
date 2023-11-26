@@ -5,7 +5,8 @@ author: fl
 created: 2016-01-13
 excerpt: Trends, pivots & troubles in PaaS hosting 2015
 lead: A few years ago tech press and analysts praised the public PaaS model. What's going on now?
-image: cloudy.png
+figure:
+  src: cloudy.png
 tag:
   - opinion
 head:
