@@ -3,9 +3,10 @@ author: fl
 created: 2023-09-06
 title: September 2023 updates
 excerpt: Changelog on new versions.
-lead: We are preparing rolling out some minor version updates. Here is a list with lots of numbers and dots.
+lead: We are preparing to roll out some minor version updates. Here is a list with lots of numbers and dots.
 figure:
-  src: new-improved-poster.gif
+  text: New and improved!
+  # src: new-improved-poster.gif
 tag:
   - chronicles
 ---
