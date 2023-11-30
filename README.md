@@ -2,6 +2,10 @@
 
 Welcome to the fortrabbit blog posts in markdown format.
 
+## File structure
+
+* `/images` optimized images that belong to the blog post
+
 ## Frontmatter syntax
 
 ```yml
