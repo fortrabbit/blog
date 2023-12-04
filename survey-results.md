@@ -2,7 +2,7 @@
 author: fl
 created: 2015-05-12
 title: Survey results
-excerpt: What our users are saying and what we think it means.
+intro: What our users are saying and what we think it means.
 tag:
   - webdev
 ---

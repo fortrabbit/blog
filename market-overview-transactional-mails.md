@@ -2,7 +2,7 @@
 author: fl
 created: 2017-09-21
 title: Transactional e-mails market overview
-excerpt: Why to use a service for transactional e-mails.
+intro: Why to use a service for transactional e-mails.
 lead: This field guide helps understanding commercial services for transactional e-mails. What are they good for anyways?
 figure:
   src: transactional-mail-provider-poster.jpg

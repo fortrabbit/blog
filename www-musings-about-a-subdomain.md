@@ -1,7 +1,7 @@
 ---
 title: www
 author: fl
-excerpt: Musings about the comon www. subdomain.
+intro: Musings about the comon www. subdomain.
 created: 2012-08-17
 tag:
   - opinion

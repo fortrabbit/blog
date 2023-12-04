@@ -2,7 +2,7 @@
 author: fl
 created: 2015-12-10
 title: Announcing GA for New Apps
-excerpt: Scalable, extensible and with even more features
+intro: Scalable, extensible and with even more features
 figure:
   src: new-apps-ga-intro.gif
 tag:

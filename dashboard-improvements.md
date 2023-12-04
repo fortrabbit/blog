@@ -2,7 +2,7 @@
 author: fl
 created: 2016-09-02
 title: Dashboard improvements
-excerpt: Quicker boarding, App access links and more.
+intro: Quicker boarding, App access links and more.
 lead: "On our quest to eliminate obstacles we have just optimized the boarding flow. This is new:"
 figure:
   src: dashboard-improvements.gif

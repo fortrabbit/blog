@@ -1,7 +1,7 @@
 ---
 title: BETA survey results
 author: fl
-excerpt: Analysing the answers of our questionnaire.
+intro: Analysing the answers of our questionnaire.
 created: 2012-08-23
 tag:
   - opinion

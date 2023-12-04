@@ -1,7 +1,7 @@
 ---
 title: Decoupled hosting
 author: fl
-excerpt: Modularize everything!
+intro: Modularize everything!
 created: 2012-12-31
 tag:
   - opinion

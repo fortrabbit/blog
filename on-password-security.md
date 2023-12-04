@@ -4,7 +4,7 @@ figure:
   src: password-input.jpg
 created: 2015-03-10
 title: On password security
-excerpt: Discussing usability, culture and security.
+intro: Discussing usability, culture and security.
 tag:
   - changelog
 ---

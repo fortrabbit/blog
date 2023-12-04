@@ -1,7 +1,7 @@
 ---
 author: fl
 title: Migration help
-excerpt: Helping existing users boarding the new dashboard.
+intro: Helping existing users boarding the new dashboard.
 created: 2015-02-26
 tag:
   - chronicles

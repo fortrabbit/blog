@@ -2,7 +2,7 @@
 author: uk
 created: 2015-09-04
 title: Dropbox as a cloud storage
-excerpt: How to enable Dropbox as your App's persistent cloud storage.
+intro: How to enable Dropbox as your App's persistent cloud storage.
 tag:
   - changelog
 ---

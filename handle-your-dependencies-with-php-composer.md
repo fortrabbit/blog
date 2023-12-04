@@ -1,7 +1,7 @@
 ---
 title: About Composer
 author: uk
-excerpt: How to handle your dependencies with PHP Composer.
+intro: How to handle your dependencies with PHP Composer.
 created: 2012-09-03
 tag:
   - webdev

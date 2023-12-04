@@ -2,7 +2,7 @@
 author: fl
 created: 2021-04-14
 title: Image processing services intro
-excerpt: A field guide on image transformation and optimization providers
+intro: A field guide on image transformation and optimization providers
 lead: Learn about image processing service providers here. What are they? What problem do they solve? What options and alternatives are available?
 figure:
   src: cute-cat-pic.jpg

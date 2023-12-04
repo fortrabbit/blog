@@ -2,7 +2,7 @@
 author: fl
 created: 2016-08-22
 title: Sneak peek
-excerpt: A new Hobby line, migration info for Old App owners.
+intro: A new Hobby line, migration info for Old App owners.
 lead: What we are working on and how we'll proceed with the Old Apps.
 figure:
   src: upnext-poster.gif

@@ -1,7 +1,7 @@
 ---
 title: The freemium hosting business model
 author: fl
-excerpt: Is there such actually free web hosting?
+intro: Is there such actually free web hosting?
 created: 2012-08-02
 tag:
   - opinion

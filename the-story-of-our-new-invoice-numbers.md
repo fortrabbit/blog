@@ -1,7 +1,7 @@
 ---
 title: The story of our new invoice number format
 author: fl
-excerpt: How our new invoice numbers are structured and what went wrong when we rolled it out.
+intro: How our new invoice numbers are structured and what went wrong when we rolled it out.
 lead: We have just changed our invoice number format. This is why we changed it and about the issues during roll out.
 figure:
   src: new-invoice-number-format.gif

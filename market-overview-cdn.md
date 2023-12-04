@@ -2,7 +2,7 @@
 author: fl
 created: 2017-08-03
 title: "Market overview: CDN services"
-excerpt: An opinionated field guide on developer-friendly CDN services.
+intro: An opinionated field guide on developer-friendly CDN services.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool content delivery services.
 figure:
   src: cdn-overview-poster.gif

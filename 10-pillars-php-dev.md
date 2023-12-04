@@ -3,7 +3,7 @@ author: uk
 figure:
   src: 10-php-pillars.png
 title: 10 pillars of modern PHP development
-excerpt: Our best practices in PHP application design
+intro: Our best practices in PHP application design
 created: 2015-06-04
 tag:
   - webdev

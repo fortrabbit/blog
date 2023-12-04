@@ -2,7 +2,7 @@
 author: fl
 created: 2020-11-26
 title: Let's Encrypt root certificate change
-excerpt: Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client.
+intro: Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client.
 lead: Let's Encrypt will change its root certificates. Learn how this might affect you as a fortrabbit client.
 figure:
   src: lets-encrypt-new-root.png

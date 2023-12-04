@@ -1,7 +1,7 @@
 ---
 title: Integrating codeship with fortrabbit
 author: uk
-excerpt: Learn how to do continuous integration with Codehip on fortrabbit.
+intro: Learn how to do continuous integration with Codehip on fortrabbit.
 created: 2013-08-28
 tag:
   - webdev

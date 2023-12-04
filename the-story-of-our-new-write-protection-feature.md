@@ -1,7 +1,7 @@
 ---
 title: New write protection
 author: fl
-excerpt: Abot a new security feature.
+intro: Abot a new security feature.
 created: 2013-03-21
 tag:
   - chronicles

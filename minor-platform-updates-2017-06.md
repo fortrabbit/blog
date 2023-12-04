@@ -1,6 +1,6 @@
 ---
 title: Platform updates
-excerpt: The update to the latest PHP versions caused a some downtime yesterday.
+intro: The update to the latest PHP versions caused a some downtime yesterday.
 created: 2017-06-14
 author: uk
 lead: "We have updated our platform yesterday, nothing big, only minor version jumps. Then something went wrong. Here is what happened:"

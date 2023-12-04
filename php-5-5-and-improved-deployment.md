@@ -1,7 +1,7 @@
 ---
 title: PHP 5.5 and improved deployment
 author: uk
-excerpt: PHP 5.5 is finally here. This and some other news.
+intro: PHP 5.5 is finally here. This and some other news.
 created: 2014-03-13
 tag:
   - changelog

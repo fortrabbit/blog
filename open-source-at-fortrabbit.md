@@ -2,7 +2,7 @@
 title: Yes, we love open source
 created: 2018-07-30
 author: fl
-excerpt: Props to the OSS communities and highlighting some of our open source contributions.
+intro: Props to the OSS communities and highlighting some of our open source contributions.
 lead: fortrabbit wouldn't be possible without great open source projects. So we are thinking about ways to give back.
 figure:
   src: open-source-poster.gif

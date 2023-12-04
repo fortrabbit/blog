@@ -2,7 +2,7 @@
 author: fl
 created: 2017-06-22
 title: How we do transactional e-mails
-excerpt: Our real-live practices on auto-generated client e-mail communication.
+intro: Our real-live practices on auto-generated client e-mail communication.
 lead: Sending triggered standardized e-mails to clients is part of almost every web application. To get this right is crucial for business. This is about our own 'worst' practices — a nerdy article covering communication, design and web tech (PHP related).
 figure:
   src: transactional-mail-poster-blur.jpg

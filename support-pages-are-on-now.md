@@ -1,7 +1,7 @@
 ---
 title: Support pages are on now
 author: fl
-excerpt: About the the new fortrabbit knowledge base.
+intro: About the the new fortrabbit knowledge base.
 created: 2012-08-15
 tag:
   - changelog

@@ -11,7 +11,7 @@ Welcome to the fortrabbit blog posts in markdown format.
 ```yml
 title: Title as printed as H1 on the page
 naviTitle: Optional shorter title 
-excerpt: This is a teaser text for the list view
+intro: This is a teaser text for the list view
 created: 2023-11-30
 draft: true
 lead: This is larger text shown at the beginning of the article

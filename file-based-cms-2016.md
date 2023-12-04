@@ -2,7 +2,7 @@
 author: fl
 created: 2016-06-07
 title: File-based CMS overview
-excerpt: Thoughts on flat file CMS and static site generators, mostly PHP-related.
+intro: Thoughts on flat file CMS and static site generators, mostly PHP-related.
 lead: Let's have a look at different types of database-less CMS — the candidates, the pros, the cons and what you need to consider when it comes to deployment & hosting.
 figure:
   src: flat-file-cms-poster.gif

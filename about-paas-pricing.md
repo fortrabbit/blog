@@ -1,7 +1,7 @@
 ---
 title:          "About PaaS pricing"
 author: fl
-excerpt: Value-based VS cost-based pricing for a hosting service.
+intro: Value-based VS cost-based pricing for a hosting service.
 figure:
   src: paas-pricing-clouds.jpg
 created: 2015-05-08

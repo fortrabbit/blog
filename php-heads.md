@@ -1,7 +1,7 @@
 ---
 title: PHP heads
 author: fl
-excerpt: Thank you for being awesome.
+intro: Thank you for being awesome.
 created: 2015-04-02
 figure:
   src: php-flag.jpg

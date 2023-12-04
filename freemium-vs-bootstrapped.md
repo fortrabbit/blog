@@ -1,7 +1,7 @@
 ---
 title: Freemium VS Bootstrapped
 author: fl
-excerpt: Bootstrapping in Berlin.
+intro: Bootstrapping in Berlin.
 created: 2012-09-25
 tag:
   - opinion

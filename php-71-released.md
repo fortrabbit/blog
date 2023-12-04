@@ -2,7 +2,7 @@
 author: uk
 created: 2017-02-15
 title: PHP 7.1 is here
-excerpt: We have released PHP 7.1 for all Universal and Professional Apps.
+intro: We have released PHP 7.1 for all Universal and Professional Apps.
 lead: Official release of PHP 7.1 was 1st December 2016. As usual, we waited for a bit to be sure that no major release bugs affect our customers and that at least the important PHP extensions are available.
 figure:
   src: php71-poster.gif

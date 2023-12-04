@@ -2,7 +2,7 @@
 author: fl
 title: Mission statement 2023
 created: 2023-04-15
-excerpt: What we are up to now.
+intro: What we are up to now.
 lead: 10 years of fortrabbit cloud hosting. We haven’t been doing much blogging lately. And you haven’t seen many big new features landing here either. What’s going on? Here is an update from the rabbitverse.
 figure:
   src: mission-statement-2022-poster.png

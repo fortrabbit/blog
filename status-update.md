@@ -1,7 +1,7 @@
 ---
 title: Status update
 author: fl
-excerpt: What's currently happening here and what's not.
+intro: What's currently happening here and what's not.
 created: 2013-11-27
 tag:
   - chronicles

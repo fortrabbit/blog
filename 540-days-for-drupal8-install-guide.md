@@ -2,7 +2,7 @@
 author: fl
 created:    2016-08-25
 title:      "Our Drupal 8 install guide took 540 days"
-excerpt:    "What took us so long to come up with a Drupal 8 install guide."
+intro:    "What took us so long to come up with a Drupal 8 install guide."
 lead:       "Why it took us such a crazy long time to write an install guide for Drupal 8."
 figure:
   source: drupal8-poster.gif

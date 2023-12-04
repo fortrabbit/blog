@@ -1,6 +1,6 @@
 ---
 title: Laracon observations
-excerpt: What we have learned on the Laracon conference 2013 in Amsterdam.
+intro: What we have learned on the Laracon conference 2013 in Amsterdam.
 author: fl
 figure:
   src: laracon.jpg

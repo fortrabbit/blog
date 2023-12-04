@@ -2,7 +2,7 @@
 author: fl
 created: 2020-09-15
 title: Privacy Shield considered obsolete, possible impacts on our hosting platform
-excerpt: The Privacy Shield is no longer valid. How to proceed?
+intro: The Privacy Shield is no longer valid. How to proceed?
 lead: The European Court of Justice (EUCJ) invalidated the Privacy Shield agreement recently. This is what clients may want to know.
 figure:
   src: privacy-shield-poster.gif

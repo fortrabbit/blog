@@ -1,7 +1,7 @@
 ---
 title: Worker Add-On released
 author: uk
-excerpt: "We have a new Add-On: Workers! Learn about it and what you can do with it."
+intro: "We have a new Add-On: Workers! Learn about it and what you can do with it."
 created: 2013-08-07
 tag:
   - changelog

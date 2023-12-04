@@ -2,7 +2,7 @@
 title: Testing code for PHP 7
 created: 2018-09-19
 author: es
-excerpt: How to check your PHP code for future compability.
+intro: How to check your PHP code for future compability.
 figure:
   src: php7-testing.gif
 lead: This post helps running automated tests on your code to detect breaking changes before switching the PHP version. It includes instructions on how to use our predefined Docker image with PHPCompatibility.

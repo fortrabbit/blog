@@ -2,7 +2,7 @@
 author: fl
 created: 2015-08-25
 title: New Apps are here
-excerpt: Introducing the New Apps in BETA.
+intro: Introducing the New Apps in BETA.
 figure:
   src: new-apps-intro.jpg
 tag:

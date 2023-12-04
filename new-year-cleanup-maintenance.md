@@ -1,7 +1,7 @@
 ---
 title: New year cleanup
 author: uk
-excerpt: Announcing upcoming maintenance work.
+intro: Announcing upcoming maintenance work.
 created: 2014-01-30
 tag:
   - changelog

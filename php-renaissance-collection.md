@@ -1,7 +1,7 @@
 ---
 title: PHP renaissance collection
 author: fl
-excerpt: Some links on newish PHP.
+intro: Some links on newish PHP.
 created: 2012-10-02
 tag:
   - opinion

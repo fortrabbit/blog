@@ -2,7 +2,7 @@
 author: fl
 created: 2022-03-14
 title: PHP 8.1
-excerpt: Changelog on new versions.
+intro: Changelog on new versions.
 lead: We are preparing to roll out PHP 8.1 to our platform. Here is a list with lots of numbers and dots.
 figure:
   src: php-8-1-poster.png

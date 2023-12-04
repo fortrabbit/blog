@@ -1,7 +1,7 @@
 ---
 title: Hello world with PHPStorm
 author: fl
-excerpt: This video shows you a simple example with PHPStorm and fortrabbit
+intro: This video shows you a simple example with PHPStorm and fortrabbit
 created: 2012-10-12
 tag:
   - webdev

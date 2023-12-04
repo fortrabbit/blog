@@ -4,7 +4,7 @@ created: 2015-09-08
 title: How to keep a secret
 figure:
   src: passwords-eye.gif
-excerpt: Passwords in Git is bad, ENV vars considered harmful, now what?
+intro: Passwords in Git is bad, ENV vars considered harmful, now what?
 tag:
   - webdev
 ---

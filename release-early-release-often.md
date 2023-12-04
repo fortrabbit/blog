@@ -1,7 +1,7 @@
 ---
 title: Release early, release often
 author: os
-excerpt: Our iterative approach.
+intro: Our iterative approach.
 created: 2012-10-05
 tag:
   - opinion

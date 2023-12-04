@@ -2,7 +2,7 @@
 author: uk
 created: 2015-09-03
 title: S3 as a cloud storage
-excerpt: How to setup Amazon S3 as a cloud storage for your App.
+intro: How to setup Amazon S3 as a cloud storage for your App.
 tag:
   - changelog
 ---

@@ -1,7 +1,7 @@
 ---
 title: A Coders Survey
 author: fl
-excerpt: Asking developers about their preferences.
+intro: Asking developers about their preferences.
 created: 2012-08-21
 tag:
   - chronicles

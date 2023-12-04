@@ -2,7 +2,7 @@
 author: fl
 created: 2015-11-05
 title: httpSpeedy?
-excerpt: HTTP/2 expectations and pitfalls
+intro: HTTP/2 expectations and pitfalls
 tag:
   - opinion
 ---

@@ -1,7 +1,7 @@
 ---
 title: Optional PHP extensions
 author: fl
-excerpt: Have you seen our new PHP settings page?
+intro: Have you seen our new PHP settings page?
 created: 2013-01-31
 tag:
   - changelog

@@ -1,7 +1,7 @@
 ---
 title: New dashboard migration guide
 author: fl
-excerpt: Learn what is going to change with the new dashboard.
+intro: Learn what is going to change with the new dashboard.
 created: 2014-10-15
 tag:
   - chronicles

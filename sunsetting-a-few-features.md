@@ -1,7 +1,7 @@
 ---
 title: Sunsetting a few features
 author: fl
-excerpt: The SMTP Wrapper and the ReSync Tool will go away.
+intro: The SMTP Wrapper and the ReSync Tool will go away.
 figure:
   src: move-fast.jpg
 created: 2014-06-18

@@ -2,7 +2,7 @@
 author: fl
 created: 2022-04-04
 title: New features at fortrabbit
-excerpt: Basic WAF, Craft Copy for Nitro, Craft Copy for Craft CMS 4
+intro: Basic WAF, Craft Copy for Nitro, Craft Copy for Craft CMS 4
 lead: Time flies by. We keep maintaining and improving our service. Here is a recap of recent updates.
 figure:
   src: new-improved-poster.gif

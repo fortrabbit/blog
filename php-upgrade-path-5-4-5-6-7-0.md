@@ -2,7 +2,7 @@
 author: os
 created: 2015-06-23
 title: PHP upgrade path (5.4), 5.6, 7.0
-excerpt: Which PHP versions we'll support when.
+intro: Which PHP versions we'll support when.
 figure:
   src: sandbox-elephant.jpg
 tag:

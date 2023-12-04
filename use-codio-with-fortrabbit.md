@@ -1,7 +1,7 @@
 ---
 title: Use Codio with fortrabbit
 author: uk
-excerpt: How to integrate the web IDE codio here on fortrabbit.
+intro: How to integrate the web IDE codio here on fortrabbit.
 created: 2013-11-14
 tag:
   - webdev

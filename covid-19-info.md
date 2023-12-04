@@ -1,6 +1,6 @@
 ---
 title: Covid-19 info for clients
-excerpt: How we prepared for the virus and what you can do.
+intro: How we prepared for the virus and what you can do.
 created: 2020-03-27
 author: fl
 lead: What we are doing to keep your business online and how you can help.

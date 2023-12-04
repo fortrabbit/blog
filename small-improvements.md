@@ -1,7 +1,7 @@
 ---
 title: Small Dashboard improvements
 author: fl
-excerpt: .env import and domain DNS checks!
+intro: .env import and domain DNS checks!
 figure:
   src: new-and-improved.png
 created: 2015-04-30

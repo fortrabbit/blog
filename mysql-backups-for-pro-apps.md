@@ -2,7 +2,7 @@
 author: uk
 created: 2017-02-14
 title: MySQL Backups for Pro Apps
-excerpt: "Now available: Automated backups for Professional Apps."
+intro: "Now available: Automated backups for Professional Apps."
 lead: Our recently launched Universal Apps support automatic backups on the Plus plan. We now ported this feature for Professional App MySQL databases as well.
 figure:
   src: mysql-backups-pro-poster.gif

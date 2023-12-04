@@ -2,7 +2,7 @@
 author: os
 created: 2022-12-01
 title: Testing Craft CMS sites with Pest
-excerpt: Using Pest to test Craft CMS websites.
+intro: Using Pest to test Craft CMS websites.
 lead: Testing a Craft CMS website might be less difficult than you think. Level up and follow us along as we learn about frontend testing Craft CMS websites.
 figure:
   src: craft-pestphp.jpg

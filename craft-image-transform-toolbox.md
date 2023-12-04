@@ -2,7 +2,7 @@
 author: pp
 created: 2023-07-26 18:15:31
 title: Image processing in Craft CMS with the Image Toolbox plugin
-excerpt: How to migrate an App to the new version of MySQL here
+intro: How to migrate an App to the new version of MySQL here
 lead: Using the Image Toolbox plugin, you can create responsive pictures with WebP variants and automatically generate placeholders in case an image asset is missing.
 figure:
   src: craft-image-toolbox-poster.png

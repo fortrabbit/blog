@@ -1,7 +1,7 @@
 ---
 author: fl
 title: Introducing 2FA
-excerpt: More Account security settings.
+intro: More Account security settings.
 figure:
   src: security-2fa.jpg
 created: 2015-06-18

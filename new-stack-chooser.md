@@ -2,7 +2,7 @@
 author: fl
 created: 2016-08-04
 title: The new stack chooser
-excerpt: Choose a framework or CMS to get started more quickly.
+intro: Choose a framework or CMS to get started more quickly.
 lead: Simply select your stack when creating a new App — get started more quickly. We now help out by setting basic configs like root path, environment variables and App secrets for you.
 figure:
   src: stack-chooser-poster.gif

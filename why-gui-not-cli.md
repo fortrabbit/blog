@@ -2,7 +2,7 @@
 author: fl
 title: Why a GUI and not a CLI
 created: 2023-08-28 09:36:38
-excerpt: An insight into product development at fortrabbit
+intro: An insight into product development at fortrabbit
 lead: ""
 figure:
   src: gui-not-cli.png

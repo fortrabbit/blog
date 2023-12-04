@@ -2,7 +2,7 @@
 title: On upcoming PHP deadlines
 created: 2018-09-06
 author: fl
-excerpt: "PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!"
+intro: "PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!"
 figure:
   src: php56-deadline-poster.jpg
 tag:

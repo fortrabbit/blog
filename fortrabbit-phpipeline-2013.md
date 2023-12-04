@@ -1,7 +1,7 @@
 ---
 title: Fortrabbit PHPipeline 2013
 author: os
-excerpt: Our plans for the year.
+intro: Our plans for the year.
 created: 2013-01-08
 tag:
   - chronicles

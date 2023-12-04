@@ -1,7 +1,7 @@
 ---
 title: New XSL support
 author: uk
-excerpt: Welcome Symphony CMS, we now support XSL.
+intro: Welcome Symphony CMS, we now support XSL.
 created: 2013-03-10
 tag:
   - chronicles

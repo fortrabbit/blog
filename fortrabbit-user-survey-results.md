@@ -1,7 +1,7 @@
 ---
 title: User survey results
 author: fl
-excerpt: Results and learnings from our latest questionnaire among our users with 327 answers.
+intro: Results and learnings from our latest questionnaire among our users with 327 answers.
 created: 2013-08-26
 tag:
   - chronicles

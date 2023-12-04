@@ -1,7 +1,7 @@
 ---
 title: Damn, we got pwned
 author: fl
-excerpt: fortrabbit under attack.
+intro: fortrabbit under attack.
 created: 2013-05-30
 tag:
   - chronicles

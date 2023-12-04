@@ -2,7 +2,7 @@
 author: fl
 created: 2015-05-18
 title: I love assets
-excerpt: CSS, JS and Images, how to generate and to deploy.
+intro: CSS, JS and Images, how to generate and to deploy.
 figure:
   src: i-love-assets.png
 tag:

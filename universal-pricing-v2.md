@@ -2,7 +2,7 @@
 author: fl
 created: 2017-05-11
 title: Universal App pricing V2 is here
-excerpt: More powerful plans, same price level.
+intro: More powerful plans, same price level.
 lead: "The Universal Stack was launched 5 months ago. We are now implementing a frequent feedback: Meet our new more powerful Universal Stack plans:"
 figure:
   src: old-new-pricing-poster.gif

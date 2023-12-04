@@ -1,7 +1,7 @@
 ---
 title: Online text editors
 author: fl
-excerpt: Web IDEs everywhere! Are they any good? What's the buzz?
+intro: Web IDEs everywhere! Are they any good? What's the buzz?
 created: 2012-08-07
 tag:
   - opinion

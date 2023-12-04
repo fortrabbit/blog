@@ -1,7 +1,7 @@
 ---
 title: A new blog layout, a new engine
 author: fl
-excerpt: Tinkering with static site generation.
+intro: Tinkering with static site generation.
 created: 2015-01-23
 tag:
   - chronicles

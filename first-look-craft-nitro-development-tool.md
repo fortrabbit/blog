@@ -2,7 +2,7 @@
 author: js
 created: 2020-10-14
 title: A first look at the new Craft Nitro development tool
-excerpt: The new tool by Pixel & Tonic, can we recommend it yet?
+intro: The new tool by Pixel & Tonic, can we recommend it yet?
 lead: 
 figure:
   src: craft-nitro-poster.png

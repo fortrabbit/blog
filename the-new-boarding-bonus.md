@@ -1,7 +1,7 @@
 ---
 title: New boarding bonus
 author: fl
-excerpt: Claim an extra credit for an even better test drive of our platform.
+intro: Claim an extra credit for an even better test drive of our platform.
 created: 2013-10-31
 tag:
   - changelog

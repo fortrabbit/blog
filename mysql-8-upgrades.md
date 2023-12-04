@@ -2,7 +2,7 @@
 author: fl
 created: 2023-06-05 11:02:19
 title: MySQL 8 upgrades
-excerpt: "FYI: Remaining Apps are going to be migrated to MySQL 8"
+intro: "FYI: Remaining Apps are going to be migrated to MySQL 8"
 lead: This article informs our clients about a long running maintenance project to move remaining Apps from MySQL 5.7 to MySQL 8.0
 figure:
   src: mysql-8-poster.png

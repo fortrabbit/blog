@@ -1,7 +1,7 @@
 ---
 title: Take off
 author: fl
-excerpt: fortrabbit PHP platform launched
+intro: fortrabbit PHP platform launched
 created: 2012-10-04
 tag:
   - chronicles

@@ -1,7 +1,7 @@
 ---
 title: Green cloud?
 author: fl
-excerpt: "The cloud: economically attractive, but what the about ecological impact?"
+intro: "The cloud: economically attractive, but what the about ecological impact?"
 created: 2012-10-23
 tag:
   - opinion

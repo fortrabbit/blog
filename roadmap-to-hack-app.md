@@ -1,7 +1,7 @@
 ---
 title: Roadmap to Hack App
 author: fl
-excerpt: Where we are heading to.
+intro: Where we are heading to.
 figure:
   src: road-to-hack.jpg
 created: 2015-04-20
