@@ -24,25 +24,25 @@ But why would you need to test Craft CMS templates, even if your website does no
 
 Here, we will describe and compare two different frameworks for testing Craft CMS websites:
 
-* [Cypress](https://www.cypress.io/) - E2E tests
-* [Codeception](https://codeception.com/docs/03-AcceptanceTests) - acceptance testing
+- [Cypress](https://www.cypress.io/) - E2E tests
+- [Codeception](https://codeception.com/docs/03-AcceptanceTests) - acceptance testing
 
 What are acceptance tests and E2E tests? To be honest, these terms are bit murky, and depending who you ask, you might get slightly different answers.
 
-* E2E (end to end) tests are tests performed under real-life scenarios - they test the application as a whole, instead of its isolated components
-* Acceptance tests are tests of the application which determine if it meets required specifications - and will be "accepted" by its users
+- E2E (end to end) tests are tests performed under real-life scenarios - they test the application as a whole, instead of its isolated components
+- Acceptance tests are tests of the application which determine if it meets required specifications - and will be "accepted" by its users
 
 In practice, both Codeception acceptance tests and Cypress E2E tests will do one and the same - render a website, interact with it and check if the expected result occurs.
 
 ## Spoke & Chain demo site
 
-To show how tests work in practice, [we created a fork](https://github.com/piotrpog/spoke-and-chain-testing) of the official Craft Commerce demo site, Spoke & Chain. This site already has Cypress tests included  - we added some new ones, as well as Codeception tests, so these two frameworks can be compared using the working examples. In this article we will describe:
+To show how tests work in practice, [we created a fork](https://github.com/piotrpog/spoke-and-chain-testing) of the official Craft Commerce demo site, Spoke & Chain. This site already has Cypress tests included - we added some new ones, as well as Codeception tests, so these two frameworks can be compared using the working examples. In this article we will describe:
 
-* Testing a simple search form
-* Testing if multiple pages render correctly and without errors
-* Testing the Craft Commerce checkout process
+- Testing a simple search form
+- Testing if multiple pages render correctly and without errors
+- Testing the Craft Commerce checkout process
 
-'Spoke & Chain' uses Nitro and DDEV configuration, but if you don’t want to use it, you can just set up the website the regular way, by installing composer packages and providing database connection data in the `.env` file. Remember to use `seed.sql` provided in the repository as your database, so your tests have proper content to use.
+'Spoke & Chain' uses Nitro and DDEV configuration, but if you don't want to use it, you can just set up the website the regular way, by installing composer packages and providing database connection data in the `.env` file. Remember to use `seed.sql` provided in the repository as your database, so your tests have proper content to use.
 
 ## Cypress E2E tests
 
@@ -58,11 +58,11 @@ Spoke & Chain uses a header menu fixed to the top of the page. This could potent
 
 Cypress test code is located in the `cypress` directory. Here's what it contains:
 
-* `fixtures` - data to use in our tests. With 'Spoke & Chain', we need buyers data to enter when creating a commerce order.
-* `e2e` - the tests themselves. They are divided by sub-directories, `cp` or control panel tests and `front` for frontend tests. Tests we added ourselves are in a `new` sub-directory.
-* `plugins` - here we define any external plugins our tests will use.
-* `support` - in this directory we can define reusable commands used by our tests. For example - `addProductToCart` which will perform all the actions needed to add a product to shopping cart.
-* `viewport-sizes.js` - browser viewport sizes which will be used in tests.
+- `fixtures` - data to use in our tests. With 'Spoke & Chain', we need buyers data to enter when creating a commerce order.
+- `e2e` - the tests themselves. They are divided by sub-directories, `cp` or control panel tests and `front` for frontend tests. Tests we added ourselves are in a `new` sub-directory.
+- `plugins` - here we define any external plugins our tests will use.
+- `support` - in this directory we can define reusable commands used by our tests. For example - `addProductToCart` which will perform all the actions needed to add a product to shopping cart.
+- `viewport-sizes.js` - browser viewport sizes which will be used in tests.
 
 To start Cypress, run `npx cypress open` and the GUI will appear - from there, you can just click "E2E Testing", select the browser of your choice from the list and click "Start E2E Testing". The browser will open with a list of tests and there you can select a specific test to run and watch it execute.
 
@@ -99,11 +99,11 @@ And here's our test:
 
 ```js
 it('search form should work correctly', function () {
-    cy.visit('/search-test')
-    cy.get('#searchText').type('Welcome')
-    cy.get('#submit').click()
-    cy.get('.result-link').contains('Welcome Courtney Duncan')
-    cy.get('.result-link').contains('Adventure Journal on the Pine Mountain 2').should('not.exist')
+  cy.visit('/search-test');
+  cy.get('#searchText').type('Welcome');
+  cy.get('#submit').click();
+  cy.get('.result-link').contains('Welcome Courtney Duncan');
+  cy.get('.result-link').contains('Adventure Journal on the Pine Mountain 2').should('not.exist');
 });
 ```
 
@@ -120,13 +120,13 @@ The most basic form of testing a site is by visiting various pages and checking 
 Our test is located in the `cypress/e2e/new/checkPages.cy.js` file:
 
 ```js
-const urls = ['/', '/bikes', '/services', '/articles', '/contact']
+const urls = ['/', '/bikes', '/services', '/articles', '/contact'];
 
 urls.forEach((url) => {
-    it('should render correctly', function () {
-        cy.visit(url)
-    })
-})
+  it('should render correctly', function () {
+    cy.visit(url);
+  });
+});
 ```
 
 As you can see, all we do is loop through URIs and use the `visit` method to request them. But where is the assertion? Well, Cypress will mark a test as failed if the response code of the visited page is anything other than 2xx or 3xx - for example a 500 internal server error or a 404 not found.
@@ -158,72 +158,49 @@ Note how we use `this.user.email` and other variables with the `type` method - i
 
 ```js
 // Add a product to the cart
-cy.visit('/product/san-quentin-24')
+cy.visit('/product/san-quentin-24');
 
-cy.get('#buy button[type=submit]')
-    .click();
+cy.get('#buy button[type=submit]').click();
 
 // Navigate to the cart
-cy.get('button.cart-toggle')
-    .click();
+cy.get('button.cart-toggle').click();
 
-cy.get('div.cart-menu a.button.submit')
-    .contains('Check Out')
-    .click();
+cy.get('div.cart-menu a.button.submit').contains('Check Out').click();
 
 // Checkout as guest
-cy.get('#guest-checkout button[type=submit]')
-    .contains('Continue as Guest');
+cy.get('#guest-checkout button[type=submit]').contains('Continue as Guest');
 
-cy.get('#guest-checkout input[type=text]')
-    .type(this.user.email);
+cy.get('#guest-checkout input[type=text]').type(this.user.email);
 
-cy.get('#guest-checkout button[type=submit]')
-    .click();
+cy.get('#guest-checkout button[type=submit]').click();
 
 // Shipping address
-cy.get('form#checkout-address input[name="shippingAddress[firstName]"]')
-    .type(this.user.address.firstName);
-cy.get('form#checkout-address input[name="shippingAddress[lastName]"]')
-    .type(this.user.address.lastName);
-cy.get('form#checkout-address input[name="shippingAddress[addressLine1]"]')
-    .type(this.user.address.addressLine1);
-cy.get('form#checkout-address input[name="shippingAddress[locality]"]')
-    .type(this.user.address.locality);
-cy.get('form#checkout-address input[name="shippingAddress[postalCode]"]')
-    .type(this.user.address.postalCode);
-cy.get('form#checkout-address select[name="shippingAddress[countryCode]"]')
-    .select(this.user.address.countryCode);
-cy.get('form#checkout-address button[type=submit]')
-    .click();
+cy.get('form#checkout-address input[name="shippingAddress[firstName]"]').type(this.user.address.firstName);
+cy.get('form#checkout-address input[name="shippingAddress[lastName]"]').type(this.user.address.lastName);
+cy.get('form#checkout-address input[name="shippingAddress[addressLine1]"]').type(this.user.address.addressLine1);
+cy.get('form#checkout-address input[name="shippingAddress[locality]"]').type(this.user.address.locality);
+cy.get('form#checkout-address input[name="shippingAddress[postalCode]"]').type(this.user.address.postalCode);
+cy.get('form#checkout-address select[name="shippingAddress[countryCode]"]').select(this.user.address.countryCode);
+cy.get('form#checkout-address button[type=submit]').click();
 
 // Use the default shipping method
-cy.get('form#checkout-shipping-method input[type=radio][value="freeShipping"]')
-    .click();
+cy.get('form#checkout-shipping-method input[type=radio][value="freeShipping"]').click();
 
-cy.get('form#checkout-shipping-method button[type=submit]')
-    .click();
+cy.get('form#checkout-shipping-method button[type=submit]').click();
 
 // Fill credit card details and pay
-cy.get('form#checkout-payment input[name="paymentForm[dummy][firstName]"]')
-    .type(this.user.card.firstName);
-cy.get('form#checkout-payment input[name="paymentForm[dummy][lastName]"]')
-    .type(this.user.card.lastName);
-cy.get('form#checkout-payment input[name="paymentForm[dummy][number]"]')
-    .type(this.user.card.number);
-cy.get('form#checkout-payment input[name="paymentForm[dummy][expiry]"]')
-    .type(this.user.card.expiry);
-cy.get('form#checkout-payment input[name="paymentForm[dummy][cvv]"]')
-    .type(this.user.card.cvv);
-cy.get('form#checkout-payment button[type=submit]')
-    .click();
+cy.get('form#checkout-payment input[name="paymentForm[dummy][firstName]"]').type(this.user.card.firstName);
+cy.get('form#checkout-payment input[name="paymentForm[dummy][lastName]"]').type(this.user.card.lastName);
+cy.get('form#checkout-payment input[name="paymentForm[dummy][number]"]').type(this.user.card.number);
+cy.get('form#checkout-payment input[name="paymentForm[dummy][expiry]"]').type(this.user.card.expiry);
+cy.get('form#checkout-payment input[name="paymentForm[dummy][cvv]"]').type(this.user.card.cvv);
+cy.get('form#checkout-payment button[type=submit]').click();
 ```
 
 Finally, we just check if the page we end up on after submitting the checkout form displays a success message, using the `contains` method.
 
 ```js
-cy.get('h1')
-    .contains('Success')
+cy.get('h1').contains('Success');
 ```
 
 ## Codeception acceptance testing
@@ -238,17 +215,17 @@ One advantage that Codeception has over Cypress is that it is much more tightly 
 
 The Craft CMS documentation has [instructions](https://craftcms.com/docs/4.x/testing/testing-craft/setup.html) for setting up Codeception tests. Using them, we added Codeception to the Spoke & Chain project - with just a few modifications.
 
-* We changed the `dbSetup` setting in `codeception.yml` so that the database is not reset each time a single test runs. Although Codeception acceptance tests do not reset the database (only unit tests do), we still felt it's better to disable this feature to prevent any accidental data loss.
-* We added an `output` setting to `codeception.yml` - there you can find the HTML output of failed acceptance tests.
-* We installed additional composer packages `codeception/module-phpbrowser` and `codeception/module-yii2` used in our tests.
-* We added proper configuration to the `tests/acceptance.suite.yml` file for our acceptance tests, and generated an `AcceptanceTester` class using the `./vendor/bin/codecept build` command. Note that our `codeception.yml` config file uses a environment variable containing the website base URL `PRIMARY_SITE_URL` - taken from the `tests/.env` file.
+- We changed the `dbSetup` setting in `codeception.yml` so that the database is not reset each time a single test runs. Although Codeception acceptance tests do not reset the database (only unit tests do), we still felt it's better to disable this feature to prevent any accidental data loss.
+- We added an `output` setting to `codeception.yml` - there you can find the HTML output of failed acceptance tests.
+- We installed additional composer packages `codeception/module-phpbrowser` and `codeception/module-yii2` used in our tests.
+- We added proper configuration to the `tests/acceptance.suite.yml` file for our acceptance tests, and generated an `AcceptanceTester` class using the `./vendor/bin/codecept build` command. Note that our `codeception.yml` config file uses a environment variable containing the website base URL `PRIMARY_SITE_URL` - taken from the `tests/.env` file.
 
 ```yml
 actor: AcceptanceTester
 modules:
-    enabled:
-        - PhpBrowser:
-            url: "%PRIMARY_SITE_URL%"
+  enabled:
+    - PhpBrowser:
+        url: '%PRIMARY_SITE_URL%'
 ```
 
 Codeception tests use their own `.env` file, but if you want them to use the same database as the regular site, you can just copy the `.env` file into the `tests` directory. To run acceptance tests, use the command `./vendor/bin/codecept run acceptance`. You can also run specific tests with `./vendor/bin/codecept run acceptance testClass`, where `testClass` represents a specific test class.
@@ -362,7 +339,7 @@ class CheckoutCest
 {
    /**
     * @dataProvider userProvider
-    */    
+    */
     public function testCheckout(AcceptanceTester $I, \Codeception\Example $singleUser)
     {
         // Add a product to the cart
@@ -432,8 +409,8 @@ class CheckoutCest
 
 Both Cypress and Codeception have their pros and cons. There is also the matter of which language you are more comfortable with - PHP or JS. Ultimately, it's up to you which one to choose:
 
-* Codeception is tightly coupled with Craft CMS, allows setting up a separate database for testing, is quick and works well in text environments. However by default it does not run JS scripts, which prevents it from testing the Craft CMS control panel.
-* Cypress is more frontend-oriented, allows running tests in the browser by default and testing multiple breakpoints of a website. While tests run, you can also observe them and pick up any CSS bugs which would not be automatically detected.
+- Codeception is tightly coupled with Craft CMS, allows setting up a separate database for testing, is quick and works well in text environments. However by default it does not run JS scripts, which prevents it from testing the Craft CMS control panel.
+- Cypress is more frontend-oriented, allows running tests in the browser by default and testing multiple breakpoints of a website. While tests run, you can also observe them and pick up any CSS bugs which would not be automatically detected.
 
 We hope our article gets you on board with frontend testing and that you will make testing part of your regular development process. As we demonstrated, it is nothing to be afraid of - it can be easily set up and save you time in daily developer work. So go ahead, clone our [Spoke & Chain fork](https://github.com/piotrpog/spoke-and-chain-testing) and see how it works in practice.
 

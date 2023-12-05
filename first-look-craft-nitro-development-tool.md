@@ -3,7 +3,7 @@ author: js
 created: 2020-10-14
 title: A first look at the new Craft Nitro development tool
 intro: The new tool by Pixel & Tonic, can we recommend it yet?
-lead: 
+lead:
 figure:
   src: craft-nitro-poster.png
 tag:
@@ -21,7 +21,7 @@ DISCLAIMER: this article reflects the author's opinions and is based on their ex
 Nitro caught our attention during a recent [devMode.fm Podcast](https://devmode.fm/episodes/boost-your-local-development-with-nitro) dedicated to this new development tool.
 The [introductory blog post](https://craftcms.com/blog/craft-nitro) on the Craft CMS homepage states that:
 
-> “Nitro is a speedy new local development environment that’s tuned for Craft CMS, powered by Multipass.”
+> “Nitro is a speedy new local development environment that's tuned for Craft CMS, powered by Multipass.”
 
 So, what does this mean?
 First of all, **Nitro is a command line tool.**
@@ -72,7 +72,7 @@ brew cask install multipass
 The same should work on a Linux system, for which [Homebrew is also available](https://docs.brew.sh/Homebrew-on-Linux).
 For other operating systems, or if Homebrew is not available, the **installation may be carried out using one of the installers provided** on the Multipass homepepage:
 
-* [multipass.run](https://multipass.run)
+- [multipass.run](https://multipass.run)
 
 We first **attempted to install Multipass on a Mac using Homebrew**, but quickly ran into a Multipass permissions error:
 
@@ -148,11 +148,11 @@ nitro init
 
 Running the command spawns an interactive prompt, which lets us choose the following:
 
-* How many  **processor cores** to use for the VM.
-* How many **Gigabytes of RAM** to use for the VM.
-* The amount of **disk space** allocated to use for the VM. You will need a minimum of 4 GB for the installation.
-* Which **database engine** to use for the VM.
-* Finally, which **database version** to use for the VM.
+- How many **processor cores** to use for the VM.
+- How many **Gigabytes of RAM** to use for the VM.
+- The amount of **disk space** allocated to use for the VM. You will need a minimum of 4 GB for the installation.
+- Which **database engine** to use for the VM.
+- Finally, which **database version** to use for the VM.
 
 Once we've chosen the desired values, Craft Nitro will proceed to download multiple large files.
 On our first try the **installation failed due to missing packages**.
@@ -183,11 +183,11 @@ Unfortunately, when attempting to add a site to Craft Nitro we again ran into a 
 At this moment, we felt it was prudent to look a bit deeper into Multipass, as it is the critical software component that Craft Nitro depends on.
 We discovered that **Multipass has a few serious issues under macOS at the moment**:
 
-* On macOS, the [Multipass VM file is stored outside of the normal macOS folder structure](https://github.com/canonical/multipass/issues/566). This is a serious problem, as VM files should normally be stored in a directory that is excluded from Time Machine backups.
+- On macOS, the [Multipass VM file is stored outside of the normal macOS folder structure](https://github.com/canonical/multipass/issues/566). This is a serious problem, as VM files should normally be stored in a directory that is excluded from Time Machine backups.
 
-* The official Craft Nitro documentation states, [“Multipass requires Full Disk Access on macOS”](https://craftcms.com/docs/nitro/usage.html#adding-sites). Again, this seems problematic and is unusual when compared with most other dev tools.
+- The official Craft Nitro documentation states, [“Multipass requires Full Disk Access on macOS”](https://craftcms.com/docs/nitro/usage.html#adding-sites). Again, this seems problematic and is unusual when compared with most other dev tools.
 
-* For people running the popular “DNSMasq” tool on their machine, [Multipass can run into DNS issues](https://github.com/craftcms/nitro/issues/127#issuecomment-626239432). DNSMasq is a crucial component of the widely-used dev tool “Laravel Valet” and needs to be stopped in order to run Multipass.
+- For people running the popular “DNSMasq” tool on their machine, [Multipass can run into DNS issues](https://github.com/craftcms/nitro/issues/127#issuecomment-626239432). DNSMasq is a crucial component of the widely-used dev tool “Laravel Valet” and needs to be stopped in order to run Multipass.
 
 Considered together with the aforementioned permissions errors, we concluded that **Multipass is not a viable choice for most use cases on macOS at the moment**.
 Since Craft Nitro requires Multipass to run, we were unable to complete the setup and failed to use Nitro to power our local Craft CMS dev sites.
@@ -196,7 +196,7 @@ Since Craft Nitro requires Multipass to run, we were unable to complete the setu
 
 Nitro looks really promising, but is hamstrung by the underlying Multipass issues.
 Maybe on Linux or Windows this works out differently. However, **on macOS the problems seem too much of a hassle to work around** for us.
-After all, one of the main requirements we have for any dev tool is to [“Isolate the development environment from our physical machine’s operating system.”](https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup#local-dev-site-setup)
+After all, one of the main requirements we have for any dev tool is to [“Isolate the development environment from our physical machine's operating system.”](https://blog.fortrabbit.com/tools-for-php-development-local-dev-site-setup#local-dev-site-setup)
 Having to set up special permissions, or run the software as an administrative user clearly goes against this basic rule.
 
 That being said, do keep an eye out!

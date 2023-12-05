@@ -16,10 +16,10 @@ head:
 
 ## Why upgrade to PHP 8?
 
-- It’s faster
-- It’s actively maintained
+- It's faster
+- It's actively maintained
 - It has new features
-- It’s stable, version 8.1 is out
+- It's stable, version 8.1 is out
 - Current software will require this
 
 ## When to upgrade to PHP 8?
@@ -56,7 +56,7 @@ Please have a look at our [general PHP version upgrade help article](https://hel
 
 ## Can you (the web host) do the update for me?
 
-Sorry no. It’s your website and your code. We don’t know about it and won’t touch it. Please get in touch with us if you have a concrete technical question.
+Sorry no. It's your website and your code. We don't know about it and won't touch it. Please get in touch with us if you have a concrete technical question.
 
 ## Where can I find more details?
 

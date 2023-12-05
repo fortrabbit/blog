@@ -3,7 +3,7 @@ author: fl
 title: Mission statement 2023
 created: 2023-04-15
 intro: What we are up to now.
-lead: 10 years of fortrabbit cloud hosting. We haven’t been doing much blogging lately. And you haven’t seen many big new features landing here either. What’s going on? Here is an update from the rabbitverse.
+lead: 10 years of fortrabbit cloud hosting. We haven't been doing much blogging lately. And you haven't seen many big new features landing here either. What's going on? Here is an update from the rabbitverse.
 figure:
   src: mission-statement-2022-poster.png
 tag:
@@ -24,7 +24,7 @@ The past years brought some ups and downs for all of us. These days are not so r
 
 Attracting good people (aka talent) is not easy for us. Especially here in Germany there is high demand for DevOps and developers. We have high technical standards. We compete with big tech. Over the past years the wages have been rising. But working in a small company has its advantages as well, and we pitch that to potential candidates.
 
-With the COVID-19 pandemic we became a remote company. Hiring internationally helped us. That’s also a good fit to our international client base. Diverse cultural backgrounds are sometimes challenging. Only being connected by video calls and software is hard.
+With the COVID-19 pandemic we became a remote company. Hiring internationally helped us. That's also a good fit to our international client base. Diverse cultural backgrounds are sometimes challenging. Only being connected by video calls and software is hard.
 
 #### Growing pains
 
@@ -42,11 +42,11 @@ We failed to find a shared direction, but we settled the conflicts by shifting p
 
 ### Platform challenges
 
-More clients = more responsibilities. Maintenance, support and day to day operations are keeping us busy. And then there is the hosting platform itself. It is a home-grown system that has reached maturity. It’s not perfect, but it is battle proven.  
+More clients = more responsibilities. Maintenance, support and day to day operations are keeping us busy. And then there is the hosting platform itself. It is a home-grown system that has reached maturity. It's not perfect, but it is battle proven.
 
 In recent years we have invested a lot by updating underlying software, refactoring code and improving monitoring and stability.
 
-It’s still not as ideal as we wish it to be. There is a very long backlog of small improvements and documented quirks. We are also maintaining a long list of new features and big improvements.
+It's still not as ideal as we wish it to be. There is a very long backlog of small improvements and documented quirks. We are also maintaining a long list of new features and big improvements.
 
 We have to admit that we were not able to keep up the pace of the early days. We can not afford to introduce breaking changes since we have websites in production. Supporting and maintaining old and new features on the same platform would become too complex a game to play.
 
@@ -56,7 +56,7 @@ Core parts of the platform are now 10 years old. There is a lot of custom code w
 
 We have finally settled to do a bigger rewrite project.
 
-> It’s easier to build the spaceship on the ground than building while flying in space.
+> It's easier to build the spaceship on the ground than building while flying in space.
 
 This approach certainly has its risks. But it also frees us from constraints and it enables us to approach features from new perspectives. That decision was already made more than 2 years ago. Since then we have been discussing and defining the feature set of the new platform.
 

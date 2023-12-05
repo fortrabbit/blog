@@ -1188,7 +1188,7 @@ tag:
         <div class="m-left-s">
             <div class="row">
                 <div>
-                    <span class="type-bold">Matthew Weier O’Phinney</span>
+                    <span class="type-bold">Matthew Weier O'Phinney</span>
                     <span class="thinfont hide-t">Sioux Falls, SD</span>
                 </div>
                 <div class="slave right auto row guttersmall">
@@ -1409,7 +1409,7 @@ tag:
                 </div>
             </div>
             <div>
-                PHP Town Hall, Queen of the league 
+                PHP Town Hall, Queen of the league
             </div>
         </div>
     </div>
@@ -1790,6 +1790,7 @@ tag:
             </div>
         </div>
     </div>
+
 </div>
 ## About this list
 
@@ -1798,6 +1799,3 @@ As a technology provider we have to have an eye on future trends. So we are moni
 To better keep track of everything we would like to see a kind of open PHP resources database. Probably a GitHub-hosted curated website merging own data with various other sources. One meta place to get up-to-date informations on podcasts, books, user groups, conferences, blogs — linking PHPeople to PHProjects. We have some rough ideas and already collected a little bit of data for such project. But currently, we don't have the resources.
 
 Wanna help and take over? **[UPDATED 2015-05-05]**: There is a [GitHub repo](https://github.com/fortrabbit/php-resources) now with not more than a readme and some links to initial research.
-
-
-

@@ -17,7 +17,7 @@ We get a lot of sales pitches, recruitment offerings and partnership requests. W
 
 ## Why profiling anyways?
 
-Today’s web applications can quickly become complex under the hood. Thanks to Composer we can rely on existing packages without reinventing the wheel. Especially frameworks, CMS and e-commerce systems give you a lot of boilerplate and convenience for your development process. But this also means you hardly can understand every single bit of code you are using.
+Today's web applications can quickly become complex under the hood. Thanks to Composer we can rely on existing packages without reinventing the wheel. Especially frameworks, CMS and e-commerce systems give you a lot of boilerplate and convenience for your development process. But this also means you hardly can understand every single bit of code you are using.
 
 Web applications are usually fast after the launch, but degrade over time. They receive more requests and process more data. You add more features and at some point everything or some parts of your app become slow. But where to start investigating — guessing and trial and error? Profilers to the rescue! They give you deep insights of your code and all dependencies that are involved to handle requests.
 

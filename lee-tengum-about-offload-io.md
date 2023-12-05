@@ -9,7 +9,6 @@ tag:
   - chronicles
 ---
 
-
 # Lee Tengum
 
 Earlier this month we've reached 10k users. Digits are all fine, but real people with real projects are more interesting. We asked Lee to tell us about his latest project on fortrabbit:
@@ -18,11 +17,11 @@ Earlier this month we've reached 10k users. Digits are all fine, but real people
 
 **Oli**: Why did you started the project?
 
-**Lee**: Every day designers and developers create items that are awesome. These may be full blown site design PSDs, a bash script to automate deployment or a side project in it's entirely that they just do not have time for. Normally these would sit in waste after being built as they're not well documented enough for the other marketplaces or lacking of an installer etc. For example, let's take a SaaS based side project, it has hundreds of hours put into it, does something really clever, has billing already integrated etc... It's just that the developer doesn't have the time to devote to getting users. If this were listed at the other marketplaces, you'll get questions along the lines of "How much revenue?" or "How much traffic" which will subsequently net you an offer of a fraction of it's value for the project without revenue and traffic. They're not interested in looking at what the app itself or how much of a head start that is, just the $$$. Further to that, let's say you built a bash script to automate migration of data that saved you 4 hours of manual work, another developer in that same situation would happily pay you an hour worth of time to save 3 hours. In the other marketplaces they'd price it at $5 and you'll have to support 1000s of buyers who will ask you "How do you FTP into the admin panel"... Or you could sell it a handfull of times, at a reasonable price to other smart (and vetted) people, which is what Offload will allow you to do. There's a huge problem in our industry right now, this race to the bottom if you will, it's time to compete on value and not just price. 
+**Lee**: Every day designers and developers create items that are awesome. These may be full blown site design PSDs, a bash script to automate deployment or a side project in it's entirely that they just do not have time for. Normally these would sit in waste after being built as they're not well documented enough for the other marketplaces or lacking of an installer etc. For example, let's take a SaaS based side project, it has hundreds of hours put into it, does something really clever, has billing already integrated etc... It's just that the developer doesn't have the time to devote to getting users. If this were listed at the other marketplaces, you'll get questions along the lines of "How much revenue?" or "How much traffic" which will subsequently net you an offer of a fraction of it's value for the project without revenue and traffic. They're not interested in looking at what the app itself or how much of a head start that is, just the $$$. Further to that, let's say you built a bash script to automate migration of data that saved you 4 hours of manual work, another developer in that same situation would happily pay you an hour worth of time to save 3 hours. In the other marketplaces they'd price it at $5 and you'll have to support 1000s of buyers who will ask you "How do you FTP into the admin panel"... Or you could sell it a handfull of times, at a reasonable price to other smart (and vetted) people, which is what Offload will allow you to do. There's a huge problem in our industry right now, this race to the bottom if you will, it's time to compete on value and not just price.
 
-**Oli**: What’s the state of your project?
+**Oli**: What's the state of your project?
 
-**Lee**: Offload is currently accepting new members and looking specifically for designers and developers who have premium items that they are looking to sell. 
+**Lee**: Offload is currently accepting new members and looking specifically for designers and developers who have premium items that they are looking to sell.
 
 ![offload.io screenshot](/dist/img/offload-io-shot.png)
 

@@ -3,7 +3,7 @@ title: Introducing the 'client invite'
 intro: You can now transfer Apps to your clients!
 created: 2017-06-15
 author: fl
-lead: "NEED: You are developing a website. You want your client to pay for the hosting."
+lead: 'NEED: You are developing a website. You want your client to pay for the hosting.'
 figure:
   src: client-invite-poster.gif
 tag:
@@ -16,7 +16,7 @@ In the PAST: you might have shared hosting account usernames and passwords or as
 
 ## 1. Invite the client to take over billing
 
-Transfer ownership directly to a client  — or the boss of the agency. It's only a few clicks in the Dashboard. They’ll be invited to setup a Company to pay for the App. It's a smooth flow — designed for your non-techie client (but it works for techies as well).
+Transfer ownership directly to a client — or the boss of the agency. It's only a few clicks in the Dashboard. They'll be invited to setup a Company to pay for the App. It's a smooth flow — designed for your non-techie client (but it works for techies as well).
 
 And YES: It also works for Apps that are still in trial mode.
 
@@ -50,22 +50,22 @@ This is still not all. The freelancer/client relationship is just one use case. 
 
 ### Further readings
 
-* [The invite client help article](https://help.fortrabbit.com/client-collaboration)
-* [The collaboration help article](https://help.fortrabbit.com/collaboration)
-* [See Company Plans](https://www.fortrabbit.com/company-plans)
-* [See our (old) team explain video](https://help.fortrabbit.com/teamwork-video)
+- [The invite client help article](https://help.fortrabbit.com/client-collaboration)
+- [The collaboration help article](https://help.fortrabbit.com/collaboration)
+- [See Company Plans](https://www.fortrabbit.com/company-plans)
+- [See our (old) team explain video](https://help.fortrabbit.com/teamwork-video)
 
 ---
 
 ## Other changes with this update
 
-* The standard trial time has been extended
-* The "Company xs" plan includes two team members (to make this more attractive)
-* Dashboard: A little style rebrush
-* Dashboard: Choosing & changing access roles simplified
-* Dashboard: Companies now shown on the Dashboard Home
-* Transactional e-mails: Style update, wordings and nice looking buttons
-* Bug fixes & stability updates
+- The standard trial time has been extended
+- The "Company xs" plan includes two team members (to make this more attractive)
+- Dashboard: A little style rebrush
+- Dashboard: Choosing & changing access roles simplified
+- Dashboard: Companies now shown on the Dashboard Home
+- Transactional e-mails: Style update, wordings and nice looking buttons
+- Bug fixes & stability updates
 
 ---
 

@@ -38,7 +38,7 @@ Everything is possible. The most common tasks are:
 
 **Compiling to JS**: You are writing your JavaScript in a language that compiles to JS, like CoffeeScript, TypeScript or Dart. So you'll also need to compile this to plain JS for production.
 
-**Concating**: You multiple single JS or CSS files in authoring, but you don't want to have that many different calls for external files in production, so in the building pipeline you join them together to one big file.  
+**Concating**: You multiple single JS or CSS files in authoring, but you don't want to have that many different calls for external files in production, so in the building pipeline you join them together to one big file.
 
 **Image optimizing**: You can make your vector- and raster-images even small than your graphic editors "save for web" export — use gifsicle, jpegtran, optipng, svgmin and pngquant.
 
@@ -95,18 +95,18 @@ Now you have automated workflows to generate optimized versions each time you sa
 Source control was designed to deal with code changes in your original authoring source files. It's actually not the place to put your ugly files in. If you just put your assets in Git you'll have to deal with bad side effects like:
 
 1. **No diffing**: Compiled static assets are binary, they consist of one line, impossible and not and even necessary to diff.
-2. **Merge conflicts**:  You'll run into conflicts when everyone in your team has "different" versions of compiled files.
+2. **Merge conflicts**: You'll run into conflicts when everyone in your team has "different" versions of compiled files.
 3. **Bloating**: Your `.git` directory get's bigger and that makes everything slowers.
 
 **Shame on us!** We are supporting you in such bad practices with "Git push to deploy". It's what everybody loves as it is such a convenient way to upload code changes. The only problem: it's a hack. Now what can we do about it?
 
 #### 1. Put assets in Git, work around quirks
 
-You can at least make yourself more comfortable by dealing with some of the quirks. Andrew Ray [describes in his blog](http://blog.andrewray.me/dealing-with-compiled-files-in-git/) how to: 
+You can at least make yourself more comfortable by dealing with some of the quirks. Andrew Ray [describes in his blog](http://blog.andrewray.me/dealing-with-compiled-files-in-git/) how to:
 
-* Exclude built files from diffing in `.gitattributes`,
-* don't let compiled files conflict in a rebase with a merge driver in `.git/config`, 
-* rebuild files automatically with a Git hook. 
+- Exclude built files from diffing in `.gitattributes`,
+- don't let compiled files conflict in a rebase with a merge driver in `.git/config`,
+- rebuild files automatically with a Git hook.
 
 Other solutions to use branches or submodules for this.
 
@@ -120,27 +120,26 @@ In general we assume that you are compiling your assets in your local developmen
 
 I don't think that this makes much sense, as it is probably hard to debug errors for instance when your local dependencies differ from the remote ones.
 
-#### 4. Exclude from Git, deploy separately 
+#### 4. Exclude from Git, deploy separately
 
 Exclude your static assets from Git at all. Deploy them in a different way, maybe even to a different space such as a cloud object storage space. That means you have two deployments (with a platform like ours) — Git push and the "other one". The "other one" might be some rsync or some upload to an [external object storage provider](http://help.fortrabbit.com/external-services#toc-cloud-storage). The "other one" might be triggered with Git Hook.
 
 That is probably the most professional and most complicated way. We do so with our web properties here — all JS, CSS and images are served from S3. This way you can also easily hook up a CDN for those assets. Serving those files from another domain improves performance (non-blocking).
 
-Now, with our upcoming 12-factorish App you can't SSH in any more, so you'll probably need some kind of external space. 
+Now, with our upcoming 12-factorish App you can't SSH in any more, so you'll probably need some kind of external space.
 
 A separate cloud storage might also help you with your runtime data.
 
-> That’s dogma over practicality.
+> That's dogma over practicality.
 
-**[John Albin Wilkins](https://www.drupal.org/node/1821780#comment-6661544)** in a Drupal Community comment 
-
+**[John Albin Wilkins](https://www.drupal.org/node/1821780#comment-6661544)** in a Drupal Community comment
 
 ## Conclusion
 
-Yes, asset pipelining with task runners makes sense. The automation of mundane tasks not only helped us to increase productivity; the file optimizations reduced page load time significantly. 
+Yes, asset pipelining with task runners makes sense. The automation of mundane tasks not only helped us to increase productivity; the file optimizations reduced page load time significantly.
 
 Now it only seems to us, that there are a thousand ways to do it. We are designing our service around deployment and hosting. So it's crucial that we get this right. What's your opinion and what's your practice? We are curious if you are considering solution 4 where you separate assets from Git deployment. Are you using this in practice, which cloud storage provider are you using? If using AWS S3, do you make use of IAM?
 
-We are considering to implement a new "cloud storage" (working title) component, which basically makes using AWS S3 much more convenient, integrated tightly into fortrabbit. 
+We are considering to implement a new "cloud storage" (working title) component, which basically makes using AWS S3 much more convenient, integrated tightly into fortrabbit.
 
 The upcoming [Amazon Elastic File System](http://aws.amazon.com/efs/) also looks promising. It could be a replacement for the persistent solution we currently have, although we are skeptical as we there are always two sides, NFS and Operating System. But for sure we'll keep an eye on that.

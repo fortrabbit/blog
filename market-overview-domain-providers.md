@@ -1,7 +1,7 @@
 ---
 author: fl
 created: 2017-07-18
-title: "Market overview: Domain services for developers"
+title: 'Market overview: Domain services for developers'
 intro: An opinionated field guide on developer-friendly domain hosting services.
 lead: Your application is running on a cloud service (like this one here). You now ask where the developer-friendly domain registration service is?
 figure:
@@ -13,7 +13,6 @@ head:
     - name: 'keywords'
       content: 'CDN, TLD, NS, TTL, DNS, domain hoster, domain registrar, domain provider, domain hosting, TLD pricing, webhosting, web-hosting'
 ---
-
 
 ## Concepts
 
@@ -29,7 +28,7 @@ Modern cloud hosting vendors (like us) are more specialized. Domain name service
 
 The usual domain registration period is one year (for some domains even two years). Bundled web packages (web-space + domain) can therefore only by canceled every other year. This can be really frustrating in case you'll ever get mad on your hosting provider — imagine unexpected downtimes, missing tech support or outdated software versions. With separated solutions for domain and web hosting, you can move your hosting more easily.
 
-Web hosting transfers are always a hustle. But if you’ve already registered the domain externally, you'll only need to update your DNS settings to point to the new host.
+Web hosting transfers are always a hustle. But if you've already registered the domain externally, you'll only need to update your DNS settings to point to the new host.
 
 #### 2. More professional
 
@@ -64,7 +63,7 @@ Back in the days, your domain had to be registered on your name and your postal 
 
 ### 8. SSL
 
-You want your domain to be reached under `https://`. Thanks to Let's Encrypt — TLS - it's actually no longer called SSL - is becoming a commodity.  Some domain providers are (still) offering paid SSL certificates, some are making use of the Let's Encrypt service. Our clients do not need to care as we register LE certificates for all custom domains on our side automatically (zero-config). In most cases you can also use an external service for just this.
+You want your domain to be reached under `https://`. Thanks to Let's Encrypt — TLS - it's actually no longer called SSL - is becoming a commodity. Some domain providers are (still) offering paid SSL certificates, some are making use of the Let's Encrypt service. Our clients do not need to care as we register LE certificates for all custom domains on our side automatically (zero-config). In most cases you can also use an external service for just this.
 
 ### 9. Look & feel
 
@@ -86,20 +85,20 @@ Geek out about useful features and eye-candy:
 
 Domain registrars come in many different shapes and colors. Read: the service ranges differ. While one provider has the best possible DNS interface, the other have e-mail hosting built-in, while the third service just has the best pricing. The usual suspects:
 
-| Domain provider                          | .com / yr | info                                     |
-| ---------------------------------------- | --------: | :--------------------------------------- |
-| [DNSsimple](https://dnsimple.com/)       |    $14.00 | Modern DNS with integrated domain registrar. |
-| [Gandi](https://www.gandi.net/domain)    |    €12.54 | Big shared hosting from FR, also domains |
+| Domain provider                                    | .com / yr | info                                               |
+| -------------------------------------------------- | --------: | :------------------------------------------------- |
+| [DNSsimple](https://dnsimple.com/)                 |    $14.00 | Modern DNS with integrated domain registrar.       |
+| [Gandi](https://www.gandi.net/domain)              |    €12.54 | Big shared hosting from FR, also domains           |
 | [GoDaddy domains](https://uk.godaddy.com/domains/) |    €15.99 | Huge shared hosting, with a bad rep, also domains. |
-| [Google domains](https://domains.google/) |    $12.00 | Google also does domains, not availble in EU yet. |
-| [hover](https://www.hover.com/)          |    $14.99 | Specialzed in domain & e-mail hosting.   |
-| [iwantmyname](https://iwantmyname.com/)  |    €11.90 | Straight forward popular domain only provider. |
-| [name.com](https://www.name.com/)        |    $12.99 | Shared hosting with focus on domains.    |
-| [Namecheap](https://www.namecheap.com/)  |     €9.36 | Shared hosting with a focus on domains.  |
-| [namesilo](https://www.namesilo.com/)    |     $8.99 | Looks cheap and a bit outdated.          |
-| [OVH](https://www.ovh.ie/)               |     €9,99 | French hosting with domains.             |
-| [Porkbun](https://porkbun.com/)          |     $8.84 | Oink. Designer focused domain hosting service. |
-| [Route 53 by AWS](https://aws.amazon.com/route53/) |    $12.00 | Did you know? AWS also does domains.     |
+| [Google domains](https://domains.google/)          |    $12.00 | Google also does domains, not availble in EU yet.  |
+| [hover](https://www.hover.com/)                    |    $14.99 | Specialzed in domain & e-mail hosting.             |
+| [iwantmyname](https://iwantmyname.com/)            |    €11.90 | Straight forward popular domain only provider.     |
+| [name.com](https://www.name.com/)                  |    $12.99 | Shared hosting with focus on domains.              |
+| [Namecheap](https://www.namecheap.com/)            |     €9.36 | Shared hosting with a focus on domains.            |
+| [namesilo](https://www.namesilo.com/)              |     $8.99 | Looks cheap and a bit outdated.                    |
+| [OVH](https://www.ovh.ie/)                         |     €9,99 | French hosting with domains.                       |
+| [Porkbun](https://porkbun.com/)                    |     $8.84 | Oink. Designer focused domain hosting service.     |
+| [Route 53 by AWS](https://aws.amazon.com/route53/) |    $12.00 | Did you know? AWS also does domains.               |
 
 <small>And there are also: [1&1](https://www.1and1.com), [Directnic](https://directnic.com/), [Hexonet](https://www.hexonet.net/), [123 reg](https://www.123-reg.co.uk/), [Dotster](https://www.dotster.com/), [Moniker](https://www.moniker.com/), [Rebel](https://www.rebel.com/), [Network Solutions](https://www.networksolutions.com/) and many many more. </small>
 
@@ -115,12 +114,12 @@ For the web hosting, our service includes team features to transparently work on
 
 All domain providers are offering you DNS services. So you can use the name servers of the registrar. You can however also run your own name servers or book a specialized DNS service. Why even separate more? It brings even more features and freedom. DNS services are coming with better fail-over global DNS networks, HTTP/2 uplift, anycast and other features. They also blend into Content Delivery Networks. Here is a small list:
 
-* [DNS made easy](https://dnsmadeeasy.com) - enterprise DNS provider
-* [CloudFlare](https://www.cloudflare.com/) - CDN, domain security & DNS
-* [PointDNS](https://pointhq.com) - DNS as a service
-* [Section.io](https://www.section.io/) - CDN grid
-* [Greta](https://greta.io/) - P2P decentralized CDN (cool kids)
-* [keycdn](https://www.keycdn.com/) - modern Content Delivery Network
+- [DNS made easy](https://dnsmadeeasy.com) - enterprise DNS provider
+- [CloudFlare](https://www.cloudflare.com/) - CDN, domain security & DNS
+- [PointDNS](https://pointhq.com) - DNS as a service
+- [Section.io](https://www.section.io/) - CDN grid
+- [Greta](https://greta.io/) - P2P decentralized CDN (cool kids)
+- [keycdn](https://www.keycdn.com/) - modern Content Delivery Network
 
 But that's a topic of it's own which might be reflected in a future post.
 
