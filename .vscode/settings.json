@@ -2,4 +2,9 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.markdownlint": "explicit"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "prettier.proseWrap": "always",
 }
