@@ -14,7 +14,6 @@ head:
       content: 'cdn, caching, max-age, http, wordpress, cache-control, expires, pragma'
 ---
 
-
 To use **C**ontent **D**elivery **N**etworks as HTTP caches you need to know about the proper HTTP response headers: Which are relevant? How do they work? How to you use them? All this I try to answer in this article.
 
 The post does not claim to be exhaustive or even completely precise. In some instances, I will simplify and be opinionated for the sake of clarity, brevity and reduced complexity. This text handles the theory of caching - with a couple of practical examples, though. There will be follow up articles, building on this one, showing how to work with a CDN as caching layer with specific CMS or frameworks.
@@ -69,10 +68,10 @@ The CDN now accepts any incoming request and either answers it directly from it'
 
 The most simplistic pull CDN would act as following:
 
-* Get a request to `http://www.foobar.tld/some/page`
-* Take `some/page` as cache key and check if it's already in the cache
-* In cache: deliver result from cache
-* Not in cache: request `http://direct.foobar.tld/some/page`, write response under `some/page` in cache and deliver
+- Get a request to `http://www.foobar.tld/some/page`
+- Take `some/page` as cache key and check if it's already in the cache
+- In cache: deliver result from cache
+- Not in cache: request `http://direct.foobar.tld/some/page`, write response under `some/page` in cache and deliver
 
 ## Static vs dynamic content
 
@@ -179,21 +178,21 @@ That might look a bit confusing, but don't worry, it's not that hard. First you 
 
 First **cachability**, which takes care of the cache location, which in includes whether it should be cached at all. The most important directives are:
 
-* `private`: Means it shall only be cached in the local (private) cache. On your laptop.
-* `public`: Means it shall be cached in the shared cache. In the CDN. It can _also_ be cached on the local cache, though.
-* `no-cache`: Interestingly this means caching is allowed - just everybody (local cache, shared cache) must revalidate before using the cached value
-* `no-store`: Means it shall not be cached. Nowhere. Not ever.
+- `private`: Means it shall only be cached in the local (private) cache. On your laptop.
+- `public`: Means it shall be cached in the shared cache. In the CDN. It can _also_ be cached on the local cache, though.
+- `no-cache`: Interestingly this means caching is allowed - just everybody (local cache, shared cache) must revalidate before using the cached value
+- `no-store`: Means it shall not be cached. Nowhere. Not ever.
 
 Next up is **expiration**, which, obviously, takes care of how long things are cached. The most important directives are:
 
-* `max-age=<seconds>`: Sets the cache validity time. How many seconds shall the cache location keep it? Goes for local _and_ shared cache.
-* `s-maxage=<seconds>`: Overrides `max-age` just for the shared cache. No effect on local cache.
+- `max-age=<seconds>`: Sets the cache validity time. How many seconds shall the cache location keep it? Goes for local _and_ shared cache.
+- `s-maxage=<seconds>`: Overrides `max-age` just for the shared cache. No effect on local cache.
 
 Lastly there is **revalidation**, which is, more or less, fine control. The most important directives are:
 
-* `immutable`: Means that the document won't change. Ever. Can be cached until the heat death of the universe.
-* `must-revalidate`: Means the client (browser) must still check with the proxy (CDN), even while it's cached!
-* `proxy-revalidate`: Means that the shared cache (CDN) must check the origin, even while it's cached!
+- `immutable`: Means that the document won't change. Ever. Can be cached until the heat death of the universe.
+- `must-revalidate`: Means the client (browser) must still check with the proxy (CDN), even while it's cached!
+- `proxy-revalidate`: Means that the shared cache (CDN) must check the origin, even while it's cached!
 
 And to put it all together, here is how to read the above code examples in plain English:
 
@@ -272,8 +271,8 @@ First thing you should become aware of is how your web application (the underlyi
 
 To emphasize the previous section: Whenever you serve a response, which contains a `Set-Cookie` header, you want to make sure it is not cached. The same goes, when you render response, which contains "user specific" contents (eg the basket, from before). What this means depends on how CDN/proxy acts. For example:
 
-* Does it support a default or fallback caching time, which is used to inject a `Cache-Control` header, if non is provided?
-* Does it automatically strip any `Cache-Control` header, if `Set-Cookie` is present?
+- Does it support a default or fallback caching time, which is used to inject a `Cache-Control` header, if non is provided?
+- Does it automatically strip any `Cache-Control` header, if `Set-Cookie` is present?
 
 Once you know how your web application acts, regarding cookies, and what your CDN does, in terms of automagic, you can go about implementing your own defaults and preferences. Following an Apache `.htaccess` file example, which will help you getting started:
 
@@ -288,9 +287,9 @@ Header always remove Cache-Control "expr=-n resp('Set-Cookie')
 Header set Cache-Control "no-cache max-age=0 must-revalidate" "expr=-n resp('Set-Cookie')
 ```
 
-* Rule (1) sets the `Cache-Control` header with a default value, _if no Set-Cookie header exists_
-* Rule (2) does the opposite: Strip `Cache-Control`, _if the Set-Cookie header does exist_
-* Rule (2a) is a variant of the second, which sets an explicit 0-cache, instead of stripping the cache header.
+- Rule (1) sets the `Cache-Control` header with a default value, _if no Set-Cookie header exists_
+- Rule (2) does the opposite: Strip `Cache-Control`, _if the Set-Cookie header does exist_
+- Rule (2a) is a variant of the second, which sets an explicit 0-cache, instead of stripping the cache header.
 
 #### Path based cookie suppression
 
@@ -350,18 +349,18 @@ This strategy, or variations thereof, is hard to apply to existing applications,
 
 With the `max-age` and `s-maxage` directives, you already have detailed control on how long a specific response is to be cached. However, that's not sufficient in all cases. Those directives are set at rendering time. At this time, you simply might not know when the response should expire. Think for example about the home page a news website: Say, it contains the latest 10 entries. You set `max-age=900` for this home page, to make sure that is refreshed every 15 minutes. Now, one of the entries was published too early and shall go back to the drawing board again. You need a way to remove the cached response, so that it is refreshed now, not in 15 minutes.
 
- Don't worry, that's a common problem and there are tools to solve it. Let's first clarify the terminology:
+Don't worry, that's a common problem and there are tools to solve it. Let's first clarify the terminology:
 
-* **Cache busting** means to circumvent the cache, by changing the cache key. Remember the (very) above example of `http://www.foobar.tld/some/page`, for which `some/page` would be used as the cache key? When changing the request to `http://www.foobar.tld/some/page?v2` the key changes to `some/page?v2`. Cache busted.
-* **Cache purging** means to remove an item (aka a response) from the cache, so that it can/will/must be refreshed immediately.
+- **Cache busting** means to circumvent the cache, by changing the cache key. Remember the (very) above example of `http://www.foobar.tld/some/page`, for which `some/page` would be used as the cache key? When changing the request to `http://www.foobar.tld/some/page?v2` the key changes to `some/page?v2`. Cache busted.
+- **Cache purging** means to remove an item (aka a response) from the cache, so that it can/will/must be refreshed immediately.
 
 ### Cache busting with versioning
 
 This strategy is very often used with assets (eg CSS, JS, ..). The idea is to include your assets using a version scheme. Those can be actual versions, a hash of the content, a timestamp and so on. To give you a few examples:
 
-* Numeric versions: `style-v1.css`, `style.css?v=1`
-* Hash as version: `style.css?d3b07384d113edec49eaa6238ad5ff00`
-* Timestamp as version: `styles.css?t=1486398121`
+- Numeric versions: `style-v1.css`, `style.css?v=1`
+- Hash as version: `style.css?d3b07384d113edec49eaa6238ad5ff00`
+- Timestamp as version: `styles.css?t=1486398121`
 
 What you need to consider is the context. In this case: the rendered HTML, which includes the CSS file via `<link rel="stylesheet" href="..">`, might be cached itself. So if your `style.css` is decorated with the latest version, it helps only if the CSS file is included using this latest version. If the HTML, which includes the CSS file, is served from the cache, it contains most likely the old version/file, so the old styles will still be served.
 
@@ -384,7 +383,7 @@ The solution for that problem are:
 
 The name "surrogate keys" is used by the CDN provider [Fastly](https://www.fastly.com/) and I like it best, so I will go with that in this article. Other providers call them differently. For example "cache tags" is a popular choice. Varnish calls them [Hashtwo/Xkey](http://book.varnish-software.com/4.0/chapters/Cache_Invalidation.html#hashtwo-xkey-varnish-software-implementation-of-surrogate-keys), which is to cumbersome for me to use it here.
 
- However named, they serve the same purpose: Tagging responses with custom keys, so that you can purge them easily by those named tags, without even known what exactly has been cached.
+However named, they serve the same purpose: Tagging responses with custom keys, so that you can purge them easily by those named tags, without even known what exactly has been cached.
 
 To give you a quick example, using the client <-> proxy <-> origin layout, here is what your origin would respond with when using surrogate keys:
 
@@ -405,19 +404,18 @@ How the actual purging is handled, again depends on the specific CDN vendor.
 
 That's about if for the theory. There will be follow up articles using specific CDN providers with specific CMS/frameworks. How many - we'll see. If you want to dig in now, here are some additional resources which you might want to read:
 
-* [Google Developers: HTTP Caching](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en#cache-control)
-* [Push vs Pull CDN](http://www.whoishostingthis.com/blog/2010/06/30/cdns-push-vs-pull/)
-* [CDN Types (admin perspective)](http://www.the-toffee-project.org/index.php?page=32-cdn-content-delivery-networks-types)
-* [Cache headers overview (KeyCDN)](https://www.keycdn.com/support/http-caching-headers/)
-* [Caching explained (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
-* [ETag header in detail (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
-* [Cache-Control header in detail (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
-* [If-None-Match header in detail (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
-* [Fastly: Surrogate keys](https://docs.fastly.com/guides/purging/getting-started-with-surrogate-keys)
-* [KeyCDN: Cache tags](https://www.keycdn.com/support/purge-cdn-cache/)
-* [KeyCDN: Cache headers](https://www.keycdn.com/blog/http-cache-headers/)
+- [Google Developers: HTTP Caching](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en#cache-control)
+- [Push vs Pull CDN](http://www.whoishostingthis.com/blog/2010/06/30/cdns-push-vs-pull/)
+- [CDN Types (admin perspective)](http://www.the-toffee-project.org/index.php?page=32-cdn-content-delivery-networks-types)
+- [Cache headers overview (KeyCDN)](https://www.keycdn.com/support/http-caching-headers/)
+- [Caching explained (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
+- [ETag header in detail (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
+- [Cache-Control header in detail (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+- [If-None-Match header in detail (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
+- [Fastly: Surrogate keys](https://docs.fastly.com/guides/purging/getting-started-with-surrogate-keys)
+- [KeyCDN: Cache tags](https://www.keycdn.com/support/purge-cdn-cache/)
+- [KeyCDN: Cache headers](https://www.keycdn.com/blog/http-cache-headers/)
 
 ## Bonus
 
-Learn how to [speed up APIs with HTTP Response Caching](https://blog.apisyouwonthate.com/speeding-up-apis-apps-smart-toasters-with-http-response-caching-a67becf829c6
-) - the API client and your server will be grateful.
+Learn how to [speed up APIs with HTTP Response Caching](https://blog.apisyouwonthate.com/speeding-up-apis-apps-smart-toasters-with-http-response-caching-a67becf829c6) - the API client and your server will be grateful.
