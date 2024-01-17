@@ -8,18 +8,31 @@ body:
     mastodon: 
       link: https://mastodon.social/@franklaemmer
       text: '@franklaemmer'
-  - initials: uk
-    name:     Ulrich Kautz
-    email:    uk@fortrabbit.com
-    bio:      is the master of abstraction. He cares about sysOps, infrastructure, architecture and product development.
-    twitter:  ukautz
-    gravatar: 79a9db36addc6d437801e4684e5960f2
   - initials: os
     name:     Oliver Stark
     email:    os@fortrabbit.com
     bio:      Part time nerd and a pre digital native. He cares about the PHP ecosystem, our product and devOps.
     twitter:  o_stark
     gravatar: bc6cd109a2e484b8e2994ba9edcd0562
+  - initials: uk
+    name:     Ulrich Kautz
+    email:    uk@fortrabbit.com
+    bio:      is the master of abstraction. He cares about sysOps, infrastructure, architecture and product development.
+    twitter:  ukautz
+    gravatar: 79a9db36addc6d437801e4684e5960f2
+  - initials: js
+    name:     Jascha Silbermann
+    email:    info@jsics.de
+    bio:      is a guest author here at fortrabbit and an independent web consultant and open source enthusiast in real life.
+    twitter:  
+    gravatar: a813b45007a84cd750f53c311a68950e
+  - initials: pp
+    name:     Piotr Pogorzelski
+    bio:      is a web developer and Craft CMS enthusiast.
+    gravatar: f0f7727f4c096ecbde60250ecded3f78
+    website: 
+      link: https://craftsnippets.com/
+      text: craftsnippets.com 
   - initials: eh
     name:     Edgar Hipp
     email:    eh@fortrabbit.com
@@ -36,16 +49,3 @@ body:
     email:    yann.rabiller+blog@fortrabbit.com
     bio:      Symfony developer and trainer. Natural languages lover. Skeptic. Alpaca.
     gravatar: 2507d298d4fc7fbc6d27a6b7122c5a06
-  - initials: js
-    name:     Jascha Silbermann
-    email:    info@jsics.de
-    bio:      is a guest author here at fortrabbit and an independent web consultant and open source enthusiast in real life.
-    twitter:  
-    gravatar: a813b45007a84cd750f53c311a68950e
-  - initials: pp
-    name:     Piotr Pogorzelski
-    bio:      is a web developer and Craft CMS enthusiast.
-    gravatar: f0f7727f4c096ecbde60250ecded3f78
-    website: 
-      link: https://craftsnippets.com/
-      text: craftsnippets.com 
