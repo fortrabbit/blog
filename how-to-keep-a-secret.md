@@ -9,7 +9,6 @@ tag:
   - webdev
 ---
 
-
 # Is your database password stored safely?
 
 How do you protect your access data? Your sensitive secrets, basically anything your PHP application uses to authenticate or authorize with other services such as databases, caches, cloud storages, image resize services, transactional mail providers. All of them. Where do you put this — easily accessible while in development and secure for production?
@@ -19,8 +18,6 @@ How do you protect your access data? Your sensitive secrets, basically anything 
 The first thing we can agree on is, that you will not store your secrets in version control (in a `config.json` file) — they will stay in there forever and they are exposed: `git log --follow -p -- config.json`. Why is that so bad? Because your never know what happens in the future: Who will have access to the code base? A VCS, by it's very nature, keeps everything in it's history. So even if you remove the credentials later on, everybody will be able to look them up in the history. Also, given multiple developers, not everybody needs to know the credentials, so they should not know the credentials.
 
 ## Not in an ENV var either?
-
-<!-- Fragezeichen hinter Satz muss sein. Sonst ist das ein zu direkter Wiederspruch.. letzendlich ist es doch in env vars, nur halt eben nicht plain. Alternativ: "In ENV vars then!" -->
 
 We see a trend in storing secret credentials in environment variables. I think this is rooted in the Ruby world somewhere around the [12 factor App principles](http://12factor.net/config). That way your Git repo is clean and you can easily switch between environments and it's super smooth to run multiple stages of your App by just configuring the ENV vars accordingly.
 
@@ -128,6 +125,6 @@ For completeness sake it might be mentioned here that our [Old Apps](http://help
 
 In our previous post about the [10 PHPillars](/10-pillars-php-dev) we promoted the idea to separate configuration from code (showing ENV vars instead of plain passwords), but did not elaborate on the way the credentials should be stored. Now we extend on that and propose a solution on how to do it even more safely.
 
-The article [Environment Variables Considered Harmful for secrets](http://movingfast.io/articles/environment-variables-considered-harmful/ ) by Michael Reinsch and the following [discussion on HN](https://news.ycombinator.com/item?id=8826024) are also worth checking out.
+The article [Environment Variables Considered Harmful for secrets](http://movingfast.io/articles/environment-variables-considered-harmful/) by Michael Reinsch and the following [discussion on HN](https://news.ycombinator.com/item?id=8826024) are also worth checking out.
 
 Thanks for reading so far! Now, whats your opinion?
