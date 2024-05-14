@@ -1,7 +1,7 @@
 ---
 author: fl
 created: 2017-08-14
-title: "Market overview: video hosting for business"
+title: 'Market overview: video hosting for business'
 intro: An opinionated field guide on developer-friendly video services.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool video encoding and hosting services you can usefor your business.
 figure:
@@ -22,7 +22,7 @@ You might just embed a video or two on your landing page. But what if you have a
 
 ### 1. video files are large
 
-Even highly compressed and web-optimized - video files eat up a lot of disk space. With a web hosting service like fortrabbit, the web storage is limited, so keep an eye on that.
+Even highly compressed and web-optimized - video files eat up a lot of disk space. With a web hosting service like fortrabbit, the storage is limited, so keep an eye on that.
 
 ### 2. video streaming costs a lot of traffic
 
