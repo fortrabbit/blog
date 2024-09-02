@@ -12,7 +12,6 @@ head:
   meta:
     - name: 'keywords'
       content: 'craft, craftcms, craft-cms, hosting, partner'
-
 ---
 
 ## Hosting Craft since 2014
@@ -21,7 +20,7 @@ We are hosting Craft projects for quite a while now. The first sites on Craft ap
 
 In late 2015, in preparation for my [CMS Quo Vadis blog post](https://blog.fortrabbit.com/cms-quo-vadis) I took a deeper look at various CMS, including Craft. Besides technical features and ease of use, size and activity of the developer community are probably the most important factors to determine the maturity of software. I was impressed. Today we are running hundreds of sites powered by Craft. We are excited to see the Craft community growing here on fortrabbit.
 
-![Software distribution on fortrabbit](/dist/img/software-distribution-on-fortrabbit.png)
+![Software distribution on fortrabbit](/images/software-distribution-on-fortrabbit.png)
 
 ## What we like about Craft
 
@@ -48,14 +47,14 @@ One deal-breaker might be the price tag. Are you willing to pay for a CMS, while
 
 ### More to discover
 
-* [Craft 2 install guide - fortrabbit](https://help.fortrabbit.com/install-craft-2-uni)
-* [Craft 3 install guide (beta) - fortrabbit](https://help.fortrabbit.com/_WIP/install-craft-3-uni)
-* [Official Craft 2 Docs](https://craftcms.com/docs/introduction)
-* [Official Craft 3 Docs](https://github.com/craftcms/docs)
-* [Andrew Welch's Blog](https://nystudio107.com/blog)
-* [John Morton's Bi-weekly Newsletter Craft Link List](http://craftlinklist.com)
-* [Ryan Masuga's The Guide to Craft CMS Development](https://gomasuga.com/course/craft-cms-guide)
-* [Ryan Irelan's Video courses at Mijingo (It's like Laracasts for Craft)](https://mijingo.com/)
-* [Jeff Bridgforth: Craft vs. WordPress](https://b.dboy.com/craft-vs-wordpress-8628634c09a7)
+- [Craft 2 install guide - fortrabbit](https://help.fortrabbit.com/install-craft-2-uni)
+- [Craft 3 install guide (beta) - fortrabbit](https://help.fortrabbit.com/_WIP/install-craft-3-uni)
+- [Official Craft 2 Docs](https://craftcms.com/docs/introduction)
+- [Official Craft 3 Docs](https://github.com/craftcms/docs)
+- [Andrew Welch's Blog](https://nystudio107.com/blog)
+- [John Morton's Bi-weekly Newsletter Craft Link List](http://craftlinklist.com)
+- [Ryan Masuga's The Guide to Craft CMS Development](https://gomasuga.com/course/craft-cms-guide)
+- [Ryan Irelan's Video courses at Mijingo (It's like Laracasts for Craft)](https://mijingo.com/)
+- [Jeff Bridgforth: Craft vs. WordPress](https://b.dboy.com/craft-vs-wordpress-8628634c09a7)
 
 You can find the official announcement here at [craftcms.com](https://craftcms.com/news/craft-hosting-partners).

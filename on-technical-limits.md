@@ -62,7 +62,7 @@ The best case scenario is something like this:
 
 Yet, after so many years in business I have to admit that it is hard for us to land our pitch. It requires time from potential customers to read and reason about our approach. And being a customer myself with other services I can assist that is hard to give up mental models and adapt to new ideas. This could be me on any other service:
 
-![Strong limitations](/dist/img/strong-limitations.png)
+![Strong limitations](/images/strong-limitations.png)
 
 ## Outlook
 

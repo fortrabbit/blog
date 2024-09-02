@@ -66,6 +66,10 @@ _You **can** combine them_
 
 ::BlockQuote{text: "I just wanted to say that the documentation that you guys have and the service you provided me while I was initially setting everything up was probably the best I've encountered in my 20-ish years of front-end web development. Your dashboard is super simple and it has all of the right things for someone like me; good enough at this stuff to be slightly dangerous, and none of the other stuff that is fluff and not necessary. The fact that there is no cPanel is so refreshing! If there is a public place to leave a review, I'd be happy to do so.", time: '2023', source: 'customer support chat', author: { name: 'Scott Cooper' }, link: { name: 'www.wscottcooper.com', href: '<http://www.wscottcooper.com/>'}}::
 
+## Images
+
+![Manage landing page](/images/action-ui.png)
+
 ## Code highlighting
 
 ```js [src/index.js] {1, 2-3}

@@ -32,40 +32,40 @@ Here are the configurations we set up for you, depending on the stack you choose
 
 #### Craft CMS
 
-* root path: public
-* ENV vars: CRAFT_DEBUG, CRAFT_CACHE, CRAFT_UPDATES
-* App secrets: CRAFT_KEY
+- root path: public
+- ENV vars: CRAFT_DEBUG, CRAFT_CACHE, CRAFT_UPDATES
+- App secrets: CRAFT_KEY
 
 #### Drupal 8
 
-* root path: web
+- root path: web
 
 #### Laravel
 
-* root path: public
-* ENV vars: APP_ENV
-* App secrets: APP_KEY
+- root path: public
+- ENV vars: APP_ENV
+- App secrets: APP_KEY
 
 #### Phalcon
 
-* root path: public
-* PHP extension: Phalcon
-* PHP version: 5.6
+- root path: public
+- PHP extension: Phalcon
+- PHP version: 5.6
 
 #### Symfony
 
-* root path: web
-* ENV vars: SYMFONY_ENV
+- root path: web
+- ENV vars: SYMFONY_ENV
 
 #### WordPress
 
-* root path: web
-* ENV vars: WP_ENV, WP_HOME, WP_SITEURL
-* App secrets: AUTH_KEY, SECURE_AUTH_KEY, LOGGED_IN_KEY …
+- root path: web
+- ENV vars: WP_ENV, WP_HOME, WP_SITEURL
+- App secrets: AUTH_KEY, SECURE_AUTH_KEY, LOGGED_IN_KEY …
 
 ## Other updates
 
-![Contributions on GitHub](/dist/img/help-work-graph.png)
+![Contributions on GitHub](/images/help-work-graph.png)
 
 We are currently updating our [help pages](https://help.fortrabbit.com). All articles are getting re-edited, checked and extended. Framework/CMS install guides are getting updated to the latest versions (Phalcon 3 will take a little longer, we will introduce it with the next minor PHP update). We are also introducing some smaller styling updates to Dashboard and other properties.
 

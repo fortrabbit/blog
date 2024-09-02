@@ -12,7 +12,6 @@ head:
   meta:
     - name: 'keywords'
       content: 'craft, craftcms, craft-cms, hosting, testing, pest, pestphp'
-
 ---
 
 ## Testing is hard until you practice it
@@ -28,7 +27,7 @@ There is some documentation for Codeception, the default test framework for Yii,
 
 ## Why Pest?
 
-![](/dist/img/craft-pest-poster.png)
+![](/images/craft-pest-poster.png)
 
 Pest is not reinventing the wheel. It is a layer on top of PHPUnit, the de facto standard tool for testing in PHP. The syntax and the philosophy are inspired by Jest, a popular testing framework in the JavaScript world. [Nuno Maduro](https://github.com/nunomaduro) created it for PHP as he liked writing tests in Jest. Within the last months it became increasingly popular in the Laravel community, hopefully soon in the Craft space too.
 
@@ -53,9 +52,9 @@ php craft plugin/install pest
 
 The install command registers the plugin and creates three files:
 
-* `phpunit.xml` The PHPUnit config you rarely need to touch
-* `tests/Pest.php` Here you can define functions you may want to use in your tests
-* `tests/ExampleTest.php` A very basic HTTP test on the `/` route (you can remove it later)
+- `phpunit.xml` The PHPUnit config you rarely need to touch
+- `tests/Pest.php` Here you can define functions you may want to use in your tests
+- `tests/ExampleTest.php` A very basic HTTP test on the `/` route (you can remove it later)
 
 ## Write your first test
 

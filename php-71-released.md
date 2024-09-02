@@ -15,13 +15,13 @@ PHP 7.1 is now available for all Universal and Professional Apps. To learn more 
 Before upgrade we refer you to the [official migration guide](http://php.net/manual/en/migration71.php) for an overview. In short: there are no major breaking changes we are aware of from 7.0 to 7.1. However, there are [minor changes which could break edge-cases](https://blog.pascal-martin.fr/post/php71-en-a-few-bc-breaks-and-conclusion.html).
 No worries, we do not automatic upgrade any App. You can upgrade at any with a click, though. Login to the Dashboard, go to your App > PHP and change the version.
 
-![Choose version](/dist/img/php-71-choose-version.png)
+![Choose version](/images/php-71-choose-version.png)
 
 There is no immediate need to so. We'll be supporting older PHP versions (5.6, 7.0) until their official end of life:
 
-* PHP 5.6: 2018-12-31 (LTS)
-* PHP 7.0: 2018-12-03
-* PHP 7.1: 2019-12-01
+- PHP 5.6: 2018-12-31 (LTS)
+- PHP 7.0: 2018-12-03
+- PHP 7.1: 2019-12-01
 
 You can find the official EoL dates always on [php.net](http://php.net/supported-versions.php).
 

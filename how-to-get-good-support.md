@@ -21,8 +21,8 @@ head:
 Consider the following pattern when you have a question:
 
 1. **Read** - Our [documentation](https://help.fortrabbit.com) covers all general topics
-3. **Search** - See error logs, check Google & Stack Overflow
-4. **Ask** - Haven't found an answer? Ask us!
+2. **Search** - See error logs, check Google & Stack Overflow
+3. **Ask** - Haven't found an answer? Ask us!
 
 This is the most time-efficient way to handle being stuck, and it's the most respectful of other people's time, too. And it helps you, to get up running faster on your own.
 
@@ -32,18 +32,18 @@ This is the most time-efficient way to handle being stuck, and it's the most res
 
 The more we know, the better we can answer. Please don't make us guess or query you back for details. A good report may contain:
 
-* I have tried to: "…………"
-* I do so because: "………"
-* I expected: "………………"
-* The error I see is: "…………………"
-* This is the verbose output of the error: "…………………………………"
-* My setup is "…………"
-* It works locally: "yes/no"
-* It happens all of the time: "yes/no"
-* It worked before: "yes/no"
-* It affects all of my Apps: "yes/no"
-* I have also tried this alternative way: "………………"
-* I have also tried this workaround: "………………"
+- I have tried to: "…………"
+- I do so because: "………"
+- I expected: "………………"
+- The error I see is: "…………………"
+- This is the verbose output of the error: "…………………………………"
+- My setup is "…………"
+- It works locally: "yes/no"
+- It happens all of the time: "yes/no"
+- It worked before: "yes/no"
+- It affects all of my Apps: "yes/no"
+- I have also tried this alternative way: "………………"
+- I have also tried this workaround: "………………"
 
 ### Tell us who you are
 
@@ -53,39 +53,39 @@ With fortrabbit [an Account is a person](https://help.fortrabbit.com/account) �
 
 ### Ping pong games
 
-![Support 1 - ping pong](/dist/img/support-01.png)
+![Support 1 - ping pong](/images/support-01.png)
 
 Modern customer support systems, like [Intercom](https://www.intercom.com/) or [alike](https://www.producthunt.com/ask/1829-which-is-the-best-and-free-alternative-to-intercom-io) are chat based. **Your questions are getting conserved and we'll come back on you ASAP**. So like e-mail the conversation doesn't have to happen in real time. Avoid pleasantries and greetings, just be on point and ask right away.
 
-*"Hello, you there?"  
+_"Hello, you there?"  
 "Hello anyone?"  
-"Hello?"*
+"Hello?"_
 
 ### Not a real question
 
-![Support 2](/dist/img/support-02.png)
+![Support 2](/images/support-02.png)
 
 Make sure to ask a question we can answer. What kind of answer do you expect for "Something is not working"?
 
 ### Lazy call
 
-![Support 3](/dist/img/support-03.png)
+![Support 3](/images/support-03.png)
 
 Our [extensive help pages](https://help.fortrabbit.com) should give you a good overview on how to get started. You'll find our quickly if fortrabbit is for you. Invest in your question and we'll invest in the answer.
 
 ### Fuzzy question
 
-![Support 4](/dist/img/support-04.png)
+![Support 4](/images/support-04.png)
 
 Imagine your car is not starting. You call up your mechanic and just tell him that. Do you expect a solution right away based on the limited information you provided?
 
 Writing a good question requires some efforts on your side. But that will force you to overthink your problem. In many cases you'll find a solution yourself when thoroughly thinking about the question. Based on sufficient information we are likely to find an answer faster and better.
 
-- - -
+---
 
 > ASCII stupid question, get a stupid ANSI!
 
-- - -
+---
 
 ## Good to know
 

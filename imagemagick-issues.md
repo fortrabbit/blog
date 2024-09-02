@@ -34,9 +34,9 @@ We recently updated ImageMagick from version 6 to version 7. One of the goals wa
 
 We rolled out the update around a month ago (10th of Feb) and we initially did not see any issues, neither in our tests we did before nor in production after the update. But one by one, more and more image transformation related issues appeared. So we tried to find a connection between them.
 
-![](/dist/img/imagemagick-corrupted-image-1.jpg)
+![](/images/imagemagick-corrupted-image-1.jpg)
 
-![](/dist/img/imagemagick-corrupted-image-2.jpg)
+![](/images/imagemagick-corrupted-image-2.jpg)
 
 Sometimes, but not always, great abstract art like the examples above was produced. Source: footage from clients.
 
@@ -84,6 +84,6 @@ Laravel does not have image transformation capabilities on it's own by design. L
 
 WordPress of it's own does not seem to bring any methods to deal with image caches. There is a dedicated plugin called "[Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)". But all popular cache plugins, like "W3 Total Cache" and "WP Super Cache", have options to clear image caches builtin.
 
-- - -
+---
 
 Sorry for the inconvenience this have caused on your side, one more time! Contact us if you still have trouble, we are here to help.

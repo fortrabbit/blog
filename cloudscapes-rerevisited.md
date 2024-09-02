@@ -62,17 +62,17 @@ I think it's a lot about the developers mindset and modern hosting services is a
 
 ### Tinkerers from the heart
 
-![Tools by Jürgen Schiller García](/dist/img/2508086911_4ef818b3f1_o.jpg)
+![Tools by Jürgen Schiller García](/images/2508086911_4ef818b3f1_o.jpg)
 
 Developers are problem-solvers. They love to play with tech. Mastering complicated tasks is a sport to them. Every developer is building her/his own very best hosting solution, even when it takes lot's of time and the result isn't production-grade.
 
-*"Hey developer, hosting is broken, we have solved all the SysOp tasks for you, so that you can focus on code now!"*
+_"Hey developer, hosting is broken, we have solved all the SysOp tasks for you, so that you can focus on code now!"_
 
-*"Hey PaaS, thanks i am already fine with my own setup."*
+_"Hey PaaS, thanks i am already fine with my own setup."_
 
-*"But your setup sucks! Look, ours is much smoother!"*
+_"But your setup sucks! Look, ours is much smoother!"_
 
-*"Shut up PaaS."*
+_"Shut up PaaS."_
 
 ### Communication & fit
 
@@ -109,5 +109,5 @@ Tools photo Jürgen Schiller García via [flickr](https://www.flickr.com/photos/
 **Thanks for your interest!** Lot's of comments over at [HN](https://news.ycombinator.com/item?id=10894624) and on [Reddit](https://www.reddit.com/r/programming/comments/40sfr7/is_paas_hosting_dead/).
 
 <!--
-We are in the fortunate situation to be bootstrapped. 
+We are in the fortunate situation to be bootstrapped.
 -->

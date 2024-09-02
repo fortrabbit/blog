@@ -10,9 +10,7 @@ tag:
   - changelog
 ---
 
-
-![Screenshot of the New Worker](/dist/img/worker-screenshot.png)
-
+![Screenshot of the New Worker](/images/worker-screenshot.png)
 
 The idea is to separate your App into front-end tasks from back-end tasks: Your front-end tasks are customer facing so they need to be executed quickly. Hence move everything which can take long to the back-end. There, tasks can take much longer without being annoying. The most common approaches are utilizing queues and scheduling execution times. The Worker is an optional Component for your Apps to achieve exactly that.
 
@@ -24,33 +22,29 @@ We have first introduced Workers in [August 2013](/worker-addon-released). Now �
 
 The New Worker is now available for all New Apps, the Old Worker stays available for Old Apps. If you are already familiar with the Old Workers, here is what you should know:
 
-
 ### Old Workers
 
-* runs on a dedicated SSH Node (full Linux instance)
-* managed via `scheduler.yml` file & remote SSH
-* plans vary in different RAM sizes and CPU power
-* log access via SSH file + tail (10 seconds delay)
+- runs on a dedicated SSH Node (full Linux instance)
+- managed via `scheduler.yml` file & remote SSH
+- plans vary in different RAM sizes and CPU power
+- log access via SSH file + tail (10 seconds delay)
 
 ### New Worker
 
-* runs in a container (different visualization layer)
-* managed via Dashboard & SSH CLI
-* plans vary in dedicated RAM sizes and number of active Jobs
-* live log access via SSH CLI command
-
+- runs in a container (different visualization layer)
+- managed via Dashboard & SSH CLI
+- plans vary in dedicated RAM sizes and number of active Jobs
+- live log access via SSH CLI command
 
 ### Pricing changes in detail
 
-Old plan   | Old specs             | Old price | New plan   | New specs         | New price     |
------------|-----------------------|----------:|------------|-------------------|--------------:|
-—          | —                     |   —       | Worker s   | 128 MB, 1 job     |   **5 €**     |
-Workers xs | 400 MB, micro CPU     |   17 €    | Worker m   | 512 MB, 4 jobs    |   **15 €**    |
-Workers s  | 1.5 GB, small CPU     |   35 €    | Worker l   | 1 GB, 8 jobs      |   **30 €**    |
-Workers m  | 3.5 GB, medium CPU    |   80 €    | Worker xl  | 2 GB, 16 jobs     |   **60 €**    |
-Workers l  | 3.5 GB, high freq CPU |  140 €    | —          | —                 |   —           |
-
-
+| Old plan   | Old specs             | Old price | New plan  | New specs      | New price |
+| ---------- | --------------------- | --------: | --------- | -------------- | --------: |
+| —          | —                     |         — | Worker s  | 128 MB, 1 job  |   **5 €** |
+| Workers xs | 400 MB, micro CPU     |      17 € | Worker m  | 512 MB, 4 jobs |  **15 €** |
+| Workers s  | 1.5 GB, small CPU     |      35 € | Worker l  | 1 GB, 8 jobs   |  **30 €** |
+| Workers m  | 3.5 GB, medium CPU    |      80 € | Worker xl | 2 GB, 16 jobs  |  **60 €** |
+| Workers l  | 3.5 GB, high freq CPU |     140 € | —         | —              |         — |
 
 <!--
 
@@ -58,9 +52,9 @@ TBD:
 
 die preise alignen mit unseren anderen preisen, aber mit neuer tech und irgendwie auch fiesem limit könnte man insgesamt vielleicht etwas günstiger werden, dann würde sich das vielleicht besser lesen?!
 
-2013-08 < GA             http://blog.fortrabbit.com/worker-addon-released 
-2014-07 < preisreduktion http://blog.fortrabbit.com/add-ons-markdown 
-2016-01 < relaunch       
+2013-08 < GA             http://blog.fortrabbit.com/worker-addon-released
+2014-07 < preisreduktion http://blog.fortrabbit.com/add-ons-markdown
+2016-01 < relaunch
 
 
 AWS price cuts:
@@ -72,11 +66,9 @@ im folgenden versuche ich das etwas rechtfertigen:
 
 -->
 
-Now, these pricing specs might look mostly same at first glance. But please be assured that the New Workers are much faster. They run on the CPUs which are two generations ahead and are backed with SSDs. Also note that the RAM for the New Workers is fully available reserved for the tasks to run, while the Old Workers shared the memory with the Linux system. The old "Worker xs" was considered for development only. The new "Worker s" advertised to use in production (and we tested that). 
+Now, these pricing specs might look mostly same at first glance. But please be assured that the New Workers are much faster. They run on the CPUs which are two generations ahead and are backed with SSDs. Also note that the RAM for the New Workers is fully available reserved for the tasks to run, while the Old Workers shared the memory with the Linux system. The old "Worker xs" was considered for development only. The new "Worker s" advertised to use in production (and we tested that).
 
 We do not offer high availability options for Workers at this time. Apps should be resilient and not rely on the availability of a Worker anyways.
-
-
 
 ## Old > New migration time-line
 
@@ -85,8 +77,6 @@ When is best time to move from Old App to New App? Well, now is good — but you
 We are currently working on the last mile stone to make the New Apps feature complete: The "asset storage", a way to work with files generated by your App.
 
 As soon as this feature is released, we will actively push the move towards New Apps. The plan is still to migrate all Apps by mid 2016, but it will take as long as it will take. We will listen to your feedback and will help you as much as we can.
-
-
 
 ## Up next
 

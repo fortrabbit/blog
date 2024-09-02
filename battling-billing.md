@@ -15,13 +15,13 @@ Maybe the following list helps you to avoid some mistakes upfront:
 
 ### 1: Avoid a complex pricing model
 
-![Complex pricing](/dist/img/complex-pricing.jpg)
+![Complex pricing](/images/complex-pricing.jpg)
 
 By any chance: Just run a SaaS with three simple plans to subscribe to. That makes everything simple. We instead have a complicated product structure. It's quite fair for clients, but makes everything fairly complicated for us.
 
 ### 2: Don't do B2B and B2C
 
-![B2B and B2C](/dist/img/b2b-b2c.jpg)
+![B2B and B2C](/images/b2b-b2c.jpg)
 
 Do your business with end consumers, it's easy. Business to business is more complicated. Don't do both, like we do.
 
@@ -31,7 +31,7 @@ How do you communicate your prices — with or without VAT? What about legal iss
 
 ### 3: Avoid consumption based billing
 
-![Consumption Billing](/dist/img/consumption-billing.jpg)
+![Consumption Billing](/images/consumption-billing.jpg)
 
 A cloud hosting service is expected to be on demand, pay only for consumed resources. In our case the minimum billing period is one day. So we'll invoice at the end of the month and collect the money a few days after.
 
@@ -39,7 +39,7 @@ This is not only bad for the cash flow it is specially hard to communicate. Peop
 
 ### 4: Don't do everything by yourself
 
-![SaaS billing software](/dist/img/saas-software.jpg)
+![SaaS billing software](/images/saas-software.jpg)
 
 You have not done any of the mistakes above so far? Great you'll hopefully find some online service to help with your recurring billing. Send some data to their API and you are done.
 
@@ -49,7 +49,7 @@ We have used Freshbooks in the beginning, but that was even a bigger mistake as 
 
 ### 5: Don't rely on a foreign currency
 
-![EURO currency drop](/dist/img/currency-drop.jpg)
+![EURO currency drop](/images/currency-drop.jpg)
 
 When we started our business the EUR to USD exchange rate was about: **1** to **1.30**. Now we nearly see parity between the two currencies. Our biggest monthly spending is for AWS, which we have to pay in USD. So as you might can imagine, we are paying much more for computing resources now.
 
@@ -69,7 +69,7 @@ By the way: Did you know that the A2 country for Greece is GR, but the two digit
 
 #### Don't forget to validate your clients VAT IN
 
-![Validate VAT IN](/dist/img/vat-in.jpg)
+![Validate VAT IN](/images/vat-in.jpg)
 
 For B2B business inside Europe across country borders no VAT is required at all. This of course only applies when you note the clients VAT Identification Number on the invoice.
 
@@ -79,19 +79,19 @@ At the beginning we didn't validated VAT INs entered by our clients. Half a year
 
 ### 7: Don't try to change your payment provider
 
-![Payment provider](/dist/img/payment-provider.jpg)
+![Payment provider](/images/payment-provider.jpg)
 
 Your credit card payment processing provider (credit card clearing) will lock you in. At the time we have started, Stripe was not available in Europe. So we settled with WireCard. Stripe is here now and we considered to switch. But — being PCI compliant — you don't store your clients credit card credentials yourself. So switching payment gateway means that your clients need to re-enter their credit card credentials. No way.
 
 ### 8: Don't offer multiple payment methods
 
-![Payment methods](/dist/img/payment-methods.jpg)
+![Payment methods](/images/payment-methods.jpg)
 
 Besides credit card we also offer SEPA payments. We have a cool semi-automated workflow here where we work directly with the bank — read less payment processing fees. But: you don't get immediate feedback if the payment succeeded. A lot of manual checks!
 
 ### 9: Hire the right tax pro
 
-![Tax pro](/dist/img/tax-pro.jpg)
+![Tax pro](/images/tax-pro.jpg)
 
 Tax professional are living in a parallel universe from us. I asked many people and called quite a few tax offices. Most weren't even interested in a young company at all. Others are expecting you to send over all receipts printed on paper.
 

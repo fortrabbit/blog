@@ -32,11 +32,11 @@ It was still hard for Windows users, especially for novice ones: When you Google
 
 Now we give up on this - SSH keys are no longer required to use fortrabbit. We are introducing password authentication on Account level and it is enabled by default. So when boarding, users will no longer be asked for their SSH keys, instead they can simply create their first App right away.
 
-- - -
+---
 
 **Wait a minute - what have we done?** Our aim with new password authentication was to reduce initial complexity, but it turns that this also introduces a new kind of complexity. There are two ways now to do things here, so we need to show two different code examples in the documentation on how to deploy and interact with the services.
 
-- - -
+---
 
 ### The new dynamic code examples in the documentation
 
@@ -44,7 +44,7 @@ And this why we are also introducing a new way to read our [documentation](https
 
 What you will see depends on your the SSH authentication method of your Account. There is also a chooser to select among your Apps for which you want to see the code examples.
 
-![Live code examples](/dist/img/live-code-examples.png)
+![Live code examples](/images/live-code-examples.png)
 
 **[Try it out yourself](http://help.fortrabbit.com/access-methods#toc-the-code-example-helper)** (you'll need an Account with Apps)
 

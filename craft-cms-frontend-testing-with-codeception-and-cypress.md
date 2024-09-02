@@ -66,7 +66,7 @@ Cypress test code is located in the `cypress` directory. Here's what it contains
 
 To start Cypress, run `npx cypress open` and the GUI will appear - from there, you can just click "E2E Testing", select the browser of your choice from the list and click "Start E2E Testing". The browser will open with a list of tests and there you can select a specific test to run and watch it execute.
 
-![](/dist/img/cypress-screenshot.png)
+![](/images/cypress-screenshot.png)
 
 ### Simple Cypress example - search form
 
@@ -283,7 +283,7 @@ class CheckPagesCest
 }
 ```
 
-![](/dist/img/codeception-screenshot.png)
+![](/images/codeception-screenshot.png)
 
 Shouldn't we test more than one page though? So, how do we test multiple pages - do we set up separate method for each one? That would lead to tons of code duplication, so we will use [data provider annottions](https://codeception.com/docs/07-AdvancedUsage#DataProvider-Annotations) instead. Here's the final version of our test class, located in the `tests/acceptance/CheckPagesCest.php` file.
 

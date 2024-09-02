@@ -64,23 +64,23 @@ With GDRP, it is now required to actively opt-in to the terms and privacy when s
 
 When signing up, there now is a checkbox, that needs to be clicked.
 
-- - -
+---
 
 #### Signup form before GDPR
 
-![](/dist/img/before-gdpr.gif)
+![](/images/before-gdpr.gif)
 
 #### Signup form after GDPR
 
-![](/dist/img/after-gdpr.gif)
+![](/images/after-gdpr.gif)
 
-- - -
+---
 
 ## Export and see my data
 
 With GDPR, there should be a possibility for the user to download all data. Ideally, that should be available in the Dashboard.
 
-Well, I think that makes sense for social networks or any service, where content is generated. Personally, I will be happy to be able to download my posts from Medium. But I hardly can imagine any case this would make sense in a web hosting control panel. Also let's talk about the implementation here, the format for such a download is not defined, so what should a user do with some custom `.xml`, `.yml` or `.json`  or `.sql` file?
+Well, I think that makes sense for social networks or any service, where content is generated. Personally, I will be happy to be able to download my posts from Medium. But I hardly can imagine any case this would make sense in a web hosting control panel. Also let's talk about the implementation here, the format for such a download is not defined, so what should a user do with some custom `.xml`, `.yml` or `.json` or `.sql` file?
 
 So, this is not going to change here now. It is not required that there is a button for this, so we reserve the right to make this available on support request.
 
@@ -90,7 +90,7 @@ The right to be forgotten is also quite a good idea. So, with GDPR in place, the
 
 ### Delete all data
 
-Well, kind of. It depends. When there is a single Account / Company with some Apps, this mostly applies. All data is getting erased. Expect: for what we need to need to keep for book keeping  — 10 years required by law.
+Well, kind of. It depends. When there is a single Account / Company with some Apps, this mostly applies. All data is getting erased. Expect: for what we need to need to keep for book keeping — 10 years required by law.
 
 From a technical point of view, mind that we are in fact deleting all the files of your Apps, all your databases and all database entries with us, but we are not overwriting them with gibberish text seven times. That means that forensic procedures might bring back some of the data.
 
@@ -104,13 +104,13 @@ Nothing changes, I think we are good here.
 
 So when a client deletes their Account, all external services should be notified to also delete anything related. Let's have a look at what we have in place here:
 
-* Intercom support channel — YES, Associated IDs will be deleted when deleting the Account
-* Credit Card processing — NO, we have to keep billing related data required by law for ten years. The actual credit card details are not stored with us anyways.
-* Google Analytics and other tracking — YES, as we don't associate our Accounts with user journeys.
-* Mailchimp newsletter — YES, when you delete your Account, you will be unsubscribed from all newsletters
-* Statuspage updates — YES, if any.
-* Additional copies of user data in staging environments — Does not apply.
-* Postmark App — YES
+- Intercom support channel — YES, Associated IDs will be deleted when deleting the Account
+- Credit Card processing — NO, we have to keep billing related data required by law for ten years. The actual credit card details are not stored with us anyways.
+- Google Analytics and other tracking — YES, as we don't associate our Accounts with user journeys.
+- Mailchimp newsletter — YES, when you delete your Account, you will be unsubscribed from all newsletters
+- Statuspage updates — YES, if any.
+- Additional copies of user data in staging environments — Does not apply.
+- Postmark App — YES
 
 ### Remove Backups
 
@@ -138,4 +138,4 @@ Yes, we did a while ago and we have noticed you before. There is a [third party 
 
 Oh boy. GDPR is a huge topic in the SEO scene, you'll find thousands of shady copy/pasted articles. But this is a good one:
 
-* [GDPR - the practical guide](https://techblog.bozho.net/gdpr-practical-guide-developers/)
+- [GDPR - the practical guide](https://techblog.bozho.net/gdpr-practical-guide-developers/)

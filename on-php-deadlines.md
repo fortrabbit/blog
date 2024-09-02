@@ -2,7 +2,7 @@
 title: On upcoming PHP deadlines
 created: 2018-09-06
 author: fl
-intro: "PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!"
+intro: 'PHP 5.6 and PHP 7.0 deadlines: Why is so much old PHP around? What we will do!'
 figure:
   src: php56-deadline-poster.jpg
 tag:
@@ -46,19 +46,19 @@ As time flies by. Only three years ago, we announced that [PHP 5.6 is becoming t
 
 **It's about time.** "PHP 5.6" is the last 5 version around and there will be no security patches from December 2018 on. Any new vulnerabilities will not get fixed any more. The same applies to the initial PHP 7 release, version 7.0. It was released in December 2015. The current version is PHP 7.2 and PHP 7.3 is approaching next.
 
-![php deadlines approaching](/dist/img/php-version-deadline-on-php-net.png)
+![php deadlines approaching](/images/php-version-deadline-on-php-net.png)
 
 See the [officially supported PHP versions and there lifespans here](http://php.net/supported-versions.php).
 
 ### How much old PHP is still around?
 
-![php usage according to w3techs](/dist/img/php-usage-according-to-w3techs.png)
+![php usage according to w3techs](/images/php-usage-according-to-w3techs.png)
 
 As of August 2018: PHP 5 is still the most used version of PHP. According on who you are asking, you will get different answers:
 
-* **~80% old PHP** according to [W3Techs](https://w3techs.com/technologies/details/pl-php/all/all) (PHP 7 also includes the deprecated PHP 7.0)
-* **~66% old PHP** according to [WordPress](https://wordpress.org/about/stats/)
-* **~21% old PHP** according to [Composer](https://seld.be/notes/php-versions-stats-2018-1-edition)
+- **~80% old PHP** according to [W3Techs](https://w3techs.com/technologies/details/pl-php/all/all) (PHP 7 also includes the deprecated PHP 7.0)
+- **~66% old PHP** according to [WordPress](https://wordpress.org/about/stats/)
+- **~21% old PHP** according to [Composer](https://seld.be/notes/php-versions-stats-2018-1-edition)
 
 Why the differences? Well, I believe **W3Tech** is just crawling the web sniffing the `X-Powered-By` header to get the version in use today. That includes all the public IPs with all the neglected websites out there. As this gives potential hackers information about the PHP version, it's common practice to suppress or fake this header, so maybe take this number with an extra grain of salt. **WordPress** is luckily a little ahead, as it is an active community of "web designers", with a big stake in the United States. And of course, Jordi with **Composer** is ahead, as those PHPeople are mostly "web developers" who care more about such things.
 

@@ -16,10 +16,10 @@ The updates will affect all Apps (Uni and Pro). There is no - or just a very sho
 
 Please keep an eye on our [status page](https://status.fortrabbit.com) where we are going to post intermediate updates. TIP: You can also subscribe there.
 
-We are going to run those updates **Tuesday, 20th of August 2019**  first in US and a few hours later in EU. The total expected maintenance window is 4 hours for each region.
+We are going to run those updates **Tuesday, 20th of August 2019** first in US and a few hours later in EU. The total expected maintenance window is 4 hours for each region.
 
-* **US maintenance** — 08:00 UTC + 4 hours window
-* **EU maintenance** — 13:00 UTC + 4 hours window
+- **US maintenance** — 08:00 UTC + 4 hours window
+- **EU maintenance** — 13:00 UTC + 4 hours window
 
 ## Addressing imageMagick performance
 
@@ -29,9 +29,9 @@ We have once again optimized our imageMagick (the open source library squeezing 
 
 Back in February we ran a major upgrade on imageMagick - from version 6 to version 7 — most prominently now featuring `webp` support. But, some serious performance degradations followed. They have been addressed with a quick follow up patch — see our [blog on initial imageMagick issues](/imagemagick-issues). Back then we adjusted the `policy.xml` to better make use of available memory. The situation got much better, but some Apps where still suffering.
 
-![](/dist/img/imagemagick-corrupted-image-2.jpg)
+![](/images/imagemagick-corrupted-image-2.jpg)
 
-Broken images like the one pictured above and/or frozen websites —  504 time out errors  — when image transformations where ongoing here and there.
+Broken images like the one pictured above and/or frozen websites — 504 time out errors — when image transformations where ongoing here and there.
 
 ### Learnings with our clients
 
@@ -49,7 +49,7 @@ While there have been some cases with WordPress, most often we dealt with Craft 
 
 The current implementation of the **Craft CMS web job queue** can break your website and can also play a negative role in this context. Oliver developed the [Craft Async Queue plugin](https://github.com/ostark/craft-async-queue) to address this. We recommend to use it in any way — with or without many images. It often helps to make better use of available resources. Andrew Welch just blogged about [robust queue job handling in Craft CMS](https://nystudio107.com/blog/robust-queue-job-handling-in-craft-cms) — have a look.
 
-In our optimal hosting design thinking, the actual image transformations should not be done form the frontend PHP processes anyways. They should be outsourced to something like a Worker. Another alternative might be to outsource image transformations and delivery to an image hosting service such as IMGIX,  Cloudinary and alike.
+In our optimal hosting design thinking, the actual image transformations should not be done form the frontend PHP processes anyways. They should be outsourced to something like a Worker. Another alternative might be to outsource image transformations and delivery to an image hosting service such as IMGIX, Cloudinary and alike.
 
 ### GD as an alternative
 
@@ -65,8 +65,8 @@ We reported that as a bug and it was patched with the Blackfire extension versio
 
 Last not least — we are now deploying a newly compiled version of imageMagick, optimized for faster transformations, with the following changes:
 
-* **HDRI is disabled.** We believe that High Dynamic-Range Images are not needed in this context of delivering general images swiftly.
-* **Q8 only.** Support for 16bit depth images is disabled. We believe all standard web image formats today are usually using 8bit anyways.
+- **HDRI is disabled.** We believe that High Dynamic-Range Images are not needed in this context of delivering general images swiftly.
+- **Q8 only.** Support for 16bit depth images is disabled. We believe all standard web image formats today are usually using 8bit anyways.
 
 The test results are pleasing: better performance through using much less memory — up to 75% reduction in RAM usage — while keeping the same quality. We will carefully monitor the roll out in production now.
 
@@ -78,7 +78,7 @@ Your framework/CMS does not know if an image shows a cat or just grey lines. Bro
 # 1. Login via ssh to the App
 # 2. remove transformed images from file like so:
 $ rm web/assets/*/_*/*.*
-# 3. clear caches 
+# 3. clear caches
 $ php craft clear-caches/transform-indexes
 ```
 
@@ -90,15 +90,15 @@ Alongside with under the hood updates, some new client facing minor patch versio
 
 ### Changed PHP versions
 
-* PHP73 (7.3.5) >  7.3.8 - [changelog](https://www.php.net/ChangeLog-7.php#PHP_7_3)
-* PHP72 (7.2.14) > 7.2.21 - [changelog](https://www.php.net/ChangeLog-7.php#PHP_7_2)
-* PHP71 (7.1.29) > 7.1.31 - [changelog](https://www.php.net/ChangeLog-7.php#PHP_7_1) < Support until end of year only!
+- PHP73 (7.3.5) > 7.3.8 - [changelog](https://www.php.net/ChangeLog-7.php#PHP_7_3)
+- PHP72 (7.2.14) > 7.2.21 - [changelog](https://www.php.net/ChangeLog-7.php#PHP_7_2)
+- PHP71 (7.1.29) > 7.1.31 - [changelog](https://www.php.net/ChangeLog-7.php#PHP_7_1) < Support until end of year only!
 
 ### Updated extensions
 
-* mongodb (1.5.3) > 1.5.5 - [changelog](https://pecl.php.net/package-changelog.php?package=mongodb)
-* phalcon (3.4.3) > 3.4.4 - [release notes](https://github.com/phalcon/cphalcon/releases/tag/v3.4.4)
-* blackfire php probe (1.25.0) > 1.27.0 (see above)
-* blackfire agent (1.26.0) > 1.27.3 - [changelog](https://packages.blackfire.io/binaries/blackfire-agent/1.27.3/CHANGELOG)
-* `convert` **ImageMagick** (7.0.8-46) > 7.0.8-60 - [changelog](https://imagemagick.org/script/changelog.php)
-* `mysql` (5.7.26) > 5.7.27
+- mongodb (1.5.3) > 1.5.5 - [changelog](https://pecl.php.net/package-changelog.php?package=mongodb)
+- phalcon (3.4.3) > 3.4.4 - [release notes](https://github.com/phalcon/cphalcon/releases/tag/v3.4.4)
+- blackfire php probe (1.25.0) > 1.27.0 (see above)
+- blackfire agent (1.26.0) > 1.27.3 - [changelog](https://packages.blackfire.io/binaries/blackfire-agent/1.27.3/CHANGELOG)
+- `convert` **ImageMagick** (7.0.8-46) > 7.0.8-60 - [changelog](https://imagemagick.org/script/changelog.php)
+- `mysql` (5.7.26) > 5.7.27

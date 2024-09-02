@@ -1,7 +1,7 @@
 ---
 author: fl
 created: 2017-08-03
-title: "Market overview: CDN services"
+title: 'Market overview: CDN services'
 intro: An opinionated field guide on developer-friendly CDN services.
 lead: We evangelize the idea of decoupled hosting. This post gives you an overview about cool content delivery services.
 figure:
@@ -22,8 +22,8 @@ Not so long ago, Content Delivery Networks was only for the enterprise only. Now
 
 CDN is cool tech to play with. But mind that for many websites and applications it might be overkill. Keep your tech stack simple. Additional features come at the cost of additional complexity (like cache invalidation) and additional points of failure. CDN benefits are:
 
-* Increased speed: especially for distant visitors
-* Optimization: by offloading (less CPU, traffic & storage) and better delivery
+- Increased speed: especially for distant visitors
+- Optimization: by offloading (less CPU, traffic & storage) and better delivery
 
 Rule of thumb: Consider a CDN when you have a few thousand requests per hour and you are serving a lot of static assets. The most common use case is to serve images.
 
@@ -37,10 +37,10 @@ So you do something like this …
 
 ```html
 <!-- No CDN: image loaded from a relative path from the server -->
-<img src="/img/cheshire-cat.jpg">
+<img src="/img/cheshire-cat.jpg" />
 
 <!-- With CDN: image hotlinked -->
-<img src="//myaccount.mycdn.com/img/cheshire-cat.jpg">
+<img src="//myaccount.mycdn.com/img/cheshire-cat.jpg" />
 ```
 
 … and the CDN will distribute the Cheshire Cat to multiple locations around the world.
@@ -57,22 +57,22 @@ All the cool kids are using **pull CDN**s (reverse proxying). Why? Because it ad
 
 CDN functionality is only one part of performance and security. Often also included with a hosted service:
 
-* Image optimization
-* Image conversion to webp
-* Cache header optimization
-* Cache purging (when you have changed a file)
-* DDOS protection
-* Web Application Firewall
-* GZIP (& brotli) compression
-* JS & CSS file bundling
-* CSS & JS minifying & concating
-* HTTP/2 delivery
-* TLS (SSL, https)
-* Statistics
-* Video streaming
-* (Static hosting)
-* API
-* …
+- Image optimization
+- Image conversion to webp
+- Cache header optimization
+- Cache purging (when you have changed a file)
+- DDOS protection
+- Web Application Firewall
+- GZIP (& brotli) compression
+- JS & CSS file bundling
+- CSS & JS minifying & concating
+- HTTP/2 delivery
+- TLS (SSL, https)
+- Statistics
+- Video streaming
+- (Static hosting)
+- API
+- …
 
 All this correctly combined can really help to fasten up things. But don't forget: clean code is the best base for a fast website. Keep your stuff slim (also see our [application design guide](https://help.fortrabbit.com/app-design-pro)) and avoid the [website obesity](http://idlewords.com/talks/website_obesity.htm). And of course you know: Decreasing page load time can increase conversions, sales and even SEO.
 
@@ -92,7 +92,7 @@ We are using [keycdn](https://www.keycdn.com/) from Switzerland, which is popula
 
 [greta.io](https://greta.io/) is a (new) startup aiming to "revolutionize" data distribution — even with P2P (?!). They have a "headless" setup to integrate the service with just a little javascript — totally free and without the need of an account. A unique feature is that images are "lazy loaded". I have integrated the service here on our blog. Check out the [post list page](/) - it will load the images when you scroll down. Inspect it in your browser dev tools to see what's going on.
 
-![Lazy loading images](/dist/img/cdn-scrolling-lazy-load.gif)
+![Lazy loading images](/images/cdn-scrolling-lazy-load.gif)
 
 <small>Above: greta lazy loading in action.</small>
 

@@ -23,7 +23,7 @@ Web applications are usually fast after the launch, but degrade over time. They 
 
 ## Blackfire vs. other profiling tools
 
-![offload.io screenshot](/dist/img/blackfire-gui.png)
+![offload.io screenshot](/images/blackfire-gui.png)
 
 The XDEBUG profiler and XHPROF are around for a while and known in the PHP world and are the defacto open source standard. They collect a bunch of data for every single function call in the request-to-response lifecycle. Tools like KCacheGrind, MacCallGrind, Webgrind for XDEBUG and xhgui, uprofiler for XHPROF help to analyse and visualize this data. If you ever tried one of these you know that all these metrics, such as wall (elapsed) time, CPU time and memory usage, can be overwhelming.
 

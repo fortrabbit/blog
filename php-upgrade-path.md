@@ -14,7 +14,6 @@ head:
       content: 'deprecation, migration, EOL, php5.6, php7.0, php7.2, mcrypt'
 ---
 
-
 ## The PHP upgrade series
 
 This is part two of a series on the approaching end of life of PHP 5.6 and PHP 7.0:
@@ -32,10 +31,10 @@ When your code base is new, chances are very good that upgrading your PHP versio
 
 We DO NOT recommend using outdated software, but we also understand real live scenarios. Sometimes it is difficult to find the time to upgrade an old project. Maybe you can come by with just a minor update without too much hassle? This is difficult to answer, projects rarely specify if their older releases support PHP 7.2 or at least 7.1, but here are some we know of:
 
-* **Laravel**: It seems that **5.1.11** has [support for PHP 7](https://stackoverflow.com/questions/34308160/is-laravel-5-1-compatible-with-php-7)
-* **Symfony**: Even **2.8.29** can run on PHP 7.2. Remarkable!
-* **Craft CMS**: Recently released **2.7** [supports PHP 7.2](https://craftcms.com/news/craft-2-7) with mcrypt polyfill
-* **WordPress**: We have tested version 4.4.16 which is the latest release from 4.4 which was published in 2015. Still we recommend to update.
+- **Laravel**: It seems that **5.1.11** has [support for PHP 7](https://stackoverflow.com/questions/34308160/is-laravel-5-1-compatible-with-php-7)
+- **Symfony**: Even **2.8.29** can run on PHP 7.2. Remarkable!
+- **Craft CMS**: Recently released **2.7** [supports PHP 7.2](https://craftcms.com/news/craft-2-7) with mcrypt polyfill
+- **WordPress**: We have tested version 4.4.16 which is the latest release from 4.4 which was published in 2015. Still we recommend to update.
 
 ## 1 - Update your local development environment
 
@@ -43,7 +42,7 @@ We recommend to have a local development environment, also see our [help article
 
 If you are running PHP directly on your computer, then a simple `php -v` prints out the PHP version. Beware, if you are using [MAMP](https://www.mamp.info/en/) or [XAMPP](https://www.apachefriends.org/index.html), this is not the version of PHP your code runs on. With these tools you have to use their GUI to select the PHP version you want.
 
-![print your php version](/dist/img/php-version.gif)
+![print your php version](/images/php-version.gif)
 
 To upgrade your local PHP on macOS, [Homebrew](https://brew.sh/) is a popular package manager you can use. Homebrew also controls the PHP version used by [Laravel Valet](https://github.com/laravel/valet). But if you are using [Valet+](https://github.com/weprovide/valet-plus) that tool has built in support for switching PHP versions (fancy!).
 
@@ -63,17 +62,17 @@ Applications based on PHP frameworks like Laravel and Symfony are usually update
 
 Issuing `composer outdated` in the Terminal will give you a list of outdated packages. Those in red need can easily be updated. Those in yellow also need to be updated but might cause trouble because they are major version upgrades.
 
-![composer outdated](/dist/img/composer-outdated.png)
+![composer outdated](/images/composer-outdated.png)
 
 To update a dependency, simply change any required versions in your `composer.json` to a newer version and then issue a `composer update` to actually install the required updates.
 
-Keep in mind that the  `composer outdated` command does not care about PHP versions. It will only tell you about available updates for your dependencies, but hopefully newer packages should support newer PHP versions as well.
+Keep in mind that the `composer outdated` command does not care about PHP versions. It will only tell you about available updates for your dependencies, but hopefully newer packages should support newer PHP versions as well.
 
 ### 2.2 - Updating a CMS
 
 Many Content Management Systems, like WordPress, Craft CMS and Grav come with a built in update feature. So you can simply login to the admin area of the CMS and hit a button to update.
 
-![web interface update in CraftCMS](/dist/img/web-interface-update.png)
+![web interface update in CraftCMS](/images/web-interface-update.png)
 
 **Beware:** With fortrabbit, those changes only happen on the file system and are not reflected in Git. This is fine when you are using SFTP, otherwise read more in our [setup guide for WordPress](https://help.fortrabbit.com/install-wordpress-4-uni#toc-updating-wordpress) or [update guide for Craft CMS](https://help.fortrabbit.com/craft-3-tune#toc-updating-craft).
 
@@ -93,7 +92,7 @@ Now, as everything is up-to-date and tested in your **local** development enviro
 
 Updating the PHP version for your fortrabbit App is as simple as pie:
 
-![php settings in the fortrabbit dashboard](/dist/img/php-settings-in-the-dashboard.png)
+![php settings in the fortrabbit dashboard](/images/php-settings-in-the-dashboard.png)
 
 1. Visit your App in the fortrabbit Dashboard
 2. Go to the PHP settings

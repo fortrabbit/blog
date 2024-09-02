@@ -1,13 +1,12 @@
 ---
-title:          "About PaaS pricing"
+title: 'About PaaS pricing'
 author: fl
 intro: Value-based VS cost-based pricing for a hosting service.
 figure:
   src: paas-pricing-clouds.jpg
 created: 2015-05-08
 tag:
- - opinion
-
+  - opinion
 ---
 
 # The Heroku hook
@@ -30,33 +29,33 @@ Most PaaS vendors — including us — don't run the bare metal themselves, they
 
 ### PaaS pricing strategies
 
-![Dog fish](/dist/img/paas-pricing-dog-fish.jpg)
+![Dog fish](/images/paas-pricing-dog-fish.jpg)
 
 **Be unlike**: Don't let clients figure out the real resources your are selling. Invent your own units that can't be compared with traditional offerings. PRO TIP: Choose a fancy Japanese naming scheme. That's what the first generation of PaaS was doing. Right now i see a trend towards transparency: most PaaS vendors show actual RAM values these days. Some even differentiate between platform and infrastructure costs.
 
-![Boxes](/dist/img/paas-pricing-boxes.jpg)
+![Boxes](/images/paas-pricing-boxes.jpg)
 
 **Repackage**: PaaS is an abstraction layer on top of IaaS. We don't simply resell EC2 instances, instead our components combine multiple AWS products in a single service, which can be booked small units.
 
-![Speaker](/dist/img/paas-pricing-speaker.jpg)
+![Speaker](/images/paas-pricing-speaker.jpg)
 
 **Pitch the benefits**: "Features tell, benefits sell" they say. Communicate the great value your service delivers. Not everyone is a DevOpPro — it really makes perfect sense to outsource that.
 
-![Deploy now Button](/dist/img/paas-pricing-deploy-now.jpg)
+![Deploy now Button](/images/paas-pricing-deploy-now.jpg)
 
 **Let users experience the different**: Offer a ~~freemium plan~~ free trial so that users can see the difference themselves.
 
-![Double Claw Hammer](/dist/img/paas-pricing-php-culture.jpg)
+![Double Claw Hammer](/images/paas-pricing-php-culture.jpg)
 
 **Live the culture**: Be closer to your target group by speaking their language and offer custom targeted features.
 
-![Arrow Up](/dist/img/paas-pricing-arrow-up.jpg)
+![Arrow Up](/images/paas-pricing-arrow-up.jpg)
 
 **Go bottom up**: Win the heart of your client on a personal level. The developer will make use of your service for his pet project before running his business on it.
 
 ### Problems
 
-All of the above works for us. However after 3 years of running our PaaS in production the adaption rate feels too slow for me. Beside the [usual SaaS seeling hustle]((http://inbound.org/post/view/9-reasons-i-won-t-buy-your-saas-tool)) I see these two problems unique for PaaS:
+All of the above works for us. However after 3 years of running our PaaS in production the adaption rate feels too slow for me. Beside the [usual SaaS seeling hustle](<(http://inbound.org/post/view/9-reasons-i-won-t-buy-your-saas-tool)>) I see these two problems unique for PaaS:
 
 #### 1: Biased price anchors
 
@@ -88,14 +87,14 @@ Pricing is never isolated, it's always a price-value ratio. GOOD service CHEAP w
 
 ### Same blog similar topics
 
-* **[Cloudscapes revisted](/cloudscapes-revisited-php-cloud-overview)**  
-updated PHP cloud hosting overview
-* **[Freemium or free trial](/freemium-or-free-trial)**  
-announcement why we skip freemium
-* **[Perfomance / convenience](/hosting-performance-hosting-convenience)**  
-what matters most in hosting
-* **[Free web hosting](free-web-hosting)**  
-ranting about free hosting
-* **[PaaS vendor lock in buzz](/paas-vendor-locked-in-buzz)**
-* **[User survey results](/fortrabbit-user-survey-results)**  
-2013 poll among our users
+- **[Cloudscapes revisted](/cloudscapes-revisited-php-cloud-overview)**  
+  updated PHP cloud hosting overview
+- **[Freemium or free trial](/freemium-or-free-trial)**  
+  announcement why we skip freemium
+- **[Perfomance / convenience](/hosting-performance-hosting-convenience)**  
+  what matters most in hosting
+- **[Free web hosting](free-web-hosting)**  
+  ranting about free hosting
+- **[PaaS vendor lock in buzz](/paas-vendor-locked-in-buzz)**
+- **[User survey results](/fortrabbit-user-survey-results)**  
+  2013 poll among our users

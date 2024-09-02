@@ -7,7 +7,6 @@ tag:
   - changelog
 ---
 
-
 Our new PHP settings page is huge.
 
-![php-settings-dialouge](/dist/img/php-settings-dialouge.png)
+![php-settings-dialouge](/images/php-settings-dialouge.png)

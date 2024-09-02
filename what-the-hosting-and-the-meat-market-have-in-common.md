@@ -7,7 +7,7 @@ tag:
   - opinion
 ---
 
-![MeatHosting Illustration by Frank Lämmer](/dist/img/meat-hosting.png)
+![MeatHosting Illustration by Frank Lämmer](/images/meat-hosting.png)
 
 ### The meat market
 

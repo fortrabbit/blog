@@ -16,7 +16,7 @@ head:
 
 **TL;DR** All custom domains with your fortrabbit (New) App can now also be served via `https://` with a valid certificate from Let's Encrypt unless a custom certificate is installed. Check out our [TLS help article](https://help.fortrabbit.com/tls) to learn more on implementation or continue here to read about what changes and a bit about the backgrounds.
 
-![Browser Screenshot of TLS in action](/dist/img/tls-free-screenshot.png)
+![Browser Screenshot of TLS in action](/images/tls-free-screenshot.png)
 
 ## The changes
 
@@ -66,7 +66,7 @@ Developers really love Let's Encrypt and it already has a [market share of 0.1%]
 
 You can install, configure and maintain such a client on your VPS yourself of course. But for fortrabbit clients it's part of the platform, just there for you to use. We take care of hosting and you of the coding.
 
-- - -
+---
 
 Ok, this here is way below the fold. I am sure nobody is reading any more. So here is:
 
@@ -88,4 +88,4 @@ So, we are in the middle of a security arms race. Now as HTTPS is becoming a com
 
 ### Further readings
 
-Still don't have enough? Then you might also see my  other rant article on the topic: [httpspeedy](/httpspeedy) with even more trade-offs.
+Still don't have enough? Then you might also see my other rant article on the topic: [httpspeedy](/httpspeedy) with even more trade-offs.

@@ -6,6 +6,7 @@ created: 2013-08-26
 tag:
   - chronicles
 ---
+
 We recently did a poll amongst users of our PHP cloud hosting platform. Here are the results and our learnings.
 
 As time flies by: Our PHP cloud platform is already available for ten months. We are very happy with feedback and traction so far. By now over 3.500 smart PHP developers are using our service. Seems that we are doing something right. This motivates us for our [ambitious roadmap](http://fortrabbit.com/roadmap).
@@ -14,17 +15,17 @@ As time flies by: Our PHP cloud platform is already available for ten months. We
 
 Apart from product development we are also constantly working on our product-market fit and business strategy.
 
-* Are we actually really solving a real problem here?
-* What are the most important next steps?
-* Are we attracting our target audience?
-* Is the pricing right?
-* Shall we [skip the freemium](http://www.softwarebyrob.com/2010/08/18/why-free-plans-dont-work/) plan or extend it?
-* Shall we [launch in the US](http://fortrabbit.com/feature/fortrabbit-goes-us) as soon as possible?
-* How can [support scale](http://fortrabbit.com/feature/support-as-a-service) with increasing demand?
+- Are we actually really solving a real problem here?
+- What are the most important next steps?
+- Are we attracting our target audience?
+- Is the pricing right?
+- Shall we [skip the freemium](http://www.softwarebyrob.com/2010/08/18/why-free-plans-dont-work/) plan or extend it?
+- Shall we [launch in the US](http://fortrabbit.com/feature/fortrabbit-goes-us) as soon as possible?
+- How can [support scale](http://fortrabbit.com/feature/support-as-a-service) with increasing demand?
 
 To get qualitative feedback we are currently doing a series of direct interviews. Please ping us if you are interested. For a broader more quantitative feedback we recently did a survey amongst our users. So without further bla bla, here is the outcome:
 
-![fortrabbit-survey-results](/dist/img/fortrabbit-survey-results.png)
+![fortrabbit-survey-results](/images/fortrabbit-survey-results.png)
 
 ## Conclusions
 

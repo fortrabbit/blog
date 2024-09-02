@@ -81,7 +81,7 @@ As should be clear by now, a local development environment consists of quite a f
 
 ## What our local dev site setup should look like
 
-![local-php-dev--7515248418_831c15e4d7_o](/dist/img/local-php-dev--7515248418_831c15e4d7_o.jpg)
+![local-php-dev--7515248418_831c15e4d7_o](/images/local-php-dev--7515248418_831c15e4d7_o.jpg)
 
 <small>Photo of an old Apple computer by Steve Jurvetson via <a href="https://www.flickr.com/photos/jurvetson/7515248418/">Flickr</a></small>
 
@@ -168,7 +168,7 @@ We'll look at the pros and cons of each tool. Be aware that **some of these tool
 
 ### Vagrant
 
-![local-php-dev--vagrant](/dist/img/local-php-dev--vagrant.gif)
+![local-php-dev--vagrant](/images/local-php-dev--vagrant.gif)
 
 Vagrant is a popular tool for **configuring and running a local development environment inside a virtual machine**. To accomplish this, Vagrant works with different virtual machine providers, such as VirtualBox, VMware, etc. To set up the development environment, Vagrant uses a provisioning tool, with Chef and Puppet being major examples.
 
@@ -195,7 +195,7 @@ Supported operating systems: Linux, macOS, Windows
 
 ### Laravel Homestead
 
-![local-php-dev--homestead](/dist/img/local-php-dev--homestead.gif)
+![local-php-dev--homestead](/images/local-php-dev--homestead.gif)
 
 Homestead is a **Vagrant box provided by the Laravel project**. The contents of the box are geared towards PHP development:
 
@@ -212,7 +212,7 @@ Supported operating systems: Linux, macOS, Windows
 
 ### Laravel Valet
 
-![local-php-dev--valet](/dist/img/local-php-dev--valet.gif)
+![local-php-dev--valet](/images/local-php-dev--valet.gif)
 
 Valet is yet another technology by the Laravel project. However, it is not a Vagrant box and follows a radically different approach to local development: instead of setting up a development environment inside a virtual machine, Valet is **installed directly on top of the physical machine's operating system**. This affords high performance, but also brings several serious downsides:
 
@@ -235,7 +235,7 @@ Supported operating systems: macOS only
 
 ### Docker
 
-![local-php-dev--docker](/dist/img/local-php-dev--docker.gif)
+![local-php-dev--docker](/images/local-php-dev--docker.gif)
 
 So far we've discussed virtual machine-oriented approaches. These provide great compartmentalization of our development environment, but can take up a lot of disk space and usually incur a noticeable performance hit. More modern solutions **ditch the virtual machine and employ sets of lightweight containers** instead. Containers provide an abstraction on top of the native operating system kernel, which yields a significant performance boost.
 
@@ -251,7 +251,7 @@ Supported operating systems: Linux, macOS, Windows
 
 ### Lando
 
-![local-php-dev--lando](/dist/img/local-php-dev--lando.gif)
+![local-php-dev--lando](/images/local-php-dev--lando.gif)
 
 Lando is a powerful dev tool based on Docker. The basic idea is to allow us to **enjoy the benefits of Docker containers, without the headache** of having to configure them.
 
@@ -272,7 +272,7 @@ Supported operating systems: Linux, macOS, Windows
 
 ### DDEV
 
-![local-php-dev--ddev](/dist/img/local-php-dev--ddev.gif)
+![local-php-dev--ddev](/images/local-php-dev--ddev.gif)
 
 DDEV is another dev tool based on Docker. The basic idea is the same as for Lando: provide a **comfortable configuration layer and sane defaults on top of Docker**. Instead of starting from scratch, we hit the ground running.
 

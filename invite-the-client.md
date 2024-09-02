@@ -12,7 +12,7 @@ tag:
 
 In the PAST: you might have shared hosting account usernames and passwords or asked clients for their credit card details to setup payment. Sounds familiar? You can do better NOW:
 
-![Client invite button](/dist/img/client-invite-button.png)
+![Client invite button](/images/client-invite-button.png)
 
 ## 1. Invite the client to take over billing
 
@@ -38,7 +38,7 @@ You can of course repeat this with other clients. Login once, manage many: All A
 
 ### Quitting made easy
 
-![Client web developer relation](/dist/img/client-developer-relation.gif)
+![Client web developer relation](/images/client-developer-relation.gif)
 
 **Sometimes clients just suck.** So we made it easy for you to exit at any time: When the work relationship with your client is ending: leave the Company in the Dashboard. This will hide the App from your Dashboard and disable your code access.
 

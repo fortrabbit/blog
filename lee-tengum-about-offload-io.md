@@ -23,7 +23,7 @@ Earlier this month we've reached 10k users. Digits are all fine, but real people
 
 **Lee**: Offload is currently accepting new members and looking specifically for designers and developers who have premium items that they are looking to sell.
 
-![offload.io screenshot](/dist/img/offload-io-shot.png)
+![offload.io screenshot](/images/offload-io-shot.png)
 
 **Oli**: Can you tell us a bit about technology?
 

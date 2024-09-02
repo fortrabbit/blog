@@ -37,9 +37,9 @@ Now you want to find out if your own code might cause problems with a new PHP ve
 
 If you are curious about what has changed in between PHP versions, have a look at the very detailed PHP migration guides. Maybe you see a feature that you already know you are relying on in your code, and will have to change.
 
-* [Migrating from PHP 5.6.x to PHP 7.0.x](http://php.net/manual/en/migration70.php)
-* [Migrating from PHP 7.0.x to PHP 7.1.x](http://php.net/manual/en/migration71.php)
-* [Migrating from PHP 7.1.x to PHP 7.2.x](http://php.net/manual/en/migration72.php)
+- [Migrating from PHP 5.6.x to PHP 7.0.x](http://php.net/manual/en/migration70.php)
+- [Migrating from PHP 7.0.x to PHP 7.1.x](http://php.net/manual/en/migration71.php)
+- [Migrating from PHP 7.1.x to PHP 7.2.x](http://php.net/manual/en/migration72.php)
 
 But reading through all of those and matching manually to every single line of your code is quite the task, luckily we have automation!
 
@@ -51,15 +51,15 @@ Automated code compatibility testing helps to detect possible problems in your c
 
 There are a quite few PHP code check tools you can run on your code to verify it is compatible with the latest PHP version:
 
-* **[PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility)** - PHP version compatibility analyser
-* **[rector](https://github.com/rectorphp/rector)** - Instant upgrades and instant refactoring of any PHP 5.3+ code _(added 2019-09)_
-* [Phan](https://github.com/phan/phan) - Static analyzer and PHP 7 checker
-* ~~[PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool, check [Larastan](https://github.com/nunomaduro/larastan) for Laravel (no support for checking version compatibility)~~
-* ~~[Exakat](https://www.exakat.io/) - Security, code smells, quality & bugs. OS + commercial (no support for checking version compatibility)~~
-* ~~[PHP 7 CC](https://github.com/sstalle/php7cc) - PHP 7 Compatibility Checker (no longer supported)~~
-* ~~[PHP 7 MAR](https://github.com/Alexia/php7mar) - PHP 7 Migration Assistant Report tool (probably outdated)~~
-* [WordPress PHP Compatibility Checker](https://wordpress.org/plugins/php-compatibility-checker/) - a WordPress plugin
-* **PhpStorm IDE** users can also make use of a "PHP 7 Compatibility Inspection", which (now) can be found under "Language Level" in the settings.
+- **[PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility)** - PHP version compatibility analyser
+- **[rector](https://github.com/rectorphp/rector)** - Instant upgrades and instant refactoring of any PHP 5.3+ code _(added 2019-09)_
+- [Phan](https://github.com/phan/phan) - Static analyzer and PHP 7 checker
+- ~~[PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool, check [Larastan](https://github.com/nunomaduro/larastan) for Laravel (no support for checking version compatibility)~~
+- ~~[Exakat](https://www.exakat.io/) - Security, code smells, quality & bugs. OS + commercial (no support for checking version compatibility)~~
+- ~~[PHP 7 CC](https://github.com/sstalle/php7cc) - PHP 7 Compatibility Checker (no longer supported)~~
+- ~~[PHP 7 MAR](https://github.com/Alexia/php7mar) - PHP 7 Migration Assistant Report tool (probably outdated)~~
+- [WordPress PHP Compatibility Checker](https://wordpress.org/plugins/php-compatibility-checker/) - a WordPress plugin
+- **PhpStorm IDE** users can also make use of a "PHP 7 Compatibility Inspection", which (now) can be found under "Language Level" in the settings.
 
 We have tested all of them briefly. They all work in rather different ways with different features and output. For the problem we are trying to solve in this article, we recommend **PHPCompatibility**. It gives you the most comprehensive help in finding deprecated features and syntax in your code.
 
@@ -83,7 +83,7 @@ This example command will do a full check of all `.php` files in the current dir
 phpco -p --colors --extensions=php --runtime-set testVersion 7.2 .
 ```
 
-![run php compatibility check](/dist/img/php7-phpco.png)
+![run php compatibility check](/images/php7-phpco.png)
 
 As it completes you will see a list of warnings and errors in your code. If you are getting a lot of warnings, but only want to deal with the stuff that will actually break, add `-n` to only show errors.
 

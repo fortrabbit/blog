@@ -17,15 +17,15 @@ First, you'll need to setup a public folder with Dropbox. If you don't already h
 
 Within the public folder, create a sub-folder for your App, eg `my-app`
 
-![](/dist/img/01-create-folder-in-public.jpg)
+![](/images/01-create-folder-in-public.jpg)
 
 Once you did that, it should look like this:
 
-![](/dist/img/02-folder-created-in-public.jpg)
+![](/images/02-folder-created-in-public.jpg)
 
 Switch now into that folder, upload something (eg a random `.html` file) and copy it's public link:
 
-![](/dist/img/04-copy-public-link-2.jpg)
+![](/images/04-copy-public-link-2.jpg)
 
 It should look somthing like this:
 
@@ -39,16 +39,16 @@ The important part you need to remember is of course
 
 Simplified, Dropbox knows two kind of permissions:
 
-1. Access to a dedicated *App folder*
+1. Access to a dedicated _App folder_
 2. Access to everything
 
 Since you must use the `Public` folder to make your files accessible by everybody, there is no choice but to use access to everything — **major quirk**.
 
 If you're logged in, just go to the [App create page](https://www.dropbox.com/developers/apps/create):
 
-![](/dist/img/05-create-app.jpg)
+![](/images/05-create-app.jpg)
 
-Click on *Create app*. On the next page generate you need to get your App secret (click on `Show` right to *App secret*) and must generate a new access token (click on `Generate` below *Generate access token*). The App key is not needed.
+Click on _Create app_. On the next page generate you need to get your App secret (click on `Show` right to _App secret_) and must generate a new access token (click on `Generate` below _Generate access token_). The App key is not needed.
 
 That's about it for Dropbox.
 
@@ -58,7 +58,7 @@ Now that all of that is done, let's try to read & write files with the Dropbox a
 
 Following a simplistic upload handler:
 
-``` php
+```php
 <?php
 use League\Flysystem\Dropbox\DropboxAdapter;
 use League\Flysystem\Filesystem;

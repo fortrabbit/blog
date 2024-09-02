@@ -16,11 +16,11 @@ head:
 
 ### Manifesto
 
-* Skip the database
-* Dump the rich-text WYSIWYG editor
-* Write text files in Markdown
-* Store meta data in the text file as a front matter YML block
-* Use Git (and Composer) to manage and deploy
+- Skip the database
+- Dump the rich-text WYSIWYG editor
+- Write text files in Markdown
+- Store meta data in the text file as a front matter YML block
+- Use Git (and Composer) to manage and deploy
 
 ### Scope
 
@@ -48,9 +48,9 @@ At minimum you want the exported folder uploaded and served somewhere.
 
 #### Static site hosting
 
-* use GitHub pages for this and route your domain there (free)
-* setup a task that deploys all files to an AWS S3 bucket and route your domain there (cheap)
-* store those files in Dropbox folder and route the domain (free i think)
+- use GitHub pages for this and route your domain there (free)
+- setup a task that deploys all files to an AWS S3 bucket and route your domain there (cheap)
+- store those files in Dropbox folder and route the domain (free i think)
 
 Please consider that you want to have the source code that creates the files as well as the original markdown files backed up. With the GitHub pages way this is solved (master branch contains source, gh-pages the generated stuff), Dropbox has it's own backup-magic, for the AWS way you might find something else.
 
@@ -59,7 +59,7 @@ Please consider that you want to have the source code that creates the files as 
 1. pragmatic: put everything in Git and deploy it all together, route your domain to the output folder
 2. clean: define the built process to run as a post-deploy script, after each deploy (of course only when using a PHP generator)
 
-----
+---
 
 ## Flat file CMS
 
@@ -70,7 +70,7 @@ So: still the same look and feel, but without that tedious built process.
 ### Candidates
 
 | Name                                   | Established | License | GitHub Stars | Twitter |
-|----------------------------------------|-------------|---------|--------------|---------|
+| -------------------------------------- | ----------- | ------- | ------------ | ------- |
 | [Baun](http://bauncms.com/)            | 2015        | 0       | 200          |         |
 | [Bludit](https://www.bludit.com/)      | 2015        | 0       | 120          |         |
 | [Grav](https://getgrav.org/)           | 2014        | 0       | 4300         | 2900    |
@@ -108,8 +108,8 @@ The immediate reflex is to think: Hey, let's store those Markdown texts in a dat
 
 **Other possible hacks**
 
-* save `*.md` files to a remote file system (S3 or [Object Storage](https://help.fortrabbit.com/object-storage) in our case);
-* commit changes from the admin panel to Git again so that new contents can be pulled.
+- save `*.md` files to a remote file system (S3 or [Object Storage](https://help.fortrabbit.com/object-storage) in our case);
+- commit changes from the admin panel to Git again so that new contents can be pulled.
 
 **Bottom line**: You can't really host a flat file CMS in a 12-factor environment: when new contents get generated on the server (client mode). But you can perfectly host it here: when you skip the admin-dashboard and content & code live together in a repo and you deploy it all together (dev style).
 
@@ -129,10 +129,10 @@ Markdown text files on disk — on the other hand — are very accessible, they 
 
 ## Headless CMS to the rescue?
 
-![Headless animated GIF](/dist/img/headless.gif)
+![Headless animated GIF](/images/headless.gif)
 
 Let's see what an upcoming wave of decoupled, api-based CMS will bring us. I want these three layers:
 
-* **Engine**: back-end makes an API available
-* **Content**: Data in a portable format
-* **Presentation**: Front-end templates and styles
+- **Engine**: back-end makes an API available
+- **Content**: Data in a portable format
+- **Presentation**: Front-end templates and styles

@@ -17,7 +17,7 @@ It's not only that **fortra**bbit and **Fortra**n share the same first six lette
 
 ### Fortran is very fast
 
-[Fortran is faster than C++](http://stackoverflow.com/questions/13078736/fortran-vs-c-does-fortran-still-hold-any-advantage-in-numerical-analysis-thes). We've been [researching](http://flibs.sourceforge.net/fortran-fastcgi-nginx.html) and running all kind of benchmarks. Let me just tell you: it's crazy fast. ![fortran-benchmark](/dist/img/fortran-benchmark.gif)
+[Fortran is faster than C++](http://stackoverflow.com/questions/13078736/fortran-vs-c-does-fortran-still-hold-any-advantage-in-numerical-analysis-thes). We've been [researching](http://flibs.sourceforge.net/fortran-fastcgi-nginx.html) and running all kind of benchmarks. Let me just tell you: it's crazy fast. ![fortran-benchmark](/images/fortran-benchmark.gif)
 
 ### Fortran is very secure
 

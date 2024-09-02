@@ -14,7 +14,6 @@ head:
       content: 'deprecation, migration, EOL, php5.6, php7.0, php7.2, enigma'
 ---
 
-
 This is part 4 of a series on the PHP upgrade path. See the other parts as well:
 
 1. [On PHP deadlines](/on-php-deadlines) — PHPilosophical context …
@@ -30,7 +29,7 @@ In addition will also send direct mailings to all Owners of Apps still running o
 
 ### How do I update?
 
-![php settings in the fortrabbit dashboard](/dist/img/php-settings-in-the-dashboard.png)
+![php settings in the fortrabbit dashboard](/images/php-settings-in-the-dashboard.png)
 
 **Updating the PHP version on fortrabbit is easy.** Within the Dashboard, visit your App, click on the PHP Settings. Select a different version, click save. But you might also need to bring you code base in shape.
 
@@ -78,13 +77,13 @@ Here, PHP versions differ by MAJOR (PHP 5, PHP 7) and MINOR releases (PHP 7.1, P
 
 Here are some popular PHP projects - at their current version as of this writing - and their required or at least recommended PHP versions:
 
-* **Laravel [5.7](https://laravel.com/docs/5.7/installation#server-requirements)**: PHP >= 7.1.3
-* **Craft CMS [3.0.25](https://docs.craftcms.com/v3/requirements.html)**: PHP >= 7.0
-* **WordPress [4.9.8](https://wordpress.org/about/requirements/)**: PHP >= 7.2
-* **Symfony [4.1](https://symfony.com/doc/current/reference/requirements.html)**: PHP >= 7.1.3
-* **Neos [4.0](https://neos.readthedocs.io/en/stable/GettingStarted/Installation.html#requirements)**: PHP >= 7.1
-* **Drupal [8](https://www.drupal.org/docs/8/system-requirements)**: PHP >= 5.5.9
-* **PHPUnit [7](https://phpunit.de/announcements/phpunit-7.html)**: PHP >= 7.1
+- **Laravel [5.7](https://laravel.com/docs/5.7/installation#server-requirements)**: PHP >= 7.1.3
+- **Craft CMS [3.0.25](https://docs.craftcms.com/v3/requirements.html)**: PHP >= 7.0
+- **WordPress [4.9.8](https://wordpress.org/about/requirements/)**: PHP >= 7.2
+- **Symfony [4.1](https://symfony.com/doc/current/reference/requirements.html)**: PHP >= 7.1.3
+- **Neos [4.0](https://neos.readthedocs.io/en/stable/GettingStarted/Installation.html#requirements)**: PHP >= 7.1
+- **Drupal [8](https://www.drupal.org/docs/8/system-requirements)**: PHP >= 5.5.9
+- **PHPUnit [7](https://phpunit.de/announcements/phpunit-7.html)**: PHP >= 7.1
 
 ### But I am not a developer
 

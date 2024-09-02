@@ -16,7 +16,7 @@ tag:
 
 ### How to choose a data center for a New App
 
-![us-data-center-location](/dist/img/us-data-center-location.png)
+![us-data-center-location](/images/us-data-center-location.png)
 
 For any New App you create from now on, you will be asked for the location:
 
@@ -59,15 +59,15 @@ Please mind that we can only provide USD for non-EU countries — due to billing
 In order to have your Apps billed in another currency you can move them to another Billing Contact — the one you just created for example:
 
 1. Login to the Dashboard
-6. Navigate to the App you would like to move
-7. Hit the "Change ownership" button
-8. Choose the new Billing Contact
+2. Navigate to the App you would like to move
+3. Hit the "Change ownership" button
+4. Choose the new Billing Contact
 
 Changing only the Billing Contact will only affect billing — no downtime, no team changes and no change in the data center location (of course).
 
 You will notice that the App will show up on two invoices of the current month: Up until now on the old Billing Contacts invoice, from now on the New Billing Contact invoice. Don't worry, that's expected. You won't be billed twice, the billing cycle is daily. Also see our [Billing FAQ](http://help.fortrabbit.com/billing).
 
-- - -
+---
 
 Still reading? You rock! Let's continue with some backgrounds and even more important details:
 
@@ -87,11 +87,11 @@ Data travels [by the speed of light](http://www.tested.com/tech/web/454189-blame
 
 Please mind that many more factors will affect your Apps "snappiness":
 
-* frontend facing delivery optimization < CSS/JS/IMG
-* backend performance < MySQL slow queries …
-* Old App vs New App < I/O intensive New Apps are much faster
-* data center location < as mentioned above
-* PHP 5 vs PHP 7 < the later is much faster of course
+- frontend facing delivery optimization < CSS/JS/IMG
+- backend performance < MySQL slow queries …
+- Old App vs New App < I/O intensive New Apps are much faster
+- data center location < as mentioned above
+- PHP 5 vs PHP 7 < the later is much faster of course
 
 ## USD + EUR — side by side
 

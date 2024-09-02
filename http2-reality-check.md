@@ -18,9 +18,9 @@ head:
 
 HTTP/1.x — the rock on which the internet is build — is [really old](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History). The [HTTP/2 standard](https://http2.github.io/) in comparison is a true youngster with it's [RFC](https://tools.ietf.org/html/rfc7540) being published in May of 2015. Nonetheless it is already supported by many [servers](https://github.com/http2/http2-spec/wiki/Implementations) and [browsers](http://caniuse.com/#feat=http2). A short recap on what HTTP/2 brings to the table:
 
-* multiplexing: One TCP connection for multiple simultaneously requests
-* header compression: reduced overhead
-* binary: no text, just gibberish
+- multiplexing: One TCP connection for multiple simultaneously requests
+- header compression: reduced overhead
+- binary: no text, just gibberish
 
 We have all seen the impressive (and similar looking) demos from [CDN77](http://www.http2demo.io/) and [Akamai](https://http2.akamai.com/demo). So let's see what can we add to that.
 
@@ -30,11 +30,11 @@ The tests were developed around our internal discussions on the topic. They are 
 
 ## The Chuck Norris test
 
-![Chuck Norris text](/dist/img/chuck-norris-test.gif)
+![Chuck Norris text](/images/chuck-norris-test.gif)
 
 Our first attempt was to rebuild the tests we have seen from others. Indeed, it worked well: You can obviously see how HTTP/2 delivers those 200+ images much faster - you don't even need a timer. That's sure looks like good marketing, but we're not if it answers any "real world questions".
 
-* **[See the Slightly enhanced Chuck Norris test](http://http-test-2.frb.io/chuck-norris.html)**
+- **[See the Slightly enhanced Chuck Norris test](http://http-test-2.frb.io/chuck-norris.html)**
 
 ## The extended test series
 
@@ -42,11 +42,11 @@ Our first attempt was to rebuild the tests we have seen from others. Indeed, it 
 
 Ok, we admit, it was not only to test HTTP/2 - what we actually set out to do was testing our new Object Storage and compare it against our older implementation and other solutions. Here is what we asked:
 
-* How does file size factor into the performance?
-* How does TTL due to location factor in?
-* How does delivery from local file system compares to Object Storage?
-* How does our Object Storage compares to S3?
-* How does our HTTP/2 implementation compares to other HTTP/2 services?
+- How does file size factor into the performance?
+- How does TTL due to location factor in?
+- How does delivery from local file system compares to Object Storage?
+- How does our Object Storage compares to S3?
+- How does our HTTP/2 implementation compares to other HTTP/2 services?
 
 <figure style="margin: 3rem 0">
     <video autoplay="autoplay" controls="false" loop="true" style="border: 1px solid black; width: 100%">
@@ -61,7 +61,7 @@ Ok, we admit, it was not only to test HTTP/2 - what we actually set out to do wa
         </figcaption>
 </figure>
 
-* **[See all 20 extended tests](http://http-test-2.frb.io/)**
+- **[See all 20 extended tests](http://http-test-2.frb.io/)**
 
 When running/looking at the tests yourself, mind:
 
@@ -115,7 +115,7 @@ Apart from that we conclude that our New Apps are much faster than our Old Apps 
 
 Never mind all this for your pet project. But maybe you are developing an image heavy eCommerce project? Then this might come in handy.
 
-![Bush is doing it wrong](/dist/img/bush_doing_it_wrong.jpg)
+![Bush is doing it wrong](/images/bush_doing_it_wrong.jpg)
 
 Maybe we are just holding it wrong? You know better? Please call us, we are looking forward to hearing from you.
 

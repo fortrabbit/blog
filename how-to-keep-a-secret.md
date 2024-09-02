@@ -23,7 +23,7 @@ We see a trend in storing secret credentials in environment variables. I think t
 
 **But for sure, it's not secure**: Environment variables in PHP are possibly exposed to public:
 
-![](/dist/img/phpinfo-envvar.gif)
+![](/images/phpinfo-envvar.gif)
 
 During development one often creates a [phpinfo](http://php.net/manual/en/function.phpinfo.php) to check if changes in PHP settings have applied or which extensions are installed. Mind that this dumps all of your ENV vars including key and value. That's an bigger issue as you might think, because sometimes a phpinfo is there without you even knowing about it: The [Symfony Web Debug Toolbar](http://symfony.com/blog/new-in-symfony-2-8-redesigned-web-debug-toolbar) and the [Laravel debugbar](https://github.com/barryvdh/laravel-debugbar) come with a handy phpinfo out of the box. And if it's not a `phpinfo()` call, then it's one of the myriad of other development supporting tools, which will also dump environment variables with a glee.
 
