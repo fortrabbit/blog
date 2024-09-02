@@ -1,19 +1,14 @@
 ---
 author: fl
+created: 2024-02-12
 figure:
   emoji: 🤔
   text: Was it `⌘ + ⇧ + U` or `⌘ + K`?
 title: The tyranny of inconsistent keyboard shortcuts
 lead: A rant about how difficult it is to adapt keyboard shortcuts across multiple programs as a human.
 intro: 'Keyboard shortcuts are my productivity fuel. Navigating inconsistent keyboard shortcut landscapes across different programs feels like an obstacle course. A significant number of interactions remain universal across software. Why then, must we relearn basic actions like "insert link" with every new tool?'
-created: 2024-02-12
-draft: true
 tags:
   - opinion
-head:
-  meta:
-    - name: keywords
-      content:
 ---
 
 This is specifically about my experience using: Linear, Notion, Slack, 1Password, Intercom, Google Docs, Obsidian and VS Code in parallel. It applies to standalone applications on my macOS system, but also to software in the browser.
@@ -66,3 +61,5 @@ We are currently working on a browser based graphical interface (dashboard) for 
 I like standards. Browsers already offer native keyboard navigation. With the `TAB` you can cycle focus through active elements. Use `SPACE` to select things and arrow keys to travel through radio groups. There is accesskey ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey)) and [WebAIM](https://webaim.org/techniques/keyboard/accesskey) as well. But are they suited for modern requirements? I am not so sure.
 
 I will never learn VIM, but I can understand VIM users who don't want to learn something else.
+
+**EDIT**: I was pointed to existing software solutions. There are for sure browser extensions. For macOS there is a (free) App [customShortcuts by Houdah](https://www.houdah.com/customShortcuts/), which also is compatible with [KeyClu](https://github.com/Anze/KeyCluCask).
