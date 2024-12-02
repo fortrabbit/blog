@@ -11,7 +11,7 @@ tag:
 head:
   meta:
     - name: 'keywords'
-      content: 'DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, APEX domain, naked domain, forward, IP, cname, CA'
+      content: 'DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, Apex domain, naked domain, forward, IP, cname, CA'
 ---
 
 Just last month we have launched [free https](/tls-free-launched) (via Let's Encrypt) for all custom domains. Now we are continuing in this direction with a new forwarding service and more descriptive domain setup and management.
@@ -23,7 +23,7 @@ TLDR; We will now provide A-records for your naked domains; here we forward requ
 ### A little refresher
 
 - `blog.fortrabbit.com` and `www.fortrabbit.com` are subdomains
-- `fortrabbit.com` and `fortrabbit.co.uk` are naked domains, aka APEX domains
+- `fortrabbit.com` and `fortrabbit.co.uk` are naked domains, aka Apex domains
 
 In classical hosting you usually use A-records to route your domain to the IP of your web server. In modern hosting you use CNAME-records to route your domain to your App.
 
