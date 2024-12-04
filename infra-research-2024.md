@@ -76,8 +76,10 @@ Last not least, it should be mentioned that **Hetzner (Cloud) is around half the
 
 Beside all the soft facts, there are hard facts that need to match in the first case: technical requirements and quality of service. We compared AWS, Hetzner, OVH and Vultr. The later two at this stage for reference. We wanted to know if we can somehow make our platform work on Hetzner, even with extended efforts and custom code from our side. Actually we planned to publish a much more detailed analysis of our performance tests. But it's too much effort to them in shape. Here are some notes to get you an idea:
 
-- Random write performance is not what we hoped for, comparable to Linode. While on AWS EBS volumes running Ceph we get ~12 MiB/s random write performance which is the same performance as random writes directly to an EBS volume.
-- Hetzner's private network has latency that is on average twice that of AWS private network. Sometimes Hetzner pings goes all the way up to 30ms.
+- Random write performance is not what we hoped for, comparable to Linode
+  - While on AWS EBS volumes running Ceph we get ~12 MiB/s random write performance which is the same performance as random writes directly to an EBS volume
+- Hetzner's private network has latency that is on average twice that of AWS private network.
+  - Sometimes Hetzner pings goes all the way up to 30ms.
 - No LB floating IPs (ETA?)
   - max. LB performance 40k concurrent connections, enough? or need of multiple LBs?
   - firewall rules are not configurable on LB
@@ -87,9 +89,7 @@ Beside all the soft facts, there are hard facts that need to match in the first 
 - Cross-node private traffic routed always through gateway
   - Separate private network for storage?
   - Routing capacity?
-- Max 100 nodes in private network
-  - [Lowendtalk](https://lowendtalk.com/discussion/187187/very-disappointing-limitation-in-hetzner-cloud-max-100-servers-per-private-network)
-  - [Hetzner docs](https://docs.hetzner.com/cloud/networks/overview/)
+- Max 100 nodes in private network, [Lowendtalk](https://lowendtalk.com/discussion/187187/very-disappointing-limitation-in-hetzner-cloud-max-100-servers-per-private-network), [Hetzner docs](https://docs.hetzner.com/cloud/networks/overview/)
 - Possibly higher latencies (at least +30%) than on EC2
 - Possibly private network unpredictability
 
@@ -97,15 +97,15 @@ Beside all the soft facts, there are hard facts that need to match in the first 
 
 During testing, we experienced a network issue. Hetzner technical support solved it quickly, but our question for an explanation was not answered to our full satisfaction.
 
-We tried to get in touch with Hetzner sales to discuss our requirements and the results of our tests. I hoped to set up a call, but I was told by someone with a strong Bavarian accent that we mail our questions. We did. We got reply quickly, but somehow this whole experience was not compelling.
+We tried to get in touch with Hetzner sales to discuss our requirements and the results of our tests. I hoped to set up a call, but I was told by someone with a strong Bavarian accent that we mail our questions. We did. We got reply quickly, but somehow it was not compelling.
 
 Hetzner was slower, which we kinda expected. But the whole experience left us with uncertainty.
 
 ## Talking with AWS
 
-At the same time our new AWS account manager (number 7?) introduced himself and offered help in any regard. So I asked whether they convince me to stay. This started a series of calls including various solutions architects with our DevOps.
+At the same time our new AWS account manager (number 7?) introduced himself and offered help in any regard. So I asked whether they convince us to stay. This started a series of calls. We talked to various solutions architects.
 
-I have mostly positive feelings about the process, although in result, nothing changed. The folks we spoke to where all great. Standard procedures were followed. We talked about our AWS setup and ways to improve that. From our perspective, mostly to save on costs. From their perspective, to make sure everything is 'well-architected'. But our requirements are different to other SaaS. We can not ask our clients to fullfil our expectations on their software design. Our clients have expectations that we need fullfil.
+I have mostly positive feelings about the process, although in nothing really changed. The folks we spoke to where all great. Standard procedures were followed. We talked about our AWS setup and ways to improve that. From our perspective, mostly to save on costs. From their perspective, to make sure everything is 'well-architected'. But our requirements are different to other SaaS. We can not ask our clients to fullfil our expectations on their software design. Our clients have expectations that we need fullfil.
 
 Along the process we have been able to optimize the instance types to get the infra costs down by some more percentages. We also ignored some 'best practices' and service offerings. This saves costs and keeps us less dependent.
 
