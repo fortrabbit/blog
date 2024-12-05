@@ -1,5 +1,5 @@
 ---
-title: Choosing an infra provider
+title: Looking for the perfect infra provider
 author: fl
 created: 2024-12-04 07:26:27
 intro: How we are evaluating an infrastructure provider for our new platform
@@ -117,6 +117,8 @@ In other aspects, it also looks like a very good match: The price is better than
 
 ## State today
 
-Developing our new platform already takes much longer than expected. This infrastructure provider research, of course an important necessity, was one of many deep rabbit holes. It had to end. Unfortunately, we haven't got any more time to properly evaluate UpCloud on a technical level.
+Developing our new platform already takes much longer than expected. This infrastructure provider research, of course an important necessity, was one of many deep rabbit holes. It had to end. Unfortunately, we haven't got any more time to properly evaluate UpCloud on a technical level. So, we will for now stick with AWS to ship something.
 
-So, we will for now stick with AWS to ship something. I plan to come back to this.
+Maybe we are trying to square a circle? All we want from our future hosting partner: data centers in all parts of the world, green energy, reliable and fast technology, an affordable price, a partner we can meet on eye level.
+
+I plan to come back to this.
