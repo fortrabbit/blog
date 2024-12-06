@@ -105,11 +105,11 @@ Hetzner was slower, which we kinda expected. But the whole experience left us wi
 
 At the same time our new AWS account manager (number 7?) introduced himself and offered help in any regard. So I asked whether they convince us to stay. This started a series of calls. We talked to various solutions architects.
 
-I have mostly positive feelings about the process, although in nothing really changed. The folks we spoke to where all great. Standard procedures were followed. We talked about our AWS setup and ways to improve that. From our perspective, mostly to save on costs. From their perspective, to make sure everything is 'well-architected'. But our requirements are different to other SaaS. We can not ask our clients to fullfil our expectations on their software design. Our clients have expectations that we need fullfil.
+I have mostly positive feelings about the process, although nothing really changed. The folks we spoke to where all great. Standard procedures were followed. We talked about our AWS setup and ways to improve that. From our perspective, mostly to save on costs. From their perspective, to make sure everything is 'well-architected'. But our requirements are different to other SaaS. We can not ask our clients to fullfil our expectations on their software design. Our clients have expectations that we need fullfil.
 
 Along the process we have been able to optimize the instance types to get the infra costs down by some more percentages. We also ignored some 'best practices' and service offerings. This saves costs and keeps us less dependent.
 
-## Talking to UpCloud a bit too late
+## Talking to UpCloud a bit late
 
 I loosely follow hosting market trends. UpCloud was known to me for a while. But I have not considered them so far. They got in touch with me and I learned that they extended their offering actively naming hosting providers as a target audience. That's a great match. We met and I am under the impression that they really want to get us a client. That alone feels great.
 
