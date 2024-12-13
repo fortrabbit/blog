@@ -11,7 +11,7 @@ tag:
 head:
   meta:
     - name: 'keywords'
-      content: 'DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, Apex domain, naked domain, forward, IP, cname, CA'
+      content: 'DNS, domain, top-level-domain, tld, subdomain, sub-domain, wildcard-domains, ssl, ssl certs, lets encrypt, apex domain, naked domain, forward, IP, cname, CA'
 ---
 
 Just last month we have launched [free https](/tls-free-launched) (via Let's Encrypt) for all custom domains. Now we are continuing in this direction with a new forwarding service and more descriptive domain setup and management.
