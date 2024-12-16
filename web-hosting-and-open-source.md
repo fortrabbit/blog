@@ -1,7 +1,7 @@
 ---
 title: Web hosting and open source
 author: fl
-created: 2024-12-13 08:46:04
+created: 2024-12-16 09:06:07
 intro: The complicated relation between open source and web hosting from our point of view
 lead: This is not about WordPress founder Matt, who is angry about the web hosting service WP-Engine. It's a much smaller story, it's ours.
 draft: true
@@ -30,9 +30,9 @@ We pivoted to get some visibility with the young Craft CMS scene. With modern pa
 
 > A lot of people who work on open-source software don't mind making money elsewhere. They aren't anticommercial. -Jimmy Wales
 
-Open source projects require funding, entrepreneurship can be an effective model. A related business can provide the foundation for the independent development of the OSS project. From a business perspective, the popularity of an OSS project can generate the leads. For website or web application software, a hosting solution is an ideal match, as it is a service that users of the software will need anyway. They will be happy to support their heroes.
+Open source projects require funding. Entrepreneurship can be an effective model. A related business can provide the foundation for the independent development of the OSS project. From a business perspective, the popularity of an OSS project can generate the leads. For website or web application software, a hosting solution is an ideal match, as it is a service that users of the software will need anyway. They will be happy to support their heroes.
 
-Vercel is another hosting service with a tight open source software connection. The popular Next.js framework comes from Vercel.
+Vercel is another hosting service with a tight open source software connection. The popular Next.js (React) framework comes from Vercel. Nuxt, the Vue based alternative has Nuxt Studio, an add-on service for Nuxt content.
 
 The french PaaS Platform.sh is very close to Symfony project. The Symfony founder Fabien Potencier now works for them.
 
@@ -40,16 +40,18 @@ The french PaaS Platform.sh is very close to Symfony project. The Symfony founde
 
 We don't have the resources to invest heavily in OSS. We lack time, energy, and a viable idea to build our own OSS business vehicle. Our focus is solely on providing a web hosting solution. We aim to create a great product ([new platform in the making](https://new.fortrabbit.com)) that works well and is fun for developers to use. We are not aiming for world domination, we can thrive with a tiny market share.
 
-We shamelessly use OSS trademarks to advertise our services, demonstrating that our platform is a great match and that we know a bit about running such software.
+We bet on a vivid PHP community with many open source frameworks and content management systems. We shamelessly use OSS trademarks to advertise our services, demonstrating that our platform is a great match and that we know a bit about running such software.
 
-## The other side
+It's tough, having to react on technological and business strategy changes.
 
-So far we have covered software to create websites and associated hosting business models.
-
-We use a lot of open source software to run our business, our clients are using a lot of open source software to interact with our services too. We couldn't do without. Some of those open source projects are already well funded. But there are others projects that can benefit from funding. Open source maintenance can be stressful, lonely and financially unrewarding. Where possible, we aim to sponsor open source projects more. We also aim to contribute to write well researched feature requests or issues.
+Another example is the license change by Redis. Suddenly, we were not allowed to offer Redis to our customers. I inquired about conditions without success. Luckily, Valkey is a drop in alternative.
 
 ## In closing
 
 Now, let's revisit the WP-Engine and WordPress controversy. Initially, I sympathized with the idea of a greedy web hosting company profiting from WordPress without giving back. Automattic, Matt's company, made $710M in revenue, while WP-Engine made $400M in 2024. It seems Matt is not the lone open source maintainer in need of support. I can't judge how much WP-Engine has contributed or should have contributed. WordPress is a phenomenon I don't gey anyhow.
 
 Our cost structure is likely very different from traditional hosting providers. We have [high infrastructure costs](/infra-research-2024), almost no marketing budget, while most of our energy goes into product development. Our ability to contribute back is very limited.
+
+## The other side
+
+We use a lot of open source software to run our business, our clients are using a lot of open source software to interact with our services too. We couldn't do without. Some of those open source projects are already well funded. But there are others projects that can benefit from funding. Open source maintenance can be stressful, lonely and financially unrewarding. Where possible, we aim to sponsor open source projects more. We also aim to contribute to write well researched feature requests or issues.
