@@ -8,6 +8,9 @@ body:
     mastodon: 
       link: https://mastodon.social/@franklaemmer
       text: '@franklaemmer'
+    # bluesky: 
+    #   link: https://bsky.app/profile/franklaemmer.bsky.social
+    #   text: 'franklaemmer.bsky.social'
   - initials: os
     name:     Oliver Stark
     email:    os@fortrabbit.com
