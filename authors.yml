@@ -3,14 +3,14 @@ body:
     name:     Frank Lämmer
     email:    fl@fortrabbit.com
     bio:      cares about user experience, design, culture, frontend development, product and the daily business at fortrabbit.
-    twitter:  frank_laemmer
+    # twitter:  frank_laemmer
     gravatar: a70caff438923dbf6fbb8e229e23f57f
     mastodon: 
       link: https://mastodon.social/@franklaemmer
       text: '@franklaemmer'
-    # bluesky: 
-    #   link: https://bsky.app/profile/franklaemmer.bsky.social
-    #   text: 'franklaemmer.bsky.social'
+    bluesky: 
+      link: https://bsky.app/profile/franklaemmer.de
+      text: 'franklaemmer.de'
   - initials: os
     name:     Oliver Stark
     email:    os@fortrabbit.com

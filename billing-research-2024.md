@@ -125,7 +125,7 @@ I will not highlight price differences. Partly because it's hard to estimate fin
 
 We use Stripe as a payment processor already. I am following their development and appreciate their developer focused approach. It's obvious, that they dominate the market.
 
-I tried to get a sales call with them. After 2 weeks, the (junior?) sales person was unable to answer my questions. The follow up mail was useless, was it AI generated? 🚩
+I attempted to schedule a sales call to discuss my requirements, but it wasn't possible within reasonable time. Perhaps I was too impatient or didn't phrase my questions clearly enough. 🚩
 
 It seems that our product structure cannot be mapped effectively with Stripe Billing. However, Stripe Invoicing, which is more flexible, might fit. Stripe has developed sophisticated methods to make their service appear complex, making it seem challenging to build and maintain your own solution. When using Stripe Billing, you must use Stripe as your payment processor. Other billing services often offer more options and even support multiple payment providers simultaneously.
 
