@@ -228,8 +228,8 @@ I learned a lot about decision making and product discovery.
 
 ## What's in it for you
 
-Congratulations if you are building a SaaS business with three simple plans (good, better, best)! It's an amazing time for you. Any of the providers listed above will serve you well. You'll get features you have considered but may need in the future. So, definitely use a billing service and avoid the temptation to build your own to get started. If you are still developing your business model, make careful decisions. Consider adapting your product structure to fit the available options.
-
 Making a buying decision is hard, cause it's a market of lemons. You will probably have to resort to recommendation or some peer signal you received. Sorry that I can not present you a winner here.
 
 Keep an eye on data ownership and lock-in.
+
+Fun fact: I almost forgot, we used to run an invoice service for small businesses/freelancers too, anno 2012, [Waybackmachine](https://web.archive.org/web/20120706000542/http://webrechnung.info/).
