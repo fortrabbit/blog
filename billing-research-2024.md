@@ -198,7 +198,7 @@ So I installed the Docker container of the community edition and clicked around,
 
 During my research I was looking for an article like the one you are reading now. Unfortunately, search results are all crowded with advertising driven comparison websites. But on [Reddit r/php I discovered Billabear](https://www.reddit.com/r/PHP/comments/1e9angm/billabear_a_symfony_powered_subscription/).
 
-I had a call with founder Ian. He is working on this for three years and knows his domain very well. The service offers a comprehensive feature set. The pricing scheme seems to perfectly fit businesses of our size. I am digging his build in public approach, [discussions on GitHub](https://github.com/billabear/billabear/discussions).
+I had a call with founder Iain. He is working on this for three years and knows his domain very well. The service offers a comprehensive feature set. The pricing scheme seems to perfectly fit businesses of our size. I am digging his build in public approach, [discussions on GitHub](https://github.com/billabear/billabear/discussions).
 
 - It's build with Symfony
 - Made in Berlin 🐻
