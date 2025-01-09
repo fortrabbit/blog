@@ -3,233 +3,124 @@ title: Improving DX for executing scripts
 author: vh
 created: 2025-01-09 21:30:49
 intro: Modifying C standard library to evaluate shebang in the user space
-lead: Our journey to find a billing service provider to handle products, prices, payment methods, customers and invoices, programmatically by API.
+lead: Make running scripts easier, support user expectations, still maintain security. We do that by modifying the C standard library to evaluate shebang directives in user space.
 figure:
-  src: billing-provider-poster.png
+  src: usability-security-poster.png
 tag:
   - chronicles
 ---
 
-## Motivation
+As you might know from our previous posts, we are working hard on a [new platform](https://new.fortrabbit.com) which will provide more flexibility and advanced features. One thing we focus on is also to make easy the running of scripts for end-users. Even when your current scripts had executable file mode, they couldn't be executed directly (e.g., `./myscript.php`), due to our restrictive settings they had to be always prefixed by the interpreter (e.g., `php myscript.php`). This is a bit annoying, sometimes it's a real complication.
 
-We are currently building a [new platform](https://new.fortrabbit.com) version for our PHP hosting service. For the current platform, we have a custom homebrew solution, which serves us surprisingly well for a decade already. Yet it shows signs of age and is missing some features, PDF invoices for example.
+## Current platform
 
-For the new platform, we aim to slim our codebase to launch sooner and reduce technical debt. Ideally, the billing service should be future-proof, minimizing the need to adapt to changing accounting requirements. For instance, updating VAT rates in the European Union automatically.
+Let's first look at how is this restriction implemented on our current platform.
 
-When we first started, invoice and billing solutions for SaaS businesses were just emerging and lacked essential features. Stripe was not yet available in the European market. We initially used WireCard, but that's a different story.
+Data for users' applications are stored on storage volumes, which are mounted on the machines with a flag that forbids running executables (see `noexec` option in [manual page for `mount`](https://manpages.debian.org/unstable/mount/mount.8.en.html#FILESYSTEM-INDEPENDENT_MOUNT_OPTIONS) command) even if there are files that normally could be executed. The flag instructs the Linux kernel to refuse (direct) execution of any executable, no matter if it's a binary or a script. This reduces potential attack surface from the malicious users and allows us to control what can be executed on the platform, i.e. only components preinstalled by us in global directories (`/bin`, `/usr/bin`, …). Users' scripts can still be executed, but they have to be ran with interpreter commands always explicitly specified on the command line. While it's a way most users can deal with, it's not straightforward and it's a complication compared to a local development environment or unrestricted VPS.
 
-## Our complicated requirements
+See what I mean on the example:
 
-We designed our new product catalog without constrains. It's conceptually similar to our current platform.
+```bash
+# Login into your application in current platform ("example" used as a placeholder)
+$ ssh example@deploy.eu2.frbit.com
 
-- Invoice at end of month, for backdating service period
-- Prorated after usage per day
-- Plans grouped by component
-- Clients can book multiple apps
+–––––––––––––––––––––––  ∙ƒ  –––––––––––––––––––––––
 
-### Product structure
+# Create a script named myscript.sh, give it executable file mode
+example:~$ echo -e '#!/usr/bin/php\n<?php echo("Magic happens!");' >myscript.php
+example:~$ chmod +x myscript.php
 
-```md
-- PHP
-  - XS
-    - data center US1
-      - price EUR
-      - price USD
-    - data center US2
-      - price EUR
-      - price USD
-    - data center EU1
-      - price EUR
-      - price USD
-    - data center EU2
-      - price EUR
-      - price USD
-  - SM
-    - …
-  - MS
-    - …
+# Direct execution of script fails!
+example:~$ ./myscript.php
+-bash: ./myscript.php: Permission denied
+
+# Succeeds when executed via explicitly specified interpreter
+example:~$ php myscript.php
+Magic happens!
 ```
 
-Above, an excerpt of the product structure. PHP is the product. XS is the first size (plan). It has different prices in different data centers and of course also in different currencies.
+To summarize, on our current platform, you can't bring and execute your own binaries (due to storage volumes mounted with `noexec` option). You also can't directly run scripts, you always have to explicitly run them via an interpreter set on the command line.
 
-```md
-- My super app -> group (project)
-  - production -> sub group (environment)
-    - PHP XS
-    - Storage XS
-    - MySQL SM
-  - development
-    - PHP XS
-    - Storage XS
-    - MySQL SM
-- My other app
-  - production
-    - PHP XL
-    - Storage MD
-    - MySQL SM
-    - Jobs XL
+## New platform
+
+For the new platform, the security concerns are still valid. We won't allow users to run their own binaries. But since nearly all users' executables are just scripts (shell, PHP, or Node.js), it's annoying to always run them prefixed by the interpreter. Moreover, it's not always possible to easily prefix commands if they are hard-coded in 3rd-party libraries. We wanted to improve on that.
+
+### Scripts execution workflow
+
+First, let's review in a simplified manner how the actual script is executed on this example file `myscript.php`:
+
+```bash
+#!/usr/bin/php
+<?php echo("Magic happens!");
 ```
 
-Customers book apps (projects by their own name). Apps can have multiple environments (versions). Components are booked per environment. Each component is booked with one plan (size).
+On the first line starting with `#!`, there is a [shebang interpreter directive](<https://en.wikipedia.org/wiki/Shebang_(Unix)>), which tells what interpreter to use when running this script. The remaining lines are the actual script.
 
-### Invoice structure
+The majority of installed (dynamically linked) system components are reusing functions from a system-wide installed [C standard library](https://en.wikipedia.org/wiki/C_standard_library) (glibc, musl, …). If the user requests a file execution in the shell or PHP (via [system()](https://www.php.net/manual/en/function.system.php)), these call a function from [`exec()` family](https://manpages.debian.org/unstable/manpages-dev/exec.3.en.html) from the C standard library which at the end requests the Linux kernel to handle the execution by a system call [`execve()`](https://manpages.debian.org/unstable/manpages-dev/execve.2.en.html). In the case of the script, the kernel checks its executability, evaluates the shebang line, and adjusts the final command and arguments by prefixing it with the shebang-specified interpreter. Basically, the thing we now force users to do on their own.
 
-```md
-| Item             | Daily price | Days used |  Price |
-| ---------------- | ----------: | --------: | -----: |
-| My super app     |             |           |        |
-| production       |             |           |        |
-| PHP XL           |        3.00 |        30 |  90.00 |
-| MySQL XS         |        0.30 |        30 |   9.00 |
-| Traffic XS       |        0.30 |        30 |   9.00 |
-| Storage XS       |        0.30 |        30 |   9.00 |
-| development      |             |           |        |
-| PHP XS           |        0.30 |        15 |   4.50 |
-| MySQL XS         |        0.30 |        15 |   4.50 |
-| Traffic XS       |        0.30 |        15 |   4.50 |
-| Storage XS       |        0.30 |        15 |   4.50 |
-| ---------------- | ----------: | --------: | -----: |
-| My other app     |             |           |        |
-| production       |             |           |        |
-| PHP XL           |        3.00 |        30 |  90.00 |
-| MySQL XS         |        0.30 |        30 |   9.00 |
-| Traffic XS       |        0.30 |        30 |   9.00 |
-| Storage XS       |        0.30 |        30 |   9.00 |
-| Redis XS         |        0.30 |        30 |   9.00 |
-| Backups XS       |        0.30 |        30 |   9.00 |
-| ---------------- | ----------: | --------: | -----: |
-| total net        |             |           | 300.00 |
-| VAT 20%          |             |           |  60.00 |
-| total gross      |             |           | 360.00 |
+In the following picture you can see a simplified schema (reduced to just execution calls) when the PHP script is executed from shell:
+
+![illustration 1](/images/dx-image-1.png)
+
+Problem here is that our volumes are using restrictive mount option which forbids running executables and kernel executability check fails for all scripts on such volumes. Therefore shebang is not evaluated, even though the final executable is globally installed interpreter (`/usr/bin/php` ).
+
+### Early scripts handling
+
+One option to deal with volumes that forbid execution would be to modify the behavior in the kernel of the operating system. Obviously, we didn't want to go this way - it requires extensive knowledge of the kernel programming, is harder to maintain, and can be a source of system instabilities.
+
+The approach we chose instead is to modify the C standard library in the parts that call the kernel to execute the script. The change evaluates the shebang directive here, in the user space. Then kernel is requested to already execute the real interpreter with a script as an argument, shebang directive evaluation is not needed. Modifying the shared C standard library also ensures that the logic is effective across many system components without the need to modify each of them.
+
+The picture illustrates how the change fits into the workflow already presented above. Please notice the different parameters between `execv()` and `execve()` calls.
+
+![illustration 2](/images/dx-image-1.png)
+
+Modifying library sounds like a much easier job than touching the kernel. And, it's even simpler as you don't need to modify and recompile the whole C library, but provide a new one with only a minimum of necessary functions you want to replace! Such library must be specified via `LD_PRELOAD` environment variable before running the component (shell, PHP) where the change should be effective. This ensures that the library loads very first when the dynamic loader/linker is evaluating dependencies of each (dynamically linked) program and overrides the specific functions of other libraries (see [What Is the LD_PRELOAD Trick?](https://www.baeldung.com/linux/ld_preload-trick-what-is)).
+
+### See it in action
+
+In the following example, we can see an unmodified behavior which, as expected, fails to run a script. The second part shows the output from `strace` (a tool to trace system calls), where you can see only the script name among the parameters of the system call `execve` issued to the kernel. The kernel here is responsible for (eventually) evaluating the shebang.
+
+```bash
+$ bash -c ./myscript.php
+bash: ./myscript.php: /usr/bin/php: bad interpreter: Permission denied
+
+$ strace -b execve -e trace=execve bash -c ./myscript.php
+execve("/bin/bash", ["bash", "-c", "./myscript.php"], 0x7ffebd1d7fd0 /* 24 vars */) = 0
+execve("./myscript.php", ["./myscript.php"], 0x7f4c9447c860 /* 23 vars */) = -1 EACCES (Permission denied)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^--- !!!
+bash: ./myscript.php: /usr/bin/php: bad interpreter: Permission denied
++++ exited with 126 +++
 ```
 
-At best, the customers get an invoice as outlined above to understand how costs where aggregated over the backdating period. In this example the development environment was booked for half the month.
+Now, let's try our library overriding the file execution functions in the C standard library. Here the (highlighted) system call already contains an early evaluated shebang with PHP interpreter among arguments and such execution succeeds.
 
-## Billing service as a hub
+```bash
+$ LD_PRELOAD=./libfrbit-exec.so bash -c ./myscript.php
+Magic happens!
 
-How I understand it: Your application is sending booking and usage data to the billing service. The billing service will handle everything else.
+$ LD_PRELOAD=./libfrbit-exec.so strace -b execve -e trace=execve bash -c ./myscript.php
+execve("/bin/bash", ["bash", "-c", "./myscript.php"], 0x7ffee92c6ad0 /* 25 vars */) = 0
+execve("/usr/bin/php", ["/usr/bin/php", "./myscript.php"], 0x7fb6074fb850 /* 24 vars */strace: Process 1007 detached
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^--- !!!
+ <detached ...>
+Magic happens!
+```
 
-It includes financial business intelligence, covers compliance and tax-related topics, and offers standardized interfaces to connect to third-party services. Invoices and receipts are created and sent automatically. Additionally, collection, retry, and service cancellation (on bounce) are automated. You can likely find an accountant already familiar with the system.
+### Problems
 
-The billing service will return a list of products with cost to populate the pricing page. It also provides information on what the customer can expect for their upcoming invoice. The billing service is smart so your application does not need to be.
+The outlined solution is quite easy and effective for the majority of use cases, but it's not bullet proof. Firstly, it relies on having the `LD_PRELOAD` environment variable set properly. We'll initially configure the environment variable for our users, but it can be cleared and the solution might become ineffective. Therefore we have prepared a wrapper above the usual commands, which always enforces the override library no matter what the user has set. A small benefit is that the feature can be selectively disabled.
 
-## A confusing market
+Secondly, the solution works only for dynamically linked executables. This is the case of most common components preinstalled in our environment, including PHP and Node.js. It doesn't work for binaries, which are statically linked, don't use and don't depend on any local libraries (they are self-contained). Such binaries are nowadays (by default) generated by Go or Rust. We don't have anything like that preinstalled in our environments, so they are not an immediate concern, but in the Node.js world, they are quite common. Fortunately, our testing with popular projects from the Node.js ecosystem hasn't uncovered a serious issue so far that would prevent us from going this way.
 
-Armed with my list of demands, I set out to find a suitable solution. I explored websites, read documentation, created accounts, and browsed product demos. However, there wasn't enough time for thorough testing and in-depth analysis of each service's pros and cons. I had to resort on gut feeling and quick decision-making based on vague assumptions. The following list of SaaS billing service providers is sorted in the order I approached them, giving you an idea of the time and effort invested.
+## Summary
 
-### Costs
+We want the environments running users' applications to be as restricted as possible, but we understand there must be **balance between security and usability**.
 
-I will not highlight price differences. Partly because it's hard to estimate final costs, partly because our main goal is to ship quickly and to have a good and stable service. Billing can be costly. Open source community solutions can offer the best price: zero.
+- We still forbid running custom executable binaries, but we came with a transparent approach, how users can directly run own executable scripts.
+- We have modified the C standard library functions responsible for executing files to early detect the script and evaluate the shebang directive. This normally happens in the kernel of the operating system, which is too late for us.
+- The solution is effective for all common system components (bash, PHP, Node.js, …).
+- The solution will not work for statically linked binaries, which don't use the shared C standard library. Testing so far hasn't uncovered any problem, but we expect we might need to deal with that from time to time in connection with the Node.js ecosystem.
 
-### Stripe Billing
+## Addendum
 
-We use Stripe as a payment processor already. I am following their development and appreciate their developer focused approach. It's obvious, that they dominate the market.
-
-I attempted to schedule a sales call to discuss my requirements, but it wasn't possible within reasonable time. Perhaps I was too impatient or didn't phrase my questions clearly enough. 🚩
-
-It seems that our product structure cannot be mapped effectively with Stripe Billing. However, Stripe Invoicing, which is more flexible, might fit. Stripe has developed sophisticated methods to make their service appear complex, making it seem challenging to build and maintain your own solution. When using Stripe Billing, you must use Stripe as your payment processor. Other billing services often offer more options and even support multiple payment providers simultaneously.
-
-- Dashboard is fancy, yet solid
-- Docs, test mode and time simulator are nice
-- [stripe.com/billing](https://stripe.com/billing)
-
-### Lago
-
-The first open source solution with community edition and paid service I discovered.
-
-I had a sales call with Raffi to discuss my requirements and learn about the costs and differences between the paid version and the community edition. Unfortunately, we are too small for their cloud solution. Top companies using Lago have multi-million dollar valuations or are at the Series A stage - Laravel is listed among them. The video call was very short.
-
-So I installed the Docker container of the community edition and clicked around, created some products and customers. It has certain features, that are missing with Stripe. Quite a few features (too many?) are disabled with the community edition. My local setup was broken, after I installed an update.
-
-- Open source, community edition = light version
-- Periodically featured on Hacker News
-- Not on par (yet) with Stripe and other commercial solutions?
-- Active development
-- [getlago.com](https://www.getlago.com/)
-
-### Chargebee
-
-- Comprehensive interface, impressive details for settings
-- Things are where I expect them to find!
-- Integrations we can not afford: Anrok, Vertex, Taxamo
-- Tax setup and configuration looks promising
-- Nice: reminder to update payment method
-- Day-based pro-ration
-- Product families to group PHP xs - xl
-- Tax configuration looks promising
-- (New) RevenueStory looks super too
-- [Some bad reviews at Reddit](https://www.reddit.com/r/SaaS/comments/t250a9/stripe_subscription_vs_chargebee_what_to_choose/)
-- [chargebee.com](https://www.chargebee.com/)
-- from India
-
-### Kill Bill
-
-- Open source around for a longer time
-- Nicely written docs
-- Interface is very bare bone
-- No PDF support out of the box
-- [killbill.io](https://killbill.io/)
-
-### Recurly
-
-- Hm. A lot of B2B, 'By industry', 'blurry logo'
-- Calendar billing (maybe matching our model?)
-- [recurly.com](https://recurly.com/)
-
-### Paddle
-
-- New sexy (stripe-like) version, maybe too shiny?
-- To prorate and bill on the next billing date.
-- Looks a bit basic compared to Stripe / Chargebee (no-code, low code)
-- 'Merchant of record' (MoR) = legal entity for selling goods on your behalf
-- from London, UK
-- [paddle.com](https://www.paddle.com/)
-
-### Maxio
-
-- formerly SaaSOptics and Chargify
-- [maxio.com](https://www.maxio.com)
-
-### Lemon Squeezy
-
-- [lemonsqueezy.com](https://www.lemonsqueezy.com/)
-
-### Billabear
-
-During my research I was looking for an article like the one you are reading now. Unfortunately, search results are all crowded with advertising driven comparison websites. But on [Reddit r/php I discovered Billabear](https://www.reddit.com/r/PHP/comments/1e9angm/billabear_a_symfony_powered_subscription/).
-
-I had a call with founder Iain. He is working on this for three years and knows his domain very well. The service offers a comprehensive feature set. The pricing scheme seems to perfectly fit businesses of our size. I am digging his build in public approach, [discussions on GitHub](https://github.com/billabear/billabear/discussions).
-
-- It's build with Symfony
-- Made in Berlin 🐻
-- Invoice templates in TWIG!
-- Still early stage
-- [Billabear](https://billabear.com/)
-
-## Thoughts
-
-I like the idea of using a billing service hub. Yet. Our product structure and business model, as it currently looks like will not match with any of the services well enough.
-
-During the process, I even considered radically redesigning our product structure to align with the billing service. Offering three simple plans paid in advance (perhaps annually) could lower the entry barrier compared to our current 8 components available in multiple sizes. However, I believe our product structure fits real-world requirements well. Websites have different requirements, and our detailed offering allows customers to book only what they need. "A different kind of hosting" is our motto, after all.
-
-We naturally have responsibilities on our side. fortrabbit is not a SaaS, but a PaaS, there is a infrastructure platform attached. For instance, before we can send events to aggregate usage-based (metered) plans, we need to have a clear understanding of the usage ourselves. We need to accurately track and display web storage usage and traffic in relation to the booked plan. When autoscaling is disabled, capping needs to be applied or new resources need to be provided.
-
-I have the tendency to default to the biggest provider, we do so for [our infrastructure](/infra-research-2024) already. What if the small service provider goes out of business or pivots to a different business model? Yet, I expect from our own clients to find trust in us, a small service as well.
-
-I am a visual person. The interface UI sells to me! If a dashboard is not designed well, I immediately loose trust and confidence. Even small details like a blurry pixel logo, a typo or inconsistent wordings immediately raise red flags. In addition, any enterprise sales talk will immediately turn me off. Leave me alone with your case studies, your solutions by industries. Show me the API documentation.
-
-We address a global market. Yet we need to comply with local tax rules in Germany and Europe. Most providers seem to be ready for that. Yet having something more local is appreciated. E-invoicing does not seem to be a hot topic yet.
-
-## Current state
-
-We haven't made a final decision yet. It will take a while until we approach technical implementation. We tend towards using Stripe Invoicing, but not Stripe Billing. By only using Stripe Invoicing we get more freedom to structure the invoices in our desired ways, grouping products by apps. It seems to be the right abstraction for us, right now. We keep the central logic, but there is a service to outsource the invoice creation. But I will also continue to explore alternatives and the red flag with sales will not be forgotten.
-
-I learned a lot about decision making and product discovery.
-
-## What's in it for you
-
-Making a buying decision is hard, cause it's a market of lemons. You will probably have to resort to recommendation or some peer signal you received. Sorry that I can not present you a winner here.
-
-Keep an eye on data ownership and lock-in.
-
-Fun fact: I almost forgot, we used to run an invoice service for small businesses/freelancers too, anno 2012, [Waybackmachine](https://web.archive.org/web/20120706000542/http://webrechnung.info/).
+This is an example of the hidden engineering that goes into building our [new platform](https://new.fortrabbit.com). Many features are client facing, but the vast majority is not. Many features are not making it into production.
