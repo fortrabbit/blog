@@ -1,8 +1,8 @@
 ---
 title: Billing provider research
 author: fl
-created: 2024-12-23 09:09:54
-intro: Looking for a billing provider in 2024
+created: 2025-01-09 21:31:03
+intro: Looking for a billing provider
 lead: Our journey to find a billing service provider to handle products, prices, payment methods, customers and invoices, programmatically by API.
 figure:
   src: billing-provider-poster.png
@@ -107,7 +107,7 @@ At best, the customers get an invoice as outlined above to understand how costs 
 
 ## Billing service as a hub
 
-How I understand it: Your application is sending booking and usage data to the billing service. The billing service will handle everything else.
+My understanding of a billing service is that our application will send booking and usage data to the billing service, which will then handle all other aspects of billing.
 
 It includes financial business intelligence, covers compliance and tax-related topics, and offers standardized interfaces to connect to third-party services. Invoices and receipts are created and sent automatically. Additionally, collection, retry, and service cancellation (on bounce) are automated. You can likely find an accountant already familiar with the system.
 
