@@ -52,3 +52,8 @@ body:
     email:    yann.rabiller+blog@fortrabbit.com
     bio:      Symfony developer and trainer. Natural languages lover. Skeptic. Alpaca.
     gravatar: 2507d298d4fc7fbc6d27a6b7122c5a06
+  - initials: vh
+    name:     Vlastimil Holer
+    email:    vh@fortrabbit.com
+    bio:      DevOps engineer at fortrabbit.
+    # gravatar: 2507d298d4fc7fbc6d27a6b7122c5a06
