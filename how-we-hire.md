@@ -42,7 +42,7 @@ Specifically I hate result driven driven language (quantify your impact on busin
 - the platform experienced a 25% increase in product views
 - resulting in a 40% increase in user registrations
 
-I found that this is not only bullshit language, but also very likely just SCAM. There are AI services ([Teal](https://www.tealhq.com/resume-examples/backend-developer#senior-backend-developer)) helping you to create such generic job applications. I guess those services are targeting application tracking systems that are using AI to scan and pre-filter CVs? Fine. What a great time to be alive.
+I found that this is not only bullshit language, but also very likely just SCAM. There are AI services ([Teal](https://www.tealhq.com/resume-examples/backend-developer#senior-backend-developer), [JobScan](https://www.jobscan.co/)) helping you to create such generic job applications. Basically, weaponize your CV. I guess those services are targeting application tracking systems that are using AI to scan and pre-filter CVs? Fine. What a great time to be alive.
 
 ![Very similar CVs](/images/similar-cvs.png)
 
