@@ -95,7 +95,7 @@ class A {
 ```apache [.htaccess]
 Authtype Basic
 AuthName "Welcome to my awesome project. Please Login."
-AuthUserFile /srv/app/{{app-env-slug}}/htdocs/.htpasswd
+AuthUserFile /srv/app/{{app-env-id}}/htdocs/.htpasswd
 Require valid-user
 ```
 
