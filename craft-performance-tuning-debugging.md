@@ -12,7 +12,6 @@ head:
   meta:
     - name: 'keywords'
       content: 'craft, craftcms, craft-cms, performance'
-
 ---
 
 Update 2022-10-28: We have most of the content of this post to our help page [Craft CMS performance tips](https://help.fortrabbit.com/craft-performance).
@@ -27,13 +26,13 @@ We are only looking into issues that are happening before the PHP web server wil
 
 ## What you want to know about PHP performance
 
-### Understand Time To First Byte and PHP response time
+### Time To First Byte and PHP response time
 
 For the webserver performance the "PHP response time" is an important metric. It can roughly be translated to the Time To First Byte ([Wikipedia](https://en.wikipedia.org/wiki/Time_to_first_byte)), the latter also includes network latency effects.
 
 When running Craft CMS on fortrabbit, with a little tuning and attention to best practices, you should be able to attain a "PHP response time" of 250ms or even less.
 
-### Understand PHP processes and execution time
+### PHP processes and execution time
 
 With fortrabbit we are using the FPM (FastCGI Process Manager). Each App get's a limited set of such processes that can run in parallel.
 
