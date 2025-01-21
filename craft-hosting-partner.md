@@ -33,7 +33,7 @@ We are excited about the beautifully designed sites that appear here every day. 
 
 ## Why host Craft on fortrabbit?
 
-Yes, you can host your Craft CMS project nearly everywhere. However, most hosting services have limited experience with Craft as they focus on WordPress and Drupal or the service is just generic where everything or nothing is possible. As your official Craft Hosting Partner, we do have an understanding how Craft works. And in case you are stuck somewhere: we are here to help.
+Yes, you can host your Craft CMS project nearly everywhere. However, most hosting services have limited experience with Craft as they focus on WordPress and Drupal or the service is just generic where everything or nothing is possible. As your official Craft Hosting Partner, we do have an understanding how Craft works. And in case you are stuck somewhere: we do our best to help out.
 
 Craft runs smoothly on both [fortrabbit stacks (Universal + Professional)](https://help.fortrabbit.com/stacks). fortrabbit is more than just raw hosting resources. It's a managed platform with a unique tool-set to help agencies working for clients in a team more efficiently: from role based team permissions, to private Git repos and managed backups.
 

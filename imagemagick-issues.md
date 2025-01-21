@@ -86,4 +86,4 @@ WordPress of it's own does not seem to bring any methods to deal with image cach
 
 ---
 
-Sorry for the inconvenience this have caused on your side, one more time! Contact us if you still have trouble, we are here to help.
+Sorry for the inconvenience this have caused on your side, one more time! Contact us if you still have trouble, we aim to help.
