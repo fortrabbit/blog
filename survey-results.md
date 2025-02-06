@@ -13,7 +13,7 @@ We have just asked you a few questions about our service and hosting in general.
 
 ## Results
 
-<iframe src="https://fortrabbit.typeform.com/report/McsJu6/ttaq" frameborder="0" class="spacertop" style="width:100%; height: 500px; border: 1px solid #6C5F53"></iframe>
+<!-- <iframe src="https://fortrabbit.typeform.com/report/McsJu6/ttaq" frameborder="0" class="spacertop" style="width:100%; height: 500px; border: 1px solid #6C5F53"></iframe> -->
 
 Just in case you wonder: most question allowed multiple choices, that's why some totals are more than 100%.
 

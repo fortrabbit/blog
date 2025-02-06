@@ -10,7 +10,7 @@ We are continuing our video series by popular demand!. This is the fourth video 
 
 Learn here about one way (out of many) to install the framework **FuelPHP** on the fabulous fortrabbit PHP hosting platform. See the handy PhpStorm IDE, the fortrabbit web GUI and gorgeous Git version control in action. Please enlarge the video and switch to HD to get the details.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/1nHm9qrKFO8" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="//www.youtube.com/embed/1nHm9qrKFO8" frameborder="0" allowfullscreen></iframe> -->
 
 ### Step by Step
 

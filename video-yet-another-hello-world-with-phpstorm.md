@@ -12,7 +12,7 @@ And how many times this was the only video of the planned sequel? Producing tuto
 
 Learn here about one way (out of many) to set up a quick Hello World example on the fabulous fortrabbit PHP hosting platform. See the handy PhpStorm IDE, gorgeous Git version control and the funky dependency manager PHP Composer in action. Sublime Text is not the only code editor as you can see - PhpStorm is a full featured but lightweight IDE for all operating systems. It helps you to understand what's going on in your PHP code. This video was filmed in full color in Linux cinemascope. Please enlarge or use fullscreen mode and switch to HD to get the details. This video was written and produced by our chief engineer Ulrich Kautz. 
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/ESyAMjGDAFg" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="//www.youtube.com/embed/ESyAMjGDAFg" frameborder="0" allowfullscreen></iframe> -->
 
 ### Step by step
 

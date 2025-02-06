@@ -18,9 +18,9 @@ About a week ago our friend and most active security researcher **[Mayank Bhatod
 
 This video shows the issue in action:
 
-<div class="responsive-video">
+<!-- <div class="responsive-video">
     <iframe src="https://www.youtube-nocookie.com/embed/SaLwUjjmW1k" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
 
 ## Some explanation of the issue
 

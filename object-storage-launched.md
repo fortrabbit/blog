@@ -55,6 +55,9 @@ It took some effort to get here, but now we are proud of this release. We starte
 Your feedback. Please tell us what you think by answering two questions below:
 
 <!-- Change the width and height values to suit you best -->
-<div class="typeform-widget" data-url="https://fortrabbit.typeform.com/to/m0xWZa" data-text="fortrabbit poll object storage" style="width:100%;height:800px;"></div>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call[d,'script'](0);q.parentNode.insertBefore(js,q)}})()</script>
-<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="https://www.typeform.com/examples/forms/?utm_campaign=m0xWZa&amp;utm_source=typeform.com-258886-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
+
+<!-- <div class="typeform-widget" data-url="https://fortrabbit.typeform.com/to/m0xWZa" data-text="fortrabbit poll object storage" style="width:100%;height:800px;"></div> -->
+
+<!-- <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call[d,'script'](0);q.parentNode.insertBefore(js,q)}})()</script> -->
+
+<!-- <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="https://www.typeform.com/examples/forms/?utm_campaign=m0xWZa&amp;utm_source=typeform.com-258886-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div> -->

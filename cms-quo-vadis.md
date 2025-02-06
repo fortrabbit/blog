@@ -133,6 +133,6 @@ My suggestion: Invest a decent amount of time to evaluate software you may use f
 
 And here is a video of me painting the logos:
 
-<div class="responsive-video">
+<!-- <div class="responsive-video">
     <iframe src="https://www.youtube.com/embed/_IenQ-uPxwo" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
