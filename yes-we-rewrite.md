@@ -35,6 +35,8 @@ Experience breeds wisdom, and past mistakes make us cautious. Risk aversion incr
 
 > They did not know it was impossible, so they did it.
 
-The road ahead is long and the finish line is not in sight yet. We have recently restructured our roadmap and postponed some goals. We are slowly approaching a closed alpha phase.
+The road ahead is still long and the finish line is not in sight yet. We recently restructured our roadmap and postponed some goals.
+
+On the positive side, we are now approaching an early private alpha access phase. Get in touch if you want to be one among the first adventurers.
 
 I am proud of our progress and what we have achieved so far and i'm incredibly fortunate to work with such a talented and dedicated team.
