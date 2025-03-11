@@ -3,7 +3,7 @@ author: uk
 created: 2017-04-03
 title: Deploying code with rsync
 intro: Learn how to use rsync from the command line to deploy code changes (to our Universal Apps) incredibly fast.
-lead: "rsync was first released in 1996 but is still a handsome tool every web developer should know about, because it is still one of the best and fastest ways to deploy code without hassle. By fast I mean: easily <strong>10 x faster than your average SFTP upload</strong>."
+lead: 'rsync was first released in 1996 but is still a handsome tool every web developer should know about, because it is still one of the best and fastest ways to deploy code without hassle. By fast I mean: easily 10 x faster than your average SFTP upload.'
 figure:
   src: rsync-poster.gif
 tag:
@@ -12,7 +12,6 @@ head:
   meta:
     - name: 'keywords'
       content: 'deploy, git, rsync, sftp, changeset'
-
 ---
 
 This article aims to acquaint web developers with the command line tool `rsync`, which is usually available out-of-the-box on any Mac or Linux machine. Using windows, we recommend to run `rsync` from Git bash, which comes with the [official Git release package](https://git-scm.com/downloads).
@@ -43,7 +42,7 @@ $ time sftp -b sftp.batch my-app@deploy.eu2.frbit.com
 That took nearly **5 minutes**. After cleanup of all remote files, now the rsync run:
 
 ```bash
-$ time rsync -av ./ my-app@deploy.eu2.frbit.com:~/
+$ time rsync -av ./ my-app@deploy.eu2.frbit.com:
 # output of each transfered file, then:
 0.23s user 0.11s system 1% cpu 26.804 total
 ```
@@ -64,7 +63,7 @@ Ok, let's dive in with the `rsync` command I used above:
             source
               |
               v
-$ rsync -av ./ my-app@deploy.eu2.frbit.com:~/
+$ rsync -av ./ my-app@deploy.eu2.frbit.com:
           ^                  ^
           |                  |
        options           destination
@@ -72,9 +71,9 @@ $ rsync -av ./ my-app@deploy.eu2.frbit.com:~/
 
 Let me break that down:
 
-* **Source**: This is your local source directory. Using `./`  means just "the current directory I am in". You could provide an absolute like `/home/my-user/Projects/my-app` or a relative folder like `../my-app`
-* **Destination**: This is the target URL, where the code should end up. In the example, the URL consists of `<remote-user-name>@<remote-hostname>:<remote-folder>`. You could also use a local destination, by just providing a folder (see below)
-* **Options**: Well, those I'll skip for now, cause they merit more explanation.
+- **Source**: This is your local source directory. Using `./` means just "the current directory I am in". You could provide an absolute like `/home/my-user/Projects/my-app` or a relative folder like `../my-app`
+- **Destination**: This is the target URL, where the code should end up. In the example, the URL consists of `<remote-user-name>@<remote-hostname>:<remote-folder>`. You could also use a local destination, by just providing a folder (see below)
+- **Options**: Well, those I'll skip for now, cause they merit more explanation.
 
 Before going into more detail, let me first show you three additional, simple examples on how to sync two local directories the reverse of the above command and how to sync two remotes:
 
@@ -83,10 +82,10 @@ Before going into more detail, let me first show you three additional, simple ex
 $ rsync -av ~/Projects/my-app/ ~/Projects/my-app.copy/
 
 # synchronize from remote to local
-$ rsync -av my-app@deploy.eu2.frbit.com:~/ ./
+$ rsync -av my-app@deploy.eu2.frbit.com: ./
 
 # synchronize from remote to another remote
-$ rsync -av my-app-1@deploy.eu2.frbit.com:~/ my-app-2@deploy.eu2.frbit.com:~/
+$ rsync -av my-app-1@deploy.eu2.frbit.com: my-app-2@deploy.eu2.frbit.com:
 ```
 
 Alright, this should give you an idea on simple it is to synchronize two locations.
@@ -271,32 +270,32 @@ td>code {
 
 In all the above examples, I used `rsync -av ...`. Using those two options is a very good default. Here a detailed explanation what they do:
 
-| Option | Description   |
-|--------|---------------|
-| `-v`   | Verbose. Using `-v` shows all transmitted files an statistical data about the transfer in the output. You can increase verbosity using `-vv` or `-vvv` |
-| `-a`   | Is a shorthand for `--archive`, which is a shorthand for the following set of options: `-rlptgoD` |
-| `-r`   | Means recursive, so all files and directories below the source directory |
-| `-l`   | Tells rsync to keep symbolic links as symbolic links. The alternative would be to resolve them and copy the content the symbolic link is targeting |
-| `-p`   | File (and directory) permissions will be synchronized. So if your local file `foo.sh` is executable, it will be made executable on the destination as well - also use permissions as check criteria |
-| `-t`   | Preserve modification times, which means that the destination modificaton times will be set to the source modification times. Also: Use modification time as comparison check |
-| `-g`   | Set Unix group of file/folder on destination according to group in source. Also: use group as check criteria |
-| `-o`   | Set Unix group of file/folder on destination according to group in source. Also: use group as check criteria |
-| `-D`   | Is a shorthand for `--devices --specials` |
-| `--devices` | Also synchronize special device files as well. Unless your (remote SSH) user is root - no effect |
-| `--specials` | Also synchronize socket and fifo files - usually no effect, unless you know what those two file types are and use them |
+| Option       | Description                                                                                                                                                                                         |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `-v`         | Verbose. Using `-v` shows all transmitted files an statistical data about the transfer in the output. You can increase verbosity using `-vv` or `-vvv`                                              |
+| `-a`         | Is a shorthand for `--archive`, which is a shorthand for the following set of options: `-rlptgoD`                                                                                                   |
+| `-r`         | Means recursive, so all files and directories below the source directory                                                                                                                            |
+| `-l`         | Tells rsync to keep symbolic links as symbolic links. The alternative would be to resolve them and copy the content the symbolic link is targeting                                                  |
+| `-p`         | File (and directory) permissions will be synchronized. So if your local file `foo.sh` is executable, it will be made executable on the destination as well - also use permissions as check criteria |
+| `-t`         | Preserve modification times, which means that the destination modificaton times will be set to the source modification times. Also: Use modification time as comparison check                       |
+| `-g`         | Set Unix group of file/folder on destination according to group in source. Also: use group as check criteria                                                                                        |
+| `-o`         | Set Unix group of file/folder on destination according to group in source. Also: use group as check criteria                                                                                        |
+| `-D`         | Is a shorthand for `--devices --specials`                                                                                                                                                           |
+| `--devices`  | Also synchronize special device files as well. Unless your (remote SSH) user is root - no effect                                                                                                    |
+| `--specials` | Also synchronize socket and fifo files - usually no effect, unless you know what those two file types are and use them                                                                              |
 
 Besides the dry run, remote shell, exclude and delete options, which I've explained above already, here some where handy additional options which you might want to look into:
 
-| Option | Description   |
-|--------|---------------|
+| Option | Description                                                                                                                                                                                                                                                      |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `-c`   | Instead of modification time and size, use checksum of the file contents. Very precise but not very fast, because it creates a checksum for every file, on source and destination. Use with caution. Useful if modification time on destination is not reliable. |
-| `-C`   | Shorthand for `--cvs-exclude`, which tries to automatically exclude all version control sub folders and files. For example: `.git`, `.hg`, `.svn` and so on. |
-| `-h`   | Make the output human readable, which means: display byte sizes in MiB, GiB instead of plain bytes. |
+| `-C`   | Shorthand for `--cvs-exclude`, which tries to automatically exclude all version control sub folders and files. For example: `.git`, `.hg`, `.svn` and so on.                                                                                                     |
+| `-h`   | Make the output human readable, which means: display byte sizes in MiB, GiB instead of plain bytes.                                                                                                                                                              |
 
 For an exhaustive list of all the possible options and more in depth info on the above options, check out the official [rsync man page](https://linux.die.net/man/1/rsync).
 
 ## Further reading
 
-* [Manual page of rsync](https://linux.die.net/man/1/rsync)
-* [How does rsync work](https://rsync.samba.org/how-rsync-works.html)
-* [Tricks with rsync filters](http://blog.mudflatsoftware.com/blog/2012/10/31/tricks-with-rsync-filter-rules/)
+- [Manual page of rsync](https://linux.die.net/man/1/rsync)
+- [How does rsync work](https://rsync.samba.org/how-rsync-works.html)
+- [Tricks with rsync filters](http://blog.mudflatsoftware.com/blog/2012/10/31/tricks-with-rsync-filter-rules/)
