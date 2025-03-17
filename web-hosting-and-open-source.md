@@ -2,7 +2,7 @@
 title: Web hosting and open source
 author: fl
 created: 2025-03-17 10:46:16
-intro: The complicated relation between open source and web hosting from our point of view
+intro: It's complicated. The relation between open source and web hosting from our point of view
 lead: This is not about WordPress founder Matt, who is angry about the web hosting service WP-Engine. It's a much smaller story, it's ours.
 draft: false
 figure:
