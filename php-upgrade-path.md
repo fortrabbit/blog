@@ -29,7 +29,7 @@ When your code base is new, chances are very good that upgrading your PHP versio
 
 ### Do you really have to update?
 
-We DO NOT recommend using outdated software, but we also understand real live scenarios. Sometimes it is difficult to find the time to upgrade an old project. Maybe you can come by with just a minor update without too much hassle? This is difficult to answer, projects rarely specify if their older releases support PHP 7.2 or at least 7.1, but here are some we know of:
+We DO NOT recommend using outdated software, but we also understand real life scenarios. Sometimes it is difficult to find the time to upgrade an old project. Maybe you can come by with just a minor update without too much hassle? This is difficult to answer, projects rarely specify if their older releases support PHP 7.2 or at least 7.1, but here are some we know of:
 
 - **Laravel**: It seems that **5.1.11** has [support for PHP 7](https://stackoverflow.com/questions/34308160/is-laravel-5-1-compatible-with-php-7)
 - **Symfony**: Even **2.8.29** can run on PHP 7.2. Remarkable!
