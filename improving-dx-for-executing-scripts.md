@@ -72,7 +72,7 @@ The approach we chose instead is to modify the C standard library in the parts t
 
 The picture illustrates how the change fits into the workflow already presented above. Please notice the different parameters between `execv()` and `execve()` calls.
 
-![illustration 2](/images/dx-image-1.png)
+![illustration 2](/images/dx-image-2.png)
 
 Modifying library sounds like a much easier job than touching the kernel. And, it's even simpler as you don't need to modify and recompile the whole C library, but provide a new one with only a minimum of necessary functions you want to replace! Such library must be specified via `LD_PRELOAD` environment variable before running the component (shell, PHP) where the change should be effective. This ensures that the library loads very first when the dynamic loader/linker is evaluating dependencies of each (dynamically linked) program and overrides the specific functions of other libraries (see [What Is the LD_PRELOAD Trick?](https://www.baeldung.com/linux/ld_preload-trick-what-is)).
 
