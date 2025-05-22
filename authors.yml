@@ -3,8 +3,9 @@ body:
     name:     Frank Lämmer
     email:    fl@fortrabbit.com
     bio:      cares about user experience, design, culture, frontend development, product and the daily business at fortrabbit.
-    # twitter:  frank_laemmer
-    # gravatar: a70caff438923dbf6fbb8e229e23f57f
+    website:
+      link: https://franklaemmer.de
+      text: 'franklaemmer.de'
     mastodon: 
       link: https://mastodon.social/@franklaemmer
       text: '@franklaemmer'
@@ -14,24 +15,24 @@ body:
   - initials: os
     name:     Oliver Stark
     email:    os@fortrabbit.com
-    bio:      Part time nerd and a pre digital native. He cares about the PHP ecosystem, our product and devOps.
+    bio:      Ex-fortrabbit partner, part time nerd, pre digital native. Cares about the PHP ecosystem, DevOps.
     twitter:  o_stark
     gravatar: bc6cd109a2e484b8e2994ba9edcd0562
   - initials: uk
     name:     Ulrich Kautz
     email:    uk@fortrabbit.com
-    bio:      is the master of abstraction. He cares about sysOps, infrastructure, architecture and product development.
+    bio:      Ex-fortrabbit partner, master of abstraction. Cares about SysOps, infrastructure, architecture.
     twitter:  ukautz
     gravatar: 79a9db36addc6d437801e4684e5960f2
   - initials: js
     name:     Jascha Silbermann
     email:    info@jsics.de
-    bio:      is a guest author here at fortrabbit and an independent web consultant and open source enthusiast in real life.
+    bio:      Guest author at fortrabbit. Independent web consultant and open source enthusiast in real life.
     twitter:  
     gravatar: a813b45007a84cd750f53c311a68950e
   - initials: pp
     name:     Piotr Pogorzelski
-    bio:      is a web developer and Craft CMS enthusiast.
+    bio:      Guest author at fortrabbit. Web developer and Craft CMS enthusiast.
     gravatar: f0f7727f4c096ecbde60250ecded3f78
     website: 
       link: https://craftsnippets.com/
