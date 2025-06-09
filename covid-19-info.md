@@ -10,19 +10,18 @@ tag:
   - chronicles
 ---
 
-
 ## What we are doing
 
 We are doing our best to keep the services up and running. We always do that.
 
 ### Some of our extra precaution measures
 
-* Working remotely since 16th of March
-* Shared responsibility across the team with workshops and extended documentation
-* Slowed down interviewing new candidates (hiring)
-* Reviewed and trained internal standard procedures and emergency plans
-* Postponed some new releases, like PHP 7.4 and MySQL 8, to focus on stability measures first
-* Slowed down and skipped some sprint goals to give everyone the time to adapt to the new situation - work as much as it feels good to you
+- Working remotely since 16th of March
+- Shared responsibility across the team with workshops and extended documentation
+- Slowed down interviewing new candidates (hiring)
+- Reviewed and trained internal standard procedures and emergency plans
+- Postponed some new releases, like PHP 7.4 and MySQL 8, to focus on stability measures first
+- Slowed down and skipped some sprint goals to give everyone the time to adapt to the new situation - work as much as it feels good to you
 
 ### Slower as usual support response times
 
@@ -46,7 +45,7 @@ We have a lot of freelancers and small agencies on board. And we are hosting man
 
 The regulations required to slow down the spread of the virus might hurt your business, getting you in some financial trouble. If so, get your spendings down. Review your costs here. We have created a new dedicated help article guiding you:
 
-* [How to reduce your cloud hosting costs here](https://help.fortrabbit.com/reducing-hosting-costs).
+- [How to reduce your cloud hosting costs here](https://help.fortrabbit.com/reducing-hosting-costs).
 
 There is also a new article explaining [how you can download an App](https://help.fortrabbit.com/downloading-an-app) before deleting it, so that you have fresh local backup.
 
