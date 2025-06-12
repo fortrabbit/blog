@@ -1,13 +1,15 @@
 ---
-title: Improving DX for executing scripts
 author: vh
-created: 2025-01-09 21:30:49
-intro: Modifying C standard library to evaluate shebang in the user space
+created: 2025-04-02 12:28:52
+title: Improving DX for executing scripts
 lead: Make running scripts easier, support user expectations, still maintain security. We do that by modifying the C standard library to evaluate shebang directives in user space.
+intro: Modifying C standard library to evaluate shebang in the user space
 figure:
   src: usability-security-poster.png
-tag:
-  - chronicles
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Craft CMS CVE'
 ---
 
 As you might know from our previous posts, we are working hard on a [new platform](https://new.fortrabbit.com) which will provide more flexibility and advanced features. One thing we focus on is also to make easy the running of scripts for end-users. Even when your current scripts had executable file mode, they couldn't be executed directly (e.g., `./myscript.php`), due to our restrictive settings they had to be always prefixed by the interpreter (e.g., `php myscript.php`). This is a bit annoying, sometimes it's a real complication.
@@ -60,7 +62,7 @@ The majority of installed (dynamically linked) system components are reusing fun
 
 In the following picture you can see a simplified schema (reduced to just execution calls) when the PHP script is executed from shell:
 
-![illustration 1](/images/dx-image-1.png)
+![illustration 1](/images/dx-image-one.png)
 
 Problem here is that our volumes are using restrictive mount option which forbids running executables and kernel executability check fails for all scripts on such volumes. Therefore shebang is not evaluated, even though the final executable is globally installed interpreter (`/usr/bin/php` ).
 
@@ -72,7 +74,7 @@ The approach we chose instead is to modify the C standard library in the parts t
 
 The picture illustrates how the change fits into the workflow already presented above. Please notice the different parameters between `execv()` and `execve()` calls.
 
-![illustration 2](/images/dx-image-2.png)
+![illustration 2](/images/dx-image-two.png)
 
 Modifying library sounds like a much easier job than touching the kernel. And, it's even simpler as you don't need to modify and recompile the whole C library, but provide a new one with only a minimum of necessary functions you want to replace! Such library must be specified via `LD_PRELOAD` environment variable before running the component (shell, PHP) where the change should be effective. This ensures that the library loads very first when the dynamic loader/linker is evaluating dependencies of each (dynamically linked) program and overrides the specific functions of other libraries (see [What Is the LD_PRELOAD Trick?](https://www.baeldung.com/linux/ld_preload-trick-what-is)).
 
