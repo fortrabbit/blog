@@ -70,6 +70,7 @@ Some browsers can show tabs on the (left) side and I think that makes a profound
 | Brave         |            ✅ |
 | Vivaldi       |            ✅ |
 | Arc           |            ✅ |
+| Zen browser   |            ✅ |
 
 I discovered vertical tabs with Arc - a nice implementation with groups (spaces). At the time of this writing many browser already support vertical tabs. But vertical tabs UI can only become mainstream with support by Google Chrome. Safari has a vertical menu for tab groups, but I consider that something else. Vertical tabs in Firefox look ugly to me. Details differ.
 
@@ -105,13 +106,13 @@ For our new dashboard the main navigation is a vertical sidebar on the left side
 
 Tailwind CSS offers some standard media queries for targeting different screen sizes. Thankfully, it's not opinionated on how those may be used, but screen size assumptions may need to be treated with more care.
 
-- **Add more media query breakpoints?** Maybe
+- **Add more media query breakpoints?** Maybe.
 - **Yet another media query?** `@media only screen with verticalTabs and (max-width: 600px)`. Hm.
 - **Container queries instead of outer window size media queries?** Maybe.
 
 ## Fluid layout
 
-What the hack are breakpoints anyway? Why does a layout need to break? Can't it be fluid, always look great? We have responsive units like %, vw, vh. And we have the wonderful clamp function. So we can have tamed fluid sizes for all space units (margin, padding) and font size too.
+Fluid CSS design might be part of a solution too. What the hack are breakpoints anyway? Why does a layout need to break? Can't it be fluid, always look great? We have responsive units like %, vw, vh. And we have the wonderful clamp function. So we can have tamed fluid sizes for all space units (margin, padding) and font size too.
 
 ```css
 /* Simplistic example */
