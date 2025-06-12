@@ -2,7 +2,7 @@
 author: fl
 title: Vertical browser tab challenges
 created: 2025-06-12 09:48:22
-intro: UX and webdev challenges related to native browser tabs.
+intro: UX and web dev challenges
 lead: Vertical browser tabs will add more complexity to web development if they ever become mainstream.
 figure:
   src: browser-tabs-poster.png
