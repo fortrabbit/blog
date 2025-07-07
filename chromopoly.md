@@ -6,6 +6,8 @@ intro: Google's browser dominance threatens the open web.
 lead: This article holds no news. Google Chrome is the most used web browser. I am worried about competition, privacy, the future of web standards and individual user choice. This is my opinion as a web developer.
 figure:
   src: chromopoly-poster.png
+  alt: Chromopoly logo
+  caption: Chromopoly logo, hopefully no trademark issues here
 tag:
   - opinion
 head:
@@ -27,44 +29,32 @@ The current browser landscape shows how Chrome's market share dwarfs its competi
 
 This is a simplified view not considering mobile / desktop and operatig systems.
 
-## My initial Chrome experience
+## My Chrome journey
 
-In 2009 authoring CSS was still playing mockawhole with Internet Explorer. Then Google Chrome came around. It was lightweight and powerful. Everything Google produced was fresh and existing back then. Chrome tookoff and helped to push web standards and to crack up the Internet Explorer dominance. It also has put pressure on Apple to improve on Safari (WebKit). I am so thankful for that.
+In 2009 authoring CSS was still playing mockawhole with Internet Explorer. Then Google Chrome came around. It was lightweight and powerful. Everything Google produced was fresh back then. Chrome tookoff and helped to push web standards and to crack up the Internet Explorer dominance. It also has put pressure on Apple to improve on Safari (WebKit). I am so thankful for all that.
 
-## The Problem
+But over the years I became more and more reserved about new initiatives and web developer resources originating from the Googleverse like [web.dev](https://web.dev/). Many of my CSS heros, like [Bramus](https://www.bram.us/) and [Rachel Andrew](https://rachelandrew.co.uk/) now work at Google in developer relations.
 
-Chrome's dominance creates four key risks:
+I like browsers to gain features that can improve the user experience. As a UI person, I am excited about features like scroll animations and page transitions, or typographic improvments like `text-wrap: pretty`. But I can wait a bit until they will become standarized and mainstream available, specifically when there is a good fallback (progressive enhancement).
 
-- **Web standards control** - Google pushes proprietary features and standards that benefit their services
-- **Privacy Erosion** - Chrome feeds browsing data directly into Google's advertising algorithms
-- **Innovation Stagnation** - Reduced competitive pressure slows development
-- **Lock-in** - Sites optimize for Chrome first, often exclusively
-
-## Examples
-
-- WEI - Web Environment Integrity API - exemplified would have let websites block non-approved browsers, creating a DRM-style gatekeeper system.
-- AMP - Accelerated Mobile Pages
-- CWV - Core Web vitals initative
-- permission element proposal
-- uBlock Origin
-- Perfmatters
-
-## Whisperers
-
-- <https://web.dev/>
-- Houdini (the future of CSS back in 2016)
-
-- Developer Relations / Developer Advocates
-- Bramus
-  - <https://www.bram.us/>
-  - <https://www.youtube.com/watch?v=njdiu83do0M>
+- <https://www.youtube.com/watch?v=njdiu83do0M>
 - Philip Walton
-- Rachel Andrew
 - <https://developer.chrome.com/blog/if-article>
 - Una Kravets
 
+## Examples
+
+- WEI - Web Environment Integrity API - creating a DRM-style gatekeeper system
+- AMP - Accelerated Mobile Pages - more power
+- CWV - Core Web vitals initative
+- Perfmatters -
+- Permission element proposal - HN
+- Houdini (the future of CSS back in 2016) - where is it now?
+
+## Firefox
+
+I keep on using Firefox, specifically because uBlock Origin is still available. I like Mozilla, but I am also not sure what they are up to. It should not be forgotten that Firefox major revenue source (75%) is the default search engine deal with Google.
+
 ## Why It Matters
 
-Browser choice isn't just personal preference—it's about preserving the open, decentralized nature of the internet. A diverse browser ecosystem means better security, more innovation, and stronger privacy protections.
-
-Remember to don't be evil.
+I'd like to see an open, decentralized internet. A diverse browser ecosystem means better security, more innovation, and stronger privacy protections. Is it time for antitrust action? Maybe. Up until, please remember to don't be evil.
