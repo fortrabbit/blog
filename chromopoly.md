@@ -3,6 +3,7 @@ title: Chromopoly
 created: 2025-07-07 08:32:21
 author: fl
 intro: Mixed feelings about Google Chrome.
+wip: true
 lead: The Google Chrome team is pushing the web forward. I am worried about competition, privacy and the future of web standards. No revealing news here, just my personal view.
 figure:
   src: chromopoly-poster.png
