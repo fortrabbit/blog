@@ -14,7 +14,7 @@ tag:
 
 ## The problem with apex domains
 
-You want to route your apex domain (also called bare or naked domain) like `example.com` directly to your app hosted at `myapp.frb.io`. Standard DNS has a limitation: you cannot use CNAME records at the apex domain. This creates a conflict because:
+You want to route your apex domain (also called bare or naked domain) like `example.com` directly to your app hosted at `myapp.frb.io`. With standard DNS you cannot use CNAME records at apex domain level.
 
 - **CNAME records** would solve the routing but break email delivery
 - **A records** require IP addresses, which don't work with dynamic hosting services
