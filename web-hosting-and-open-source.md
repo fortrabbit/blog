@@ -4,7 +4,6 @@ author: fl
 created: 2025-03-17 10:46:16
 intro: It's complicated. The relation between open source and web hosting from our point of view
 lead: This is not about WordPress founder Matt, who is angry about the web hosting service WP-Engine. It's a much smaller story, it's ours.
-draft: false
 figure:
   text: In real open source, you have the right to control your own destiny. -Linus Torvalds
 tag:
