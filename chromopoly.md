@@ -4,7 +4,7 @@ created: 2025-07-09 15:30:46
 author: fl
 intro: Mixed feelings about Google Chrome.
 wip: true
-lead: The Google Chrome team is pushing the web forward. I am worried about competition, privacy and the future of web standards. No revealing news here, just my personal view.
+lead: The Google Chrome team is pushing the web forward. I am worried about competition, privacy and the future of web standards. No revealing news here, just my personal view based on vague pre-assumptions.
 figure:
   src: chromopoly-poster.png
   alt: Chromopoly logo
