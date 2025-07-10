@@ -54,8 +54,8 @@ Remember Houdini, the 'future' of CSS - back in 2016? Google's web team has deli
 
 ## In closing
 
-I keep using Firefox because uBlock Origin is still available (hello Manifest V3). But it should not be forgotten that Firefox major revenue source (75%?) is for the default search engine deal with Google.
+I keep using Firefox with uBlock Origin (hello Manifest V3). But it should not be forgotten that Firefox major revenue source (75%?) is for the default search engine deal with Google.
 
-I'd like to see an open, decentralized internet. I believe a diverse browser ecosystem means better security, more innovation and stronger privacy protections. I've read about growing influence by tech giants on web standards through WHATWG and W3C, but I lack insights. Is it time for antitrust action? I don't know.
+I'd like to see an open, decentralized internet. I believe a diverse browser ecosystem means better security, more innovation and stronger privacy protections. I've read about growing influence by tech giants on web standards through WHATWG and W3C, but I lack insights. Is it time for antitrust action? I don't know. Do I want to see want to see a new browser by an AI company that does not have a good track record in privacy? No, I don't.
 
 Up until, please remember to don't be evil. Thanks.
