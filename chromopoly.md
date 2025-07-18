@@ -50,7 +50,7 @@ Remember Houdini, the 'future' of CSS - back in 2016? Google's web team has deli
 
 - WEI - Web Environment Integrity API
 - AMP - Accelerated Mobile Pages
-- Permission element proposal - [Goolge blog](https://developer.chrome.com/blog/permission-element-origin-trial), [HN](https://news.ycombinator.com/item?id=44281633)
+- Permission element proposal - [Google blog](https://developer.chrome.com/blog/permission-element-origin-trial), [HN](https://news.ycombinator.com/item?id=44281633)
 
 ## In closing
 
