@@ -26,7 +26,7 @@ head:
 | Opera                                            |          ~2% |
 | Other (Brave, Arc, Dia, Zen, Vivaldi, Samsung …) |         ~10% |
 
-The current browser landscape shows how Chrome dwarfs competitors. This simplified view doesn't account for differences between mobile/desktop usage or operating systems.
+The current browser landscape shows how Chrome chrominates. This simplified view doesn't account for differences between mobile/desktop usage or operating systems.
 
 ## Love at first sight
 
