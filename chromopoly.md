@@ -1,6 +1,6 @@
 ---
 title: Chromopoly
-created: 2025-07-09 15:30:46
+created: 2025-07-23 07:58:14
 author: fl
 intro: Mixed feelings about Google Chrome.
 wip: true
