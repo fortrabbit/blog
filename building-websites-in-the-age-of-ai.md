@@ -26,15 +26,15 @@ AI based site builders can generate code, content and design layouts in seconds.
 
 ## Creation of websites
 
-It's die or adapt for the classical web developer working for clients directly. Your job is at risk. Shift competences if you want to keep your skills a profession and not an esotheric hobby.
+It's die or adapt for the classical web developer working for clients directly. Your job is at risk. Shift competences if you want to keep your skills a profession and not an esoteric hobby.
 
 I'd say: Embrace and level up. Invest in strategy and user experience, where human creativity, taste, and empathy still matter. Pursue higher-value, custom design, complex integrations, unique experiences.
 
 ## Consumption of websites
 
-Humans may not look at the website you are building right now, but for sure some AI bot will happily scrape it. AI will eat the web we know for breakfast. People will consult AI instead of the old fashioned searching and surfing. Plumenting activity on StackOverflow is just one visible sign for this.
+Humans may not look at the website you are building right now, but for sure some AI bot will happily scrape it. AI will eat the web we know for breakfast. People will consult AI instead of the old fashioned searching and surfing. Plummeting activity on StackOverflow is just one visible sign for this.
 
-But hey, the web today is alredy broken. Search engines are increasingly unusable. Content is stretched to maximize ad impressions, designed to benefit business interests. I often find myself searching on Reddit when looking for an opinion. Meanwhile AI will flood the web with more homogene websites, further deluting content quality and destroying trust.
+But hey, the web today is already broken. Search engines are increasingly unusable. Content is stretched to maximize ad impressions, designed to benefit business interests. I often find myself searching on Reddit when looking for an opinion. Meanwhile AI will flood the web with more homogene websites, further diluting content quality and destroying trust.
 
 The idea of the web as a vast, open sea of free quality information has been fading for years. There are still unique websites, but finding them get's harder and harder.
 
