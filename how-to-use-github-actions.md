@@ -14,11 +14,9 @@ tag:
 
 fortrabbit already has Git and even Composer build in without the need of any extra service. But fortrabbit currently does not offer a Node.js runtime during deployment, so common build tasks (Webpack) can not run here. So, one good use case to implement GitHub Actions is to automatically build static assets, like and JS, CSS. Or you can test and do other advanced stuff before deploying to fortrabbit.
 
-
 ## The goal
 
 For now, let's build a prototype to deploy code to GitHub to trigger a simple Javascript build process and automatic deployment to fortrabbit afterwards.
-
 
 ## Get ready
 
@@ -26,14 +24,12 @@ You will need to generate an SSH key to allow GitHub to access your fortrabbit A
 
 1. Create a key pair: `$ ssh-keygen -t rsa -b 4096 -m pem -f /tmp/key-github`. This will generate two files: `/tmp/key-github.pub` and `/tmp/key-github`. The first one is the public key, the second one is the private one.
 2. With the [fortrabbit Dashboard](https://dashboard.fortrabbit.com/), go to your App and add an **App-only SSH key**. Paste the content of the public key. This will allow anyone or any app having the corresponding private key to access this app.
-2. On your GitHub repository, go to the Settings, and then go to Secrets. There, add a new secret, call it `SSH_PRIVATE_KEY` (if you want to follow our example, but you can obviously call it as you want), and paste the content of the private key.
-3. Now you don't need the keys in your local `/tmp` folder anymore and you're all set up.
-
+3. On your GitHub repository, go to the Settings, and then go to Secrets. There, add a new secret, call it `SSH_PRIVATE_KEY` (if you want to follow our example, but you can obviously call it as you want), and paste the content of the private key.
+4. Now you don't need the keys in your local `/tmp` folder anymore and you're all set up.
 
 ## Two methods
 
 We will show two ways to integrate GitHub actions, both can have the same result, but the approach is different:
-
 
 ### 1. Git transport layer method
 
@@ -57,12 +53,12 @@ jobs:
     steps:
     # This will pull the github repository to the current pipeline
     - uses: actions/checkout@v1
-    
+
     # This will automatically set up ssh with our private key
     - uses: webfactory/ssh-agent@v0.5.4
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      
+
     # Use the version of Node.js you need
     - name: Use Node.js 10.x
       uses: actions/setup-node@v1
@@ -93,7 +89,7 @@ jobs:
         git commit -m "Build $($CURRENT_DATE_TIME)"
       env:
         CURRENT_DATE_TIME: "date +%Y-%m-%d:%H-%M"
-    
+
     - name: deploy
       run: |
         git push --force $REPO_URL
@@ -104,12 +100,11 @@ jobs:
 
 As you may have noticed, we don't install PHP dependencies here, because when a Git deployment happens with fortrabbit, a Composer install is automatically triggered.
 
-
 ### 2. rsync transport layer method
 
 Only available for Universal Apps.
 
-Here we will use `rsync` to deploy to fortrabbit at the end. Instead of dealing with a temporary git repository in the CI that you alter, you can directly send all the files through rsync.
+Here we will use `rsync` to deploy to fortrabbit at the end. Instead of dealing with a temporary Git repository in the CI that you alter, you can directly send all the files through rsync.
 
 ```
 name: Deploy through rsync
@@ -124,12 +119,12 @@ jobs:
     steps:
     # This will pull the github repository to the current pipeline
     - uses: actions/checkout@v1
-    
+
     # This will automatically set up ssh with our private key
     - uses: webfactory/ssh-agent@v0.5.4
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      
+
     # We decide to use Node.js 10 here (could use 8, 10, or 12)
     - name: Use Node.js 10.x
       uses: actions/setup-node@v1
@@ -160,13 +155,11 @@ jobs:
 
 A Composer install in GitHub's CI is triggered. Since the fortrabbit Git repo stays untouched, hence no Composer process will be launched on the deploy service. Everything will be transferred to fortrabbit already packed.
 
-
 ## Feedback please
 
 Please let us know what you think! We are actively considering different implementation ideas.
 
-What would you prefer: Having Node.js directly integrated with our service without the need to use an external service for this, or better integration with GitHub (and/or maybe BitBucket and others)? What do you think about the two approaches outlined above? Do you fully understand the differences? What would be your setup? Maybe, what's your use case? 
-
+What would you prefer: Having Node.js directly integrated with our service without the need to use an external service for this, or better integration with GitHub (and/or maybe BitBucket and others)? What do you think about the two approaches outlined above? Do you fully understand the differences? What would be your setup? Maybe, what's your use case?
 
 ## Thanks to our smart clients
 
