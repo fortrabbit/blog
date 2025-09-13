@@ -90,11 +90,11 @@ The Singe Page Application with CSR will be invisible for the search engines.
 
 With SSG, all pages are pre-rendered and the SPA mode kicks in when a human visitor stops by. But if an editor changes the content of an article? Usually the generation of the pages pnly happens when teh project get's deployed. With deploy webhooks, deployment, even incremental ones can be trigged, but that setting up such system can be challenging.
 
-Classical PHP wit no reactivity, SSR and coupled projects come with good SEO.
+Classical PHP with no reactivity, SSR and coupled projects come with good SEO.
 
 ## Deployment
 
-It's assumed, that Git is used with Git provider such as GitHub, GitLab or Codeberg. How can the different options be put on public server in an automated way? This is a wide subject, let's focus on the requirements for the above mentioned reactive PHP projects.
+How can the different options be put on public server in an automated way?This is a wide subject, let's focus on the requirements for the above mentioned reactive PHP projects.
 
 ### No reactivity
 
