@@ -58,7 +58,7 @@ Now back to the routes. In action oriented UX the final step can have this patte
 
 ### CRUD actions only?
 
-So far I have explored to apply this pattern for primary actions on objects only. It could potentially also be applied to any kind of additional configurable parameter of objects. A user may want to **change the PHP version** of an app environment. With object oriented UX, the user needs to find that setting with the app environment. Imagine a search box or command bar where you just type php version to start the process. Next you can an app environments from a list.
+So far I have explored to apply this pattern for primary actions on objects only. It could potentially also be applied to any kind of additional configurable parameter of objects. A user may want to **change the PHP version** of an environment. With object oriented UX, the user needs to find that setting with the environment. Imagine a search box or command bar where you just type php version to start the process. Next you can an environments from a list.
 
 ## We may not ship it
 
