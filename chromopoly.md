@@ -1,9 +1,8 @@
 ---
 title: Chromopoly
-created: 2025-07-23 07:58:14
+created: 2025-09-15 14:44:24
 author: fl
 intro: Mixed feelings about Google Chrome.
-wip: true
 lead: The Google Chrome team is pushing the web forward. I am worried about competition, privacy and the future of web standards. No revealing news here, just my personal view based on vague pre-assumptions.
 figure:
   src: chromopoly-poster.png
@@ -26,7 +25,7 @@ head:
 | Opera                                            |          ~2% |
 | Other (Brave, Arc, Dia, Zen, Vivaldi, Samsung …) |         ~10% |
 
-The current browser landscape shows how Chrome chrominates. This simplified view doesn't account for differences between mobile/desktop usage or operating systems.
+The current browser landscape shows how Chrome **chrominates**. This simplified view doesn't account for differences between mobile/desktop usage or operating systems.
 
 ## Love at first sight
 
