@@ -28,7 +28,7 @@ This is not about winners and losers. This is about team size, requirements and 
 
 ## 1 - No reactivity
 
-Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options out of the box. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration. You may still add on-page JavaScript reactivty without querying the server.
+Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration. You may still add on-page JavaScript reactivty without querying the server.
 
 For partial reactivity small drop-in Javascript apps on a per page basis can work too.
 
@@ -59,7 +59,7 @@ During build time, usually during deployment, the whole content is pre-rendered 
 
 ### Server Side Rendered (SSR)
 
-This mode is able to do both, classical server side rendering and client side rendering. The drawback here is, that it requires a Node.js runtime on the server to query the backend for the latest content to return HTML directly to the browser. The content is always fresh and it is good for SEO. It might be slow. SSR is required
+This mode is able to do both, classical server side rendering and client side rendering. It requires a Node.js runtime on the server to query the backend for the latest content to return HTML directly to the browser. The content is always fresh and it is good for SEO. Delivery might be slower than pre-rendered static pages.
 
 There are plenty of additional strategies, like mixing the different methods together on a per-page basis or incrementally generating new content on intervals.
 
@@ -111,7 +111,7 @@ The Singe Page Application with CSR will be invisible for the search engines.
 
 With SSG, all pages are pre-rendered and the SPA mode kicks in when a human visitor stops by. But if an editor changes the content of an article? Usually the generation of the pages pnly happens when teh project get's deployed. With deploy webhooks, deployment, even incremental ones can be trigged, but that setting up such system can be challenging.
 
-Classical PHP with no reactivity, SSR and coupled projects come with good SEO.
+Classical PHP with no reactivity, SSR and coupled projects all come with good SEO.
 
 ## Deployment and hosting
 
