@@ -7,8 +7,8 @@ navigation.excerpt: reactive websites with PHP and JS.
 lead: Modern JavaScript enables interactive websites through live data exchange between browser and server. PHP excels at server-side processing, returning HTML or JSON responses. What options exist for combining PHP and JavaScript to create reactive websites?
 wip: true
 figure:
-  emoji: 🧠
-  color: rgba(214, 161, 161, 1)
+  emoji: 🧥
+  color: rgba(222, 192, 103, 1)
 head:
   meta:
     - name: 'keywords'
