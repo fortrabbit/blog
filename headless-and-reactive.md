@@ -1,31 +1,43 @@
 ---
-created: 2025-09-13 07:49:55
+created: 2025-09-16 14:52:02
 author: fl
-title: Headless and reactive with PHP
-naviTitle: Headless and reactive
-navigation.excerpt: Reactive websites with PHP.
-lead: Javascript frameworks have two-way reactive bindings. But PHP is a server side language. What options are there to combine PHP and Javascript to create reactive websites?
+title: Headless and reactive PHP
+naviTitle: Headless and reactive PHP
+navigation.excerpt: reactive websites with PHP and JS.
+lead: Modern JavaScript enables interactive websites through live data exchange between browser and server. PHP excels at server-side processing, returning HTML or JSON responses. What options exist for combining PHP and JavaScript to create reactive websites?
 wip: true
 figure:
   emoji: 🧠
   color: rgba(214, 161, 161, 1)
+head:
+  meta:
+    - name: 'keywords'
+      content: 'JAMstack, react, vue, php, ajax, async, promise'
 ---
 
-This is a opinionated view from my angle of the web. It helps me thinking about the subject, since we wan't to cover a lot of this with our [new hosting platform](https://new.fortrabbit.com). I realize that the title sounds negative, but in developer circles, both reactivity and headless are actually desirable things.
+This is a opinionated view from my angle of the web in 2025. It helps me thinking about the subject, since we wan't to cover a lot of this with our [new hosting platform](https://new.fortrabbit.com).
+
+The title might sound ominous, but in web development, "headless" and "reactive" are actually good.
 
 ## How to choose
 
-This is not about winners and losers. This is about team size, requirements and most of it all personal preference and skills. Many developers stick to their home stack. Some PHP developers tend towards backend development and try to avoid too much frontend work. Any abstractions is highly welcome? Don't need to leave PHP? Great! Others feels the need to control the border radius and the shade of blue.
+This is not about winners and losers. This is about team size, requirements and most of it all personal preference and skills. Many developers stick to their home stack.
+
+- Some PHP developers tend towards backend development and try to avoid too much frontend work. Don't need to leave PHP? Great!
+- Others feels the need to control the border radius and the shade of blue. Don't need to leave JS? Great!
 
 ## 1 - No reactivity
 
-Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain and deploy. Server side rendered pages come with great SEO options out of the box. Specifically for small website projects, with smaller teams or even solo developers, consider carefully. Don't follow the latest trends without consideration. You may still add on-page JavaScript reactivty without querying the server.
+Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options out of the box. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration. You may still add on-page JavaScript reactivty without querying the server.
 
-For partial reactivity small drop-in javascript apps on a per page basis can work too.
+For partial reactivity small drop-in Javascript apps on a per page basis can work too.
 
 ## 2 - Decoupled
 
-This dual stack approach consists of two independent system that can talk to each other. A frontend is based on Javascript (Svelte, Next.js, Nuxt.js, Astro …). A PHP backend provides an API (REST, GraphQL). The frontend part is called JAMstack sometimes.
+This dual stack approach consists of two independent systems that talk to each other.
+
+- The PHP backend provides an API (REST, GraphQL).
+- The frontend is based on Javascript (Svelte, Next.js, Nuxt.js, Astro, HTMX …)
 
 Traditional PHP CMS systems like WordPress bundle the backend and the frontend into one system. But a so called headless mode is now available for WordPress, Craft CMS and many more.
 
@@ -55,9 +67,8 @@ There are plenty of additional strategies, like mixing the different methods tog
 
 How to structure the code, setup local development and finally deploy to a public host?
 
-**Monorepo:** the frontend and the backend code. This is easier to share and demo. The [Craft CMS Nuxt starter](https://github.com/craftcms/starter-nuxt) is a good example.
-
-**Polyrepo:** Frontend and backend code are in different repos. For larger teams, separated code bases might be interesting.
+- **Monorepo:** the frontend and the backend code. This is easier to share and demo. The [Craft CMS Nuxt starter](https://github.com/craftcms/starter-nuxt) is an example.
+- **Polyrepo:** Frontend and backend code are in different repos. For larger teams, separated code bases might be interesting.
 
 ## 3 - Coupled
 
@@ -82,6 +93,16 @@ The user experience layer from Symfony is a mix of different technologies and bo
 - [ux.symfony.com](https://ux.symfony.com/)
 - [hotwired.dev](https://hotwired.dev/)
 
+### D - Others
+
+Somehow also in this couple space (I guess) are the following projects:
+
+- [Sprig plugin for Craft CMS](https://putyourlightson.com/plugins/sprig) - based on HTMX
+- [reactphp.org](https://reactphp.org/) - Event-driven, non-blocking I/O with PHP
+- [getyoyo.dev](https://getyoyo.dev/) - based on HTMX
+- [Framework X](https://framework-x.org/) - based on ReactPHP
+- [github.com/ReactiveX/RxPHP](https://github.com/ReactiveX/RxPHP)
+
 ## SEO
 
 Not for all, but for many web projects good visibility in search engines is a must. One has to assume that seach engine crawlers will not be able to intepret Javascript like a browser.
@@ -92,9 +113,9 @@ With SSG, all pages are pre-rendered and the SPA mode kicks in when a human visi
 
 Classical PHP with no reactivity, SSR and coupled projects come with good SEO.
 
-## Deployment
+## Deployment and hosting
 
-How can the different options be put on public server in an automated way?This is a wide subject, let's focus on the requirements for the above mentioned reactive PHP projects.
+How can the different options be put on public server in an automated way? This is a wide subject, let's focus on the requirements for the above mentioned reactive PHP projects.
 
 ### No reactivity
 
