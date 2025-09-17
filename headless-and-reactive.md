@@ -119,18 +119,24 @@ How can the different options be put on public server in an automated way? This 
 
 ### No reactivity
 
-Easy peasy. This type does not require any complex interaction between frontend and backend and therefore is easy to deploy to a web host.
+Easy peasy. This type does not require any complex interaction between frontend and backend and therefore is easy to deploy to a web host that supports PHP.
 
 ### Decoupled
 
-For the decoupled project, the frontend and the backed projects can be deployed to different web hosts. Deploy the PHP part to service that supports a PHP runtime. Deploy the JS part to a dedicated JAMstack hosting service. This is sophisticated, but also a bit complex.
+For the decoupled project, the frontend and the backed projects can be deployed to different web hosts.
 
-Depending on the project requirements and the service features, it might also be possible to deploy both projects to a single hosting service.
+- Deploy the PHP part to service that has a PHP runtime.
+- Deploy the JS part to a dedicated JAMstack hosting service.
 
-In most cases the frontend part needs to be built using something like `npm run build`. This is usually done during deployment. For example with GitHub Actions or a PaaS service that connects to the Git repo.
+This is sophisticated, but also a bit complex. Depending on the project requirements and the service features, it might also be possible to deploy both projects to a single hosting service.
+
+In most cases the frontend part needs to be built using something like `npm run build`. This is usually done during deployment. For example with GitHub Actions or a PaaS service that connects to the Git repo and offers build steps.
 
 ### Coupled
 
-The modern monoliths need to be deployed alongside on the same server, since PHP will need to call Node.js.
+With the modern monoliths the frontend and the backend code are usually deployed alongside.
 
-Our implementation for the [new platform](https://new.fortrabbit.com) will be Node.js runtime that is available with the job components so that Node.js can be called from the backend.
+- The frontend part needs to be compiled during deployment.
+- A Node.js runtime is required to serve the server side generated parts.
+
+The first version of [new platform](https://new.fortrabbit.com) will already support many of the above mentioned workflows.
