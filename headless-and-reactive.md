@@ -12,7 +12,7 @@ figure:
 head:
   meta:
     - name: 'keywords'
-      content: 'JAMstack, react, vue, php, ajax, async, promise'
+      content: 'JAMstack, react, vue, php, ajax, async, promise, stateful'
 ---
 
 This is a opinionated view from my angle of the web in 2025. It helps me thinking about the subject, since we wan't to cover a lot of this with our [new hosting platform](https://new.fortrabbit.com).
@@ -30,7 +30,7 @@ This is not about winners and losers. This is about team size, requirements and 
 
 Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration. You may still add on-page JavaScript to compute stuff without querying the server.
 
-For partial reactivity small drop-in Javascript apps on a per page basis can work too.
+For partial reactivity (stateful) small drop-in Javascript apps on a per page basis can work too.
 
 ## 2 - Decoupled
 
@@ -82,7 +82,7 @@ The aim of Laravel Livewire is to enable PHP developers to create modern reactiv
 
 ### B - Interia.js
 
-Interia.js, also hailing from the Laravel scene, has a different approach. It glues together the PHP backend with any frontend, think Vue.js or React based systems. Unlike with decoupled systems, the data is directly provided by the PHP layer. Export data from PHP, directly use in Vue or alike. Each Javascript framework has it's own adaptor.
+Interia.js, also hailing from the Laravel scene, has a different approach. It glues together the PHP backend with any Javascript frontend, think Vue.js or React based systems. Unlike with decoupled systems, the data is directly provided by the PHP layer. Each Javascript framework has it's own adaptor.
 
 - [inertiajs.com](https://inertiajs.com/)
 
@@ -140,3 +140,23 @@ With the modern monoliths the frontend and the backend code are usually deployed
 - A Node.js runtime is required to serve the server side generated parts.
 
 The first version of [new platform](https://new.fortrabbit.com) will already support many of the above mentioned workflows.
+
+### Hosting requirements
+
+| Type              | Node.js runtime `*` | Node.js via PHP `**` | Node.js deployment `***` |
+| ----------------- | ------------------- | -------------------- | ------------------------ |
+| No reactivity     | No                  | No                   | No                       |
+| Decoupled         | Yes                 | No                   | Yes                      |
+| Inertia.js        | No                  | Yes                  | Yes                      |
+| Laravel Livewire  | No                  | No                   | No                       |
+| Symfony UX        | No                  | No                   | ?                        |
+| Sprig (Craft CMS) | No                  | No                   | No                       |
+| ReactPHP          | ?                   | ?                    | ?                        |
+| Yoyo              | No                  | No                   | No                       |
+| Framework X       | No                  | No                   | No                       |
+
+#### Legend
+
+- `*` Node.js runtime - `npm run serve`
+- `**` Node.js via PHP - PHP talks to a backend Node.js process (worker)
+- `***` Node.js deployemnt - `npm run build` to generate artifacts
