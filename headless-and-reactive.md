@@ -93,6 +93,8 @@ The user experience layer from Symfony is a mix of different technologies and bo
 - [ux.symfony.com](https://ux.symfony.com/)
 - [hotwired.dev](https://hotwired.dev/)
 
+AssetMapper is PHP library to compile frontend assets in PHP, so that Node.js is not required. The older alternative is to use Webpack Encore. See [Symnfony docs](https://symfony.com/doc/current/frontend.html#stimulus-symfony-ux-components).
+
 ### D - Others
 
 Somehow also in this couple space (I guess) are the following projects:
@@ -149,7 +151,7 @@ The first version of [new platform](https://new.fortrabbit.com) will already sup
 | Decoupled         | Yes                 | No                   | Yes                      |
 | Inertia.js        | No                  | Yes                  | Yes                      |
 | Laravel Livewire  | No                  | No                   | No                       |
-| Symfony UX        | No                  | No                   | ?                        |
+| Symfony UX        | No                  | No                   | Optional                 |
 | Sprig (Craft CMS) | No                  | No                   | No                       |
 | ReactPHP          | ?                   | ?                    | ?                        |
 | Yoyo              | No                  | No                   | No                       |
