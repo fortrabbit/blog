@@ -93,7 +93,9 @@ The user experience layer from Symfony is a mix of different technologies and bo
 - [ux.symfony.com](https://ux.symfony.com/)
 - [hotwired.dev](https://hotwired.dev/)
 
-AssetMapper is PHP library to compile frontend assets in PHP, so that Node.js is not required. The older alternative is to use Webpack Encore. See [Symnfony docs](https://symfony.com/doc/current/frontend.html#stimulus-symfony-ux-components).
+#### AssetMapper
+
+AssetMapper is PHP library used and recommended by Symfony to compile frontend assets in PHP, so that Node.js is not required. The older alternative uses Webpack Encore, so this requires Node.js. See [Symnfony docs](https://symfony.com/doc/current/frontend.html#stimulus-symfony-ux-components).
 
 ### D - Others
 
@@ -145,17 +147,17 @@ The first version of [new platform](https://new.fortrabbit.com) will already sup
 
 ### Hosting requirements
 
-| Type              | Node.js runtime `*` | Node.js via PHP `**` | Node.js deployment `***` |
-| ----------------- | ------------------- | -------------------- | ------------------------ |
-| No reactivity     | No                  | No                   | No                       |
-| Decoupled         | Yes                 | No                   | Yes                      |
-| Inertia.js        | No                  | Yes                  | Yes                      |
-| Laravel Livewire  | No                  | No                   | No                       |
-| Symfony UX        | No                  | No                   | Optional                 |
-| Sprig (Craft CMS) | No                  | No                   | No                       |
-| ReactPHP          | ?                   | ?                    | ?                        |
-| Yoyo              | No                  | No                   | No                       |
-| Framework X       | No                  | No                   | No                       |
+| Type             | Node.js runtime `*` | Node.js via PHP `**` | Node.js deployment `***` |
+| ---------------- | ------------------- | -------------------- | ------------------------ |
+| No reactivity    | No                  | No                   | No                       |
+| Decoupled        | Yes                 | No                   | Yes                      |
+| Inertia.js       | No                  | Yes                  | Yes                      |
+| Laravel Livewire | No                  | No                   | No                       |
+| Symfony UX       | No                  | No                   | [Optional](#assetmapper) |
+| Sprig (Craft)    | No                  | No                   | No                       |
+| ReactPHP         | ?                   | ?                    | ?                        |
+| Yoyo             | No                  | No                   | No                       |
+| Framework X      | No                  | No                   | No                       |
 
 #### Legend
 
