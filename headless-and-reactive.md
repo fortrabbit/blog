@@ -28,7 +28,7 @@ This is not about winners and losers. This is about team size, requirements and 
 
 ## 1 - No reactivity
 
-Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration. You may still add on-page JavaScript reactivty without querying the server.
+Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration. You may still add on-page JavaScript to compute stuff without querying the server.
 
 For partial reactivity small drop-in Javascript apps on a per page basis can work too.
 
@@ -39,13 +39,13 @@ This dual stack approach consists of two independent systems that talk to each o
 - The PHP backend provides an API (REST, GraphQL).
 - The frontend is based on Javascript (Svelte, Next.js, Nuxt.js, Astro, HTMX …)
 
-Traditional PHP CMS systems like WordPress bundle the backend and the frontend into one system. But a so called headless mode is now available for WordPress, Craft CMS and many more.
+Traditional PHP CMS systems bundle the backend and the frontend into one system. But a so called headless mode is now available for WordPress, Craft CMS and many more.
 
 - [getkirby.com/…/headless-getting-started](https://getkirby.com/docs/cookbook/headless/headless-getting-started)
 - [craftcms.com/…/graphql.html](https://craftcms.com/docs/getting-started-tutorial/more/graphql.html)
 - [statamic.dev/rest-api](https://statamic.dev/rest-api)
 
-PHP frameworks like Laravel and Symfony support API interfaces for a long time. The PHP backend system and the frontend system can live in separated code bases and can be developed and deployed independently. This makes it interesting for bigger teams or projects as well as frontend developers. The frontend website is just one client for the backend, another one might be a mobile app.
+PHP frameworks like Laravel and Symfony support API interfaces for a long time. The PHP backend system and the frontend system can live in separated code bases and can be developed and deployed independently. This makes it interesting for bigger teams or projects as well as frontend focused developers. The frontend website is just one a for the backend, another one might be a mobile app.
 
 The use of Single Page Applications is a trend. Carefully consider if such a system is the best technology for the given project.
 
@@ -72,7 +72,7 @@ How to structure the code, setup local development and finally deploy to a publi
 
 ## 3 - Coupled
 
-Some developers questioned the decoupled approach. Why not send HTML over the wire? Why not use existing tooling for routing and authentication? Modern PHP frameworks come with battle tested tooling, like routing and authentication. Twig and Blade are powerful templating languages. Why abandon all that? Build modern monoliths! This is faster and often easier to implement.
+Some developers questioned the decoupled approach. Why not send HTML over the wire? Why not use existing tooling for routing and authentication? Modern PHP frameworks come with battle tested tooling, like routing and authentication. Twig and Blade are powerful templating languages. Why abandon all that? Build modern monoliths! This is faster and often easier to implement in terms of hosting and deployment as it involves fewer moving parts.
 
 ### A - Livewire
 
