@@ -104,7 +104,7 @@ The user experience layer from Symfony is a mix of different technologies and bo
 
 #### AssetMapper
 
-AssetMapper is PHP library used and recommended by Symfony to compile frontend assets in PHP, so that Node.js is not required. The older alternative uses Webpack Encore. See [Symfony docs](https://symfony.com/doc/current/frontend.html#stimulus-symfony-ux-components).
+AssetMapper is PHP library used and recommended by Symfony to compile frontend assets in PHP, Node.js not required. It also acts like a kind of package manager and provides Twig tags to link to versionzed asset versions. The older alternative uses Webpack Encore. See [Symfony docs](https://symfony.com/doc/current/frontend.html#stimulus-symfony-ux-components).
 
 ### D - Others
 
