@@ -103,7 +103,7 @@ Thanks to these commonly used macros, all of our forms can be easily modified gl
 
 ### Ajax Login
 
-Our login form is now fully functional - but we can still make it better by adding AJAX functionality. To do that, we used the [progressive enhancement](https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/) strategy - our form will work perfectly fine if Javascript is disabled and AJAX is not available. With Javascript enabled, thanks to the use of AJAX, our login form will not needlessly reload the whole page with every login attempt. In case of an unsuccessful login, it will just display an error message instead. This provides much a better user experience for users.
+Our login form is now fully functional - but we can still make it better by adding AJAX functionality. To do that, we used the [progressive enhancement](https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/) strategy - our form will work perfectly fine if JavaScript is disabled and AJAX is not available. With JavaScript enabled, thanks to the use of AJAX, our login form will not needlessly reload the whole page with every login attempt. In case of an unsuccessful login, it will just display an error message instead. This provides much a better user experience for users.
 
 The AJAX functionality code is placed within the [js](https://craftcms.com/docs/4.x/dev/tags.html#js) Twig tag, wrapped with a self-executing function to prevent any variable conflicts. Let's walk through this code - if you are not interested in the technical details, you can just skip this section.
 

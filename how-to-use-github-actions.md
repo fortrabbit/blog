@@ -16,7 +16,7 @@ fortrabbit already has Git and even Composer build in without the need of any ex
 
 ## The goal
 
-For now, let's build a prototype to deploy code to GitHub to trigger a simple Javascript build process and automatic deployment to fortrabbit afterwards.
+For now, let's build a prototype to deploy code to GitHub to trigger a simple JavaScript build process and automatic deployment to fortrabbit afterwards.
 
 ## Get ready
 

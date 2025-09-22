@@ -9,7 +9,6 @@ tag:
   - webdev
 ---
 
-
 ## PHP development then and now
 
 For most of us PHP developers writing applications now compared to ten or so years ago is quite a different endeavor. Back then, many of us were rather web designers; responsible not only for backend development, but database engineering, system administration, frontend programming and maybe conceiving and designing the very UI as well.
@@ -54,9 +53,9 @@ Automated testing has long been the black sheep of the PHP family. However, this
 
 A thoroughly [tested application](http://en.wikipedia.org/wiki/Software_testing#Testing_levels) brings a lot of advantages. My personal top three:
 
-* Tested software can be far easier refactored
-* Unit testing enforces modular design (increased re-usability)
-* Tests provide a documentation and example code
+- Tested software can be far easier refactored
+- Unit testing enforces modular design (increased re-usability)
+- Tests provide a documentation and example code
 
 There are lots of [benefits](http://en.wikipedia.org/wiki/Unit_testing#Benefits) but in the end for me it boils down to this: Better code — less headache.
 
@@ -111,9 +110,9 @@ foreach ($_SERVER as $k => $v) {
 
 ## 5. Assets
 
-Asset data, such as (compiled) CSS, Javascript, images and so on, are truly hard to decide upon. In short - and with limitations - my recommendation is to keep them under version control.
+Asset data, such as (compiled) CSS, JavaScript, images and so on, are truly hard to decide upon. In short - and with limitations - my recommendation is to keep them under version control.
 
-At length: Compilation of CSS and Javascript or creating modified instances of images requires a surprisingly large and diverse tool set which comes with a large dependency set of their own (think c compiler for node extension which shrinks images using image magick bindings vs complete Java runtime for some CSS compilers vs ..). This increases the complexity of the deployment infrastructure unnecessarily. Then there is the responsibility problem: Assets are often handled by the frontend developers of the team. As all specialized developers, they have their tools which work great for them. Forcing asset compilation in the release cycle means they need to limit themselves to the tools available here.
+At length: Compilation of CSS and JavaScript or creating modified instances of images requires a surprisingly large and diverse tool set which comes with a large dependency set of their own (think c compiler for node extension which shrinks images using image magick bindings vs complete Java runtime for some CSS compilers vs ..). This increases the complexity of the deployment infrastructure unnecessarily. Then there is the responsibility problem: Assets are often handled by the frontend developers of the team. As all specialized developers, they have their tools which work great for them. Forcing asset compilation in the release cycle means they need to limit themselves to the tools available here.
 
 For a truly in-depth discussion about this topic please see [Frank's previous article](/i-love-assets).
 
@@ -165,7 +164,7 @@ Good code quality, testing and good measured abstraction pay out in the long run
 
 ## 9. Stages
 
-While automated testing provides a good foundation, when code meets content there is still lot's of room for mishaps. Hence there is the concept of staging. Having a (working) local setup of the application already provides the first stage: the *development stage* (or *local stage*). The other stage, which always exists, is of course the *production stage*: the live web application. Now there is lot's of space in between for testing, review and whatnot.
+While automated testing provides a good foundation, when code meets content there is still lot's of room for mishaps. Hence there is the concept of staging. Having a (working) local setup of the application already provides the first stage: the _development stage_ (or _local stage_). The other stage, which always exists, is of course the _production stage_: the live web application. Now there is lot's of space in between for testing, review and whatnot.
 
 In general, all stages should try to approximate the production environment as closely as possible. The more they deviate, the less sense they make.
 

@@ -10,7 +10,6 @@ tag:
   - opinion
 ---
 
-
 Online retail business is growing. People buy more stuff online. And all of this is occupied by Amazon. Well, not entirely… One small village of indomitable Gauls still holds out against the invador. You, the developers and entrepreneurs building a custom e-shop, are a Gaul.
 
 DICLAIMER: There are as many types of e-commerce as stars in the sky. This article is a look at those blinking lights from below with focus on new trends, lightweight and cloud-ready systems. We have a PHP background, which is the language of many E-commerce systems. And we come from Germany which is also home of many projects.
@@ -47,10 +46,10 @@ Most online stores shown here are classical self-hosted e-commerce systems — t
 
 The Drupal Commerce Guys are going in that direction, Sylius and Sellvana as well. And there are already some startups out there. Those are mostly closed source and hosted:
 
-* [Schema.io](https://schema.io/) API first and only
-* [Moltin](https://moltin.com/) hosted + API
-* [Mozu](https://www.mozu.com/) hosted + API, brainchild from Volusion, US
-* [commercetools](http://www.commercetools.com/) (ex sphere.io) from DE, Berlin
+- [Schema.io](https://schema.io/) API first and only
+- [Moltin](https://moltin.com/) hosted + API
+- [Mozu](https://www.mozu.com/) hosted + API, brainchild from Volusion, US
+- [commercetools](http://www.commercetools.com/) (ex sphere.io) from DE, Berlin
 
 ### Licensing
 
@@ -70,7 +69,7 @@ We are mostly interested in those newcomers here of course. Composer packages ar
 
 **[Elcodi](http://elcodi.io/)** Symfony components, Composer — keep talking. This is Elcodi from Barcelona, another young promising candidate. ~390 GitHub stars
 
-**[Thelia](http://thelia.net/)** (still in version 2) from France is an ecommerce based on Symfony2 components with Smarty 3 templating engine.  ~550 GitHub stars
+**[Thelia](http://thelia.net/)** (still in version 2) from France is an ecommerce based on Symfony2 components with Smarty 3 templating engine. ~550 GitHub stars
 
 **[Mothership](http://mothership.ec/)** is another newcomer that promises to combine e-commerce with a point of sale (ePOS) solution. ~15 GitHub stars
 
@@ -92,7 +91,7 @@ Old does not have to be rusty. It also means means tried and tested, feature com
 
 **[Pimcore](https://www.pimcore.org/en/product/multi-channel-e-commerce-platform)** is also rooted in the enterprise sector and does it all. It's a CMS that has an integrated multi-channel e-commerce platform (Enterprise Add-On). ~500 GitHub stars
 
-**[Reaction Commerce](https://reactioncommerce.com/)** is an open source Javascript (build on Meteor) for ecommerce, currently in beta. ~1.7k GitHub stars
+**[Reaction Commerce](https://reactioncommerce.com/)** is an open source JavaScript (build on Meteor) for ecommerce, currently in beta. ~1.7k GitHub stars
 
 **[Spreecommerce](https://spreecommerce.com/)** is probably the most notable e-commerce system written in Ruby. ~7k GitHub stars — But i learned (see below) that it is no longer maintained and succeeded by [Solidus](http://solidus.io/).
 

@@ -10,7 +10,7 @@ tag:
   - opinion
 ---
 
-Maybe I am not the best to judge here. I am not even a real developer. My role is more product ownership and design. But I wonder about the relation of PHP and Javascript for 2024 and beyond. For a PHP hosting provider, that's an important question.
+Maybe I am not the best to judge here. I am not even a real developer. My role is more product ownership and design. But I wonder about the relation of PHP and JavaScript for 2024 and beyond. For a PHP hosting provider, that's an important question.
 
 A decade ago, we at fortrabbit were excited by recent improvements in PHP and its ecosystem - specifically Composer. PHP evolved beyond a Pretty HomePage language for simple websites into something you can build web applications with. Symfony and Laravel are great frameworks for that. Yet, we are still hosting more PHP websites than web applications today.
 
@@ -20,7 +20,7 @@ It's a simple concept and maybe that's why it is so powerful. It's not prefect, 
 
 But than there is the JS part and the CSS styles, for which you will usually want to have some tooling to compress the authoring files into production code. I don't know anyone doing that with PHP today. So somehow, you need to integrate some JavaScript tooling like Vite into your workflow. I don't ‘feel' the connection here.
 
-There is Livewire and Interia.js, both projects aim to minimize the gap between the JS and the PHP world. We looked into those, but for our new platform we settled with a Javascript setup for all frontend properties (see [blog post](https://blog.fortrabbit.com/our-new-frontend-stack)). It felt more natural to not mix the eco systems.
+There is Livewire and Interia.js, both projects aim to minimize the gap between the JS and the PHP world. We looked into those, but for our new platform we settled with a JavaScript setup for all frontend properties (see [blog post](https://blog.fortrabbit.com/our-new-frontend-stack)). It felt more natural to not mix the eco systems.
 
 There recently was some PHP vs JS discussion going on. Polarisation helps getting attention:
 
@@ -39,7 +39,7 @@ Statamic was a flat file CMS and turned into ~~jack of all trades~~ a super vers
 
 I would like to see ‘PHP AND JS' as well. But I am not sure if the current answers are enough. It seems to me that the JS world is currently extending classical flat file Jamstack apps by more dynamic features (server side rendering to some extend).
 
-We have been discussing ideas to provide hosting for Javascript based applications for almost a decade. So far we have been hesitant. Everything in JS world is changing so fast. Putting out a service means commitment for many years. For the new platform we will start by providing integrated tooling to run `npm` tasks during deployment for all kind of build processes. We are also exploring ideas to include a Node.js runtime available with the apps (early stages).
+We have been discussing ideas to provide hosting for JavaScript based applications for almost a decade. So far we have been hesitant. Everything in JS world is changing so fast. Putting out a service means commitment for many years. For the new platform we will start by providing integrated tooling to run `npm` tasks during deployment for all kind of build processes. We are also exploring ideas to include a Node.js runtime available with the apps (early stages).
 
 Please don't hesitate to share your requirements and use cases with us. We are eager to learn.
 

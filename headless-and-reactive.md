@@ -27,9 +27,9 @@ A software system where the front end (user interface) is separated from the bac
 
 ### Reactive
 
-A website that uses Javascript to update parts of the page (via AJAX) by content coming from the server and by interaction of the user. This is my very own definition. Maybe it helps explaining what this is not.
+A website that uses JavaScript to update parts of the page (via AJAX) by content coming from the server and by interaction of the user. This is my very own definition. Maybe it helps explaining what this is not.
 
-- Not a static website, serving pnly full pages of HTML
+- Not a static website, serving only full pages of HTML
 - Not a classical serverful website, a server always renders a full page
 - Not 'reactive web design', different website versions for each screen resolution
 
@@ -46,14 +46,14 @@ This is not about winners and losers. This is about team size, requirements and 
 
 Check your premises. Do you really need a reactive website? Classical server side rendered websites are way less complicated to build, maintain, deploy and host. Server side rendered pages come with great SEO options. Specifically for small website projects, with smaller teams or even solo developers. Don't follow the latest trends without consideration.
 
-For stateful elements or partial reactivity small drop-in Javascript apps on a per page basis can work too.
+For stateful elements or partial reactivity small drop-in JavaScript apps on a per page basis can work too.
 
 ## 2 - Decoupled
 
 This dual stack approach consists of two independent systems that talk to each other.
 
 - The PHP backend provides an API (REST, GraphQL).
-- The frontend is based on Javascript (Svelte, Next.js, Nuxt.js, Astro …)
+- The frontend is based on JavaScript (Svelte, Next.js, Nuxt.js, Astro …)
 
 Traditional PHP CMS systems bundle the backend and the frontend into one system. But a so called headless mode is now available for WordPress, Craft CMS and many more.
 
@@ -91,7 +91,7 @@ The aim of Laravel Livewire is to enable PHP developers to create modern reactiv
 
 ### B - Inertia.js
 
-Inertia.js, also hailing from the Laravel scene, has a different approach. It glues together the PHP backend with a Javascript frontend, think Vue.js, React or Svelte based systems. Unlike with decoupled systems, the data is directly provided by the PHP layer, no need for an API. There is an adaptor for each Javascript framework.
+Inertia.js, also hailing from the Laravel scene, has a different approach. It glues together the PHP backend with a JavaScript frontend, think Vue.js, React or Svelte based systems. Unlike with decoupled systems, the data is directly provided by the PHP layer, no need for an API. There is an adaptor for each JavaScript framework.
 
 - [inertiajs.com](https://inertiajs.com/)
 
@@ -115,7 +115,7 @@ Somehow also in this couple space are the following projects:
 
 ## SEO
 
-For many web projects good visibility in search engines is a must. Search crawlers may not interpret Javascript. That boils down to:
+For many web projects good visibility in search engines is a must. Search crawlers may not interpret JavaScript. That boils down to:
 
 - ❌ Single Page Application with CSR, bad SEO
 - ✅ Classical PHP with no reactivity, good SEO
@@ -145,7 +145,7 @@ What happens when an editor changes the content of an article with a server side
 
 Re-generation of a full website after a minor change is wasteful, fragile and slow.
 
-To solve this issue another acronym was invted: ISR. It stands for Incremental Static Regeneration. On user request, the frontend checks if a cached static version exists, if not regenerate one (first unlucky user). That means the previously cheap static hosting option suddenly needs to do some sort of server side rendering too (more $$$). The Javascript framework also needs to support that mode. Probably not surprising, Next.js is good at that.
+To solve this issue another acronym was invted: ISR. It stands for Incremental Static Regeneration. On user request, the frontend checks if a cached static version exists, if not regenerate one (first unlucky user). That means the previously cheap static hosting option suddenly needs to do some sort of server side rendering too (more $$$). The JavaScript framework also needs to support that mode. Probably not surprising, Next.js is good at that.
 
 A different approach also related to this was pioneered by Astro: [Dynamic islands](https://docs.astro.build/en/concepts/islands/), where only parts of the page are defined as dynamic.
 
