@@ -57,7 +57,13 @@ The user experience layer from Symfony is a mix of different technologies and bo
 
 AssetMapper is a PHP library used and recommended by Symfony to compile frontend assets in PHP - Node.js not required. It also acts like a package manager and provides Twig tags to link to versioned asset versions. The older alternative uses Webpack Encore. See [Symfony docs](https://symfony.com/doc/current/frontend.html#stimulus-symfony-ux-components).
 
-### D - Others
+### D - Datastar
+
+Datastar is a new framework, which is primarely a small JavaScript library that can be pulled in by CDN. It's backend agnostic and has connectors (SDKs) to Laravel, Craft CMS and others already. It has a paid Pro version and it claims to solve more problems than it creates.
+
+- [data-star.dev](https://data-star.dev)
+
+### E - Others
 
 [HTMX](https://htmx.org) is a bit different than the previous examples: it's a backend-agnostic JavaScript library allowing developers to send HTML over the wire. It has become quite popular these last years and can add reactivity here and there without too much change on the backend side.
 
@@ -88,6 +94,7 @@ We are currently building our [new platform](https://new.fortrabbit.com). One of
 | Laravel Livewire | Magic | No                  | No                       |
 | Inertia.js       | Glue  | Yes                 | Yes                      |
 | Symfony UX       | Magic | No                  | [Optional](#assetmapper) |
+| Datastar         | Magic | No                  | No                       |
 | Sprig (Craft)    | Magic | No                  | No                       |
 | Yoyo             | Magic | No                  | No                       |
 
