@@ -1,5 +1,5 @@
 ---
-created: 2025-09-22 13:21:22
+created: 2025-09-19 19:05:04
 author: fl
 title: Headless and reactive with PHP
 naviTitle: Headless and reactive with PHP
@@ -90,7 +90,7 @@ A CMS backend is needed when a non-technical editor is supposed to edit contents
 
 ### Server Side Rendered (SSR)
 
-This mode allows to get the advantages of both, SSR and CSR. The browser receives a page ready to be rendered from the backend server, the JavaScript framework can then take over. Search engine crawlers can parse it.
+Server Side Rendering is a confusing term because it's not designating classical websites but a strategy to pre-render content on the server before the CSR kicks in (hydration). Search engine crawlers can parse it.
 
 #### SSR hosting
 
@@ -113,7 +113,7 @@ ISR is one approach to solve shortcomings of SSR and SSG.
 
 #### ISR hosting
 
-This of course also requires a two servers for one website:
+This of course also requires two servers for one website:
 
 - Backend server provides the API
 - Frontend server creates new static pages on the fly
@@ -189,10 +189,10 @@ Somehow also in this couple space are the following projects:
 
 ## My takeaway
 
-PHP has a bad rep. And yes, the traditional monolithic approach where backend and frontend code are tightly coupled isn't the most professional approach. Bu it's pragmatic!
+PHP has a bad reputation. And yes, the traditional approach where backend and frontend code are tightly coupled isn't sexy. But it's pragmatic!
 
-For small and mid-sized website projects, I still would recommend to explore server-side rendered PHP first. It's faster to develop, easier to deploy, and more affordable to host. In my humble opinion, the simplicity often outweighs the architectural superiority that decoupled systems provide.
+For small and mid-sized website projects, I still would recommend to explore server-side rendered PHP. It's faster to develop, easier to deploy, and more affordable to host. In my humble opinion, the simplicity often outweighs the architectural superiority that decoupled systems provide.
 
-The JAMstack evangelists promise a fast future on the edge. The technology is genuinely impressive. Yet, the complexity trade-offs are significant - more moving parts, higher hosting costs, more complexity. I think, not every project justifies this investment.
+The JAMstack evangelists promise a fast future on the edge. The technology is genuinely impressive, yet complex. More moving parts means higher hosting costs. Think twice, not every project justifies this investment.
 
-It's also a matter of personal preference, many full stack developers enjoy working with JavaScript. That's why I like modern monoliths.
+It's also a matter of personal preference, many full stack developers enjoy working with JavaScript these days. In my eyes, the modern monolith is a path in the middle.
