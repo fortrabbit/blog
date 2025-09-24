@@ -14,7 +14,7 @@ figure:
 head:
   meta:
     - name: 'keywords'
-      content: 'JAMstack, react, vue, php, ajax, async, promise, stateful, fullstack, microservices, XHR'
+      content: 'JAMstack, react, vue, php, ajax, async, promise, stateful, fullstack, XHR'
 ---
 
 ## What's a modern monolith?

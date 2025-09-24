@@ -30,7 +30,7 @@ This decoupled dual stack approach consists of two independent systems that talk
 
 ### PHP as the backend
 
-The backend of a JAMstack can be anything. From a Firebase database, to a hosted CMS like Contentful. We provide PHP hosting. So let's look at that.
+The backend of a JAMstack can be anything. From a Firebase database, to a hosted CMS like Contentful. We provide PHP hosting. So let's look into that.
 
 #### CMS systems
 
@@ -61,17 +61,17 @@ Best use CSR (classical SPA) for app-like projects, not websites. Something that
 
 ### Server Side Generated (SSG)
 
-During build time, usually during deployment, the whole frontend content is pre-rendered as static HTML pages. The initial load will display the static page (fast), then the SPA mode can serve every click from them then on.
+During build time, usually during deployment, the whole frontend content is pre-rendered as static HTML pages. The initial load will display the static page (fast), then the SPA mode kicks in (client hydration) and serves every click from them then on.
 
 #### SSG hosting
 
 SSG works great for small sites with mostly static content and not even a requirement of a backend (classic JAMstack). As a developer, you may have a blog where the content consists of a bunch of markdown files, that are part of the repo. So every time you write a new blog post, you just need to deploy to set it online. SSG is cheap to host.
 
-A CMS backend is needed when a non-technical editor is supposed to edit contents. But what should happen when an editor changes the content of an article with a SSG system? The new content is available through the API, but not statically generated yet. It's possible to trigger new deployments after edits, but re-generation of a full website after a minor change is wasteful, fragile and slow.
+A CMS backend is needed when a non-technical editor is supposed to edit contents. But what should happen when an editor changes the content of an article with a SSG system? The new content is available through the REST or GraphQL API once the hydration is finished, but not statically generated yet. It's possible to trigger new deployments after edits, but re-generation of a full website after a minor change is wasteful, fragile and slow.
 
 ### Server Side Rendered (SSR)
 
-Server Side Rendering is a confusing term because it's not designating classical websites but a strategy to pre-render content on the server before the CSR kicks in (hydration). Search engine crawlers can parse it.
+Server Side Rendering is a confusing term because it's not designating classical websites but a strategy to pre-render content on the server before the CSR kicks in (client hydration). Search engine crawlers can parse it. SSR always serves up-to-date content without JavaScript enabled, thus is good for SEO. Yet it still provides that SPA feeling.
 
 #### SSR hosting
 
