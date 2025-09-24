@@ -3,7 +3,7 @@ created: 2025-09-22 19:05:04
 author: fl
 title: Modern PHP monoliths
 naviTitle: Modern PHP monoliths
-intro: Reactive websites with PHP and JS.
+intro: Coupled websites with PHP and JS.
 lead: Web pages are so yesterday. Single-page apps are the shit. Users want interactive experiences. But you don't have to get headless right away. This is an introduction to coupled systems with PHP and JavaScript.
 wip: true
 tag:
@@ -65,11 +65,11 @@ Datastar is a new framework, which is primarely a small JavaScript library that 
 
 - [data-star.dev](https://data-star.dev)
 
-### E - Others
+### E - HTMX and derivates
 
-[HTMX](https://htmx.org) is also a backend-agnostic JavaScript library allowing developers to send HTML over the wire. It has become quite popular these last years and can add reactivity here and there without too much change on the backend side.
+[HTMX](https://htmx.org) and [Unpoly](https://unpoly.com/) are also a backend-agnostic JavaScript libraries, adding reactivity without too much change on the backend side. Too dive even deeper, have a look at [Hypermedia Systems](https://hypermedia.systems/) - a book that it looks at HTMX and Hyperview.
 
-Somehow also in this coupled space are the following projects:
+Somehow also in this space are the following projects:
 
 - [Sprig plugin for Craft CMS](https://putyourlightson.com/plugins/sprig) - based on HTMX
 - [YoYo](https://getyoyo.dev/) - based on HTMX

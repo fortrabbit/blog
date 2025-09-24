@@ -1,8 +1,8 @@
 ---
 created: 2025-09-19 19:05:04
 author: fl
-title: Headless and reactive with PHP
-naviTitle: Headless and reactive with PHP
+title: HMMM - Headless and reactive with PHP
+naviTitle: HMMM - Headless and reactive with PHP
 navigation.excerpt: reactive websites with PHP and JS.
 lead: Modern JavaScript enables interactive websites through live data exchange between browser and server. PHP excels at server-side processing, returning HTML or JSON responses. What options exist for combining PHP and JavaScript to create reactive websites?
 wip: true
