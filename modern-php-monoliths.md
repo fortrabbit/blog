@@ -6,6 +6,8 @@ naviTitle: Modern PHP monoliths
 intro: Reactive websites with PHP and JS.
 lead: Web pages are so yesterday. Single-page apps are the shit. Users want interactive experiences. But you don't have to get headless right away. This is an introduction to coupled systems with PHP and JavaScript.
 wip: true
+tag:
+  - opinion
 figure:
   emoji: 🗿 🗿 🐘 🗿
   color: rgba(185, 202, 232, 1)
@@ -65,7 +67,7 @@ Datastar is a new framework, which is primarely a small JavaScript library that 
 
 ### E - Others
 
-[HTMX](https://htmx.org) is a bit different than the previous examples: it's a backend-agnostic JavaScript library allowing developers to send HTML over the wire. It has become quite popular these last years and can add reactivity here and there without too much change on the backend side.
+[HTMX](https://htmx.org) is also a backend-agnostic JavaScript library allowing developers to send HTML over the wire. It has become quite popular these last years and can add reactivity here and there without too much change on the backend side.
 
 Somehow also in this coupled space are the following projects:
 
