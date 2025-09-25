@@ -73,6 +73,7 @@ Somehow also in this space are the following projects:
 
 - [Sprig plugin for Craft CMS](https://putyourlightson.com/plugins/sprig) - based on HTMX
 - [YoYo](https://getyoyo.dev/) - based on HTMX
+- [Nuxt Kirby](https://nuxt-kirby.byjohann.dev/) - data bridge for Kirby CMS and Nuxt, headless + monolith
 
 ## My takeaway
 
