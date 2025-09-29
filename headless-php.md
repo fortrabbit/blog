@@ -86,7 +86,7 @@ The frontend can not be hosted on the edge. It's good for SEO. Always creating p
 
 ISR is one approach to solve shortcomings of SSR and SSG.
 
-1. The first unlucky user vists a page that is outdated
+1. The first unlucky user visits a page that is outdated
 2. The old static version is served first
 3. The dynamic version kicks, with updated content (hydration)
 4. The Node.js has detected old content server creates an updated static version
