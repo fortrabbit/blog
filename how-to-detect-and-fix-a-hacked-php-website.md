@@ -3,15 +3,15 @@ created: 2025-09-30 08:35:15
 author: fl
 title: How to detect and fix a hacked PHP website
 naviTitle: Fix a hacked PHP website
-intro: Got powned? Regain control.
-lead: Regain control and kick evildoers out. Actionable tips for web developers on how to clean a compromised website. This is the no-nonsense human-to-human edition.
+intro: Got pwned? Regain control.
+lead: Regain control and kick evildoers out. Actionable tips for web developers on how to clean a compromised website. This is the human-to-human edition.
 wip: true
 figure:
   src: hacked-poster.png
   # emoji: 😨
   # color: rgba(10, 60, 200, 1)
   # textColor: rgba(255, 190, 1, 1)
-  # text: Got powned? Keep a cool head.
+  # text: Got pwned? Keep a cool head.
 # figure:
 #   emoji: 👹 👹 👹
 #   color: rgba(165, 0, 0, 1)
@@ -29,7 +29,7 @@ It happens often. Script kiddies chasing quick wins and a few bucks. Automated a
 
 - Phishing sites for banks and crypto wallets
 - Crypto mining
-- Fake eCommerce stores
+- Fake e-commerce stores
 - SEO spam - sneaky links to shady sites
 - Malware distribution to your visitors
 - Backdoor installation for later use
@@ -47,7 +47,7 @@ Hackers love PHP‑based websites. Server‑side rendering lets them execute cod
 
 ## Detect
 
-From what we see, the average time to detection is about three months. In our experience, the average time to detection is about three months. Some catch it quickly; others snooze. Here's how website owners usually discover they've been hacked:
+In our experience, the average time to detection is about three months. Some catch it quickly; others snooze. Here's how website owners usually discover they've been hacked:
 
 - Performance problems
 - Website errors (500, 504 …)
@@ -168,7 +168,7 @@ Still reading? Here is the desert.
 
 ### Liability
 
-Who is actually to blame for the damage done? In most cases the website owner. We as a web hosting provider aim to practice separation of concerns as much as possible. We take of infra and OS level, our customers are responsible for the code they install and write themselves.
+Who is actually to blame for the damage done? In most cases the website owner. We, as hosting provider, practice separation of concerns. We take care of the infrastructure and OS layer. Customers are responsible for the code they install and write.
 
 ### Security audits
 
