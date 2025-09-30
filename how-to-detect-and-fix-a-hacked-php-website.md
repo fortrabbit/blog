@@ -181,7 +181,14 @@ White‑hat hackers can be useful to identify real security issues.
 
 We have little experience with security plugins and are in general sceptical. Our advice is to use as few plugins as possible. Use small well maintained plugins.
 
-### Forencics
+### Forensics
+
+You can try to figure out how the hackers gained access and maybe even uncover the hackers. In most cases this will lead nowhere.
+
+- Find a Telegram chat group ID where stolen credentials are sent
+- Find a generic email address
+- Get the geo location from origin IPs
+- See bash history (unlikely since most hacks are done with web shells)
 
 ### Prevention
 
