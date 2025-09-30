@@ -9,10 +9,11 @@ wip: true
 tag:
   - opinion
 figure:
-  emoji: 🧥
-  color: rgba(222, 192, 103, 1)
-  textColor: rgba(129, 95, 71, 1)
-  text: Where is my mind?
+  src: headless-poster.png
+  # emoji: 🧥
+  # color: rgba(222, 192, 103, 1)
+  # textColor: rgba(129, 95, 71, 1)
+  # text: Where is my mind?
 head:
   meta:
     - name: 'keywords'

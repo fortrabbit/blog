@@ -9,8 +9,9 @@ wip: true
 tag:
   - opinion
 figure:
-  emoji: 🗿 🗿 🐘 🗿
-  color: rgba(185, 202, 232, 1)
+  src: monolith-poster.png
+  # emoji: 🗿 🗿 🐘 🗿
+  # color: rgba(185, 202, 232, 1)
 head:
   meta:
     - name: 'keywords'

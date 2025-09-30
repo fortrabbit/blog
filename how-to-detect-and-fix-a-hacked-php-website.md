@@ -7,10 +7,11 @@ intro: Got powned? Regain control.
 lead: Regain control and kick evildoers out. Actionable tips for web developers on how to clean a compromised website. This is the no-nonsense human-to-human edition.
 wip: true
 figure:
-  emoji: 😨
-  color: rgba(10, 60, 200, 1)
-  textColor: rgba(255, 190, 1, 1)
-  text: Got powned? Keep a cool head.
+  src: hacked-poster.png
+  # emoji: 😨
+  # color: rgba(10, 60, 200, 1)
+  # textColor: rgba(255, 190, 1, 1)
+  # text: Got powned? Keep a cool head.
 # figure:
 #   emoji: 👹 👹 👹
 #   color: rgba(165, 0, 0, 1)
