@@ -82,6 +82,7 @@ Restoring from backup means redeploying the code and importing the database dump
 
 No backups? Clean up manually. Download all online code to your local environment so you can work faster and make safe mistakes. Use grep and friends to hunt for trouble. Your AI can probably help you detect obfuscated PHP. You can also compare your framework or CMS core files with clean upstream versions to spot modifications.
 
+- Run `composer audit` in Composer driven projects
 - Clean files
   - Look deeply, backdoors can be hard to detect
   - Search for obfuscated code between normal code
