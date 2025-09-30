@@ -19,7 +19,7 @@ figure:
 head:
   meta:
     - name: 'keywords'
-      content: 'php security, website hacking, malware detection, security remediation, compromised website, php malware, website security audit, server intrusion, XSS, SQL injection, remote code execution, zero trust, alfa-shell'
+      content: 'php security, website hacking, malware detection, security remediation, compromised website, php malware, website security audit, server intrusion, XSS, SQL injection, remote code execution, zero trust, alfa-shell, vulnerabilities, malware, session hijacking, RCE'
 ---
 
 ## Common patterns
