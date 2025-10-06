@@ -68,6 +68,7 @@ You don't have to do this solo. The IndieWeb movement documents POSSE (Publish o
 - Totally Real Internet Club — <https://club.matteocollina.com/>
 - Hacker Station — <https://hackerstation.github.io/webring/>
 - <https://blog.burkert.me/posts/in_praise_of_syndication/>
+- <https://blogfeeds.net/>
 
 Add your favorite, build your own, or stitch a tiny dashboard that shows what your peers shipped this week.
 
