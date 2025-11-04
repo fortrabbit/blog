@@ -1,5 +1,5 @@
 ---
-created: 2025-09-22 20:14:44
+created: 2025-11-03 08:16:08
 author: fl
 title: Headless PHP
 naviTitle: Headless PHP

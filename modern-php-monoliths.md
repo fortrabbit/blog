@@ -1,5 +1,5 @@
 ---
-created: 2025-09-22 19:05:04
+created: 2025-11-04 08:15:51
 author: fl
 title: Modern PHP monoliths
 naviTitle: Modern PHP monoliths
