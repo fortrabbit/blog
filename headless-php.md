@@ -5,7 +5,6 @@ title: Headless PHP
 naviTitle: Headless PHP
 intro: Decoupled websites with PHP and JS.
 lead: Decopuled systems. Frontend in JavaScript. Backend in PHP. Why. How. If.
-wip: true
 tag:
   - opinion
 figure:
