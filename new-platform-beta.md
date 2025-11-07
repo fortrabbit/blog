@@ -4,7 +4,7 @@ author: fl
 title: New platform public beta
 naviTitle: New platform public beta
 intro: A new hosting experience at your fingertips
-lead: After years of development and months of alpha testing, we're thrilled to announce the public beta of our completely reimagined hosting platform.
+lead: Here is the public beta of new hosting platform.
 wip: false
 tag:
   - changelog
@@ -14,43 +14,40 @@ figure:
   emoji: 👯‍♀️👯‍♂️
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
-  text: We are so exited!
+  text: We are so thrilled and also scared
 head:
   meta:
     - name: 'keywords'
       content: 'fortrabbit, new platform, beta, PHP hosting, GitHub integration, multi-staging'
 ---
 
-Today marks a significant milestone in fortrabbit's journey. Here is the public beta of our next-generation hosting platform. We didn't just update our existing platform; we **completely reimagined** what we believe modern PHP hosting should look like. It's been years in the making.
+It's been years in the making: thounsands of tickets, countless cups of coffee, endless debates about tiniest details. Now we let it go. This is not just another update; we built something entirely new from scratch. We **completely reimagined** what we believe modern PHP hosting should look like. It's our biggest bet. Fingers crossed you like it. 🤞
 
-- [Mission statement 2023](/mission-statement-2023) - late 2023
-- [Why we rewrite](/yes-we-rewrite) - early 2025
+## What is fortrabbit?
 
-Fingers crossed you like it. 🤞
+Imagine if Heroku and Vercel had a PHP baby. A hosting platform to deploy modern PHP websites and web applications. It's Apps not servers, integrates GitHub, runs on AWS, but won't break your bank. It encourages best practices, but doesn't judge you when you ignore them. It'a good for Craft CMS, Kirby, Statamic, Laravel, Symfony and many more.
 
-## One unified stack
-
-Gone are the days of choosing between Universal Apps and Professional Apps. Our new platform combines the best of both worlds:
-
+- **Intuitive dashboard** that gets out of your way
 - **Persistent storage** with direct SSH/SFTP access
 - **Component based pricing** individually book and scale parts
 - **Workers** offload tasks to the background
-- **Key-value store** (coming soon)
 - **Free trial** available for each new app
-- **Transparent pricing** with our component-based model
+- **Transparent pricing** with component-based model
 - **No setup fees** or hidden costs
 - **Pay-as-you-scale** philosophy
 - **GitHub signup**
-- **Connect any GitHub repository**
-- **Push to deploy**
+- **Connect any GitHub repository** git push to deploy
+- **Build pipeline** with Node.js support during deployment
 - **Multi-environment staging** with branch-based environments
-- **Intuitive dashboard** that gets out of your way
-- **Advanced build pipeline** with Node.js support during deployment
 - **SSH key-only authentication** for better security
+- **Key-value store** (coming soon)
 
-## From alpha to beta
+## New web properties
 
-Our alpha testers have been incredible. Their feedback shaped major improvements, from bugs to ideas we could not think of.
+- [dash.fortrabbit.com](https://dash.fortrabbit.com) - new dashboard ([old ones are still here](https://dashboard.fortrabbit.com))
+- [www.fortrabbit.com](https://www.fortrabbit.com) - new marketing (replaced old)
+- [blog.fortrabbit.com](https://blog.fortrabbit.com) - new blog (replaced old)
+- [docs.fortrabbit.com](https://docs.fortrabbit.com) - new docs for the new platform ([old ones are still here](https://help.fortrabbit.com))
 
 ## No rush for existing clients
 
@@ -68,19 +65,17 @@ The new platform is **now open to everyone**. It's paid. We want to test the pri
 
 This beta launch is just the beginning. We've got a full back log. For the next stage we plan to make it features complete and harden the platform by hosting real websites and web applications.
 
-## Ready to experience the future?
+## We want your feedback
 
-Whether you're building your first PHP application or managing dozens of production sites, our new platform is designed to make your life easier and your applications faster.
+Don't just sit here. Deploy something!
 
-- [Create a new account](https://dash.fortrabbit.com/signup)
+:ContentButton{text="Start your first free trial now" route="https://dash.fortrabbit.com/signup"}
+
 - [Explore the documentation](https://docs.fortrabbit.com/platform/new/intro)
 - [Compare old vs. new platforms](https://docs.fortrabbit.com/platform/new/new-and-old)
 
-## We want your feedback
+Found a bug? Have a feature request? Love something? Hate something? We want to hear about it all. Start a chat using the chat bubble or email us at [support@fortrabbit.com](mailto:support@fortrabbit.com).
 
-This is a beta, which means we're actively incorporating user feedback. Found a bug? Have a feature request? Love something? Hate something? We want to hear about it all.
-
-- Start a chat using the chat bubble
-- Email us directly at [support@fortrabbit.com](mailto:support@fortrabbit.com)
+## Thanks
 
 Thank you to everyone who made this possible - our incredible team, our patient alpha testers, and our loyal customers who trusted us to build something better. Here's to the next chapter of fortrabbit. 🚀
