@@ -9,7 +9,7 @@ tag:
   - chronicles
 ---
 
-# Pay less, get more
+## Pay less, get more
 
 Effective today: We are dropping prices for some of our Add-On plans, including Memcache, MySQL and Workers. No action required from your side — just enjoy the lower costs.
 
