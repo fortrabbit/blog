@@ -5,7 +5,7 @@ title: New platform public beta
 naviTitle: New platform public beta
 intro: A new hosting experience at your fingertips
 lead: Here is the public beta of new hosting platform.
-wip: false
+wip: true
 tag:
   - changelog
   - announcement
