@@ -14,7 +14,7 @@ figure:
   emoji: 👯‍♀️👯‍♂️
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
-  text: We are so thrilled and also scared
+  text: We are thrilled, but also scared
 head:
   meta:
     - name: 'keywords'
@@ -42,6 +42,8 @@ Imagine if Heroku and Vercel had a PHP baby. A hosting platform to deploy modern
 - **SSH key-only authentication** for better security
 - **Key-value store** (coming soon)
 
+- [BETA program details](https://docs.fortrabbit.com//platform/new/beta-program)
+
 ## New web properties
 
 - [dash.fortrabbit.com](https://dash.fortrabbit.com) - new dashboard ([old ones are still here](https://dashboard.fortrabbit.com))
@@ -51,11 +53,15 @@ Imagine if Heroku and Vercel had a PHP baby. A hosting platform to deploy modern
 
 ## No rush for existing clients
 
-We know switching platforms can be daunting. The old platform we run in parallel for a long time and we will support you hands on with the migration.
+Switching platforms is daunting. The old platform we run in parallel for a long time and we will support you hands on with the migration.
 
 - **Side-by-side operation** - both platforms will run in parallel
 - **Self-service migration** for early adopters
 - **Assisted migration program** planned for later
+
+- [New and old](https:///docs.fortrabbit.com/platform/new/new-and-old): side by side
+- [Changes](https:///docs.fortrabbit.com/platform/new/changes): Old and new platform compared
+- [Migration](https:///docs.fortrabbit.com/platform/new/migration): Timing and details
 
 ## Beta pricing and availability
 
