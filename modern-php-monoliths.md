@@ -24,7 +24,7 @@ The cool kids create headless systems, where frontend and backend are fully sepa
 
 But some developers questioned decoupled headless systems. Why not use existing tooling? Or why not even send HTML over the wire? The author of Inertia.js describes his idea like so:
 
-:ContentQuote{ author="Jonathan Reinink" text="It allows developers to build rich single-page client-side apps, without having to build a full REST or GraphQL API, or learn client-side state management, routing, and really much of what comes with modern SPAs." }
+:Quote{text="Transparency. Observability. Accountability."}{ author="Jonathan Reinink" text="It allows developers to build rich single-page client-side apps, without having to build a full REST or GraphQL API, or learn client-side state management, routing, and really much of what comes with modern SPAs." }
 
 One benefit is making use of the battle-tested tooling that comes with modern PHP frameworks and CMS: routing, authentication, ORM. The other is that such systems are easier to set up, host and deploy: one codebase and one hosting environment.
 
