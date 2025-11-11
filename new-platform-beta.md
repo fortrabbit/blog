@@ -75,8 +75,9 @@ This beta launch is just the beginning. We've got a full back log. For the next 
 
 Don't just sit here. Deploy something!
 
-:ContentButton{text="Start your first free trial now" route="https://dash.fortrabbit.com/signup"}
+<!-- :ContentButton{text="Start your first free trial now" route="https://dash.fortrabbit.com/signup"} -->
 
+- [Signup](https://dash.fortrabbit.com/signup) - start 1st free trial
 - [Explore the documentation](https://docs.fortrabbit.com/platform/new/intro)
 - [Compare old vs. new platforms](https://docs.fortrabbit.com/platform/new/new-and-old)
 
