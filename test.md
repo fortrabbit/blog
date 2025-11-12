@@ -64,7 +64,7 @@ _You **can** combine them_
 
 ## MDC Blockquote
 
-:Quote{ author="Melvin E. Conway" text="Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." }
+:ContentQuote{ author="Melvin E. Conway" text="Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." }
 
 ## Images
 
