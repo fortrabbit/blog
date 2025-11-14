@@ -1,9 +1,9 @@
 ---
 title: Goodbye and hello
 author: fl
-intro: Farewell sharp rectangles, hello rounded boxes
+intro: Farewell sharp rectangles, hello soft corners
 created: 2025-11-14 16:10:14
-lead: We are getting closer releasing our new platform. That means the design of our web properties is going to be updated. A sentimental look on these websites that served us so long.
+lead: We are getting closer to releasing our new platform. This is a little farewell to the old, and a quiet hello to what comes next.
 figure:
   src: goodbye-hello-poster.png
 tag:
