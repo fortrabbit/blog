@@ -8,8 +8,6 @@ lead: Here is the public beta of new hosting platform.
 wip: true
 tag:
   - changelog
-  - announcement
-  - platform
 figure:
   emoji: 👯‍♀️👯‍♂️
   color: rgba(255, 225, 0, 1)
