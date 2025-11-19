@@ -14,7 +14,7 @@ figure:
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
   text: We are thrilled, but also scared
-  caption: BETA - Greek for 'still doesn't work.'
+  caption: BETA is Greek for 'still doesn't work.'
 head:
   meta:
     - name: 'keywords'
