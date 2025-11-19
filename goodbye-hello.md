@@ -36,4 +36,4 @@ Hello rounded boxes. Hi Tailwwind. Hi Hubot.
   ></iframe>
 </div>
 
-[More details](https://docs.fortrabbit.com/platform/new/intro)
+[More details](https://docs.fortrabbit.com/platform/new/)

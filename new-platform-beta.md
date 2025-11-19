@@ -77,7 +77,7 @@ We have reviewed and extended our legal center. The new version is applicable fo
 
 The old platform continues to run in parallel for a long time and we'll support you hands-on with the migration.
 
-- **Side-by-side operation** – both platforms will run in parallel
+- **Side-by-side operation** - both platforms will run in parallel
 - **Self-service migration** for early adopters
 - **Assisted migration program** planned for later
 
@@ -93,12 +93,12 @@ This beta launch is just the beginning. We've got a full backlog. Next, we plan 
 
 Don't just sit here. Deploy something!
 
-- [Signup](https://dash.fortrabbit.com/signup) – start your first free trial
-- [Explore the documentation](https://docs.fortrabbit.com/platform/new/intro)
+- [Signup](https://dash.fortrabbit.com/signup) - start your first free trial
+- [Explore the documentation](https://docs.fortrabbit.com/platform/new)
 - [Compare old vs. new platforms](https://docs.fortrabbit.com/platform/new/new-and-old)
 
 Found a bug? Have a feature request? Love something? Hate something? We want to hear about all of it. Start a chat using the chat bubble or email us at [support@fortrabbit.com](mailto:support@fortrabbit.com).
 
 ## Thanks
 
-Thank you to everyone who made this possible – our incredible team, our patient alpha testers, and our loyal existing customers. Here's to the next chapter of fortrabbit. 🚀
+Thank you to everyone who made this possible - our incredible team, our patient alpha testers, and our loyal existing customers. Here's to the next chapter of fortrabbit. 🚀
