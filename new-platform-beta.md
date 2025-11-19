@@ -13,7 +13,7 @@ figure:
   emoji: 👯‍♀️👯‍♂️
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
-  text: We are thrilled, but also scared
+  text: We are thrilled, but also so scared.
   caption: BETA is Greek for 'still doesn't work.'
 head:
   meta:
@@ -21,7 +21,7 @@ head:
       content: 'fortrabbit, new platform, beta, PHP hosting, GitHub integration, multi-staging'
 ---
 
-It's been years in the making: thousands of tickets, countless cups of coffee, endless debates about tiny details. Now we let it go. This is not just another update. We built something entirely new from scratch. We **completely reimagined** what modern PHP hosting can look like. It's our biggest bet. Fingers crossed you like it. 🤞
+It's been years in the making: thousands of tickets, countless cups of coffee, endless debates about tiny details. Now we let it go. This is not just another update. We built something entirely new from scratch. We **completely redefined** our optimal vision of PHP hosting. It's a big bet. Fingers crossed you like it. 🤞
 
 ## What is fortrabbit anyhow?
 
@@ -44,16 +44,16 @@ Inspired by the original Heroku PaaS: a hosting platform to deploy modern PHP we
 
 ## Why a BETA for a hosting service?
 
-I've written about our [decision to do a big rewrite](/yes-we-rewrite.md) before. This is the next step. We've been working on the new platform for years. It became our home and we quite like it. Opening it up is scary. It's not perfect yet. There are still a few rough edges and some really nice features are still missing. What if people don't like it—or just don't notice at all?
+I've written about our [decision to do a big rewrite](/yes-we-rewrite.md) before. We needed a complete overhaul. We've been working on the new platform for years. It became our home and we quite like it. It's time now. Opening it up is scary. It's not perfect yet. There are still a few rough edges and features are still missing.
 
 :ContentQuote{text='There is no test like production.'}
 
-We need to get out of the cozy comfort zone and face the reality of people interacting with the platform.
+We need to get out of the cozy comfort zone and face the reality of people interacting with the platform. It's not perfect yet, but we think already better than the old platform. It's pretty stable.
 
 - **Now open to everyone**
 - It's paid. We want to test the pricing as well.
-- Some parts are still rough and some details are missing.
-- [BETA program details](https://docs.fortrabbit.com/platform/new/beta-program)
+- Some parts are still rough.
+- [See all BETA details](https://docs.fortrabbit.com/platform/new/beta)
 
 ## New design
 
@@ -87,7 +87,14 @@ The old platform continues to run in parallel for a long time and we'll support 
 
 ## What's next?
 
-This beta launch is just the beginning. We've got a full backlog. Next, we plan to make it feature-complete and harden the platform by hosting more production websites and web applications.
+This BETA launch is just the beginning. We've got a full backlog. Next, we plan to make it feature-complete and harden the platform by hosting more production websites and web applications. From that list:
+
+- Live server metrics in the dashboard
+- Live logging in the dashboard
+- Live event log in the dashboard
+- Event notification system
+- Extended collaboration
+- Key-value store
 
 ## We want your feedback
 
