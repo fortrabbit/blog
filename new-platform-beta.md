@@ -4,7 +4,7 @@ author: fl
 title: New platform public BETA
 naviTitle: New platform public BETA
 intro: A new hosting experience at your fingertips
-lead: Here is the public BETA of our new platform.
+lead: Welcome to the public BETA of our new platform.
 wip: true
 tag:
   - changelog
@@ -13,8 +13,7 @@ figure:
   emoji: 👯‍♀️👯‍♂️
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
-  text: We are thrilled, but also so scared.
-  caption: BETA is Greek for 'still doesn't work.'
+  text: We are thrilled to share this with you.
 head:
   meta:
     - name: 'keywords'
@@ -44,15 +43,15 @@ Inspired by the original Heroku PaaS: a hosting platform to deploy modern PHP we
 
 ## Why a BETA for a hosting service?
 
-I've written about our [decision to do a big rewrite](/yes-we-rewrite.md) before. We needed a complete overhaul. We've been working on the new platform for years. It became our home and we quite like it. It's time now. Opening it up is scary. It's not perfect yet. There are still a few rough edges and features are still missing.
+I've written about our [decision to do a big rewrite](/yes-we-rewrite.md) before. We needed a complete overhaul. We've been working on the new platform for years. It became our home and we quite like it. It's time now. While we are still polishing some edges and adding features, the core experience are ready.
 
 :ContentQuote{text='There is no test like production.'}
 
-We need to get out of the cozy comfort zone and face the reality of people interacting with the platform. It's not perfect yet, but we think already better than the old platform. It's pretty stable.
+Opening it up is exciting, but also a bit scary. We are stepping out of our comfort zone to see how you interact with the platform. It's already a significant upgrade over the old platform. It's ready for action.
 
 - **Now open to everyone**
-- It's paid. We want to test the pricing as well.
-- Some parts are still rough.
+- It's paid. We are confident in the value it provides.
+- We are rapidly refining the experience.
 - [See all BETA details](https://docs.fortrabbit.com/platform/new/beta)
 
 ## New design
@@ -68,14 +67,14 @@ Building on the existing brand, the design language got an update. We still use 
 
 ## New legal section
 
-We have reviewed and extended our legal center. The new version is applicable for all existing and new clients, covering the old and the new platform. The updates are done for clarify.
+We have reviewed and extended our legal center. The new legal docs are applicable for all existing and new customers, covering the old and the new platform. The updates are done for clarify.
 
 - [fortrabbit.com/legal](https://www.fortrabbit.com/legal) - New legal center
 - [github.com/fortrabbit/legal](https://github.com/fortrabbit/legal) - Legal docs with full changelog
 
 ## No rush for existing clients
 
-The old platform continues to run in parallel for a long time and we'll support you hands-on with the migration.
+The old platform continues to run in parallel, giving you plenty of time. We'll support you hands-on with the migration when you are ready.
 
 - **Side-by-side operation** - both platforms will run in parallel
 - **Self-service migration** for early adopters
@@ -87,7 +86,7 @@ The old platform continues to run in parallel for a long time and we'll support 
 
 ## What's next?
 
-This BETA launch is just the beginning. We've got a full backlog. Next, we plan to make it feature-complete and harden the platform by hosting more production websites and web applications. From that list:
+This BETA launch is just the beginning. We've got a full backlog. Next, we are working to make it feature-complete and even more robust by hosting more production websites and web applications. From that list:
 
 - Live server metrics in the dashboard
 - Live logging in the dashboard
@@ -95,6 +94,10 @@ This BETA launch is just the beginning. We've got a full backlog. Next, we plan 
 - Event notification system
 - Extended collaboration
 - Key-value store
+
+### PHP 8.5(.1)
+
+We are preparing for PHP 8.5 and will roll it out as soon as all supported extensions are updated and tested. We want to ensure a smooth transition, so we'll likely release it with the first dot version.
 
 ## We want your feedback
 
