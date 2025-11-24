@@ -1,11 +1,10 @@
 ---
-created: 2025-11-30 11:23:27
+created: 2025-11-26 12:24:14
 author: fl
 title: New platform public BETA
 naviTitle: New platform public BETA
 intro: A new hosting experience at your fingertips
 lead: Welcome to the public BETA of our new platform.
-wip: true
 tag:
   - changelog
   - chronicles
@@ -51,19 +50,75 @@ Opening it up is exciting, but also a bit scary. We are stepping out of our comf
 
 - **Now open to everyone**
 - It's paid. We are confident in the value it provides.
-- We are rapidly refining the experience.
 - [See all BETA details](https://docs.fortrabbit.com/platform/new/beta)
 
 ## New design
 
-Building on the existing brand, the design language got an update. We still use the old logo; colors and typography have been refreshed.
+Building on the existing brand, the design language got an update. We still use the old logo; colors and typography have been refreshed. We hope you like. You are looking at it now.
 
 ## Updated web properties
 
-- [dash.fortrabbit.com](https://dash.fortrabbit.com) - new dashboard ([old ones are still here](https://dashboard.fortrabbit.com))
+Our websites have been updated. Communication is mostly about the new platform. But the old platform is not going anywhere soon. Both systems will run side by side for a long time.
+
+### New platform addresses
+
+- [dash.fortrabbit.com](https://dash.fortrabbit.com) - new dashboard
+- [docs.fortrabbit.com](https://docs.fortrabbit.com) - new docs
 - [www.fortrabbit.com](https://www.fortrabbit.com) - new marketing (replaced old)
 - [blog.fortrabbit.com](https://blog.fortrabbit.com) - new blog (replaced old)
-- [docs.fortrabbit.com](https://docs.fortrabbit.com) - new docs ([old ones are still here](https://help.fortrabbit.com))
+
+### Old platform addresses (unchanged)
+
+Existing customers can still continue to use the old system for a long time as usual. See [new and old side by side](#no-rush-for-existing-clients).
+
+- [dashboard.fortrabbit.com](https://dashboard.fortrabbit.com) - old dashboard
+- [help.fortrabbit.com](https://help.fortrabbit.com) - old help
+
+## New pricing
+
+When the service was launched 13 years ago, our vision was to raise awareness among developers that hosting is not just about getting more horsepower per dollar. Our aim was — and still is — to create an understanding of the value of a managed hosting service. It's not the cheapest service, but if you are using it professionally, you can easily afford it.
+
+That turned out to be a tough sell. Web hosting is still mostly considered a commodity. We also saw the understandable wish from developers to host many small websites, like:
+
+- Fun, personal, weekend projects
+- Small client projects
+- Staging environments
+
+Unlike with a VPS, where you have one server to cram with your projects, fortrabbit uses dedicated resources for each environment. This is, we believe, the better but also more expensive route.
+
+So, one of the design goals was to come up with more affordable pricing. It was also a requirement to create an entirely new platform. A Herculean task against all odds. So much of a product is pricing.
+
+### Infrastructure
+
+I am very proud of the work the DevOps team has done in this area. We have been able to cut down our reliance on AWS, enabling us to revisit the infrastructure provider question later. For now, we found creative ways (and hacks) to keep AWS costs low.
+
+- Hetzner instead of AWS (not now) - [blog post](/infra-research-2024)
+- More intelligent allocation and redistribution
+- Better resource utilization
+
+### Pricing structure
+
+We also looked at pricing from the product view. The old platform has three easy-to-understand plans. While this helps with cognitive load, it's also wasteful. We adapted the component pricing of the former Pro Stack for the new platform.
+
+- XS plans: little resources, but affordable
+- Component-based: pay only for tech you need
+- Easy scaling: pay only for resources you need
+
+To make things easier, we included different pricing presets for software. When booking a flat-file system that does not require a database (Kirby, Statamic, Grav …), the MySQL component is not pre-selected. When booking software that requires more resources, we suggest that right away.
+
+In addition, there are [pricing examples](https://www.fortrabbit.com/pricing#examples) showcasing use cases with multiple environments.
+
+We also removed the old company plans because they often confused customers.
+
+### Pricing state and outlook
+
+Initially, I had even more radical plans, but they had to be adjusted to reality. In total, you'll get much more performance for the same price with the new platform, and there are also additional smaller plans. It's quite a difference from the current platform.
+
+We hope this will enable many more interesting use cases, and we are curious to see how the new pricing will be perceived, specifically the component based pricing is a bet.
+
+We still need to gather more experience with performance running more environments. So pricing is also subject to change.
+
+See our new [cost breakdown](https://www.fortrabbit.com/us/cost-breakdown) to get an idea about our spending.
 
 ## New legal section
 
@@ -105,7 +160,6 @@ Don't just sit here. Deploy something!
 
 - [Signup](https://dash.fortrabbit.com/signup) - start your first free trial
 - [Explore the documentation](https://docs.fortrabbit.com/platform/new)
-- [Compare old vs. new platforms](https://docs.fortrabbit.com/platform/new/new-and-old)
 
 Found a bug? Have a feature request? Love something? Hate something? We want to hear about all of it. Start a chat using the chat bubble or email us at [support@fortrabbit.com](mailto:support@fortrabbit.com).
 
