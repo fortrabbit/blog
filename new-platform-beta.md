@@ -12,7 +12,7 @@ figure:
   emoji: 👯‍♀️👯‍♂️
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
-  text: We are thrilled to share this with you.
+  text: We are so thrilled to share this.
 head:
   meta:
     - name: 'keywords'
@@ -60,14 +60,14 @@ Building on the existing brand, the design language got an update. We still use 
 
 Our websites have been updated. Communication is mostly about the new platform. But the old platform is not going anywhere soon. Both systems will run side by side for a long time.
 
-### New platform addresses
+### New platform access
 
 - [dash.fortrabbit.com](https://dash.fortrabbit.com) - new dashboard
 - [docs.fortrabbit.com](https://docs.fortrabbit.com) - new docs
 - [www.fortrabbit.com](https://www.fortrabbit.com) - new marketing (replaced old)
 - [blog.fortrabbit.com](https://blog.fortrabbit.com) - new blog (replaced old)
 
-### Old platform addresses (unchanged)
+### Old platform access (unchanged)
 
 Existing customers can still continue to use the old system for a long time as usual. See [new and old side by side](#no-rush-for-existing-clients).
 
@@ -112,13 +112,19 @@ We also removed the old company plans because they often confused customers.
 
 ### Pricing state and outlook
 
-Initially, I had even more radical plans, but they had to be adjusted to reality. In total, you'll get much more performance for the same price with the new platform, and there are also additional smaller plans. It's quite a difference from the current platform.
+In total, you'll get much more performance for the same price with the new platform, and there are also additional smaller plans.
 
-We hope this will enable many more interesting use cases, and we are curious to see how the new pricing will be perceived, specifically the component based pricing is a bet.
+This will enable many more interesting use cases. We are curious to see how the new pricing will be perceived, specifically the component based pricing is a bet.
 
 We still need to gather more experience with performance running more environments. So pricing is also subject to change.
 
 See our new [cost breakdown](https://www.fortrabbit.com/us/cost-breakdown) to get an idea about our spending.
+
+## New docs
+
+We take customer education and self-service seriously: there are now about 300 articles with a total of ~80,000 words and ~560,000 characters. It's based on the current help pages but significantly updated. You don't need to read it all to get the platform. It's just there.
+
+The documentation is human-written (with some help from AI), well-structured, curated, and maintained. It's easily accessible, searchable, and designed to be easy to read and parse. It's also well-linked from the new dashboard: The little `[i]` icons provide inline help as well as links to relevant articles.
 
 ## New legal section
 
@@ -165,4 +171,6 @@ Found a bug? Have a feature request? Love something? Hate something? We want to 
 
 ## Thanks
 
-Thank you to everyone who made this possible - our incredible team, our patient alpha testers, and our loyal existing customers. Here's to the next chapter of fortrabbit. 🚀
+Thank you to everyone who made this possible - our incredible team, our patient alpha testers, and our loyal existing customers.
+
+Here's to the next chapter of fortrabbit. 🚀
