@@ -1,5 +1,5 @@
 ---
-created: 2025-11-26 12:24:14
+created: 2025-11-26 10:24:14
 author: fl
 title: New platform public BETA
 naviTitle: New platform public BETA
@@ -54,7 +54,7 @@ Opening it up is exciting, but also a bit scary. We are stepping out of our comf
 
 ## New design
 
-Building on the existing brand, the design language got an update. We still use the old logo; colors and typography have been refreshed. We hope you like. You are looking at it now.
+Building on the existing brand, the design language got an update. We still use the old logo; colors and typography have been refreshed. We hope you like. You are looking at it now. [Goodbye old design](/goodbye-hello.md).
 
 ## Updated web properties
 

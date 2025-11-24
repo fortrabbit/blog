@@ -3,7 +3,6 @@ title: Building websites in the age of AI
 created: 2025-07-22 22:03:31
 author: fl
 intro: Good luck if you still create websites for a living.
-wip: true
 lead: Not too long ago, building a website meant crafting mockups in Photoshop, hand-coding HTML and PHP, wrangling CSS. Then came page builders, no-code and low-code tools. Now, with the rise of AI, the ground is shifting again. What does it possible mean for us? This is my unprofessional opinion.
 figure:
   emoji: 🤖
