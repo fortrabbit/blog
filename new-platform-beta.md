@@ -13,6 +13,10 @@ figure:
   color: rgba(255, 225, 0, 1)
   textColor: rgba(155, 125, 0, 1)
   text: We are so thrilled to share this.
+links:
+  - title: New platform BETA details
+    route: /platform/new/beta
+    property: docs
 head:
   meta:
     - name: 'keywords'
