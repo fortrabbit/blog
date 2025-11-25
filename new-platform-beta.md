@@ -62,7 +62,7 @@ Building on the existing brand, the design language got an update. We still use 
 
 ## Updated web properties
 
-Our websites have been updated. Communication is mostly about the new platform. But the old platform is not going anywhere soon. Both systems will run side by side for a long time.
+Our websites have been updated. Communication is mostly about the new platform. But the old platform is not going anywhere soon. Both systems will run [side by side](#no-rush-for-existing-clients) for a long time.
 
 ### New platform access
 
@@ -114,15 +114,17 @@ In addition, there are [pricing examples](https://www.fortrabbit.com/pricing#exa
 
 We also removed the old company plans because they often confused customers.
 
-### Pricing state and outlook
+### Pricing state
 
 In total, you'll get much more performance for the same price with the new platform, and there are also additional smaller plans.
 
 This will enable many more interesting use cases. We are curious to see how the new pricing will be perceived, specifically the component based pricing is a bet.
 
-We still need to gather more experience with performance running more environments. So pricing is also subject to change.
-
 See our new [cost breakdown](https://www.fortrabbit.com/us/cost-breakdown) to get an idea about our spending.
+
+### Pricing outlook
+
+We still need to gather more experience with performance running more environments. So pricing is also subject to change.
 
 ## New docs
 
@@ -160,6 +162,8 @@ This BETA launch is just the beginning. We've got a full backlog. Next, we are w
 - Extended collaboration
 - Key-value store
 
+It will take a while until everything will come available. The next step is general availabilty. As usual, we are conservative about timing, we look forward to remove the BETA flag in 2026.
+
 ### PHP 8.5(.1)
 
 We are preparing for PHP 8.5 and will roll it out as soon as all supported extensions are updated and tested. We want to ensure a smooth transition, so we'll likely release it with the first dot version.
@@ -175,6 +179,6 @@ Found a bug? Have a feature request? Love something? Hate something? We want to 
 
 ## Thanks
 
-Thank you to everyone who made this possible - our incredible team, our patient alpha testers, and our loyal existing customers.
+Thank you to everyone who made this possible - our incredible team, our patient alpha testers, and our loyal existing customers. It's a big drop for us. It's so many things. When it works out well, magic happens and the service becomes more than just the sum of its parts.
 
 Here's to the next chapter of fortrabbit. 🚀
