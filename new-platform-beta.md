@@ -23,7 +23,7 @@ head:
       content: 'fortrabbit, new platform, beta, PHP hosting, GitHub integration, multi-staging'
 ---
 
-It's been years in the making: thousands of tickets, countless cups of coffee, endless debates about tiny details. Now we let it go. This is not just another update. We built something entirely new from scratch. We **completely redefined** our optimal vision of PHP hosting. It's a big bet. Fingers crossed you like it. 🤞
+It's been years in the making: thousands of tickets, countless cups of coffee, endless debates about tiny details. Now we are finally ready. This is not just another update. We built something entirely new from scratch. We **completely redefined** our optimal vision of PHP hosting. It's a big bet. Fingers crossed you like it. 🤞
 
 ## What is fortrabbit anyhow?
 
@@ -31,7 +31,7 @@ Inspired by the original Heroku PaaS: a hosting platform to deploy modern PHP we
 
 - **Intuitive dashboard** that gets out of your way
 - **Persistent storage** with direct SSH/SFTP access
-- **Component based pricing** individually book and scale parts
+- **Component based pricing** to individually book and scale parts
 - **Workers** offload tasks to the background
 - **Free trial** available for each new app
 - **Transparent pricing** with component-based model
@@ -73,7 +73,7 @@ Our websites have been updated. Communication is mostly about the new platform. 
 
 ### Old platform access (unchanged)
 
-Existing customers can still continue to use the old system for a long time as usual. See [new and old side by side](#no-rush-for-existing-clients).
+Existing customers can still continue to use the old system as usual. See [new and old side by side](#no-rush-for-existing-clients).
 
 - [dashboard.fortrabbit.com](https://dashboard.fortrabbit.com) - old dashboard
 - [help.fortrabbit.com](https://help.fortrabbit.com) - old help
@@ -94,7 +94,7 @@ So, one of the design goals was to come up with more affordable pricing. It was 
 
 ### Infrastructure
 
-I am very proud of the work the DevOps team has done in this area. We have been able to cut down our reliance on AWS, enabling us to revisit the infrastructure provider question later. For now, we found creative ways (and hacks) to keep AWS costs low.
+I am very proud of the work the infrastructure team has done in this area. We have been able to cut down our reliance on AWS, enabling us to revisit the infrastructure provider question later. For now, we found creative ways (and hacks) to keep AWS costs low.
 
 - Hetzner instead of AWS (not now) - [blog post](/infra-research-2024)
 - More intelligent allocation and redistribution
