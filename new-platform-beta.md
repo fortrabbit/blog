@@ -96,7 +96,6 @@ So, one of the design goals was to come up with more affordable pricing. It was 
 
 I am very proud of the work the infrastructure team has done in this area. We have been able to cut down our reliance on AWS, enabling us to revisit the infrastructure provider question later. For now, we found creative ways (and hacks) to keep AWS costs low.
 
-- Hetzner instead of AWS (not now) - [blog post](/infra-research-2024)
 - More intelligent allocation and redistribution
 - Better resource utilization
 
