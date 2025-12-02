@@ -9,7 +9,7 @@ tag:
   - chronicles
 ---
 
-# Lee Tengum
+## Lee Tengum
 
 Earlier this month we've reached 10k users. Digits are all fine, but real people with real projects are more interesting. We asked Lee to tell us about his latest project on fortrabbit:
 

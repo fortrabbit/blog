@@ -9,7 +9,7 @@ tag:
   - chronicles
 ---
 
-# Is fortrabbit still around?
+## Is fortrabbit still around?
 
 We have been working on our [new Dashboard](http://fortrabbit.com/feature/enhanced-dashboard) for quite a while already. It will still take months until it will be released (most likely Q1/2015). But the system is very well defined by now and i would like to share some of the process, features and changes. So that you know what to expect. Feedback is as usual also very welcome of course.
 

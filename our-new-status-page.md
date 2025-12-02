@@ -7,7 +7,7 @@ tag:
   - chronicles
 ---
 
-# status.fortrabbit.com
+## status.fortrabbit.com
 
 We finally have a status page: [status.fortrabbit.com](http://status.fortrabbit.com) — an official channel were we communicate about scheduled maintenances and unscheduled downtimes (aka incidents). You can subscribe to this by mail, SMS or RSS.
 

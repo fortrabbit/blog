@@ -7,7 +7,7 @@ tag:
   - chronicles
 ---
 
-# Boarding the new dashboard
+## Boarding the new dashboard
 
 **tl;dr** The new dashboard is coming. It's going to be phpantastic. No action required from your side (most likely). Our [last article](/mission-statement-the-new-dashboard/) praised the new features this article explains changes.
 
