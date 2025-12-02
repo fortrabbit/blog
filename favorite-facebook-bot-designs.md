@@ -5,7 +5,7 @@ title: My favorite Facebook bot designs
 intro: The bizarre beauty of brutalist Facebook reaction bots.
 lead: As a hosting provider we fight against all kind of frauds, hacks, scams and phishings. This is my favorite, mostly harmless service misuse.
 figure:
-  src: facebook-bot-4.png
+  src: facebook-bot-4-s.png
 tag:
   - chronicles
 head:
@@ -20,17 +20,17 @@ I admit to feel some sympathy for this. And I also like the designs in a way. Th
 
 ## Gallery
 
-![](/images/facebook-bot-1.png)
-![](/images/facebook-bot-2.png)
-![](/images/facebook-bot-3.png)
-![](/images/facebook-bot-5.png)
-![](/images/facebook-bot-6.png)
-![](/images/facebook-bot-7.png)
-![](/images/facebook-bot-8.png)
-![](/images/facebook-bot-9.png)
-![](/images/facebook-bot-14.png)
-![](/images/facebook-bot-15.png)
-![](/images/facebook-bot-16.png)
+![Facebook bot screenshot](/images/facebook-bot-1-s.png)
+![Facebook bot screenshot](/images/facebook-bot-2-s.png)
+![Facebook bot screenshot](/images/facebook-bot-3-s.png)
+![Facebook bot screenshot](/images/facebook-bot-5-s.png)
+![Facebook bot screenshot](/images/facebook-bot-6-s.png)
+![Facebook bot screenshot](/images/facebook-bot-7-s.png)
+![Facebook bot screenshot](/images/facebook-bot-8-s.png)
+![Facebook bot screenshot](/images/facebook-bot-9-s.png)
+![Facebook bot screenshot](/images/facebook-bot-14-s.png)
+![Facebook bot screenshot](/images/facebook-bot-15-s.png)
+![Facebook bot screenshot](/images/facebook-bot-16-s.png)
 
 ## Disclaimer
 
