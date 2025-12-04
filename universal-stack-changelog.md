@@ -44,7 +44,6 @@ One aspect of our Professional Stack Apps is ephemeral storage, which allows tho
 
 The new Company plans are combining support and collaboration features. The "Developer" role is now called "**App Collaborator**" and is available for all Professional Apps and most Universal Apps. Company collaboration with "Admins" and "Owners" can be booked in various sizes:
 
-- [See the Company plans and features](https://www.fortrabbit.com/company-plans)
 - [Read about the new collaboration in the help](https://help.fortrabbit.com/collaboration)
 
 Already booked support plans are automatically converted to Company plans with the same feature set. All existing collaboration configurations are untouched and can be used indefinitely for free. To be sure: Existing collaboration setups are completely untouched. No worries.

@@ -48,12 +48,6 @@ This works both ways of course: Clients are in control of billing and team, so t
 
 This is still not all. The freelancer/client relationship is just one use case. Our powerful collaboration features enable you to match nearly any real world work relationship — freelancer, digital agency, startup … There can be multiple Owners. And you can also invite contractors to share only specific Apps.
 
-### Further readings
-
-- [The invite client help article](https://help.fortrabbit.com/client-collaboration)
-- [The collaboration help article](https://help.fortrabbit.com/collaboration)
-- [See Company Plans](https://www.fortrabbit.com/company-plans)
-- [See our (old) team explain video](https://help.fortrabbit.com/teamwork-video)
 
 ---
 

@@ -91,4 +91,4 @@ Writing a good question requires some efforts on your side. But that will force 
 
 General client support here is free of charge — we both profit from this! Your questions and feedback helps us understanding your needs and obstacles you might have.
 
-Support is officially limited to office hours, but in most cases we answer much faster. Our aim is to give you a good technical support and help you getting your PHP Apps up and running here. Check out our [Company plans](http://www.fortrabbit.com/company-plans) with extended, higher prioritized support.
+Support is officially limited to office hours, but in most cases we answer much faster. Our aim is to give you a good technical support and help you getting your PHP Apps up and running here.
