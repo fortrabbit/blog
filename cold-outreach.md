@@ -1,0 +1,43 @@
+---
+created: 2025-12-05 09:13:32
+author: fl
+title: Cold outreach
+naviTitle: Cold outreach
+intro: Artificial Intelligence is a good spammer.
+lead: My inbox is full of unsolicited business proposals. The senders somehow know my name, my mail, my company, and often eerily specific details about our tech stack, despite most of this information never being publicly listed.
+wip: true
+figure:
+  emoji: 📧
+  color: rgba(165, 0, 0, 1)
+  textColor: rgba(255, 142, 142, 1)
+head:
+  meta:
+    - name: 'keywords'
+      content: 'fraud, spam, ai'
+---
+
+Welcome to the modern age of AI-powered spam, where algorithms craft increasingly sophisticated cold outreach. Let's embrace it as a form of art. Also props for beating my aggressive SPAM filter.
+
+## Hi Frank
+
+> just put together a pre-hire simulation for Fortrabbit to assess how your applicants will execute tasks they'll actually do on-the-job (no quizzes or multi-choice fluff) It will generate a demonstrated skills scorecard based on each candidate’s performance, cutting days in pre-screening and interviews. Should I send over how it works? P.S. Bloomberg, EY & Athena have increased candidate conversion by 3x.
+
+> I’m writing to share a high-impact opportunity for Fortrabbit to secure partnerships with the biggest names in the food and beverage industry. Our upcoming European Food Manufacturing Summit gathers a curated audience of over 120 senior executives from companies like Ferrero, Mars, Mondelez, Unilever and more. We believe this is the ideal environment for you to bypass the gatekeepers and network directly with top-tier decision-makers. A key highlight of this sponsorship is the opportunity to speak on Day 2 in front of over 120 decision-makers, as well as to host a Lunch & Learn with 10 senior executives who select your table, allowing you to lead the conversation and demonstrate your value directly to potential partners. Let’s ensure your organization starts the year with a strategic advantage. Are you free for a brief 15-minute chat next week to walk through the details?
+
+> Following up to see whether fortrabbit has any projects for 2026 that may benefit from additional engineering resources or expertise.  Our professional services include Dedicated software development teams, Custom software development, Software audit and Software maintenance. With 96% senior engineers and ISO 27001 / ISO 9001 certified processes, we ensure secure, reliable, and high-quality delivery. When applicable, we accelerate development using our in-house solutions, including: Data collection platform, Data quality checker, Dashboard UI components library, Mobile kit for building control apps. These tools help shorten development timelines while maintaining consistency and quality. Would you be available for a short conversation to see if our expertise could support your 2026 goals?
+
+> We launched a tool that lets you be SOC2/ISO2701/HIPAA compliant in record speed. In June this helped Capgo become SOC2 compliant in <24h & they got their attestation just 9 days later. Respond 'yes' if you'd like me to send you a signup link.
+
+> I wanted to follow up on my last note in case it got buried in your inbox. We've been helping companies like fortrabbit quickly scale their dev, design, and marketing teams with pre-vetted remote talent, and I'd love to show you what that could look like for your team. No long hiring cycles or hidden fees, just great people, ready to plug in and deliver. If you're open, I'd be happy to share a few profiles so you can see the quality firsthand. Just let me know! Looking forward to hearing from you.
+
+> I am XXX, founder of XXX. We help SaaS founders recover failed payments and improve retention automatically. Would you be open to a short chat to see what we could unlock for fortrabbit?
+
+> I see fortrabbit.com is DR 61 and 372 traffic/mo on Ahrefs. I call it a good takeoff, but is SEO a priority in Q1 '26? If yes, we’d love to slide in. We specialize in SaaS SEO and SaaS SEO only. Links, contents and technical SEO, we cover all 3 grounds of it.
+
+> I hope this note finds you well. I came across fortrabbit and I think we can collaborate. At XXXX, we help startups and growing companies scale quickly with skilled offshore engineers, designers, and digital experts, often at up to 5x lower cost than local hiring. To make it risk-free, we offer a complimentary 20-hour trial project so you can experience our team’s work before committing. Would you be open to a short call to see if this could support your goals now or in future?
+
+> Quick question, would you pay $100 per qualified sales meeting? In the past, I would in a heartbeat...  Until this software started producing them for $11.70. 10,000 of them in fact. (My sales reps think Im a fucking wizard). It breaks the agency and paid ads model. It researches hundreds of prospect data points & 'Glove Fits' emails at scale Launches to 150k dream prospects, 2 minutes after signing up. Does everything with AI, after it gets to know fortrabbit. There is no contract. It is the same price as a fancy dinner. There's also a free trial! (Don't share this with anyone)
+
+> Are you guys adopting an AI strategy currently? We would love to exchange some thoughts with you on that. No harm in having a quick chat on Teams or Zoom?
+
+> I'm currently on fortrabbit.com – Your company is potentially leaving five to six-figure funding amounts on the table, often without your knowledge. We have been successfully supporting companies for over five years in applying for research grants and I just learned about your MySQL 8. The chances are good that we can secure funding for you, I have one or two quick follow-up questions about that. I would already prepare a calculation for you, showing exactly what funding amount you can expect, let's have a quick phone call in the coming days. When would be the best time to reach you?
