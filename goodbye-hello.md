@@ -25,7 +25,9 @@ Goodbye sharp rectangles. Farewell custom CSS framework built in SCSS. See you R
 
 Hello rounded boxes. Hi Tailwwind. Hi Hubot.
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+:ContentVideo{videoId='W5KHnHuPC2o?si=egoz9Bd6H9Fsu2PU'}
+
+<!-- <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
   <iframe
     src="https://www.youtube-nocookie.com/embed/W5KHnHuPC2o?si=egoz9Bd6H9Fsu2PU"
     title="YouTube video player"
@@ -34,6 +36,6 @@ Hello rounded boxes. Hi Tailwwind. Hi Hubot.
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
   ></iframe>
-</div>
+</div> -->
 
 [More details](https://docs.fortrabbit.com/platform/new/)
