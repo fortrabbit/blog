@@ -5,7 +5,7 @@ title: Cold outreach
 naviTitle: Cold outreach
 intro: Artificial Intelligence is a good spammer.
 lead: My inbox is full of unsolicited business proposals. The senders somehow know my name, my mail, my company, and often specific details about our company, despite most of this information never being publicly listed.
-wip: true
+draft: true
 figure:
   emoji: 🙅‍♂️
   color: rgba(165, 0, 0, 1)
@@ -16,7 +16,7 @@ head:
       content: 'fraud, spam, ai'
 ---
 
-Welcome to the modern age of AI-powered cold contact, the most sophisticated SPAM ever. Let's embrace it as a form of art until my AI powered conuter measures will learn to fight back.
+<!-- Welcome to the modern age of AI-powered cold contact, the most sophisticated SPAM ever. Let's embrace it as a form of art until my AI powered conuter measures will learn to fight back. -->
 
 ## Hi Frank
 

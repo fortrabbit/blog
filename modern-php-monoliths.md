@@ -5,7 +5,7 @@ title: Modern PHP monoliths
 naviTitle: Modern PHP monoliths
 intro: Coupled websites with PHP and JS.
 lead: Web pages are so yesterday. Single-page apps are the shit. Users want interactive experiences. But you don't have to get headless right away. This is an introduction to coupled systems with PHP and JavaScript.
-wip: false
+draft: false
 tag:
   - opinion
 figure:
