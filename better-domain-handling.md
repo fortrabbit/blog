@@ -85,7 +85,7 @@ Most of our clients are using classical domain providers for domain registration
 
 ### Alternatives
 
-The new domain forwarding feature is optional. You can also use any other service in combination with fortrabbit. There are specialized DNS services — like [DNSimple](https://dnsimple.com) or [DNS Made Easy](https://www.dnsmadeeasy.com) — offerings the aforementioned ANAME or ALIAS records, enabling CNAME-like behavior with a naked domain. [CloudFlare](https://www.cloudflare.com/) does all kinds of magic with your domain which allows you to use naked domains with fortrabbit.
+The new domain forwarding feature is optional. You can also use any other service in combination with fortrabbit. There are specialized DNS services — like [DNSimple](https://dnsimple.com) or [DNS Made Easy](https://www.dnsmadeeasy.com) — offerings the aforementioned ANAME or ALIAS records, enabling CNAME-like behavior with a naked domain. [Cloudflare](https://www.cloudflare.com/) does all kinds of magic with your domain which allows you to use naked domains with fortrabbit.
 
 ## Dashboard improvements
 
