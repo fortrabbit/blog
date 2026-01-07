@@ -1,11 +1,10 @@
 ---
-created: 2025-11-28 13:26:56
+created: 2026-01-07 09:27:09
 author: fl
 title: How to detect and fix a hacked PHP website
 naviTitle: Fix a hacked PHP website
 intro: Got pwned? Regain control.
 lead: Regain control and kick evildoers out. Actionable tips for web developers on how to clean a compromised website. This is the human-to-human edition.
-draft: true
 figure:
   src: hacked-poster.png
   # emoji: 😨
@@ -43,11 +42,12 @@ Hackers love PHP‑based websites. Server‑side rendering lets them execute cod
 - WordPress
 - WordPress
 - Craft CMS
+- Laravel
 - Others
 
 ## Detect
 
-In our experience, the average time to detection is about three months. Some catch it quickly; others snooze. Here's how website owners usually discover they've been hacked:
+In our experience, the average time to detection is about three months. Some catch it quickly, others snooze. This is how website owners usually discover they've been hacked:
 
 - Performance problems
 - Website errors (500, 504 …)
@@ -65,13 +65,19 @@ In our experience, the average time to detection is about three months. Some cat
 - Cached search engine results with spammy content
 - Higher hosting costs
 
+## Investigate
+
+Check the access logs to see which files have been accessed how and by whom (by IP) to get a better picture.
+
 ## Fix
 
 The fix depends on how deep the intruders got in. Sometimes it helps to investigate recent breaches. The more you know about the attack, the easier it is to find a cure.
 
 ## Is the hosting runtime compromised?
 
-VPS systems are at risk of full compromise. Many hosting providers, such as ourselves, provide a jailed environment where it's unlikely that hackers can escalate access beyond the website owner. If in doubt, rebuild the hosting resources (after creating fresh backups) and redeploy to a clean instance, or reinstall the OS.
+VPS hosting systems are at risk of full compromise. Many hosting providers, such as ourselves, provide a jailed environment where it's unlikely that hackers can escalate access beyond the website owner. If in doubt, rebuild the hosting resources (after creating fresh backups) and redeploy to a clean instance, or reinstall the OS.
+
+fortrabbit users run in tightly jailed environment making it extra hard to escape.
 
 ## Restore from backup
 
