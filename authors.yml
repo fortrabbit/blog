@@ -1,4 +1,4 @@
-body: 
+body:
   - initials: fl
     name:     Frank Lämmer
     email:    fl@fortrabbit.com
@@ -6,10 +6,10 @@ body:
     website:
       link: https://franklaemmer.de
       text: 'franklaemmer.de'
-    mastodon: 
+    mastodon:
       link: https://mastodon.social/@franklaemmer
       text: '@franklaemmer'
-    bluesky: 
+    bluesky:
       link: https://bsky.app/profile/franklaemmer.de
       text: 'franklaemmer.de'
   - initials: os
@@ -28,15 +28,15 @@ body:
     name:     Jascha Silbermann
     email:    info@jsics.de
     bio:      Guest author at fortrabbit. Independent web consultant and open source enthusiast in real life.
-    twitter:  
+    twitter:
     gravatar: a813b45007a84cd750f53c311a68950e
   - initials: pp
     name:     Piotr Pogorzelski
     bio:      Guest author at fortrabbit. Web developer and Craft CMS enthusiast.
     gravatar: f0f7727f4c096ecbde60250ecded3f78
-    website: 
+    website:
       link: https://craftsnippets.com/
-      text: craftsnippets.com 
+      text: craftsnippets.com
   - initials: eh
     name:     Edgar Hipp
     email:    eh@fortrabbit.com
@@ -44,10 +44,10 @@ body:
     twitter:  EdgarHipp
     gravatar: abe0cea0ef460dae552297d99540576d
   - initials: es
-    name:     Esbjörn Eriksson
+    name:     Erin Strand
     email:    ee@fortrabbit.com
-    bio:      is a glamorous PHP coder.
-    gravatar: 4e975656bc671edde43e8cd263ce6a61
+    bio:      is a glamorous PHP coder
+    #gravatar: 4e975656bc671edde43e8cd263ce6a61
   - initials: yr
     name:     Yann Rabiller
     email:    yann.rabiller+blog@fortrabbit.com
